@@ -1,15 +1,27 @@
 package org.willxu.algorithm.service.int2str;
 
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.MethodSource;
 import org.willxu.algorithm.service.impl.int2str.StringWithoutAaaOrBbbServiceImpl;
-import org.junit.jupiter.api.Test;
+
+import java.util.stream.Stream;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.params.provider.Arguments.arguments;
 
 public class StringWithoutAaaOrBbbServiceTest {
-    private final StringWithoutAaaOrBbbService stringWithoutAaaOrBbbService = new StringWithoutAaaOrBbbServiceImpl();
+    static Stream<Arguments> dataProvider() {
+        return Stream.of(
+                arguments(1, 2, "bab"),
+                arguments(4, 1, "aabaa")
+        );
+    }
 
-    @Test
-    public void testGetStringWithoutAaaOrBbbBruteForce() {
-        int A = 4, B = 1;
-        String S = stringWithoutAaaOrBbbService.getStringWithoutAaaOrBbb(A, B);
-        System.out.println(S);
+    @ParameterizedTest(name = "Brute force {index}")
+    @MethodSource("dataProvider")
+    public void testGetStringWithoutAaaOrBbbBruteForce(int a, int b, String output) {
+        StringWithoutAaaOrBbbService bruteForce = new StringWithoutAaaOrBbbServiceImpl();
+        assertEquals(output, bruteForce.getStringWithoutAaaOrBbb(a, b));
     }
 }

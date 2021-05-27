@@ -1,18 +1,33 @@
 package org.willxu.algorithm.service.str2strs;
 
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.MethodSource;
 import org.willxu.algorithm.service.impl.str2strs.ExpressionAndOperatorServiceImpl;
-import org.junit.jupiter.api.Test;
 
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
+import java.util.stream.Stream;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.params.provider.Arguments.arguments;
 
 public class ExpressionAndOperatorServiceTest {
-    private final ExpressionAndOperatorService bruteForce = new ExpressionAndOperatorServiceImpl();
+    static Stream<Arguments> dataProvider() {
+        return Stream.of(
+                arguments("123", 6, Arrays.asList("1*2*3", "1+2+3")),
+                arguments("232", 8, Arrays.asList("2*3+2", "2+3*2")),
+                arguments("105", 5, Arrays.asList("1*0+5", "10-5")),
+                arguments("00", 0, Arrays.asList("0*0", "0+0", "0-0")),
+                arguments("3456237490", 9191, Collections.emptyList())
+        );
+    }
 
-    @Test
-    public void expressionAddOperatorBruteForce() {
-        int target = 5;
-        String num = "105";
-        List<String> output = bruteForce.getExpressionAddOperator(num, target);
-        System.out.println(output);
+    @ParameterizedTest(name = "Brute force {index}")
+    @MethodSource("dataProvider")
+    public void expressionAddOperatorBruteForce(String num, int target, List<String> output) {
+        ExpressionAndOperatorService bruteForce = new ExpressionAndOperatorServiceImpl();
+        assertEquals(output, bruteForce.getExpressionAddOperator(num, target));
     }
 }

@@ -1,27 +1,16 @@
 package org.willxu.algorithm.service.ints2int;
 
-import org.gradle.internal.impldep.org.junit.Assert;
-import org.gradle.internal.impldep.org.junit.Before;
-import org.gradle.internal.impldep.org.junit.runner.RunWith;
-import org.gradle.internal.impldep.org.junit.runners.Parameterized;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.MethodSource;
 import org.willxu.algorithm.service.impl.ints2int.BurstBalloonsWrongImpl;
-import org.junit.jupiter.api.Test;
 
-import java.util.Arrays;
-import java.util.List;
+import java.util.stream.Stream;
 
-@RunWith(Parameterized.class)
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.params.provider.Arguments.arguments;
+
 public class BurstBalloonsTest {
-    private BurstBalloonsService burstBalloonsWrong;
-
-    private final int[] input;
-    private final int output;
-
-    public BurstBalloonsTest(int[] input, int output) {
-        this.input = input;
-        this.output = output;
-    }
-
     /**
      * Example:
      * Input: [3, 1, 5, 8]
@@ -29,21 +18,17 @@ public class BurstBalloonsTest {
      * Explanation: nums = [3, 1, 5, 8] --> [3, 5, 8] --> [3, 8] --> [8] --> []
      *             coins =   3*1*5      +     3*5*8   +  1*3*8   +  1*8*1 = 167
      */
-    @Parameterized.Parameters(name = "Test Param index: {index}")
-    public static List<Object[]> data() {
-        return Arrays.asList(new Object[][]{
-                {new int[]{3, 1, 5, 8}, 167},
-                {new int[]{1, 5}, 10}
-        });
+    static Stream<Arguments> dataProvider() {
+        return Stream.of(
+                arguments(new int[] {3, 1, 5, 8}, 167),
+                arguments(new int[] {1, 5}, 10)
+        );
     }
 
-    @Before
-    public void init() {
-        burstBalloonsWrong = new BurstBalloonsWrongImpl();
-    }
-
-    @Test
-    public void testGetBurstBalloons() {
-        Assert.assertEquals(output, burstBalloonsWrong.getBurstBalloons(input));
+    @ParameterizedTest(name = "Brute force {index}")
+    @MethodSource("dataProvider")
+    public void testGetBurstBalloons(int[] input, int output) {
+        BurstBalloonsService wrong = new BurstBalloonsWrongImpl();
+        assertEquals(output, wrong.getBurstBalloons(input));
     }
 }

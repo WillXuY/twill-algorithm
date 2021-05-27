@@ -1,21 +1,27 @@
 package org.willxu.algorithm.service.ints2int;
 
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.MethodSource;
 import org.willxu.algorithm.service.impl.ints2int.MagneticForceBetweenTwoBallsServiceImpl;
-import org.junit.jupiter.api.Test;
+
+import java.util.stream.Stream;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.params.provider.Arguments.arguments;
 
 public class MagneticForceBetweenTwoBallsTest {
-    private final MagneticForceBetweenTwoBallsService bruteForce = new MagneticForceBetweenTwoBallsServiceImpl();
+    static Stream<Arguments> dataProvider() {
+        return Stream.of(
+                arguments(new int[] {1, 2, 3, 4, 7}, 3, 3),
+                arguments(new int[] {5, 4, 3, 2, 1, 1000000000}, 2, 999999999)
+        );
+    }
 
-    @Test
-    public void testGetMagneticForceBetweenTwoBalls() {
-        // 输入任意数组 difference
-        int[] position = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-        // 输入任意整数 m < difference.length = 8;
-        int m = 4;
-        // 返回 difference 的按顺序组合求和数组 sum 使得 sum.length = m,
-        // 且 sum 的最小值 min 最大,返回 min
-        // 如本例 4; 32; 11; 1+1; 323; 1+1; sum = {4, 32, 11, 2, 323, 2}; min = 2;
-        int output = bruteForce.getMagneticForceBetweenTwoBalls(position, m);
-        System.out.println(output);
+    @ParameterizedTest(name = "Brute force {index}")
+    @MethodSource("dataProvider")
+    public void testGetMagneticForceBetweenTwoBalls(int[] position, int m, int output) {
+        MagneticForceBetweenTwoBallsService bruteForce = new MagneticForceBetweenTwoBallsServiceImpl();
+        assertEquals(output, bruteForce.getMagneticForceBetweenTwoBalls(position, m));
     }
 }
