@@ -1,8 +1,9 @@
 package org.willxu.algorithm.domain;
 
-import org.willxu.algorithm.domain.circularqueue.CircularQueueSingleLinked;
-import org.willxu.algorithm.domain.circularqueue.CircularQueueDoubleLinked;
 import org.junit.jupiter.api.Test;
+import org.willxu.algorithm.domain.impl.queue.CircularQueueSingleLinked;
+import org.willxu.algorithm.domain.impl.queue.CircularQueueDoubleLinked;
+import org.willxu.algorithm.domain.queue.AbstractCircularQueue;
 
 public class DesignCircularQueueTest {
     /**
@@ -10,13 +11,13 @@ public class DesignCircularQueueTest {
      */
     @Test
     public void testCircularQueueSingleLinked() {
-        CircularQueueSingleLinked circularQueue = new CircularQueueSingleLinked(81);
-        boolean flag = circularQueue.enQueue(69);
-        boolean deQueue = circularQueue.deQueue();
-        int front = circularQueue.front();
-        int rear = circularQueue.rear();
-        boolean isEmpty =  circularQueue.isEmpty();
-        boolean isFull = circularQueue.isFull();
+        AbstractCircularQueue single = new CircularQueueSingleLinked(81);
+        boolean flag = single.enQueue(69);
+        boolean deQueue = single.deQueue();
+        int front = single.front();
+        int rear = single.rear();
+        boolean isEmpty =  single.isEmpty();
+        boolean isFull = single.isFull();
         System.out.println("result:" + flag + deQueue + front + rear + isEmpty + isFull);
     }
 
@@ -37,13 +38,13 @@ public class DesignCircularQueueTest {
         [[7],[0],[],[4],[],[6],[3],
                 [],[],[],[],[]]
          */
-        CircularQueueDoubleLinked circularQueue = new CircularQueueDoubleLinked(81);
-        boolean flag = circularQueue.enQueue(69);
-        int rear = circularQueue.rear();
-        int front = circularQueue.front();
-        boolean isEmpty = circularQueue.isEmpty();
-        boolean isFull = circularQueue.isFull();
-        boolean deQueue = circularQueue.deQueue();
+        AbstractCircularQueue d = new CircularQueueDoubleLinked(81);
+        boolean flag = d.enQueue(69);
+        int rear = d.rear();
+        int front = d.front();
+        boolean isEmpty = d.isEmpty();
+        boolean isFull = d.isFull();
+        boolean deQueue = d.deQueue();
         System.out.println(front + "," + rear + "," + flag + "," + isEmpty + "," + isFull + "," + deQueue);
     }
 }
