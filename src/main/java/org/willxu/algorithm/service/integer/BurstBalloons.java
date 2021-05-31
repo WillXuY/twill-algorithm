@@ -13,6 +13,6 @@ package org.willxu.algorithm.service.integer;
  *   you can not burst them.
  * - 0<= n <= 500, 0 <= nums[i] <= 100.
  */
-public interface BurstBalloonsService {
-    int getBurstBalloons(int[] nums);
+public interface BurstBalloons {
+    int maxCoins(int[] nums);
 }

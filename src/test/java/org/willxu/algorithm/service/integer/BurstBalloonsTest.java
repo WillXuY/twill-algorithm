@@ -3,8 +3,7 @@ package org.willxu.algorithm.service.integer;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.integer.BurstBalloonsWrongImpl;
-import org.willxu.algorithm.service.integer.BurstBalloonsService;
+import org.willxu.algorithm.service.impl.integer.BurstBalloonsWrong;
 
 import java.util.stream.Stream;
 
@@ -29,7 +28,7 @@ public class BurstBalloonsTest {
     @ParameterizedTest(name = "Brute force {index}")
     @MethodSource("dataProvider")
     public void testGetBurstBalloons(int[] input, int output) {
-        BurstBalloonsService wrong = new BurstBalloonsWrongImpl();
-        assertEquals(output, wrong.getBurstBalloons(input));
+        BurstBalloons wrong = new BurstBalloonsWrong();
+        assertEquals(output, wrong.maxCoins(input));
     }
 }

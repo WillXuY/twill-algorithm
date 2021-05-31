@@ -1,8 +1,8 @@
 package org.willxu.algorithm.service.impl.integer;
 
-import org.willxu.algorithm.service.integer.BurstBalloonsService;
+import org.willxu.algorithm.service.integer.BurstBalloons;
 
-public class BurstBalloonsWrongImpl implements BurstBalloonsService {
+public class BurstBalloonsWrong implements BurstBalloons {
     /**
      * # 1. 初步考虑：
      * - first remove all the 0 balloons
@@ -12,7 +12,7 @@ public class BurstBalloonsWrongImpl implements BurstBalloonsService {
      * @return sum
      */
     @Override
-    public int getBurstBalloons(int[] nums) {
+    public int maxCoins(int[] nums) {
         int length = nums.length;
         // 移除所有的 0;
         for (int i = 0; i < length; i++) {
