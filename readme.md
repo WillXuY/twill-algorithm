@@ -20,9 +20,9 @@ change the build tool to gradle, output a jar;
 # IV - Finished List (main methods are in the test folder)
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
-### brute force: [bruteForce](src/test/java/org/willxu/algorithm/domain/DesignCircularQueueTest.java)
+### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/DesignCircularQueueTest.java)
 总结： 参考 LinkedList 然后直接用 new Node 来操作结点数据容易出错，添加 changeNext 来方便修改引用
-### single-linked list: [singleLinkedList](src/test/java/org/willxu/algorithm/domain/DesignCircularQueueTest.java)
+### single-linked list: [CircularQueueSingleLinked](src/test/java/org/willxu/algorithm/domain/DesignCircularQueueTest.java)
 - 优化可能： 使用单向链表，而不是参考 linked 的双向链表
 - 结果：单向链表多持有了一个 last 结点来加快获取引用，占用了更多的内存，速度差距不大
 
