@@ -19,6 +19,9 @@ change the build tool to gradle, output a jar;
 
 # IV - Finished List (main methods are in the test folder)
 
+## [1. Two Sum](https://leetcode.com/problems/two-sum/)
+### brute force: [TwoSumBruteForce](src/test/java/org/willxu/algorithm/service/integerlist/TwoSumTest.java)
+
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/DesignCircularQueueTest.java)
 总结： 参考 LinkedList 然后直接用 new Node 来操作结点数据容易出错，添加 changeNext 来方便修改引用
