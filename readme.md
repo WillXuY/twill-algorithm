@@ -13,17 +13,16 @@ change the build tool to gradle, output a jar;
 
 # III - Todo List
 
-## [312. Burst Balloons](https://leetcode.com/problems/burst-balloons/)
-### brute force: [bruteForce](src/test/java/org/willxu/algorithm/service/integer/BurstBalloonsTest.java)
-
+|No |title|solution|
+|---|---|---|
+|312|[Burst Balloons](https://leetcode.com/problems/burst-balloons/)|[bruteForce](src/test/java/org/willxu/algorithm/service/integer/BurstBalloonsTest.java)|
 
 # IV - Finished List (main methods are in the test folder)
 
-## [1. Two Sum](https://leetcode.com/problems/two-sum/)
-### brute force: [TwoSumBruteForce](src/test/java/org/willxu/algorithm/service/integerlist/TwoSumTest.java)
-
-## [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/)
-### brute force: [ReverseIntegerBruteForce](src/test/java/org/willxu/algorithm/service/integer/ReverseIntegerTest.java)
+|No |title|solution|
+|---|---|---|
+|1|[Two Sum](https://leetcode.com/problems/two-sum/)|[bruteForce](src/test/java/org/willxu/algorithm/service/integerlist/TwoSumTest.java)|
+|7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[bruteForce](src/test/java/org/willxu/algorithm/service/integer/ReverseIntegerTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/DesignCircularQueueTest.java)
