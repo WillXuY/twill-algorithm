@@ -17,6 +17,8 @@ change the build tool to gradle, output a jar;
 |---|---|---|
 |312|[Burst Balloons](https://leetcode.com/problems/burst-balloons/)|[bruteForce](src/test/java/org/willxu/algorithm/service/integer/BurstBalloonsTest.java)|
 
+## TODO: try to add git emoji
+
 # IV - Finished List (main methods are in the test folder)
 
 |No |title|solution|
