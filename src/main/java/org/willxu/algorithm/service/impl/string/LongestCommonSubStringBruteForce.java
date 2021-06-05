@@ -1,7 +1,5 @@
 package org.willxu.algorithm.service.impl.string;
 
-import org.willxu.algorithm.service.string.LongestCommonPrefix;
-
 import java.util.Iterator;
 import java.util.Map;
 import java.util.TreeMap;
@@ -9,9 +7,8 @@ import java.util.TreeMap;
 /**
  * wrong answer it return longest common sub string
  */
-public class LongestCommonSubStringBruteForce implements LongestCommonPrefix {
-    @Override
-    public String longestCommonPrefix(String[] strs) {
+public class LongestCommonSubStringBruteForce {
+    public String longestCommonSubString(String[] strs) {
         if (strs.length == 1) {
             return strs[0];
         }
@@ -24,7 +21,8 @@ public class LongestCommonSubStringBruteForce implements LongestCommonPrefix {
         }
         for (int i = 1; i < strs.length; i++) {
             String test = strs[i];
-            Iterator<Map.Entry<String, Integer>> iterator = subs.entrySet().iterator();
+            Iterator<Map.Entry<String, Integer>> iterator =
+                    subs.entrySet().iterator();
             while (iterator.hasNext()) {
                 String k = iterator.next().getKey();
                 if (!test.contains(k)) {

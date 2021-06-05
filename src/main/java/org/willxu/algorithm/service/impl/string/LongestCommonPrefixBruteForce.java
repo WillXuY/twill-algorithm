@@ -31,7 +31,6 @@ public class LongestCommonPrefixBruteForce implements LongestCommonPrefix {
                 }
             }
         }
-
         return new String(result);
     }
 }

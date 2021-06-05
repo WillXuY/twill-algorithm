@@ -27,6 +27,8 @@ change the build tool to gradle, output a jar;
 |7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[bruteForce](src/test/java/org/willxu/algorithm/service/integer/ReverseIntegerTest.java)|
 |9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[bruteForce](src/test/java/org/willxu/algorithm/service/bool/PalindromeNumberTest.java)|
 |13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[bruteForce](src/test/java/org/willxu/algorithm/service/integer/RomanToIntegerTest.java)|
+|14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|[bruteForce](src/test/java/org/willxu/algorithm/service/string/LongestCommonPrefixTest.java)|
+|extra|Longest Common Sub String|[SubString](src/main/java/org/willxu/algorithm/service/impl/string/LongestCommonSubStringBruteForce.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/DesignCircularQueueTest.java)
