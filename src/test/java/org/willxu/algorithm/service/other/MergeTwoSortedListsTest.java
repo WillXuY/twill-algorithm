@@ -51,6 +51,7 @@ public class MergeTwoSortedListsTest {
     public void testMergeTwoLists(ListNode l1, ListNode l2, ListNode output) {
         MergeTwoSortedLists bruteForce = new MergeTwoSortedListsBruteForce();
         ListNode result = bruteForce.mergeTwoLists(l1, l2);
+        // TODO: deal with the assert of ListNode
         assertEquals(output, result);
     }
 }
