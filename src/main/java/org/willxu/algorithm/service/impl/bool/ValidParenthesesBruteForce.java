@@ -1,6 +1,5 @@
 package org.willxu.algorithm.service.impl.bool;
 
-
 import org.willxu.algorithm.service.bool.ValidParentheses;
 
 import java.util.Stack;
