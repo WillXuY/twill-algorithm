@@ -30,6 +30,7 @@ change the build tool to gradle, output a jar;
 |14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|[bruteForce](src/test/java/org/willxu/algorithm/service/string/LongestCommonPrefixTest.java)|
 |extra|Longest Common Sub String|[SubString](src/main/java/org/willxu/algorithm/service/impl/string/LongestCommonSubStringBruteForce.java)|
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[bruteForce](src/test/java/org/willxu/algorithm/service/bool/ValidParenthesesTest.java)|
+|21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[bruteForce](src/test/java/org/willxu/algorithm/service/other/MergeTwoSortedListsTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/DesignCircularQueueTest.java)

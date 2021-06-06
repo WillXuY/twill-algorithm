@@ -25,12 +25,6 @@ public class MergeTwoSortedListsTest {
         return thisNode;
     }
 
-    public static void main(String[] args) {
-        int[] test = new int[] {1, 3, 4, 5};
-        ListNode result = getNode(test);
-        System.out.println(result.val);
-    }
-
     static Stream<Arguments> dataProvider() {
         return Stream.of(
                 arguments(
