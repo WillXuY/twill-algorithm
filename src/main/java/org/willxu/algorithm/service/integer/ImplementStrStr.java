@@ -1,0 +1,26 @@
+package org.example.example.service.integer;
+
+public interface ImplementStrStr {
+    /**
+     * Implement strStr().
+     *
+     * Return the index of the first occurrence of needle in haystack,
+     * or -1 if needle is not part of haystack.
+     *
+     * Clarification:
+     *
+     * What should we return when needle is an empty string? This is a
+     * great Question to ask during an interview.
+     *
+     * For the purpose of this problem, we will return 0 when needle is
+     * an empty string. This is consistent to C's strstr() and Java's
+     * indexOf()
+     *
+     * @param haystack 0 <= haystack.length <= 5 * 10^4
+     *                 consist of only lower-case English characters.
+     * @param needle 0 <= needle.length <= 5 * 10^4
+     *                 consist of only lower-case English characters.
+     * @return index of substring
+     */
+    int strStr(String haystack, String needle);
+}
