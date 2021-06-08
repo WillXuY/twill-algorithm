@@ -1,6 +1,6 @@
-package org.example.example.service.impl.integer;
+package org.willxu.algorithm.service.impl.integer;
 
-import org.example.example.service.integer.LengthOfLastWord;
+import org.willxu.algorithm.service.integer.LengthOfLastWord;
 
 public class LengthOfLastWordBruteForce implements LengthOfLastWord {
     @Override

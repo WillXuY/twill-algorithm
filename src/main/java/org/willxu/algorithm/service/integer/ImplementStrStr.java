@@ -1,4 +1,4 @@
-package org.example.example.service.integer;
+package org.willxu.algorithm.service.integer;
 
 public interface ImplementStrStr {
     /**

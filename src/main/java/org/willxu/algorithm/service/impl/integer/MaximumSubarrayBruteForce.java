@@ -1,6 +1,6 @@
-package org.example.example.service.impl.integer;
+package org.willxu.algorithm.service.impl.integer;
 
-import org.example.example.service.integer.MaximumSubarray;
+import org.willxu.algorithm.service.integer.MaximumSubarray;
 
 public class MaximumSubarrayBruteForce implements MaximumSubarray {
     @Override

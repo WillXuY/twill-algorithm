@@ -1,6 +1,6 @@
-package org.example.example.service.impl.integer;
+package org.willxu.algorithm.service.impl.integer;
 
-import org.example.example.service.integer.SearchInsertPosition;
+import org.willxu.algorithm.service.integer.SearchInsertPosition;
 
 public class SearchInsertPositionBruteForce implements SearchInsertPosition {
     @Override
