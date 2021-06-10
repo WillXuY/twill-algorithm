@@ -33,6 +33,7 @@ change the build tool to gradle, output a jar;
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[bruteForce](src/test/java/org/willxu/algorithm/service/other/MergeTwoSortedListsTest.java)|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[bruteForce](src/test/java/org/willxu/algorithm/service/integer/RemoveDuplicatesFromSortedArrayTest.java)|
 |27|[Remove Element](https://leetcode.com/problems/remove-element/)|[bruteForce](src/test/java/org/willxu/algorithm/service/integer/RemoveElementTest.java)|
+|28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|[bruteForce](src/test/java/org/willxu/algorithm/service/integer/ImplementStrStrTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/DesignCircularQueueTest.java)
