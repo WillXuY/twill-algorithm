@@ -35,6 +35,7 @@ change the build tool to gradle, output a jar;
 |27|[Remove Element](https://leetcode.com/problems/remove-element/)|[bruteForce](src/test/java/org/willxu/algorithm/service/integer/RemoveElementTest.java)|
 |28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|[bruteForce](src/test/java/org/willxu/algorithm/service/integer/ImplementStrStrTest.java)|
 |35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|[bruteForce](src/test/java/org/willxu/algorithm/service/integer/SearchInsertPositionTest.java)|
+|53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[bruteForce](src/test/java/org/willxu/algorithm/service/integer/MaximumSubarrayTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/DesignCircularQueueTest.java)
