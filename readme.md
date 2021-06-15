@@ -39,6 +39,7 @@ change the build tool to gradle, output a jar;
 |58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|[bruteForce](src/test/java/org/willxu/algorithm/service/integer/LengthOfLastWordTest.java)|
 |66|[Plus One](https://leetcode.com/problems/plus-one/)|[bruteForce](src/test/java/org/willxu/algorithm/service/integerlist/PlusOneTest.java)|
 |67|[Add Binary](https://leetcode.com/problems/add-binary/)|[bruteForce](src/test/java/org/willxu/algorithm/service/string/AddBinaryTest.java)|
+|69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[bruteForce](src/test/java/org/willxu/algorithm/service/integer/SqrtTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/DesignCircularQueueTest.java)
