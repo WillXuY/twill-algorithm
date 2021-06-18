@@ -42,6 +42,7 @@ change the build tool to gradle, output a jar;
 |69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[bruteForce](src/test/java/org/willxu/algorithm/service/integer/SqrtTest.java)|
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[bruteForce](src/test/java/org/willxu/algorithm/service/integer/ClimbingStairsTest.java)|
 |mark|ideas|[ClimbingStair](static/idea/ClimbingStair.md)|
+|83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[bruteForce](src/test/java/org/willxu/algorithm/service/other/RemoveDuplicatesFromSortedListTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/DesignCircularQueueTest.java)
