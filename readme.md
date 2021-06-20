@@ -43,6 +43,7 @@ change the build tool to gradle, output a jar;
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[bruteForce](src/test/java/org/willxu/algorithm/service/integer/ClimbingStairsTest.java)|
 |mark|ideas|[ClimbingStair](static/idea/ClimbingStair.md)|
 |83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[bruteForce](src/test/java/org/willxu/algorithm/service/other/RemoveDuplicatesFromSortedListTest.java)|
+|209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[bruteForce](src/test/java/org/willxu/algorithm/service/integer/MinimumSizeSubarraySumTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/DesignCircularQueueTest.java)
@@ -61,8 +62,6 @@ brute force: [bruteForce](src/test/java/org/willxu/algorithm/service/string/Stri
 ## [432.All O'one Date Structure](https://leetcode.com/problems/all-oone-data-structure/)
 the fastest solution: [bruteForce](src/test/java/org/willxu/algorithm/domain/AllOneTest.java)
 
-## [209.Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
-code: [main](src/test/java/org/willxu/algorithm/service/integer/MinimumSizeSubarraySumTest.java)
 
 ## [1137.N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)
 code: [NthTribonacciNumber](src/test/java/org/willxu/algorithm/service/integer/NthTribonacciNumberTest.java)

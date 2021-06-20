@@ -1,19 +1,23 @@
 package org.willxu.algorithm.service.impl.integer;
 
-import org.willxu.algorithm.service.integer.MinimumSizeSubarraySumService;
+import org.willxu.algorithm.service.integer.MinimumSizeSubarraySum;
 
-public class MinimumSizeSubarraySumServiceImpl implements MinimumSizeSubarraySumService {
+public class MinimumSizeSubarraySumBruteForce
+        implements MinimumSizeSubarraySum {
+
     /**
      * 暴力求解复杂度过高
      * Brute force [Time Limit Exceeded]
      * Time complexity: O(n^3).
      * Space complexity: O(1).
-     * @param s s
-     * @param nums nums
-     * @return int
+     *
+     * @param target 1 <= target <= 10^9
+     * @param nums 1 <= nums.length <= 10^5
+     *             1 <= nums[i] <= 10^5
+     * @return minimum size subarray sum
      */
     @Override
-    public int getMinimumSizeSubarraySum(int s, int[] nums) {
+    public int minSubArrayLen(int target, int[] nums) {
         // 第一层循环： int里截取的长度 i 从0到nums.length
         for (int i = 1; i <= nums.length; i++) {
             // 第二层循环： j 从0到 nums.length - i，求和第j到第j+i-1个数
@@ -22,7 +26,7 @@ public class MinimumSizeSubarraySumServiceImpl implements MinimumSizeSubarraySum
                 for (int k = 0; k < i; k++) {
                     sum += nums[j + k];
                 }
-                if (sum >= s) {
+                if (sum >= target) {
                     return i;
                 }
             }
