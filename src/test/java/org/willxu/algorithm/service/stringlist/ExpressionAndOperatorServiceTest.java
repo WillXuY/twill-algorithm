@@ -4,7 +4,6 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 import org.willxu.algorithm.service.impl.stringlist.ExpressionAndOperatorServiceImpl;
-import org.willxu.algorithm.service.stringlist.ExpressionAndOperatorService;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -27,8 +26,11 @@ public class ExpressionAndOperatorServiceTest {
 
     @ParameterizedTest(name = "Brute force {index}")
     @MethodSource("dataProvider")
-    public void expressionAddOperatorBruteForce(String num, int target, List<String> output) {
-        ExpressionAndOperatorService bruteForce = new ExpressionAndOperatorServiceImpl();
-        assertEquals(output, bruteForce.getExpressionAddOperator(num, target));
+    public void expressionAddOperatorBruteForce(
+            String num, int target, List<String> output) {
+        // TODO deal with the assert equals for list
+        ExpressionAndOperatorService bruteForce =
+                new ExpressionAndOperatorServiceImpl();
+        assertEquals(output, bruteForce.addOperators(num, target));
     }
 }

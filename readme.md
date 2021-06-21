@@ -44,6 +44,7 @@ change the build tool to gradle, output a jar;
 |mark|ideas|[ClimbingStair](static/idea/ClimbingStair.md)|
 |83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[bruteForce](src/test/java/org/willxu/algorithm/service/other/RemoveDuplicatesFromSortedListTest.java)|
 |209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[bruteForce](src/test/java/org/willxu/algorithm/service/integer/MinimumSizeSubarraySumTest.java)|
+|282|[Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)|[expressionAddOperators](src/test/java/org/willxu/algorithm/service/stringlist/ExpressionAndOperatorServiceTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/DesignCircularQueueTest.java)
@@ -70,5 +71,3 @@ code: [NthTribonacciNumber](src/test/java/org/willxu/algorithm/service/integer/N
 ## [412.Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)
 code: [fizzBuzz](src/test/java/org/willxu/algorithm/service/stringlist/FizzBuzzServiceTest.java)
 
-## [282.Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)
-code: [expressionAddOperators](src/test/java/org/willxu/algorithm/service/stringlist/ExpressionAndOperatorServiceTest.java)

@@ -6,17 +6,20 @@ import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ExpressionAndOperatorServiceImpl implements ExpressionAndOperatorService {
+public class ExpressionAndOperatorServiceImpl
+        implements ExpressionAndOperatorService {
     /**
      * answer 1: violent solution
      * 拿不准用穷举
      * 1. 插入的数据有四种可能 +，-，×，No OP
      * 2. 在计算的时候添加上一步的数据记录，遇到*时进行撤销计算
-     * @param num numbers need to add operator
-     * @param target calculate result
-     * @return list of number and operator
+     *
+     * @param num 1 <= num.length <= 10
+     *            num only contain digits.
+     * @param target -2^31 <= target <= 2^31 - 1
+     * @return result list
      */
-    public List<String> getExpressionAddOperator(String num, int target){
+    public List<String> addOperators(String num, int target){
         char[] numberArray = num.toCharArray();
         int operatorLength = numberArray.length - 1;
         if (operatorLength == -1) {
@@ -28,7 +31,8 @@ public class ExpressionAndOperatorServiceImpl implements ExpressionAndOperatorSe
             StringBuilder stringThis = new StringBuilder();
             List<BigInteger> numbers = new ArrayList<>();
             List<Character> operators = new ArrayList<>();
-            StringBuilder numberThis = new StringBuilder(String.valueOf(numberArray[0]));
+            StringBuilder numberThis = new StringBuilder(
+                    String.valueOf(numberArray[0]));
             int iNow = i;
             for (int j = 0; j < operatorLength; j++) {
                 int thisOperator = iNow % 4;
@@ -38,11 +42,13 @@ public class ExpressionAndOperatorServiceImpl implements ExpressionAndOperatorSe
                 if (thisOperator == 0) {
                     numberThis.append(numberArray[j+1]);
                 } else {
-                    if (numberThis.charAt(0) == '0' && numberThis.length() > 1) {
+                    if (numberThis.charAt(0) == '0'
+                            && numberThis.length() > 1) {
                         continue;
                     }
                     numbers.add(new BigInteger(numberThis.toString()));
-                    numberThis = new StringBuilder(String.valueOf(numberArray[j+1]));
+                    numberThis = new StringBuilder(
+                            String.valueOf(numberArray[j + 1]));
                     operators.add(allOperator[thisOperator]);
                 }
             }
@@ -61,16 +67,20 @@ public class ExpressionAndOperatorServiceImpl implements ExpressionAndOperatorSe
                     calculateResult = numbers.get(j + 1).add(calculateResult);
                     prev = numbers.get(j+1);
                 } else if (operators.get(j) == '-') {
-                    calculateResult = calculateResult.subtract(numbers.get(j+1));
-                    prev = numbers.get(j + 1).multiply(new BigInteger("-1"));
+                    calculateResult =
+                            calculateResult.subtract(numbers.get(j + 1));
+                    prev = numbers.get(j + 1)
+                            .multiply(new BigInteger("-1"));
                 } else {
                     calculateResult = calculateResult.subtract(prev);
                     prev = numbers.get(j + 1).multiply(prev);
                     calculateResult = calculateResult.add(prev);
                 }
             }
-            if (calculateResult.equals(new BigInteger(String.valueOf(target)))) {
-                allStrings.add(stringThis.toString().replaceAll(" ", ""));
+            if (calculateResult
+                    .equals(new BigInteger(String.valueOf(target)))) {
+                allStrings.add(stringThis.toString()
+                        .replaceAll(" ", ""));
             }
         }
         return allStrings;
