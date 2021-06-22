@@ -10,27 +10,15 @@ import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.params.provider.Arguments.arguments;
+import static org.willxu.algorithm.provide.ListNode.getListNodeFromIntArray;
 
 public class MergeTwoSortedListsTest {
-    static ListNode getNode(int[] input) {
-        if (input == null || input.length == 0) {
-            return new ListNode();
-        } else if (input.length == 1) {
-            return new ListNode(input[0]);
-        }
-        ListNode thisNode = new ListNode(input[input.length - 1]);
-        for (int i = input.length - 2; i >= 0; i--) {
-            thisNode = new ListNode(input[i], thisNode);
-        }
-        return thisNode;
-    }
-
     static Stream<Arguments> dataProvider() {
         return Stream.of(
                 arguments(
-                        getNode(new int[] {1, 2, 4}),
-                        getNode(new int[] {1, 3, 4}),
-                        getNode(new int[] {1, 1, 2, 3, 4, 4})
+                        getListNodeFromIntArray(new int[] {1, 2, 4}),
+                        getListNodeFromIntArray(new int[] {1, 3, 4}),
+                        getListNodeFromIntArray(new int[] {1, 1, 2, 3, 4, 4})
                 ),
                 arguments(
                         // leetcode [] means input and output is null
@@ -40,8 +28,8 @@ public class MergeTwoSortedListsTest {
                 ),
                 arguments(
                         null,
-                        getNode(new int[] {0}),
-                        getNode(new int[] {0})
+                        getListNodeFromIntArray(new int[] {0}),
+                        getListNodeFromIntArray(new int[] {0})
                 )
         );
     }
