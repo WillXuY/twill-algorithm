@@ -4,9 +4,6 @@ import org.willxu.algorithm.service.string.LongestCommonPrefix;
 
 import java.util.Arrays;
 
-/**
- * wrong answer it return longest common sub string
- */
 public class LongestCommonPrefixBruteForce implements LongestCommonPrefix {
     @Override
     public String longestCommonPrefix(String[] strs) {

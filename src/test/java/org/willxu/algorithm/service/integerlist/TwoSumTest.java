@@ -10,9 +10,6 @@ import java.util.stream.Stream;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.params.provider.Arguments.arguments;
 
-/**
- * test case
- */
 public class TwoSumTest {
     static Stream<Arguments> dataProvider() {
         return Stream.of(

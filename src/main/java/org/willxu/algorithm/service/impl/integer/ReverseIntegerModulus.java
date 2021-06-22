@@ -2,7 +2,7 @@ package org.willxu.algorithm.service.impl.integer;
 
 import org.willxu.algorithm.service.integer.ReverseInteger;
 
-public class ReverseIntegerBruteForce implements ReverseInteger {
+public class ReverseIntegerModulus implements ReverseInteger {
     @Override
     public int reverseInteger(int x) {
         boolean isNegative = x < 0;

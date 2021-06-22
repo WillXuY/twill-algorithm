@@ -3,7 +3,7 @@ package org.willxu.algorithm.service.integer;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.integer.ReverseIntegerBruteForce;
+import org.willxu.algorithm.service.impl.integer.ReverseIntegerModulus;
 
 import java.util.stream.Stream;
 
@@ -21,10 +21,10 @@ public class ReverseIntegerTest {
         );
     }
 
-    @ParameterizedTest(name = "Brute force {index}")
+    @ParameterizedTest(name = "Modulus {index}")
     @MethodSource("dataProvider")
-    public void testReverseInteger(int input, int output) {
-        ReverseInteger bruteForce = new ReverseIntegerBruteForce();
-        assertEquals(output, bruteForce.reverseInteger(input));
+    public void testModulus(int input, int output) {
+        ReverseInteger modulus = new ReverseIntegerModulus();
+        assertEquals(output, modulus.reverseInteger(input));
     }
 }

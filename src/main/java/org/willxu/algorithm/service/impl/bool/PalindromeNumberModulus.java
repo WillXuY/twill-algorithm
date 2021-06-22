@@ -2,7 +2,7 @@ package org.willxu.algorithm.service.impl.bool;
 
 import org.willxu.algorithm.service.bool.PalindromeNumber;
 
-public class PalindromeNumberBruteForce implements PalindromeNumber {
+public class PalindromeNumberModulus implements PalindromeNumber {
     @Override
     public boolean isPalindrome(int x) {
         if (x < 0) {

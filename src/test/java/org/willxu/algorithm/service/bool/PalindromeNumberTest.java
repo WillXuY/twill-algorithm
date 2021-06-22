@@ -3,7 +3,7 @@ package org.willxu.algorithm.service.bool;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.bool.PalindromeNumberBruteForce;
+import org.willxu.algorithm.service.impl.bool.PalindromeNumberModulus;
 
 import java.util.stream.Stream;
 
@@ -24,10 +24,10 @@ public class PalindromeNumberTest {
         );
     }
 
-    @ParameterizedTest(name = "Brute force {index}")
+    @ParameterizedTest(name = "Modulus {index}")
     @MethodSource("dataProvider")
-    public void testPalindromeNumber(int input, boolean output) {
-        PalindromeNumber bruteForce = new PalindromeNumberBruteForce();
-        assertEquals(output, bruteForce.isPalindrome(input));
+    public void testModulus(int input, boolean output) {
+        PalindromeNumber modulus = new PalindromeNumberModulus();
+        assertEquals(output, modulus.isPalindrome(input));
     }
 }

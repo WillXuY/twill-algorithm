@@ -4,7 +4,7 @@ import org.willxu.algorithm.service.bool.ValidParentheses;
 
 import java.util.Stack;
 
-public class ValidParenthesesBruteForce implements ValidParentheses {
+public class ValidParenthesesStack implements ValidParentheses {
     @Override
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();

@@ -3,7 +3,7 @@ package org.willxu.algorithm.service.bool;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.bool.ValidParenthesesBruteForce;
+import org.willxu.algorithm.service.impl.bool.ValidParenthesesStack;
 
 import java.util.stream.Stream;
 
@@ -21,10 +21,10 @@ public class ValidParenthesesTest {
         );
     }
 
-    @ParameterizedTest(name = "Brute force {index}")
+    @ParameterizedTest(name = "Stack {index}")
     @MethodSource("dataProvider")
-    public void testValidParentheses(String input, boolean output) {
-        ValidParentheses bruteForce = new ValidParenthesesBruteForce();
-        assertEquals(output, bruteForce.isValid(input));
+    public void testStack(String input, boolean output) {
+        ValidParentheses stack = new ValidParenthesesStack();
+        assertEquals(output, stack.isValid(input));
     }
 }
