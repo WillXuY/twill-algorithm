@@ -8,7 +8,7 @@ import org.willxu.algorithm.service.impl.other.MergeTwoSortedListsBruteForce;
 
 import java.util.stream.Stream;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.params.provider.Arguments.arguments;
 
 public class MergeTwoSortedListsTest {
@@ -51,7 +51,11 @@ public class MergeTwoSortedListsTest {
     public void testMergeTwoLists(ListNode l1, ListNode l2, ListNode output) {
         MergeTwoSortedLists bruteForce = new MergeTwoSortedListsBruteForce();
         ListNode result = bruteForce.mergeTwoLists(l1, l2);
-        // TODO: deal with the assert of ListNode
-        assertEquals(output, result);
+        if (output != null && result != null) {
+            assertArrayEquals(output.toIntArray(), result.toIntArray());
+        } else {
+            assertNull(output);
+            assertNull(result);
+        }
     }
 }
