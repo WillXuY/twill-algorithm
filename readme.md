@@ -44,6 +44,7 @@ change the build tool to gradle, output a jar;
 |mark|ideas|[ClimbingStair](static/idea/ClimbingStair.md)|
 |83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[bruteForce](src/test/java/org/willxu/algorithm/service/other/RemoveDuplicatesFromSortedListTest.java)|
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[inverted](src/test/java/org/willxu/algorithm/service/empty/MergeSortedArrayTest.java)|
+|94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[recursive](src/test/java/org/willxu/algorithm/service/integerlist/BinaryTreeInorderTraversalTest.java)|
 |209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[bruteForce](src/test/java/org/willxu/algorithm/service/integer/MinimumSizeSubarraySumTest.java)|
 |other|better|[better](src/main/java/org/willxu/algorithm/service/impl/integer/MinimumSizeSubarraySumBetter.java)|
 |282|[Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)|[bruteForce](src/test/java/org/willxu/algorithm/service/stringlist/ExpressionAndOperatorServiceTest.java)|
