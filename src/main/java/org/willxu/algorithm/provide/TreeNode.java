@@ -24,21 +24,21 @@ public class TreeNode {
      * @param origin integer list simplify the null node
      * @return preorder traversal tree node
      */
-    public static TreeNode initByListLevel(List<Integer> origin) {
+    public static TreeNode initByListLevel(final List<Integer> origin) {
         if (origin == null || origin.size() == 0) {
             return null;
         } else if (origin.size() == 1) {
             return new TreeNode(origin.get(0));
         }
+        int size = origin.size();
         TreeNode root = new TreeNode(origin.get(0));
         List<TreeNode> level = new ArrayList<>();
         level.add(root);
         List<TreeNode> next = new ArrayList<>();
-        for (int i = 1; i < origin.size(); i+= level.size()) {
-            for (int j = 0; j < level.size() * 2; j++) {
-                if (i + j >= origin.size()) {
-                    continue;
-                }
+        int levelUsedOrigin = 1;
+        for (int i = levelUsedOrigin; i < size; i+= levelUsedOrigin) {
+            levelUsedOrigin = 0;
+            for (int j = 0; (j < level.size() * 2) && (j < size - i); j++) {
                 Integer t = origin.get(i + j);
                 if (t != null) {
                     TreeNode node = new TreeNode(origin.get(i + j));
@@ -51,10 +51,7 @@ public class TreeNode {
                     }
                     next.add(node);
                 }
-                if (i + j >= origin.size() - 1) {
-                    i = origin.size();
-                    j = level.size() * 2;
-                }
+                levelUsedOrigin++;
             }
             level = next;
             next = new ArrayList<>();
