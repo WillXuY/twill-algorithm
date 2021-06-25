@@ -23,7 +23,7 @@ change the build tool to gradle, output a jar;
 
 |No |title|solution|
 |---|---|---|
-|1|[Two Sum](https://leetcode.com/problems/two-sum/)|[bruteForce](src/test/java/org/willxu/algorithm/service/integerlist/TwoSumTest.java)|
+|1|[Two Sum](https://leetcode.com/problems/two-sum/)|[bruteForce](src/test/java/org/willxu/algorithm/service/integerarray/TwoSumTest.java)|
 |7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[bruteForce](src/test/java/org/willxu/algorithm/service/integer/ReverseIntegerTest.java)|
 |9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[bruteForce](src/test/java/org/willxu/algorithm/service/bool/PalindromeNumberTest.java)|
 |13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[bruteForce](src/test/java/org/willxu/algorithm/service/integer/RomanToIntegerTest.java)|
@@ -37,7 +37,7 @@ change the build tool to gradle, output a jar;
 |35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|[bruteForce](src/test/java/org/willxu/algorithm/service/integer/SearchInsertPositionTest.java)|
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[bruteForce](src/test/java/org/willxu/algorithm/service/integer/MaximumSubarrayTest.java)|
 |58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|[bruteForce](src/test/java/org/willxu/algorithm/service/integer/LengthOfLastWordTest.java)|
-|66|[Plus One](https://leetcode.com/problems/plus-one/)|[bruteForce](src/test/java/org/willxu/algorithm/service/integerlist/PlusOneTest.java)|
+|66|[Plus One](https://leetcode.com/problems/plus-one/)|[bruteForce](src/test/java/org/willxu/algorithm/service/integerarray/PlusOneTest.java)|
 |67|[Add Binary](https://leetcode.com/problems/add-binary/)|[bruteForce](src/test/java/org/willxu/algorithm/service/string/AddBinaryTest.java)|
 |69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[bruteForce](src/test/java/org/willxu/algorithm/service/integer/SqrtTest.java)|
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[bruteForce](src/test/java/org/willxu/algorithm/service/integer/ClimbingStairsTest.java)|
@@ -45,6 +45,7 @@ change the build tool to gradle, output a jar;
 |83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[bruteForce](src/test/java/org/willxu/algorithm/service/other/RemoveDuplicatesFromSortedListTest.java)|
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[inverted](src/test/java/org/willxu/algorithm/service/empty/MergeSortedArrayTest.java)|
 |94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[recursive](src/test/java/org/willxu/algorithm/service/integerlist/BinaryTreeInorderTraversalTest.java)|
+|100|[Same Tree](https://leetcode.com/problems/same-tree/)|[Recursive](src/test/java/org/willxu/algorithm/service/bool/SameTreeTest.java)|
 |209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[bruteForce](src/test/java/org/willxu/algorithm/service/integer/MinimumSizeSubarraySumTest.java)|
 |other|better|[better](src/main/java/org/willxu/algorithm/service/impl/integer/MinimumSizeSubarraySumBetter.java)|
 |282|[Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)|[bruteForce](src/test/java/org/willxu/algorithm/service/stringlist/ExpressionAndOperatorServiceTest.java)|
@@ -69,7 +70,7 @@ the fastest solution: [bruteForce](src/test/java/org/willxu/algorithm/domain/All
 
 ## [1137.N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)
 code: [NthTribonacciNumber](src/test/java/org/willxu/algorithm/service/integer/NthTribonacciNumberTest.java)
-![best in leetcode](images/readme/1137_N_th_Tribonacci_Number_best.png)
+![best in leetcode](static/images/readme/1137_N_th_Tribonacci_Number_best.png)
 
 ## [412.Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)
 code: [fizzBuzz](src/test/java/org/willxu/algorithm/service/stringlist/FizzBuzzServiceTest.java)
