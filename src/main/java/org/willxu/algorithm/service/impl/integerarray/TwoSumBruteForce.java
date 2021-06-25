@@ -1,6 +1,6 @@
-package org.willxu.algorithm.service.impl.integerlist;
+package org.willxu.algorithm.service.impl.integerarray;
 
-import org.willxu.algorithm.service.integerlist.TwoSum;
+import org.willxu.algorithm.service.integerarray.TwoSum;
 
 public class TwoSumBruteForce implements TwoSum {
     @Override

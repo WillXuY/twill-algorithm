@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integerlist;
+package org.willxu.algorithm.service.integerarray;
 
 public interface TwoSum {
     /**
