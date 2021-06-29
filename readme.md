@@ -49,6 +49,7 @@ change the build tool to gradle, output a jar;
 |101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|[Recursive](src/test/java/org/willxu/algorithm/service/bool/SymmetricTreeTest.java)|
 |104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[level](src/test/java/org/willxu/algorithm/service/integer/MaximumDepthOfBinaryTreeTest.java)|
 |108|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|[half recursive](src/test/java/org/willxu/algorithm/service/tree/ConvertSortedArrayToBinarySearchTreeTest.java)|
+|110|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|[recursive](src/test/java/org/willxu/algorithm/service/bool/BalancedBinaryTreeTest.java)|
 |209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[bruteForce](src/test/java/org/willxu/algorithm/service/integer/MinimumSizeSubarraySumTest.java)|
 |other|better|[better](src/main/java/org/willxu/algorithm/service/impl/integer/MinimumSizeSubarraySumBetter.java)|
 |282|[Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)|[bruteForce](src/test/java/org/willxu/algorithm/service/stringlist/ExpressionAndOperatorServiceTest.java)|
