@@ -57,6 +57,7 @@ change the build tool to gradle, output a jar;
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/)|[saveMin](src/test/java/org/willxu/algorithm/service/integer/BestTimeToBuyAndSellStockTest.java)|
 |122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|[greedy](src/test/java/org/willxu/algorithm/service/integer/BestTimeToBuyAndSellStockIiTest.java)|
 |out|time out|[cycle](src/main/java/org/willxu/algorithm/service/impl/integer/BestTimeToBuyAndSellStockCycle.java)|
+|125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[preprocessing](src/test/java/org/willxu/algorithm/service/bool/ValidPalindromeTest.java)|
 |209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[bruteForce](src/test/java/org/willxu/algorithm/service/integer/MinimumSizeSubarraySumTest.java)|
 |other|better|[better](src/main/java/org/willxu/algorithm/service/impl/integer/MinimumSizeSubarraySumBetter.java)|
 |282|[Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)|[bruteForce](src/test/java/org/willxu/algorithm/service/stringlist/ExpressionAndOperatorServiceTest.java)|
