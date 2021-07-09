@@ -1,6 +1,8 @@
 package org.willxu.algorithm.provide;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class ListNode {
 
@@ -49,6 +51,45 @@ public class ListNode {
             }
         }
         return iterator;
+    }
+
+    /**
+     * 160. Intersection of Two Linked Lists.
+     *
+     * @param listA elements of list a
+     * @param listB elements of list b
+     * @param intersectVal the index of the same element
+     *                     is 0 if listA and listB do not intersect.
+     * @param skipA the index of intersect in list a
+     *              0 <= skipA <= listA.length
+     * @param skipB the index of intersect in list b
+     *              0 <= skipB <= listB.length
+     * @return head of ListNode a, head of ListNode b and the intersect result
+     */
+    public static List<ListNode> getIntersectLinkedLists(
+            int[] listA, int[] listB, int intersectVal, int skipA, int skipB) {
+        List<ListNode> r = new ArrayList<>();
+        if (skipA >= listA.length || intersectVal != listA[skipA]) {
+            r.add(getListNodeFromIntArray(listA));
+            r.add(getListNodeFromIntArray(listB));
+            return r;
+        }
+        ListNode intersect = null;
+        for (int i = listA.length - 1; i >= skipA; i--) {
+            intersect = new ListNode(listA[i], intersect);
+        }
+        ListNode headA = intersect;
+        ListNode headB = intersect;
+        for (int i = skipA - 1; i >= 0; i--) {
+            headA = new ListNode(listA[i], headA);
+        }
+        for (int i = skipB - 1; i >= 0; i--) {
+            headB = new ListNode(listB[i], headB);
+        }
+        r.add(headA);
+        r.add(headB);
+        r.add(intersect);
+        return r;
     }
 
     public int[] toIntArray() {
