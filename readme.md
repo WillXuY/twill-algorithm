@@ -67,6 +67,7 @@ change the build tool to gradle, output a jar;
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[traversal](src/test/java/org/willxu/algorithm/service/integerlist/TwoSumIiInputArrayIsSortedTest.java)|
 |168|[Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)|[recursive](src/test/java/org/willxu/algorithm/service/string/ExcelSheetColumnTitleTest.java)|
 |169|[Majority Element](https://leetcode.com/problems/majority-element/)|[map](src/test/java/org/willxu/algorithm/service/integer/MajorityElementTest.java)|
+|171|[Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)|[Add](src/test/java/org/willxu/algorithm/service/integer/ExcelSheetColumnNumberTest.java)|
 |209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[bruteForce](src/test/java/org/willxu/algorithm/service/integer/MinimumSizeSubarraySumTest.java)|
 |other|better|[better](src/main/java/org/willxu/algorithm/service/impl/integer/MinimumSizeSubarraySumBetter.java)|
 |282|[Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)|[bruteForce](src/test/java/org/willxu/algorithm/service/stringlist/ExpressionAndOperatorServiceTest.java)|
