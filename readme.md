@@ -74,6 +74,7 @@ change the build tool to gradle, output a jar;
 |181|[Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/)|[mysql](src/main/resources/CombineTwoTables.sql)|
 |182|[Duplicate Emails](https://leetcode.com/problems/duplicate-emails/)|[mysql](src/main/resources/CombineTwoTables.sql)|
 |183|[Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/)|[mysql](src/main/resources/CombineTwoTables.sql)|
+|190|[Reverse Bits](https://leetcode.com/problems/reverse-bits/)|[ToString](src/test/java/org/willxu/algorithm/service/integer/ReverseBitsTest.java)|
 |196|[Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/)|[mysql](src/main/resources/CombineTwoTables.sql)|
 |197|[Rising Temperature](https://leetcode.com/problems/rising-temperature/)|[mysql](src/main/resources/CombineTwoTables.sql)|
 |209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[bruteForce](src/test/java/org/willxu/algorithm/service/integer/MinimumSizeSubarraySumTest.java)|
