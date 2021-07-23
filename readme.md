@@ -80,6 +80,7 @@ change the build tool to gradle, output a jar;
 |195|[Tenth Line](https://leetcode.com/problems/tenth-line/)|[Bash](src/main/bash/ValidPhoneNumber.bash)|
 |196|[Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/)|[mysql](src/main/resources/CombineTwoTables.sql)|
 |197|[Rising Temperature](https://leetcode.com/problems/rising-temperature/)|[mysql](src/main/resources/CombineTwoTables.sql)|
+|202|[Happy Number](https://leetcode.com/problems/happy-number/)|[Loop](src/test/java/org/willxu/algorithm/service/bool/HappyNumberTest.java)|
 |209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[bruteForce](src/test/java/org/willxu/algorithm/service/integer/MinimumSizeSubarraySumTest.java)|
 |other|better|[better](src/main/java/org/willxu/algorithm/service/impl/integer/MinimumSizeSubarraySumBetter.java)|
 |282|[Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)|[bruteForce](src/test/java/org/willxu/algorithm/service/stringlist/ExpressionAndOperatorServiceTest.java)|
