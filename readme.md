@@ -82,6 +82,7 @@ change the build tool to gradle, output a jar;
 |197|[Rising Temperature](https://leetcode.com/problems/rising-temperature/)|[mysql](src/main/resources/CombineTwoTables.sql)|
 |202|[Happy Number](https://leetcode.com/problems/happy-number/)|[Loop](src/test/java/org/willxu/algorithm/service/bool/HappyNumberTest.java)|
 |203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[Pointer](src/test/java/org/willxu/algorithm/service/listnode/RemoveLinkedListElementsTest.java)|
+|204|[Count Primes](https://leetcode.com/problems/count-primes/)|[Mark remove](src/test/java/org/willxu/algorithm/service/integer/CountPrimesTest.java)|
 |209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[bruteForce](src/test/java/org/willxu/algorithm/service/integer/MinimumSizeSubarraySumTest.java)|
 |other|better|[better](src/main/java/org/willxu/algorithm/service/impl/integer/MinimumSizeSubarraySumBetter.java)|
 |282|[Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)|[bruteForce](src/test/java/org/willxu/algorithm/service/stringlist/ExpressionAndOperatorServiceTest.java)|
