@@ -88,6 +88,7 @@ change the build tool to gradle, output a jar;
 |209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[bruteForce](src/test/java/org/willxu/algorithm/service/integer/MinimumSizeSubarraySumTest.java)|
 |other|better|[better](src/main/java/org/willxu/algorithm/service/impl/integer/MinimumSizeSubarraySumBetter.java)|
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Set](src/test/java/org/willxu/algorithm/service/bool/ContainsDuplicateTest.java)|
+|219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|[Map key](src/test/java/org/willxu/algorithm/service/bool/ContainsDuplicateIiTest.java)|
 |282|[Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)|[bruteForce](src/test/java/org/willxu/algorithm/service/stringlist/ExpressionAndOperatorServiceTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
