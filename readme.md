@@ -62,7 +62,7 @@ change the build tool to gradle, output a jar;
 |141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[iterator](src/test/java/org/willxu/algorithm/service/bool/LinkedListCycleTest.java)|
 |144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[recursive](src/test/java/org/willxu/algorithm/service/integerlist/BinaryTreePreorderTraversalTest.java)|
 |145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)|[recursive](src/test/java/org/willxu/algorithm/service/integerlist/BinaryTreePostOrderTraversalTest.java)|
-|155|[Min Stack](https://leetcode.com/problems/min-stack/)|[brute force](src/test/java/org/willxu/algorithm/domain/MinStackTest.java)|
+|155|[Min Stack](https://leetcode.com/problems/min-stack/)|[brute force](src/test/java/org/willxu/algorithm/domain/stack/MinStackTest.java)|
 |160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[save nodes](src/test/java/org/willxu/algorithm/service/listnode/IntersectionOfTwoLinkedListsTest.java)|
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[traversal](src/test/java/org/willxu/algorithm/service/integerlist/TwoSumIiInputArrayIsSortedTest.java)|
 |168|[Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)|[recursive](src/test/java/org/willxu/algorithm/service/string/ExcelSheetColumnTitleTest.java)|
@@ -89,12 +89,13 @@ change the build tool to gradle, output a jar;
 |other|better|[better](src/main/java/org/willxu/algorithm/service/impl/integer/MinimumSizeSubarraySumBetter.java)|
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Set](src/test/java/org/willxu/algorithm/service/bool/ContainsDuplicateTest.java)|
 |219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|[Map key](src/test/java/org/willxu/algorithm/service/bool/ContainsDuplicateIiTest.java)|
+|225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[Queues](src/test/java/org/willxu/algorithm/domain/stack/MyQueuesStackTest.java)|
 |282|[Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)|[bruteForce](src/test/java/org/willxu/algorithm/service/stringlist/ExpressionAndOperatorServiceTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
-### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/DesignCircularQueueTest.java)
+### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
 总结： 参考 LinkedList 然后直接用 new Node 来操作结点数据容易出错，添加 changeNext 来方便修改引用
-### single-linked list: [CircularQueueSingleLinked](src/test/java/org/willxu/algorithm/domain/DesignCircularQueueTest.java)
+### single-linked list: [CircularQueueSingleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
 - 优化可能： 使用单向链表，而不是参考 linked 的双向链表
 - 结果：单向链表多持有了一个 last 结点来加快获取引用，占用了更多的内存，速度差距不大
 
