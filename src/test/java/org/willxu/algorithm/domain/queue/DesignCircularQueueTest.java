@@ -1,4 +1,4 @@
-package org.willxu.algorithm.domain;
+package org.willxu.algorithm.domain.queue;
 
 import org.junit.jupiter.api.Test;
 import org.willxu.algorithm.domain.impl.queue.CircularQueueSingleLinked;

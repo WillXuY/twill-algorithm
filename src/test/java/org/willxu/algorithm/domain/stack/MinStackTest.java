@@ -1,4 +1,4 @@
-package org.willxu.algorithm.domain;
+package org.willxu.algorithm.domain.stack;
 
 import org.junit.jupiter.api.Test;
 import org.willxu.algorithm.domain.impl.stack.MinStack;
