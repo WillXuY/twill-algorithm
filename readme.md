@@ -1,7 +1,24 @@
-# I - Profile
+# I - ⚖️ License
+
+Copyright (C) 2021  Weiyang(Will) Xu
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+# II - 📖 Profile
 It's the project for solving problems from [leetCode](https://leetcode.com/problemset/all/)
 
-# II - Project build
+# III - 🏗️ Project build
 change the build tool to gradle, output a jar;
 
 ## i - hello spring boot
@@ -11,7 +28,7 @@ change the build tool to gradle, output a jar;
 
 ## ii - change junit4 to junit5
 
-# III - Todo List
+# IV - 🪣 Todo List
 
 |No |title|solution|
 |---|---|---|
@@ -19,7 +36,7 @@ change the build tool to gradle, output a jar;
 
 ## TODO: try to add git emoji
 
-# IV - Finished List (main methods are in the test folder)
+# V - 📝 Finished List (main methods are in the test folder)
 
 |No |title|solution|
 |---|---|---|
