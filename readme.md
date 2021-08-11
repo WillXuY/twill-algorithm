@@ -28,7 +28,7 @@ change the build tool to gradle, output a jar;
 
 ## ii - change junit4 to junit5
 
-# IV - 🪣 Todo List
+# IV - ⌛ Todo List
 
 |No |title|solution|
 |---|---|---|
@@ -108,6 +108,8 @@ change the build tool to gradle, output a jar;
 |219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|[Map key](src/test/java/org/willxu/algorithm/service/bool/ContainsDuplicateIiTest.java)|
 |225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[Queues](src/test/java/org/willxu/algorithm/domain/stack/MyQueuesStackTest.java)|
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[Recursive](src/test/java/org/willxu/algorithm/service/treenode/InvertBinaryTreeTest.java)|
+|228|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)|[Cycle](src/test/java/org/willxu/algorithm/service/stringlist/SummaryRangesTest.java)|
+|231|[Power of Two](https://leetcode.com/problems/power-of-two/)|[Binary](src/test/java/org/willxu/algorithm/service/bool/PowerOfTwoTest.java)|
 |282|[Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)|[bruteForce](src/test/java/org/willxu/algorithm/service/stringlist/ExpressionAndOperatorServiceTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
