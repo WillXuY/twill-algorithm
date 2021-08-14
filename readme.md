@@ -113,6 +113,7 @@ change the build tool to gradle, output a jar;
 |232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Stacks](src/test/java/org/willxu/algorithm/domain/queue/StacksQueueTest.java)|
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[Array](src/test/java/org/willxu/algorithm/service/bool/PalindromeLinkedListTest.java)|
 | |other|[Stack and Queue](src/main/java/org/willxu/algorithm/service/impl/bool/PalindromeLinkedListStackAndQueue.java)|
+|235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[Recursive](src/test/java/org/willxu/algorithm/service/treenode/LowestCommonAncestorOfBstTest.java)|
 |282|[Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)|[bruteForce](src/test/java/org/willxu/algorithm/service/stringlist/ExpressionAndOperatorServiceTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
