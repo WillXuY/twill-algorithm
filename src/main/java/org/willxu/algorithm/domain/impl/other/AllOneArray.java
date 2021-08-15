@@ -7,21 +7,22 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.domain;
+package org.willxu.algorithm.domain.impl.other;
 
-public class AllOne {
+import org.willxu.algorithm.domain.other.AllOne;
+
+public class AllOneArray implements AllOne {
     private String[] keys;
     private int[] values;
     private int size;
 
-    /** Initialize your data structure here. */
-    public AllOne() {
+    public AllOneArray() {
         keys = new String[]{};
         values = new int[]{};
         size = 0;
     }
 
-    /** Inserts a new key <Key> with value 1. Or increments an existing key by 1. */
+    @Override
     public void inc(String key) {
         int index = findElementIndex(key);
         if (index == -1) {
@@ -32,9 +33,40 @@ public class AllOne {
         }
     }
 
+    @Override
+    public void dec(String key) {
+        int index = findElementIndex(key);
+        if (index != -1) {
+            values[index] = values[index] - 1;
+            if (values[index] == 0) {
+                remove(index);
+            } else {
+                sortMinus(index);
+            }
+        }
+    }
+
+    @Override
+    public String getMaxKey() {
+        if (size == 0) {
+            return "";
+        } else {
+            return keys[0];
+        }
+    }
+
+    @Override
+    public String getMinKey() {
+        if (size == 0) {
+            return "";
+        } else {
+            return keys[size - 1];
+        }
+    }
+
     /**
-     * (弃用)排序，从大到小，根据 index 往前遍历直到 0,或者 value 不等到 indexDifferent，
-     * 交换最后 value 相等的 indexDifferent + 1 与 index
+     * (弃用)排序，从大到小，根据 index 往前遍历直到 0,或者 value 不等到
+     * indexDifferent，交换最后 value 相等的 indexDifferent + 1 与 index
      * # 清晰胜于机巧
      * 从头遍历数据，找到第一个 < index 的 i 交换 index + 1 与 i - 1;
      * 5,3,1,1,1 index = 4
@@ -79,19 +111,6 @@ public class AllOne {
         return -1;
     }
 
-    /** Decrements an existing key by 1. If Key's value is 1, remove it from the data structure. */
-    public void dec(String key) {
-        int index = findElementIndex(key);
-        if (index != -1) {
-            values[index] = values[index] - 1;
-            if (values[index] == 0) {
-                remove(index);
-            } else {
-                sortMinus(index);
-            }
-        }
-    }
-
     /**
      * 排序从大到小，从最后遍历到index,找到第一个大于index的i，或者不做修改
      * # 清晰胜于机巧
@@ -131,23 +150,5 @@ public class AllOne {
         values = newValues;
         keys = newKeys;
         size--;
-    }
-
-    /** Returns one of the keys with maximal value. */
-    public String getMaxKey() {
-        if (size == 0) {
-            return "";
-        } else {
-            return keys[0];
-        }
-    }
-
-    /** Returns one of the keys with Minimal value. */
-    public String getMinKey() {
-        if (size == 0) {
-            return "";
-        } else {
-            return keys[size - 1];
-        }
     }
 }
