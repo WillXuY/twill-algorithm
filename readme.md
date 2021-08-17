@@ -65,7 +65,7 @@ change the build tool to gradle, output a jar;
 |100|[Same Tree](https://leetcode.com/problems/same-tree/)|[Recursive](src/test/java/org/willxu/algorithm/service/bool/SameTreeTest.java)|
 |101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|[Recursive](src/test/java/org/willxu/algorithm/service/bool/SymmetricTreeTest.java)|
 |104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[level](src/test/java/org/willxu/algorithm/service/integer/MaximumDepthOfBinaryTreeTest.java)|
-|108|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|[half recursive](src/test/java/org/willxu/algorithm/service/tree/ConvertSortedArrayToBinarySearchTreeTest.java)|
+|108|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|[half recursive](src/test/java/org/willxu/algorithm/service/treenode/ConvertSortedArrayToBinarySearchTreeTest.java)|
 |110|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|[recursive](src/test/java/org/willxu/algorithm/service/bool/BalancedBinaryTreeTest.java)|
 |111|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|[level](src/test/java/org/willxu/algorithm/service/integer/MinimumDepthOfBinaryTreeTest.java)|
 |112|[Path Sum](https://leetcode.com/problems/path-sum/)|[recursive](src/test/java/org/willxu/algorithm/service/bool/PathSumTest.java)|
@@ -116,6 +116,7 @@ change the build tool to gradle, output a jar;
 |235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[Recursive](src/test/java/org/willxu/algorithm/service/treenode/LowestCommonAncestorOfBstTest.java)|
 |237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[Point](src/test/java/org/willxu/algorithm/service/empty/DeleteNodeInLinkedListTest.java)|
 |282|[Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)|[bruteForce](src/test/java/org/willxu/algorithm/service/stringlist/ExpressionAndOperatorServiceTest.java)|
+|432|[All O'one Date Structure](https://leetcode.com/problems/all-oone-data-structure/)|[Array](src/test/java/org/willxu/algorithm/domain/other/AllOneTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
@@ -130,10 +131,6 @@ change the build tool to gradle, output a jar;
 
 ## [984. String Without AAA or BBB](https://leetcode.com/problems/string-without-aaa-or-bbb/)
 brute force: [bruteForce](src/test/java/org/willxu/algorithm/service/string/StringWithoutAaaOrBbbServiceTest.java)
-
-## [432.All O'one Date Structure](https://leetcode.com/problems/all-oone-data-structure/)
-the fastest solution: [bruteForce](src/test/java/org/willxu/algorithm/domain/AllOneTest.java)
-
 
 ## [1137.N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)
 code: [NthTribonacciNumber](src/test/java/org/willxu/algorithm/service/integer/NthTribonacciNumberTest.java)

@@ -7,10 +7,10 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.tree;
+package org.willxu.algorithm.service.impl.treenode;
 
 import org.willxu.algorithm.provide.TreeNode;
-import org.willxu.algorithm.service.tree.ConvertSortedArrayToBinarySearchTree;
+import org.willxu.algorithm.service.treenode.ConvertSortedArrayToBinarySearchTree;
 
 import java.util.Arrays;
 

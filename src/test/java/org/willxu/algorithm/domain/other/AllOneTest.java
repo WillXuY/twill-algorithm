@@ -7,14 +7,15 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.domain;
+package org.willxu.algorithm.domain.other;
 
 import org.junit.jupiter.api.Test;
+import org.willxu.algorithm.domain.impl.other.AllOneArray;
 
 public class AllOneTest {
     @Test
     public void testAllOne() {
-        AllOne obj = new AllOne();
+        AllOne obj = new AllOneArray();
         String key1 = "key1";
         obj.inc(key1);
         String key2 = "key2";
