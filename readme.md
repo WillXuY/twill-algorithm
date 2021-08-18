@@ -115,6 +115,7 @@ change the build tool to gradle, output a jar;
 | |other|[Stack and Queue](src/main/java/org/willxu/algorithm/service/impl/bool/PalindromeLinkedListStackAndQueue.java)|
 |235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[Recursive](src/test/java/org/willxu/algorithm/service/treenode/LowestCommonAncestorOfBstTest.java)|
 |237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[Point](src/test/java/org/willxu/algorithm/service/empty/DeleteNodeInLinkedListTest.java)|
+|242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Remove](src/test/java/org/willxu/algorithm/service/bool/ValidAnagramTest.java)|
 |282|[Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)|[bruteForce](src/test/java/org/willxu/algorithm/service/stringlist/ExpressionAndOperatorServiceTest.java)|
 |432|[All O'one Date Structure](https://leetcode.com/problems/all-oone-data-structure/)|[Array](src/test/java/org/willxu/algorithm/domain/other/AllOneTest.java)|
 
