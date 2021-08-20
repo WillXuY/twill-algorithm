@@ -117,6 +117,7 @@ change the build tool to gradle, output a jar;
 |237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[Point](src/test/java/org/willxu/algorithm/service/empty/DeleteNodeInLinkedListTest.java)|
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Remove](src/test/java/org/willxu/algorithm/service/bool/ValidAnagramTest.java)|
 |257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|[Recursive](src/test/java/org/willxu/algorithm/service/stringlist/BinaryTreePathsTest.java)|
+|258|[Add Digits](https://leetcode.com/problems/add-digits/)|[Loop](src/test/java/org/willxu/algorithm/service/integer/AddDigitsTest.java)|
 |282|[Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)|[bruteForce](src/test/java/org/willxu/algorithm/service/stringlist/ExpressionAndOperatorServiceTest.java)|
 |432|[All O'one Date Structure](https://leetcode.com/problems/all-oone-data-structure/)|[Array](src/test/java/org/willxu/algorithm/domain/other/AllOneTest.java)|
 
