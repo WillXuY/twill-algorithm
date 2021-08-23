@@ -120,6 +120,7 @@ change the build tool to gradle, output a jar;
 |258|[Add Digits](https://leetcode.com/problems/add-digits/)|[Loop](src/test/java/org/willxu/algorithm/service/integer/AddDigitsTest.java)|
 |263|[Ugly Number](https://leetcode.com/problems/ugly-number/)|[Divide](src/test/java/org/willxu/algorithm/service/bool/UglyNumberTest.java)|
 |268|[Missing Number](https://leetcode.com/problems/missing-number/)|[Remove](src/test/java/org/willxu/algorithm/service/integer/MissingNumberTest.java)|
+|278|[First Bad Version](https://leetcode.com/problems/first-bad-version/)|[Golden](src/test/java/org/willxu/algorithm/service/extend/FirstBadVersionTest.java)|
 |282|[Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)|[bruteForce](src/test/java/org/willxu/algorithm/service/stringlist/ExpressionAndOperatorServiceTest.java)|
 |432|[All O'one Date Structure](https://leetcode.com/problems/all-oone-data-structure/)|[Array](src/test/java/org/willxu/algorithm/domain/other/AllOneTest.java)|
 
