@@ -124,6 +124,7 @@ change the build tool to gradle, output a jar;
 |282|[Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)|[bruteForce](src/test/java/org/willxu/algorithm/service/stringlist/ExpressionAndOperatorServiceTest.java)|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Exchange](src/test/java/org/willxu/algorithm/service/empty/MoveZerosTest.java)|
 |290|[Word Pattern](https://leetcode.com/problems/word-pattern/)|[Map](src/test/java/org/willxu/algorithm/service/bool/WordPatternTest.java)|
+|292|[Nim Game](https://leetcode.com/problems/nim-game/)|[Divide4](src/test/java/org/willxu/algorithm/service/bool/NimGameTest.java)|
 |432|[All O'one Date Structure](https://leetcode.com/problems/all-oone-data-structure/)|[Array](src/test/java/org/willxu/algorithm/domain/other/AllOneTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)

@@ -1,0 +1,12 @@
+* II - Example list
+
+| stones number | description           | result |
+|---------------+-----------------------+--------|
+|             1 | take 1                | win    |
+|             2 | take 2                | win    |
+|             3 | take 3                | win    |
+|             4 | will cause 1-3 self   | fail   |
+|             5 | take 1 cause 4 friend | win    |
+|             6 | take 2 cause 4 friend | win    |
+|             7 | take 3 cause 4 friend | win    |
+|             8 | will cause friend 5-7 | fail   |
