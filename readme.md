@@ -126,6 +126,7 @@ change the build tool to gradle, output a jar;
 |290|[Word Pattern](https://leetcode.com/problems/word-pattern/)|[Map](src/test/java/org/willxu/algorithm/service/bool/WordPatternTest.java)|
 |292|[Nim Game](https://leetcode.com/problems/nim-game/)|[Divide4](src/test/java/org/willxu/algorithm/service/bool/NimGameTest.java)|
 |303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|[Cycle](src/test/java/org/willxu/algorithm/domain/array/RangeSumQueryImmutableTest.java)|
+|326|[Power of Three](https://leetcode.com/problems/power-of-three/)|[Enumeration](src/test/java/org/willxu/algorithm/service/bool/PowerOfThreeTest.java)|
 |432|[All O'one Date Structure](https://leetcode.com/problems/all-oone-data-structure/)|[Array](src/test/java/org/willxu/algorithm/domain/other/AllOneTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
