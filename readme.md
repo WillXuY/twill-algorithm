@@ -130,6 +130,7 @@ change the build tool to gradle, output a jar;
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/)|[Cycle multi 2](src/test/java/org/willxu/algorithm/service/integerarray/CountingBitsTest.java)|
 |342|[Power of Four](https://leetcode.com/problems/power-of-four/)|[Enumerate](src/test/java/org/willxu/algorithm/service/bool/PowerOfFourTest.java)|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/)|[Exchange](src/test/java/org/willxu/algorithm/service/empty/ReverseStringTest.java)|
+|345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[Pointer](src/test/java/org/willxu/algorithm/service/string/ReverseVowelsOfaStringTest.java)|
 |432|[All O'one Date Structure](https://leetcode.com/problems/all-oone-data-structure/)|[Array](src/test/java/org/willxu/algorithm/domain/other/AllOneTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
