@@ -133,6 +133,7 @@ change the build tool to gradle, output a jar;
 |345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[Pointer](src/test/java/org/willxu/algorithm/service/string/ReverseVowelsOfaStringTest.java)|
 |349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|[Set](src/test/java/org/willxu/algorithm/service/intarray/IntersectionOfTwoArraysTest.java)|
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Remove](src/test/java/org/willxu/algorithm/service/intarray/IntersectionOfTwoArraysIiTest.java)|
+|367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|[Difference](src/test/java/org/willxu/algorithm/service/bool/ValidPerfectSquareTest.java)|
 |432|[All O'one Date Structure](https://leetcode.com/problems/all-oone-data-structure/)|[Array](src/test/java/org/willxu/algorithm/domain/other/AllOneTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
