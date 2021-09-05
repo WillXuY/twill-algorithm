@@ -135,6 +135,7 @@ change the build tool to gradle, output a jar;
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Remove](src/test/java/org/willxu/algorithm/service/intarray/IntersectionOfTwoArraysIiTest.java)|
 |367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|[Difference](src/test/java/org/willxu/algorithm/service/bool/ValidPerfectSquareTest.java)|
 |374|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)|[Golden](src/test/java/org/willxu/algorithm/domain/integer/GuessNumberHigherOrLowerTest.java)|
+|383|[Ransom Note](https://leetcode.com/problems/ransom-note/)|[Remove](src/test/java/org/willxu/algorithm/service/bool/RansomNoteTest.java)|
 |432|[All O'one Date Structure](https://leetcode.com/problems/all-oone-data-structure/)|[Array](src/test/java/org/willxu/algorithm/domain/other/AllOneTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
