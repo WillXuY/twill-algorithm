@@ -137,6 +137,7 @@ change the build tool to gradle, output a jar;
 |374|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)|[Golden](src/test/java/org/willxu/algorithm/domain/integer/GuessNumberHigherOrLowerTest.java)|
 |383|[Ransom Note](https://leetcode.com/problems/ransom-note/)|[Remove](src/test/java/org/willxu/algorithm/service/bool/RansomNoteTest.java)|
 |387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[Remove](src/test/java/org/willxu/algorithm/service/integer/FirstUniqueCharacterInaStringTest.java)|
+|389|[Find the Difference](https://leetcode.com/problems/find-the-difference/)|[Remove](src/test/java/org/willxu/algorithm/service/character/FindTheDifferenceTest.java)|
 |432|[All O'one Date Structure](https://leetcode.com/problems/all-oone-data-structure/)|[Array](src/test/java/org/willxu/algorithm/domain/other/AllOneTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
