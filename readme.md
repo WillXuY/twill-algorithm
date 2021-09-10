@@ -140,6 +140,7 @@ change the build tool to gradle, output a jar;
 |389|[Find the Difference](https://leetcode.com/problems/find-the-difference/)|[Remove](src/test/java/org/willxu/algorithm/service/character/FindTheDifferenceTest.java)|
 |392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[Iterator](src/test/java/org/willxu/algorithm/service/bool/IsSubsequenceTest.java)|
 |401|[Binary Watch](https://leetcode.com/problems/binary-watch/)|[Combinations](src/test/java/org/willxu/algorithm/service/stringlist/BinaryWatchTest.java)|
+|404|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|[Recursive](src/test/java/org/willxu/algorithm/service/integer/SumOfLeftLeavesTest.java)|
 |432|[All O'one Date Structure](https://leetcode.com/problems/all-oone-data-structure/)|[Array](src/test/java/org/willxu/algorithm/domain/other/AllOneTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
