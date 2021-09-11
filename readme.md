@@ -141,6 +141,7 @@ change the build tool to gradle, output a jar;
 |392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[Iterator](src/test/java/org/willxu/algorithm/service/bool/IsSubsequenceTest.java)|
 |401|[Binary Watch](https://leetcode.com/problems/binary-watch/)|[Combinations](src/test/java/org/willxu/algorithm/service/stringlist/BinaryWatchTest.java)|
 |404|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|[Recursive](src/test/java/org/willxu/algorithm/service/integer/SumOfLeftLeavesTest.java)|
+|405|[Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/)|[Remainder](src/test/java/org/willxu/algorithm/service/string/ConvertaNumberToHexadecimalTest.java)|
 |432|[All O'one Date Structure](https://leetcode.com/problems/all-oone-data-structure/)|[Array](src/test/java/org/willxu/algorithm/domain/other/AllOneTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
