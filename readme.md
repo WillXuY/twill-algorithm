@@ -143,6 +143,7 @@ change the build tool to gradle, output a jar;
 |404|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|[Recursive](src/test/java/org/willxu/algorithm/service/integer/SumOfLeftLeavesTest.java)|
 |405|[Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/)|[Remainder](src/test/java/org/willxu/algorithm/service/string/ConvertaNumberToHexadecimalTest.java)|
 |409|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)|[Count](src/test/java/org/willxu/algorithm/service/integer/LongestPalindromeTest.java)|
+|414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|[Compare](src/test/java/org/willxu/algorithm/service/integer/ThirdMaximumNumberTest.java)|
 |432|[All O'one Date Structure](https://leetcode.com/problems/all-oone-data-structure/)|[Array](src/test/java/org/willxu/algorithm/domain/other/AllOneTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
