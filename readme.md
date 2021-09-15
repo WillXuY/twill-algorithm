@@ -146,6 +146,7 @@ change the build tool to gradle, output a jar;
 |414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|[Compare](src/test/java/org/willxu/algorithm/service/integer/ThirdMaximumNumberTest.java)|
 |415|[Add Strings](https://leetcode.com/problems/add-strings/)|[Split](src/test/java/org/willxu/algorithm/service/string/AddStringsTest.java)|
 |432|[All O'one Date Structure](https://leetcode.com/problems/all-oone-data-structure/)|[Array](src/test/java/org/willxu/algorithm/domain/other/AllOneTest.java)|
+|434|[Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/)|[Space](src/test/java/org/willxu/algorithm/service/integer/NumberOfSegmentsInaStringTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
