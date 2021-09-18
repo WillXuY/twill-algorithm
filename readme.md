@@ -150,6 +150,7 @@ change the build tool to gradle, output a jar;
 |434|[Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/)|[Space](src/test/java/org/willxu/algorithm/service/integer/NumberOfSegmentsInaStringTest.java)|
 |441|[Arranging Coins](https://leetcode.com/problems/arranging-coins/)|[Equation](src/test/java/org/willxu/algorithm/service/integer/ArrangingCoinsTest.java)|
 | | Cycle | [src](src/main/java/org/willxu/algorithm/service/impl/integer/ArrangingCoinsCycle.java) |
+|448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Cycle](src/test/java/org/willxu/algorithm/service/intlist/FindAllNumbersDisappearedInAnArrayTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
