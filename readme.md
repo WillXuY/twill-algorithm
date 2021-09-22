@@ -153,6 +153,7 @@ change the build tool to gradle, output a jar;
 |448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Cycle](src/test/java/org/willxu/algorithm/service/intlist/FindAllNumbersDisappearedInAnArrayTest.java)|
 |453|[Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-description/)|[Math](src/test/java/org/willxu/algorithm/service/integer/MinimumMovesToEqualArrayElementsTest.java)|
 |455|[Assign Cookies](https://leetcode.com/problems/assign-cookies/)|[Map](src/test/java/org/willxu/algorithm/service/integer/AssignCookiesTest.java)|
+|459|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)|[Pointer](src/test/java/org/willxu/algorithm/service/bool/RepeatedSubstringPatternTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
