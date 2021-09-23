@@ -154,6 +154,7 @@ change the build tool to gradle, output a jar;
 |453|[Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-description/)|[Math](src/test/java/org/willxu/algorithm/service/integer/MinimumMovesToEqualArrayElementsTest.java)|
 |455|[Assign Cookies](https://leetcode.com/problems/assign-cookies/)|[Map](src/test/java/org/willxu/algorithm/service/integer/AssignCookiesTest.java)|
 |459|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)|[Pointer](src/test/java/org/willxu/algorithm/service/bool/RepeatedSubstringPatternTest.java)|
+|461|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[Dividing](src/test/java/org/willxu/algorithm/service/integer/HammingDistanceTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
