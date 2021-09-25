@@ -13,6 +13,18 @@ import static org.junit.jupiter.params.provider.Arguments.arguments;
 public class IslandPerimeterTest {
     static Stream<Arguments> dataProvider() {
         return Stream.of(
+                // TODO Wrong answer 1
+                arguments(
+                        new int[][] {
+                                {1},
+                                {1},
+                                {1},
+                                {0},
+                                {1},
+                                {1}
+                        },
+                        8
+                ),
                 arguments(
                         new int[][] {
                                 {0, 1, 0, 0},
