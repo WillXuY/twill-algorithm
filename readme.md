@@ -157,6 +157,7 @@ change the build tool to gradle, output a jar;
 |461|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[Dividing](src/test/java/org/willxu/algorithm/service/integer/HammingDistanceTest.java)|
 |463|[Island Perimeter](https://leetcode.com/problems/island-perimeter/)|[Remove Public Edge](src/test/java/org/willxu/algorithm/service/integer/IslandPerimeterTest.java)|
 |476|[Number Complement](https://leetcode.com/problems/number-complement/)|[Dividing](src/test/java/org/willxu/algorithm/service/integer/NumberComplementTest.java)|
+|482|[License Key Formatting](https://leetcode.com/problems/license-key-formatting/)|[Loop](src/test/java/org/willxu/algorithm/service/string/LicenseKeyFormattingTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
