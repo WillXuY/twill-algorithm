@@ -161,6 +161,7 @@ change the build tool to gradle, output a jar;
 |485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Loop](src/test/java/org/willxu/algorithm/service/integer/MaxConsecutiveOnesTest.java)|
 |492|[Construct the Rectangle](https://leetcode.com/problems/construct-the-rectangle/)|[Sqrt](src/test/java/org/willxu/algorithm/service/ints/ConstructTheRectangleTest.java)|
 |495|[Teemo Attacking](https://leetcode.com/problems/teemo-attacking/)|[Loop](src/test/java/org/willxu/algorithm/service/integer/TeemoAttackingTest.java)|
+|496|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[Set Index](src/test/java/org/willxu/algorithm/service/ints/NextGreaterElement1Test.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
