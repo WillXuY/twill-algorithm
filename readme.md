@@ -163,6 +163,7 @@ change the build tool to gradle, output a jar;
 |495|[Teemo Attacking](https://leetcode.com/problems/teemo-attacking/)|[Loop](src/test/java/org/willxu/algorithm/service/integer/TeemoAttackingTest.java)|
 |496|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[Set Index](src/test/java/org/willxu/algorithm/service/ints/NextGreaterElement1Test.java)|
 |500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)|[Count](src/test/java/org/willxu/algorithm/service/stringlist/KeyboardRowTest.java)|
+|501|[Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)|[Recursive](src/test/java/org/willxu/algorithm/service/ints/FindModeInBinarySearchTreeTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
