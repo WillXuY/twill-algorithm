@@ -167,6 +167,7 @@ change the build tool to gradle, output a jar;
 |504|[Base 7](https://leetcode.com/problems/base-7/)|[Division](src/test/java/org/willxu/algorithm/service/string/Base7Test.java)|
 |506|[Relative Ranks](https://leetcode.com/problems/relative-ranks/)|[Pointer](src/test/java/org/willxu/algorithm/service/strings/RelativeRanksTest.java)|
 |507|[Perfect Number](https://leetcode.com/problems/perfect-number/)|[Division](src/test/java/org/willxu/algorithm/service/bool/PerfectNumberTest.java)|
+|509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Loop](src/test/java/org/willxu/algorithm/service/integer/FibonacciNumberTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
