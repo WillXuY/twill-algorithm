@@ -169,6 +169,7 @@ change the build tool to gradle, output a jar;
 |507|[Perfect Number](https://leetcode.com/problems/perfect-number/)|[Division](src/test/java/org/willxu/algorithm/service/bool/PerfectNumberTest.java)|
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Loop](src/test/java/org/willxu/algorithm/service/integer/FibonacciNumberTest.java)|
 |520|[Detect Capital](https://leetcode.com/problems/detect-capital/)|[Loop](src/test/java/org/willxu/algorithm/service/bool/DetectCapitalTest.java)|
+|521|[Longest Uncommon Subsequence I](https://leetcode.com/problems/longest-uncommon-subsequence-i/)|[Endpoint](src/test/java/org/willxu/algorithm/service/integer/LongestUncommonSubsequence1Test.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
