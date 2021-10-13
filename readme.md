@@ -172,6 +172,7 @@ change the build tool to gradle, output a jar;
 |521|[Longest Uncommon Subsequence I](https://leetcode.com/problems/longest-uncommon-subsequence-i/)|[Endpoint](src/test/java/org/willxu/algorithm/service/integer/LongestUncommonSubsequence1Test.java)|
 |530|[Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)|[Recursive](src/test/java/org/willxu/algorithm/service/integer/MinimumAbsoluteDifferenceInBstTest.java)|
 |541|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|[Loop](src/test/java/org/willxu/algorithm/service/string/ReverseStringIiTest.java)|
+|543|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[Recursive](src/test/java/org/willxu/algorithm/service/integer/DiameterOfBinaryTreeTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
