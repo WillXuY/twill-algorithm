@@ -175,6 +175,7 @@ change the build tool to gradle, output a jar;
 |543|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[Recursive](src/test/java/org/willxu/algorithm/service/integer/DiameterOfBinaryTreeTest.java)|
 |551|[Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/)|[Loop](src/test/java/org/willxu/algorithm/service/bool/StudentAttendanceRecord1Test.java)|
 |557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[Index](src/test/java/org/willxu/algorithm/service/string/ReverseWordsInaString3Test.java)|
+|559|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|[Recursive](src/test/java/org/willxu/algorithm/service/integer/MaximumDepthOfNaryTreeTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
