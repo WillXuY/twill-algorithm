@@ -180,6 +180,7 @@ change the build tool to gradle, output a jar;
 |563|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/)|[Recursive](src/test/java/org/willxu/algorithm/service/integer/BinaryTreeTiltTest.java)|
 |566|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)|[Iterator](src/test/java/org/willxu/algorithm/service/matrix/ReshapeTheMatrixTest.java)|
 |572|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|[Recursive](src/test/java/org/willxu/algorithm/service/bool/SubtreeOfAnotherTreeTest.java)|
+|575|[Distribute Candies](https://leetcode.com/problems/distribute-candies/)|[Group](src/test/java/org/willxu/algorithm/service/integer/DistributeCandiesTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
