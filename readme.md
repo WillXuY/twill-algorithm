@@ -182,6 +182,7 @@ change the build tool to gradle, output a jar;
 |572|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|[Recursive](src/test/java/org/willxu/algorithm/service/bool/SubtreeOfAnotherTreeTest.java)|
 |575|[Distribute Candies](https://leetcode.com/problems/distribute-candies/)|[Group](src/test/java/org/willxu/algorithm/service/integer/DistributeCandiesTest.java)|
 |589|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[Recursive](src/test/java/org/willxu/algorithm/service/intlist/NaryTreePreorderTraversalTest.java)|
+|590|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)|[Recursive](src/test/java/org/willxu/algorithm/service/intlist/NaryTreePostorderTraversalTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
