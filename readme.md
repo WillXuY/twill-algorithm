@@ -185,7 +185,8 @@ change the build tool to gradle, output a jar;
 |590|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)|[Recursive](src/test/java/org/willxu/algorithm/service/intlist/NaryTreePostorderTraversalTest.java)|
 |594|[Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/)|[Count](src/test/java/org/willxu/algorithm/service/integer/LongestHarmoniousSubsequenceTest.java)|
 |595|[Big Countries](https://leetcode.com/problems/big-countries/)|[where](src/main/resources/BigContries.sql)|
-|596|[Classes More Than 5 Students](https://leetcode.com/problems/classes-more-than-5-students/)|[]()|
+|596|[Classes More Than 5 Students](https://leetcode.com/problems/classes-more-than-5-students/)|[Count](src/main/resources/ClassesMoreThan5Students.sql)|
+|598|[Range Addition II](https://leetcode.com/problems/range-addition-ii/)|[Conjunction](src/test/java/org/willxu/algorithm/service/integer/RangeAddition2Test.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
