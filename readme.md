@@ -190,6 +190,7 @@ change the build tool to gradle, output a jar;
 |599|[Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/)|[Map](src/test/java/org/willxu/algorithm/service/strarray/MinimumIndexSumOfTwoListsTest.java)|
 |605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|[Iterator](src/test/java/org/willxu/algorithm/service/bool/CanPlaceFlowersTest.java)|
 |606|[Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/)|[Recursive](src/test/java/org/willxu/algorithm/service/string/ConstructStringFromBinaryTreeTest.java)|
+|617|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)|[Recursive](src/test/java/org/willxu/algorithm/service/treenode/MergeTwoBinaryTreesTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
