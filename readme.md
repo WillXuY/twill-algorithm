@@ -194,6 +194,7 @@ change the build tool to gradle, output a jar;
 |620|[Not Boring Movies](https://leetcode.com/problems/not-boring-movies/submissions/)|[Sql](src/main/resources/NotBoringMovies.sql)|
 |627|[Swap Salary](https://leetcode.com/problems/swap-salary/)|[Sql](src/main/resources/SwapSalary.sql)|
 |628|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)|[Classify](src/test/java/org/willxu/algorithm/service/integer/MaximumProductOfThreeNumbersTest.java)|
+|637|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[Level](src/test/java/org/willxu/algorithm/service/doublelist/AverageOfLevelsInBinaryTreeTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
