@@ -197,6 +197,7 @@ change the build tool to gradle, output a jar;
 |637|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[Level](src/test/java/org/willxu/algorithm/service/doublelist/AverageOfLevelsInBinaryTreeTest.java)|
 |643|[Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)|[Loop](src/test/java/org/willxu/algorithm/service/doublepoint/MaximumAverageSubarray1Test.java)|
 |645|[Set Mismatch](https://leetcode.com/problems/set-mismatch/)|[Loop](src/test/java/org/willxu/algorithm/service/ints/SetMismatchTest.java)|
+|653|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|[Recursive](src/test/java/org/willxu/algorithm/service/bool/TwoSum4InputIsBstTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
