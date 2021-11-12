@@ -199,6 +199,7 @@ change the build tool to gradle, output a jar;
 |645|[Set Mismatch](https://leetcode.com/problems/set-mismatch/)|[Loop](src/test/java/org/willxu/algorithm/service/ints/SetMismatchTest.java)|
 |653|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|[Recursive](src/test/java/org/willxu/algorithm/service/bool/TwoSum4InputIsBstTest.java)|
 |657|[Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/)|[Count](src/test/java/org/willxu/algorithm/service/bool/RobotReturnToOriginTest.java)|
+|661|[Image Smoother](https://leetcode.com/problems/image-smoother/)|[Iterator](src/test/java/org/willxu/algorithm/service/matrix/ImageSmootherTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
