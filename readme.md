@@ -201,6 +201,7 @@ change the build tool to gradle, output a jar;
 |657|[Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/)|[Count](src/test/java/org/willxu/algorithm/service/bool/RobotReturnToOriginTest.java)|
 |661|[Image Smoother](https://leetcode.com/problems/image-smoother/)|[Iterator](src/test/java/org/willxu/algorithm/service/matrix/ImageSmootherTest.java)|
 |671|[Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/)|[Level](src/test/java/org/willxu/algorithm/service/integer/SecondMinimumNodeInBinaryTreeTest.java)|
+|674|[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)|[Loop](src/test/java/org/willxu/algorithm/service/integer/LongestContinuousIncreasingSubsequenceTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
