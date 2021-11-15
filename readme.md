@@ -202,6 +202,7 @@ change the build tool to gradle, output a jar;
 |661|[Image Smoother](https://leetcode.com/problems/image-smoother/)|[Iterator](src/test/java/org/willxu/algorithm/service/matrix/ImageSmootherTest.java)|
 |671|[Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/)|[Level](src/test/java/org/willxu/algorithm/service/integer/SecondMinimumNodeInBinaryTreeTest.java)|
 |674|[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)|[Loop](src/test/java/org/willxu/algorithm/service/integer/LongestContinuousIncreasingSubsequenceTest.java)|
+|680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|[Loop](src/test/java/org/willxu/algorithm/service/bool/ValidPalindrome2Test.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
