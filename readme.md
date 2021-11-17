@@ -204,6 +204,7 @@ change the build tool to gradle, output a jar;
 |674|[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)|[Loop](src/test/java/org/willxu/algorithm/service/integer/LongestContinuousIncreasingSubsequenceTest.java)|
 |680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|[Loop](src/test/java/org/willxu/algorithm/service/bool/ValidPalindrome2Test.java)|
 |682|[Baseball Game](https://leetcode.com/problems/baseball-game/)|[List](src/test/java/org/willxu/algorithm/service/integer/BaseballGameTest.java)|
+|693|[Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/)|[Divide](src/test/java/org/willxu/algorithm/service/bool/BinaryNumberWithAlternatingBitsTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
