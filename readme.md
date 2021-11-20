@@ -207,6 +207,7 @@ change the build tool to gradle, output a jar;
 |693|[Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/)|[Divide](src/test/java/org/willxu/algorithm/service/bool/BinaryNumberWithAlternatingBitsTest.java)|
 |696|[Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/)|[Loop](src/test/java/org/willxu/algorithm/service/integer/CountBinarySubstringsTest.java)|
 |697|[Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)|[Index](src/test/java/org/willxu/algorithm/service/integer/DegreeOfAnArrayTest.java)|
+|700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[Recursive](src/test/java/org/willxu/algorithm/service/tree/SearchInBinarySearchTreeTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
