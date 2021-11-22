@@ -209,6 +209,7 @@ change the build tool to gradle, output a jar;
 |697|[Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)|[Index](src/test/java/org/willxu/algorithm/service/integer/DegreeOfAnArrayTest.java)|
 |700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[Recursive](src/test/java/org/willxu/algorithm/service/tree/SearchInBinarySearchTreeTest.java)|
 |703|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|[Array](src/test/java/org/willxu/algorithm/domain/other/KthLargestElementInStreamTest.java)|
+|704|[Binary Search](https://leetcode.com/problems/binary-search/)|[Index](src/test/java/org/willxu/algorithm/service/integer/BinarySearchTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
