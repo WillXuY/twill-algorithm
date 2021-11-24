@@ -211,6 +211,7 @@ change the build tool to gradle, output a jar;
 |703|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|[Array](src/test/java/org/willxu/algorithm/domain/other/KthLargestElementInStreamTest.java)|
 |704|[Binary Search](https://leetcode.com/problems/binary-search/)|[Index](src/test/java/org/willxu/algorithm/service/integer/BinarySearchTest.java)|
 |705|[Design HashSet](https://leetcode.com/problems/design-hashset/)|[Array](src/test/java/org/willxu/algorithm/domain/set/DesignHashSetTest.java)|
+|706|[Design HashMap](https://leetcode.com/problems/design-hashmap/)|[Array](src/test/java/org/willxu/algorithm/domain/map/DesignHashMapTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
