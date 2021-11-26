@@ -213,6 +213,7 @@ change the build tool to gradle, output a jar;
 |705|[Design HashSet](https://leetcode.com/problems/design-hashset/)|[Array](src/test/java/org/willxu/algorithm/domain/set/DesignHashSetTest.java)|
 |706|[Design HashMap](https://leetcode.com/problems/design-hashmap/)|[Array](src/test/java/org/willxu/algorithm/domain/map/DesignHashMapTest.java)|
 |709|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|[Loop](src/test/java/org/willxu/algorithm/service/string/ToLowerCaseTest.java)|
+|717|[1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/)|[Loop](src/test/java/org/willxu/algorithm/service/bool/OneBitAnd2BitCharactersTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
