@@ -217,6 +217,7 @@ change the build tool to gradle, output a jar;
 |724|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[Loop](src/test/java/org/willxu/algorithm/service/integer/FindPivotIndexTest.java)|
 |728|[Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/)|[Divide](src/test/java/org/willxu/algorithm/service/intlist/SelfDividingNumbersTest.java)|
 |733|[Flood Fill](https://leetcode.com/problems/flood-fill/)|[List](src/test/java/org/willxu/algorithm/service/matrix/FloodFillTest.java)|
+|744|[Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)|[Step](src/test/java/org/willxu/algorithm/service/character/FindSmallestLetterGreaterThanTargetTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
