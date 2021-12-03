@@ -220,6 +220,7 @@ change the build tool to gradle, output a jar;
 |744|[Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)|[Step](src/test/java/org/willxu/algorithm/service/character/FindSmallestLetterGreaterThanTargetTest.java)|
 |746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[Greedy](src/test/java/org/willxu/algorithm/service/integer/MinCostClimbingStairsTest.java)|
 |747|[Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/)|[Loop](src/test/java/org/willxu/algorithm/service/integer/LargestNumberAtLeastTwiceOfOthersTest.java)|
+|748|[Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/)|[Loop](src/test/java/org/willxu/algorithm/service/string/ShortestCompletingWordTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
