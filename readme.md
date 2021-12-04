@@ -222,6 +222,7 @@ change the build tool to gradle, output a jar;
 |747|[Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/)|[Loop](src/test/java/org/willxu/algorithm/service/integer/LargestNumberAtLeastTwiceOfOthersTest.java)|
 |748|[Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/)|[Loop](src/test/java/org/willxu/algorithm/service/string/ShortestCompletingWordTest.java)|
 |762|[Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/)|[Array](src/test/java/org/willxu/algorithm/service/integer/PrimeNumberOfSetBitsInBinaryRepresentationTest.java)|
+|766|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/)|[Loop](src/test/java/org/willxu/algorithm/service/bool/ToeplitzMatrixTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
