@@ -225,6 +225,7 @@ change the build tool to gradle, output a jar;
 |766|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/)|[Loop](src/test/java/org/willxu/algorithm/service/bool/ToeplitzMatrixTest.java)|
 |771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[Loop](src/test/java/org/willxu/algorithm/service/integer/JewelsAndStonesTest.java)|
 |783|[Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)|[Recursive](src/test/java/org/willxu/algorithm/service/integer/MinimumDistanceBetweenBstNodesTest.java)|
+|796|[Rotate String](https://leetcode.com/problems/rotate-string/)|[Loop](src/test/java/org/willxu/algorithm/service/bool/RotateStringTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
