@@ -227,6 +227,7 @@ change the build tool to gradle, output a jar;
 |783| [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)                               | [Recursive](src/test/java/org/willxu/algorithm/service/integer/MinimumDistanceBetweenBstNodesTest.java)             |
 |796| [Rotate String](https://leetcode.com/problems/rotate-string/)                                                                         | [Loop](src/test/java/org/willxu/algorithm/service/bool/RotateStringTest.java)                                       |
 |804| [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)                                                     | [Set](src/test/java/org/willxu/algorithm/service/integer/UniqueMorseCodeWordsTest.java)                             |
+|806| [Number of Lines To Write String](https://leetcode.com/problems/number-of-lines-to-write-string/)                                     | [Loop](src/test/java/org/willxu/algorithm/service/ints/NumberOfLinesToWriteStringTest.java)                         |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
