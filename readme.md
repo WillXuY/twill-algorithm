@@ -228,6 +228,7 @@ change the build tool to gradle, output a jar;
 |796| [Rotate String](https://leetcode.com/problems/rotate-string/)                                                                         | [Loop](src/test/java/org/willxu/algorithm/service/bool/RotateStringTest.java)                                       |
 |804| [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)                                                     | [Set](src/test/java/org/willxu/algorithm/service/integer/UniqueMorseCodeWordsTest.java)                             |
 |806| [Number of Lines To Write String](https://leetcode.com/problems/number-of-lines-to-write-string/)                                     | [Loop](src/test/java/org/willxu/algorithm/service/ints/NumberOfLinesToWriteStringTest.java)                         |
+|812| [Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/)                                                         | [Combination](src/test/java/org/willxu/algorithm/service/decimal/LargestTriangleAreaTest.java)                      |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
