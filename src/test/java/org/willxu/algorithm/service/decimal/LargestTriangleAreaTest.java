@@ -16,7 +16,7 @@ import org.willxu.algorithm.service.impl.decimal.LargestTriangleAreaCombination;
 
 import java.util.stream.Stream;
 
-import static groovy.test.GroovyTestCase.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.params.provider.Arguments.arguments;
 
 public class LargestTriangleAreaTest {

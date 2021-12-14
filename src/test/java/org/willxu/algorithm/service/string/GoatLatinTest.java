@@ -12,36 +12,33 @@ package org.willxu.algorithm.service.string;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.string.MostCommonWordLoop;
+import org.willxu.algorithm.service.impl.string.GoatLatinLoop;
 
 import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.params.provider.Arguments.arguments;
 
-public class MostCommonWordTest {
+public class GoatLatinTest {
     static Stream<Arguments> dataProvider() {
         return Stream.of(
-                // Wrong answer 1:
-                arguments("Bob", new String[0], "bob"),
                 arguments(
-                        "Bob hit a ball, the hit BALL flew far after it was"
-                        + "hit.",
-                        new String[] {"hit"},
-                        "ball"
+                        "I speak Goat Latin",
+                        "Imaa peaksmaaa oatGmaaaa atinLmaaaaa"
                 ),
                 arguments(
-                        "a.",
-                        new String[0],
-                        "a"
+                        "The quick brown fox jumped over the lazy dog",
+                        "heTmaa uickqmaaa rownbmaaaa oxfmaaaaa umpedjmaaaaaa "
+                                + "overmaaaaaaa hetmaaaaaaaa azylmaaaaaaaaa "
+                                + "ogdmaaaaaaaaaa"
                 )
         );
     }
 
     @ParameterizedTest
     @MethodSource("dataProvider")
-    public void testLoop(String paragraph, String[] banned, String excepted) {
-        MostCommonWord loop = new MostCommonWordLoop();
-        assertEquals(excepted, loop.mostCommonWord(paragraph, banned));
+    public void testLoop(String sentence, String excepted) {
+        GoatLatin loop = new GoatLatinLoop();
+        assertEquals(excepted, loop.toGoatLatin(sentence));
     }
 }

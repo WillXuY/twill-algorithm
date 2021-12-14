@@ -231,6 +231,7 @@ change the build tool to gradle, output a jar;
 | 812   | [Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/)                                                         | [Combination](src/test/java/org/willxu/algorithm/service/decimal/LargestTriangleAreaTest.java)                      |
 | 819   | [Most Common Word](https://leetcode.com/problems/most-common-word/)                                                                   | [Loop](src/test/java/org/willxu/algorithm/service/string/MostCommonWordTest.java)                                   |
 |821| [Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)                                   | [Loop](src/test/java/org/willxu/algorithm/service/ints/ShortestDistanceToCharacterTest.java)                                                                                                                              |
+|824| [Goat Latin](https://leetcode.com/problems/goat-latin/)                                                                               | [Loop](src/test/java/org/willxu/algorithm/service/string/GoatLatinTest.java)                                                                                                                              |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
