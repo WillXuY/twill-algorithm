@@ -283,7 +283,8 @@ change the build tool to gradle, output a jar;
 | 1037  | [Valid Boomerang](https://leetcode.com/problems/valid-boomerang/)                                                                     | [Calculate](src/test/java/org/willxu/algorithm/service/bool/ValidBoomerangTest.java)                                |
 | 1046  | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)                                                                 | [Loop](src/test/java/org/willxu/algorithm/service/integer/LastStoneWeightTest.java)                                 |
 | 1047  | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)                   | [Stack](src/test/java/org/willxu/algorithm/service/string/RemoveAllAdjacentDuplicatesInStringTest.java)             |
-| out   | time out                                                                                                                              | [Regex](src/main/java/org/willxu/algorithm/service/impl/string/RemoveAllAdjacentDuplicatesInStringRegex.java)      |
+| out   | time out                                                                                                                              | [Regex](src/main/java/org/willxu/algorithm/service/impl/string/RemoveAllAdjacentDuplicatesInStringRegex.java)       |
+|1071| [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)                               | [Length](src/test/java/org/willxu/algorithm/service/string/GreatestCommonDivisorOfStringsTest.java)                                                                                                          |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
