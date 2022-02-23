@@ -299,7 +299,8 @@ change the build tool to gradle, output a jar;
 | 1179  | [Reformat Department Table](https://leetcode.com/problems/reformat-department-table/)                                                 | [Sql](src/main/resources/ReformatDepartmentTable.sql)                                                               |
 | 1184  | [Distance Between Bus Stops](https://leetcode.com/problems/distance-between-bus-stops/)                                               | [Exhaustive](src/test/java/org/willxu/algorithm/service/integer/DistanceBetweenBusStopsTest.java)                   |
 | 1185  | [Day of the Week](https://leetcode.com/problems/day-of-the-week/)                                                                     | [Calendar](src/test/java/org/willxu/algorithm/service/string/DayOfTheWeekTest.java)                        |
-|1189| [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/)                                                                                                        |[Count](src/test/java/org/willxu/algorithm/service/integer/MaximumNumberOfBalloonsTest.java)
+|1189| [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/)                                               |[Count](src/test/java/org/willxu/algorithm/service/integer/MaximumNumberOfBalloonsTest.java)|
+|1200| [Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/)                                                                                                       |[Sort](src/test/java/org/willxu/algorithm/service/matrix/MinimumAbsoluteDifferenceTest.java)|
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
