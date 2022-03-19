@@ -323,7 +323,8 @@ change the build tool to gradle, output a jar;
 |1332| [Remove Palindromic Subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/)                                           | [Loop](src/test/java/org/willxu/algorithm/service/integer/RemovePalindromicSubsequencesTest.java)                   |
 |1337| [The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)                                             | [Sort](src/test/java/org/willxu/algorithm/service/ints/TheWeakestRowsInMatrixTest.java)                             |
 |1342| [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)                     | [Loop](src/test/java/org/willxu/algorithm/service/integer/NumberOfStepsToReduceNumberToZeroTest.java)               |
-|1346| [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/)                                                                                                         | [Set](src/test/java/org/willxu/algorithm/service/bool/CheckIfNandItsDoubleExistTest.java)                                                                                                               |
+|1346| [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/)                                           | [Set](src/test/java/org/willxu/algorithm/service/bool/CheckIfNandItsDoubleExistTest.java)                           |
+|1351| [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)                                                                                               | [Stile](src/test/java/org/willxu/algorithm/service/integer/CountNegativeNumbersInSortedMatrixTest.java)                                                                                                           |
  
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
@@ -346,4 +347,3 @@ code: [NthTribonacciNumber](src/test/java/org/willxu/algorithm/service/integer/N
 ## [412.Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)
 - todo deal with the old code 
 code: [fizzBuzz](src/test/java/org/willxu/algorithm/service/stringlist/FizzBuzzServiceTest.java)
-
