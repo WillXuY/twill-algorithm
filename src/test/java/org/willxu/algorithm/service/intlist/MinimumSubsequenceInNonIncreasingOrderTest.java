@@ -1,0 +1,41 @@
+package org.willxu.algorithm.service.intlist;
+
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.MethodSource;
+import org.willxu.algorithm.service.impl.intlist.MinimumSubsequenceInNonIncreasingOrderCount;
+
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+import static org.junit.jupiter.params.provider.Arguments.arguments;
+
+public class MinimumSubsequenceInNonIncreasingOrderTest {
+    static Stream<Arguments> dataProvider() {
+        return Stream.of(
+                arguments(
+                        new int[] {4, 3, 10, 9, 8},
+                        Stream.of(10, 9).collect(Collectors.toList())
+                ),
+                arguments(
+                        new int[] {4, 4, 7, 6, 7},
+                        Stream.of(7, 7, 6).collect(Collectors.toList())
+                ),
+                arguments(
+                        new int[] {6},
+                        Stream.of(6).collect(Collectors.toList())
+                )
+        );
+    }
+
+    @ParameterizedTest(name = "Count {index}")
+    @MethodSource("dataProvider")
+    public void testCount(int[] nums, List<Integer> excepted) {
+        MinimumSubsequenceInNonIncreasingOrder count =
+                new MinimumSubsequenceInNonIncreasingOrderCount();
+        assertArrayEquals(
+                excepted.toArray(), count.minSubsequence(nums).toArray());
+    }
+}
