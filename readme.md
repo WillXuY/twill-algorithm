@@ -354,6 +354,7 @@ change the build tool to gradle, output a jar;
 | 1437  | [Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/)              | [Min](src/test/java/org/willxu/algorithm/service/bool/CheckIfAllOnesAreAtLeastLengthPlacesAwayTest.java)            |
 | 1441  | [Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/)                                         | [Loop](src/test/java/org/willxu/algorithm/service/strlist/BuildAnArrayWithStackOperationsTest.java)                 |
 | 1446  | [Consecutive Characters](https://leetcode.com/problems/consecutive-characters/)                                                                     | [Loop](src/test/java/org/willxu/algorithm/service/integer/ConsecutiveCharactersTest.java)                           |
+|1450| [Number of Students Doing Homework at a Given Time](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/)                                                                                               | [Loop](src/test/java/org/willxu/algorithm/service/integer/NumberOfStudentsDoingHomeworkAtGivenTimeTest.java)                                                                                                               |
  
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
