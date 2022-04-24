@@ -358,6 +358,7 @@ change the build tool to gradle, output a jar;
 | 1455  | [Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | [Split](src/test/java/org/willxu/algorithm/service/integer/CheckIfWordOccursAsPrefixOfAnyWordInSentenceTest.java)   |
 | 1460  | [Make Two Arrays Equal by Reversing Sub-arrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-sub-arrays/)                               | [Map](src/test/java/org/willxu/algorithm/service/bool/MakeTwoArraysEqualByReversingSubArraysTest.java)              |
 | 1464  | [Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/)                                   | [Max](src/test/java/org/willxu/algorithm/service/integer/MaximumProductOfTwoElementsInAnArrayTest.java)             |
+| 1470  | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)                                                                                       | [Exchange](src/test/java/org/willxu/algorithm/service/ints/ShuffleTheArrayTest.java)                                |
  
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
