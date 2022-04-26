@@ -360,6 +360,7 @@ change the build tool to gradle, output a jar;
 | 1464  | [Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/)                                   | [Max](src/test/java/org/willxu/algorithm/service/integer/MaximumProductOfTwoElementsInAnArrayTest.java)             |
 | 1470  | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)                                                                                       | [Exchange](src/test/java/org/willxu/algorithm/service/ints/ShuffleTheArrayTest.java)                                |
 | 1475  | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/)                             | [Loop](src/test/java/org/willxu/algorithm/service/ints/FinalPricesWithSpecialDiscountInShopTest.java)               |
+| 1480  | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)                                                                           | [Loop](src/test/java/org/willxu/algorithm/service/ints/RunningSumOf1DimensionalArrayTest.java)                      |
  
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
