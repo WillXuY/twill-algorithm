@@ -361,6 +361,7 @@ change the build tool to gradle, output a jar;
 | 1470  | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)                                                                                       | [Exchange](src/test/java/org/willxu/algorithm/service/ints/ShuffleTheArrayTest.java)                                |
 | 1475  | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/)                             | [Loop](src/test/java/org/willxu/algorithm/service/ints/FinalPricesWithSpecialDiscountInShopTest.java)               |
 | 1480  | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)                                                                           | [Loop](src/test/java/org/willxu/algorithm/service/ints/RunningSumOf1DimensionalArrayTest.java)                      |
+|1484| [Group Sold Products By The Date](https://leetcode.com/problems/group-sold-products-by-the-date/)                                                                                                                         | [Sql](src/main/resources/GroupSoldProductsByTheDate.sql)                                                                                                               |
  
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
