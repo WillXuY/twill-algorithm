@@ -365,6 +365,7 @@ change the build tool to gradle, output a jar;
 | 1486  | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/)                                                                       | [Loop](src/test/java/org/willxu/algorithm/service/integer/XorOperationInAnArrayTest.java)                                |
 | 1491  | [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/)           | [Sort](src/test/java/org/willxu/algorithm/service/doublepoint/AverageSalaryExcludingTheMinimumAndMaximumSalaryTest.java) |
 | 1496  | [Path Crossing](https://leetcode.com/problems/path-crossing/)                                                                                               | [Point](src/test/java/org/willxu/algorithm/service/bool/PathCrossingTest.java)                                           |
+| 1502  | [Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)                               | [Sort](src/test/java/org/willxu/algorithm/service/bool/CanMakeArithmeticProgressionFromSequenceTest.java)                |
  
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
