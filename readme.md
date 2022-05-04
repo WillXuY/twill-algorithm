@@ -368,6 +368,7 @@ change the build tool to gradle, output a jar;
 | 1502  | [Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)                               | [Sort](src/test/java/org/willxu/algorithm/service/bool/CanMakeArithmeticProgressionFromSequenceTest.java)                |
 | 1507  | [Reformat Date](https://leetcode.com/problems/reformat-date/)                                                                                               | [Map](src/test/java/org/willxu/algorithm/service/string/ReformatDateTest.java)                                           |
 | 1512  | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)                                                                                 | [Map](src/test/java/org/willxu/algorithm/service/integer/NumberOfGoodPairsTest.java)                                     |
+| 1518  | [Water Bottles](https://leetcode.com/problems/water-bottles/)                                                                                               | [Loop](src/test/java/org/willxu/algorithm/service/integer/WaterBottlesTest.java)                                         |
  
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
