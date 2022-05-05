@@ -369,6 +369,7 @@ change the build tool to gradle, output a jar;
 | 1507  | [Reformat Date](https://leetcode.com/problems/reformat-date/)                                                                                               | [Map](src/test/java/org/willxu/algorithm/service/string/ReformatDateTest.java)                                           |
 | 1512  | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)                                                                                 | [Map](src/test/java/org/willxu/algorithm/service/integer/NumberOfGoodPairsTest.java)                                     |
 | 1518  | [Water Bottles](https://leetcode.com/problems/water-bottles/)                                                                                               | [Loop](src/test/java/org/willxu/algorithm/service/integer/WaterBottlesTest.java)                                         |
+| 1523  | [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/)                                             | [Calculate](src/test/java/org/willxu/algorithm/service/integer/CountOddNumbersInAnIntervalRangeTest.java)                |
  
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
