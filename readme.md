@@ -371,6 +371,7 @@ change the build tool to gradle, output a jar;
 | 1518  | [Water Bottles](https://leetcode.com/problems/water-bottles/)                                                                                               | [Loop](src/test/java/org/willxu/algorithm/service/integer/WaterBottlesTest.java)                                         |
 | 1523  | [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/)                                             | [Calculate](src/test/java/org/willxu/algorithm/service/integer/CountOddNumbersInAnIntervalRangeTest.java)                |
 | 1527  | [Patients With a Condition](https://leetcode.com/problems/patients-with-a-condition/)                                                                       | [Sql](src/main/resources/PatientsWithCondition.sql)                                                                      |
+| 1528  | [Shuffle String](https://leetcode.com/problems/shuffle-string/)                                                                                             | [Index](src/test/java/org/willxu/algorithm/service/string/ShuffleStringTest.java)                                        |
  
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
