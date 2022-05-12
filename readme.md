@@ -376,6 +376,7 @@ change the build tool to gradle, output a jar;
 | 1539  | [Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/)                                                                   | [Loop](src/test/java/org/willxu/algorithm/service/integer/KthMissingPositiveNumberTest.java)                             |
 | 1544  | [Make The String Great](https://leetcode.com/problems/make-the-string-great/)                                                                               | [Stack](src/test/java/org/willxu/algorithm/service/string/MakeTheStringGreatTest.java)                                   |
 | 1550  | [Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/)                                                                             | [Count](src/test/java/org/willxu/algorithm/service/bool/ThreeConsecutiveOddsTest.java)                                   |
+| 1556  | [Thousand Separator](https://leetcode.com/problems/thousand-separator/)                                                                                     | [Character](src/test/java/org/willxu/algorithm/service/string/ThousandSeparatorTest.java)                                |
  
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
