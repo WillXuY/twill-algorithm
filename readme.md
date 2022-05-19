@@ -381,6 +381,7 @@ change the build tool to gradle, output a jar;
 | 1566  | [Detect Pattern of Length M Repeated K or More Times](https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/)                   | [Count](src/test/java/org/willxu/algorithm/service/bool/DetectPatternOfLengthRepeatedKorMoreTimesTest.java)                     |
 | 1572  | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)                                                                                   | [Loop](src/test/java/org/willxu/algorithm/service/integer/MatrixDiagonalSumTest.java)                                           |
 | 1576  | [Replace All ?'s to Avoid Consecutive Repeating Characters](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/)         | [Loop](src/test/java/org/willxu/algorithm/service/string/ReplaceAllQuestionMarksToAvoidConsecutiveRepeatingCharactersTest.java) |
+| 1581  | [Customer Who Visited but Did Not Make Any Transactions](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/)             | [Sql](src/main/resources/CustomerWhoVisitedButDidNotMakeAnyTransactions.sql)                                                    |
  
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
