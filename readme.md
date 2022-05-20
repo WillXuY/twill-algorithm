@@ -382,6 +382,7 @@ change the build tool to gradle, output a jar;
 | 1572  | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)                                                                                   | [Loop](src/test/java/org/willxu/algorithm/service/integer/MatrixDiagonalSumTest.java)                                           |
 | 1576  | [Replace All ?'s to Avoid Consecutive Repeating Characters](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/)         | [Loop](src/test/java/org/willxu/algorithm/service/string/ReplaceAllQuestionMarksToAvoidConsecutiveRepeatingCharactersTest.java) |
 | 1581  | [Customer Who Visited but Did Not Make Any Transactions](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/)             | [Sql](src/main/resources/CustomerWhoVisitedButDidNotMakeAnyTransactions.sql)                                                    |
+| 1582  | [Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/)                                                 | [Loop](src/test/java/org/willxu/algorithm/service/integer/SpecialPositionsInBinaryMatrixTest.java)                              |
  
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
