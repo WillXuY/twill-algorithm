@@ -386,6 +386,7 @@ change the build tool to gradle, output a jar;
 | 1587  | [Bank Account Summary II](https://leetcode.com/problems/bank-account-summary-ii/)                                                                           | [Sql](src/main/resources/BankAccountSummary2.sql)                                                                               |
 | 1588  | [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)                                                           | [Calculate](src/test/java/org/willxu/algorithm/service/integer/SumOfAllOddLengthSubarraysTest.java)                             |
 | 1592  | [Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words/)                                                             | [Loop](src/test/java/org/willxu/algorithm/service/string/RearrangeSpacesBetweenWordsTest.java)                                  |
+| 1598  | [Crawler Log Folder](https://leetcode.com/problems/crawler-log-folder/)                                                                                     | [Loop](src/test/java/org/willxu/algorithm/service/integer/CrawlerLogFolderTest.java)                                            |
  
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
