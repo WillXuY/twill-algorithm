@@ -67,4 +67,57 @@ public class TreeNode {
         }
         return root;
     }
+
+
+    /**
+     * lever traversal, simplify the null node.
+     *
+     * @param origin integer list simplify the null node.
+     * @param subValue value of subTree.
+     * @return preorder traversal tree node and subTree which's value
+     *         equals subValue.
+     */
+    public static List<TreeNode> initMainAndSubTreeByListLevelAndValue(
+            final List<Integer> origin, final int subValue) {
+        List<TreeNode> mainAndSubTreeList = new ArrayList<>();
+        if (origin == null || origin.size() == 0) {
+            return null;
+        } else if (origin.size() == 1) {
+            TreeNode main = new TreeNode(origin.get(0));
+            mainAndSubTreeList.add(main);
+            mainAndSubTreeList.add(main);
+            return mainAndSubTreeList;
+        }
+        int size = origin.size();
+        TreeNode root = new TreeNode(origin.get(0));
+        List<TreeNode> level = new ArrayList<>();
+        level.add(root);
+        List<TreeNode> next = new ArrayList<>();
+        int levelUsedOrigin = 1;
+        for (int i = levelUsedOrigin; i < size; i+= levelUsedOrigin) {
+            levelUsedOrigin = 0;
+            for (int j = 0; (j < level.size() * 2) && (j < size - i); j++) {
+                Integer t = origin.get(i + j);
+                if (t != null) {
+                    TreeNode node = new TreeNode(origin.get(i + j));
+                    int indexOfLevel = j / 2;
+                    boolean leftNode = (j & 1) == 0;
+                    if (leftNode) {
+                        level.get(indexOfLevel).left = node;
+                    } else {
+                        level.get(indexOfLevel).right = node;
+                    }
+                    if (t == subValue) {
+                        mainAndSubTreeList.add(node);
+                    }
+                    next.add(node);
+                }
+                levelUsedOrigin++;
+            }
+            level = next;
+            next = new ArrayList<>();
+        }
+        mainAndSubTreeList.add(0, root);
+        return mainAndSubTreeList;
+    }
 }
