@@ -390,6 +390,7 @@ change the build tool to gradle, output a jar;
 | 1598  | [Crawler Log Folder](https://leetcode.com/problems/crawler-log-folder/)                                                                                                 | [Loop](src/test/java/org/willxu/algorithm/service/integer/CrawlerLogFolderTest.java)                                            |
 | 1603  | [Design Parking System](https://leetcode.com/problems/design-parking-system/)                                                                                           | [Variable](src/test/java/org/willxu/algorithm/domain/other/DesignParkingSystemTest.java)                                        |
 | 1608  | [Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/)                           | [Sort](src/test/java/org/willxu/algorithm/service/integer/SpecialArrayWithxElementsGreaterThanOrEqualxTest.java)                |
+| 1614  | [Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/)                                                     | [Count](src/test/java/org/willxu/algorithm/service/integer/MaximumNestingDepthOfTheParenthesesTest.java)                        |
  
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
