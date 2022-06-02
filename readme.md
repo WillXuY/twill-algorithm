@@ -393,6 +393,7 @@ change the build tool to gradle, output a jar;
 | 1614  | [Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/)                                                     | [Count](src/test/java/org/willxu/algorithm/service/integer/MaximumNestingDepthOfTheParenthesesTest.java)                        |
 | 1619  | [Mean of Array After Removing Some Elements](https://leetcode.com/problems/mean-of-array-after-removing-some-elements/)                                                 | [Sort](src/test/java/org/willxu/algorithm/service/decimal/MeanOfArrayAfterRemovingSomeElementsTest.java)                        |
 | 1624  | [Largest Substring Between Two Equal Characters](https://leetcode.com/problems/largest-substring-between-two-equal-characters/)                                         | [Index](src/test/java/org/willxu/algorithm/service/integer/LargestSubstringBetweenTwoEqualCharactersTest.java)                  |
+| 1629  | [Slowest Key](https://leetcode.com/problems/slowest-key/)                                                                                                               | [Index](src/test/java/org/willxu/algorithm/service/character/SlowestKeyTest.java)                                               |
  
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
