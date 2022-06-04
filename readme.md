@@ -395,6 +395,7 @@ change the build tool to gradle, output a jar;
 | 1624  | [Largest Substring Between Two Equal Characters](https://leetcode.com/problems/largest-substring-between-two-equal-characters/)                                         | [Index](src/test/java/org/willxu/algorithm/service/integer/LargestSubstringBetweenTwoEqualCharactersTest.java)                  |
 | 1629  | [Slowest Key](https://leetcode.com/problems/slowest-key/)                                                                                                               | [Index](src/test/java/org/willxu/algorithm/service/character/SlowestKeyTest.java)                                               |
 | 1636  | [Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency/)                                                                 | [Map](src/test/java/org/willxu/algorithm/service/ints/SortArrayByIncreasingFrequencyTest.java)                                  |
+| 1640  | [Check Array Formation Through Concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation/)                                               | [Loop](src/test/java/org/willxu/algorithm/service/bool/CheckArrayFormationThroughConcatenationTest.java)                        |
  
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
