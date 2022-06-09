@@ -400,6 +400,7 @@ change the build tool to gradle, output a jar;
 | 1652  | [Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb/)                                                                                                       | [Loop](src/test/java/org/willxu/algorithm/service/ints/DefuseTheBombTest.java)                                                  |
 | 1656  | [Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/)                                                                                     | [List](src/test/java/org/willxu/algorithm/domain/other/DesignAnOrderedStreamTest.java)                                          |
 | 1662  | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)                                                   | [Build](src/test/java/org/willxu/algorithm/service/bool/CheckIfTwoStringArraysAreEquivalentTest.java)                           |
+| 1667  | [Fix Names in a Table](https://leetcode.com/problems/fix-names-in-a-table/)                                                                                             | [Sql](src/main/resources/FixNamesInTable.sql)                                                                                   |
  
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
