@@ -403,6 +403,7 @@ change the build tool to gradle, output a jar;
 | 1667  | [Fix Names in a Table](https://leetcode.com/problems/fix-names-in-a-table/)                                                                                             | [Sql](src/main/resources/FixNamesInTable.sql)                                                                                   |
 | 1668  | [Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/)                                                                               | [Loop](src/test/java/org/willxu/algorithm/service/integer/MaximumRepeatingSubstringTest.java)                                   |
 | 1672  | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)                                                                                       | [Count](src/test/java/org/willxu/algorithm/service/integer/RichestCustomerWealthTest.java)                                      |
+| 1678  | [Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/)                                                                                 | [Loop](src/test/java/org/willxu/algorithm/service/string/GoalParserInterpretationTest.java)                                     |
  
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
