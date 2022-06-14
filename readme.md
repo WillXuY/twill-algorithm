@@ -405,6 +405,7 @@ change the build tool to gradle, output a jar;
 | 1672  | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)                                                                                       | [Count](src/test/java/org/willxu/algorithm/service/integer/RichestCustomerWealthTest.java)                                      |
 | 1678  | [Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/)                                                                                 | [Loop](src/test/java/org/willxu/algorithm/service/string/GoalParserInterpretationTest.java)                                     |
 | 1684  | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/)                                                         | [Set](src/test/java/org/willxu/algorithm/service/integer/CountTheNumberOfConsistentStringsTest.java)                            |
+| 1688  | [Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament/)                                                                         | [Calculate](src/test/java/org/willxu/algorithm/service/integer/CountOfMatchesInTournamentTest.java)                             |
  
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
