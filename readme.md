@@ -407,6 +407,7 @@ change the build tool to gradle, output a jar;
 | 1684  | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/)                                                         | [Set](src/test/java/org/willxu/algorithm/service/integer/CountTheNumberOfConsistentStringsTest.java)                            |
 | 1688  | [Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament/)                                                                         | [Calculate](src/test/java/org/willxu/algorithm/service/integer/CountOfMatchesInTournamentTest.java)                             |
 | 1693  | [Daily Leads and Partners](https://leetcode.com/problems/daily-leads-and-partners/)                                                                                     | [Sql](src/main/resources/DailyLeadsAndPartners.sql)                                                                             |
+| 1694  | [Reformat Phone Number](https://leetcode.com/problems/reformat-phone-number/)                                                                                           | [Remainder](src/test/java/org/willxu/algorithm/service/string/ReformatPhoneNumberTest.java)                                     |
  
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
