@@ -1,7 +1,7 @@
-package org.willxu.algorithm.service.impl.tree;
+package org.willxu.algorithm.service.impl.treenode;
 
 import org.willxu.algorithm.provide.TreeNode;
-import org.willxu.algorithm.service.tree.FindCorrespondingNodeOfBinaryTreeInCloneOfThatTree;
+import org.willxu.algorithm.service.treenode.FindCorrespondingNodeOfBinaryTreeInCloneOfThatTree;
 
 public class FindCorrespondingNodeOfBinaryTreeInCloneOfThatTreeRecursive
         implements FindCorrespondingNodeOfBinaryTreeInCloneOfThatTree {

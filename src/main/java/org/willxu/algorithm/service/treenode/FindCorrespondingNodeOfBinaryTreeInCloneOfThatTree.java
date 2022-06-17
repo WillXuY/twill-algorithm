@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.tree;
+package org.willxu.algorithm.service.treenode;
 
 import org.willxu.algorithm.provide.TreeNode;
 

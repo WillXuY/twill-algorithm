@@ -1,10 +1,11 @@
-package org.willxu.algorithm.service.tree;
+package org.willxu.algorithm.service.treenode;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 import org.willxu.algorithm.provide.TreeNode;
-import org.willxu.algorithm.service.impl.tree.FindCorrespondingNodeOfBinaryTreeInCloneOfThatTreeRecursive;
+import org.willxu.algorithm.service.impl.treenode.FindCorrespondingNodeOfBinaryTreeInCloneOfThatTreeRecursive;
+import org.willxu.algorithm.service.treenode.FindCorrespondingNodeOfBinaryTreeInCloneOfThatTree;
 
 import java.util.List;
 import java.util.stream.Collectors;
