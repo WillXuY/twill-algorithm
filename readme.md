@@ -410,6 +410,7 @@ change the build tool to gradle, output a jar;
 | 1694  | [Reformat Phone Number](https://leetcode.com/problems/reformat-phone-number/)                                                                                           | [Remainder](src/test/java/org/willxu/algorithm/service/string/ReformatPhoneNumberTest.java)                                     |
 | 1700  | [Number of Students Unable to Eat Lunch](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/)                                                         | [Count](src/test/java/org/willxu/algorithm/service/integer/NumberOfStudentsUnableToEatLunchTest.java)                           |
 | 1704  | [Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/)                                                             | [Count](src/test/java/org/willxu/algorithm/service/bool/DetermineIfStringHalvesAreAlikeTest.java)                               |
+| 1710  | [Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/)                                                                                     | [Sort](src/test/java/org/willxu/algorithm/service/integer/MaximumUnitsOnTruckTest.java)                                         |
  
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
