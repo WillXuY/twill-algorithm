@@ -413,6 +413,7 @@ change the build tool to gradle, output a jar;
 | 1710  | [Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/)                                                                                     | [Sort](src/test/java/org/willxu/algorithm/service/integer/MaximumUnitsOnTruckTest.java)                                         |
 | 1716  | [Calculate Money in Leetcode Bank](https://leetcode.com/problems/calculate-money-in-leetcode-bank/)                                                                     | [Calculate](src/test/java/org/willxu/algorithm/service/integer/CalculateMoneyInLeetcodeBankTest.java)                           |
 | 1720  | [Decode XORed Array](https://leetcode.com/problems/decode-xored-array/)                                                                                                 | [Loop](src/test/java/org/willxu/algorithm/service/ints/DecodeXoredArrayTest.java)                                               |
+| 1725  | [Number Of Rectangles That Can Form The Largest Square](https://leetcode.com/problems/number-of-rectangles-that-can-form-the-largest-square/)                           | [Loop](src/test/java/org/willxu/algorithm/service/integer/NumberOfRectanglesThatCanFormTheLargestSquareTest.java)               |
  
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
