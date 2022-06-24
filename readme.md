@@ -414,7 +414,8 @@ change the build tool to gradle, output a jar;
 | 1716  | [Calculate Money in Leetcode Bank](https://leetcode.com/problems/calculate-money-in-leetcode-bank/)                                                                     | [Calculate](src/test/java/org/willxu/algorithm/service/integer/CalculateMoneyInLeetcodeBankTest.java)                           |
 | 1720  | [Decode XORed Array](https://leetcode.com/problems/decode-xored-array/)                                                                                                 | [Loop](src/test/java/org/willxu/algorithm/service/ints/DecodeXoredArrayTest.java)                                               |
 | 1725  | [Number Of Rectangles That Can Form The Largest Square](https://leetcode.com/problems/number-of-rectangles-that-can-form-the-largest-square/)                           | [Loop](src/test/java/org/willxu/algorithm/service/integer/NumberOfRectanglesThatCanFormTheLargestSquareTest.java)               |
- 
+| 1729  | [Find Followers Count](https://leetcode.com/problems/find-followers-count/)                                                                                             | [Sql](src/main/resources/FindFollowersCount.sql)                                                                                | 
+
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
 总结： 参考 LinkedList 然后直接用 new Node 来操作结点数据容易出错，添加 changeNext 来方便修改引用
