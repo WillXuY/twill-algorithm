@@ -416,6 +416,7 @@ change the build tool to gradle, output a jar;
 | 1725  | [Number Of Rectangles That Can Form The Largest Square](https://leetcode.com/problems/number-of-rectangles-that-can-form-the-largest-square/)                           | [Loop](src/test/java/org/willxu/algorithm/service/integer/NumberOfRectanglesThatCanFormTheLargestSquareTest.java)               |
 | 1729  | [Find Followers Count](https://leetcode.com/problems/find-followers-count/)                                                                                             | [Sql](src/main/resources/FindFollowersCount.sql)                                                                                | 
 | 1732  | [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/)                                                                                   | [Loop](src/test/java/org/willxu/algorithm/service/integer/FindTheHighestAltitudeTest.java)                                      |
+| 1736  | [Latest Time by Replacing Hidden Digits](https://leetcode.com/problems/latest-time-by-replacing-hidden-digits/)                                                         | [Step](src/test/java/org/willxu/algorithm/service/string/LatestTimeByReplacingHiddenDigitsTest.java)                            |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
