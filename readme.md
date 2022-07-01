@@ -419,6 +419,7 @@ change the build tool to gradle, output a jar;
 | 1736  | [Latest Time by Replacing Hidden Digits](https://leetcode.com/problems/latest-time-by-replacing-hidden-digits/)                                                         | [Step](src/test/java/org/willxu/algorithm/service/string/LatestTimeByReplacingHiddenDigitsTest.java)                            |
 | 1741  | [Find Total Time Spent by Each Employee](https://leetcode.com/problems/find-total-time-spent-by-each-employee/)                                                         | [Sql](src/main/resources/FingTotalTimeSpentByEachEmployee.sql)                                                                  |
 | 1742  | [Maximum Number of Balls in a Box](https://leetcode.com/problems/maximum-number-of-balls-in-a-box/)                                                                     | [Count](src/test/java/org/willxu/algorithm/service/integer/MaximumNumberOfBallsInBoxTest.java)                                  |
+| 1748  | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/)                                                                                         | [Count](src/test/java/org/willxu/algorithm/service/integer/SumOfUniqueElementsTest.java)                                        |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
