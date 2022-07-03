@@ -421,6 +421,7 @@ change the build tool to gradle, output a jar;
 | 1742  | [Maximum Number of Balls in a Box](https://leetcode.com/problems/maximum-number-of-balls-in-a-box/)                                                                     | [Count](src/test/java/org/willxu/algorithm/service/integer/MaximumNumberOfBallsInBoxTest.java)                                  |
 | 1748  | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/)                                                                                         | [Count](src/test/java/org/willxu/algorithm/service/integer/SumOfUniqueElementsTest.java)                                        |
 | 1752  | [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/)                                                             | [Loop](src/test/java/org/willxu/algorithm/service/bool/CheckIfArrayIsSortedAndRotatedTest.java)                                 |
+| 1757  | [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/)                                                                       | [Sql](src/main/resources/RecylableAndLowFatProducts.sql)                                                                        |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
