@@ -423,6 +423,7 @@ change the build tool to gradle, output a jar;
 | 1752  | [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/)                                                             | [Loop](src/test/java/org/willxu/algorithm/service/bool/CheckIfArrayIsSortedAndRotatedTest.java)                                 |
 | 1757  | [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/)                                                                       | [Sql](src/main/resources/RecylableAndLowFatProducts.sql)                                                                        |
 | 1758  | [Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/)                                   | [Count](src/test/java/org/willxu/algorithm/service/integer/MinimumChangesToMakeAlternatingBinaryStringTest.java)                |
+| 1763  | [Longest Nice Substring](https://leetcode.com/problems/longest-nice-substring/)                                                                                         | [Set](src/test/java/org/willxu/algorithm/service/string/LongestNiceSubstringTest.java)                                          |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
