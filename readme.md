@@ -425,6 +425,7 @@ change the build tool to gradle, output a jar;
 | 1758  | [Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/)                                   | [Count](src/test/java/org/willxu/algorithm/service/integer/MinimumChangesToMakeAlternatingBinaryStringTest.java)                |
 | 1763  | [Longest Nice Substring](https://leetcode.com/problems/longest-nice-substring/)                                                                                         | [Set](src/test/java/org/willxu/algorithm/service/string/LongestNiceSubstringTest.java)                                          |
 | 1768  | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)                                                                                   | [Loop](src/test/java/org/willxu/algorithm/service/string/MergeStringsAlternatelyTest.java)                                      |
+| 1773  | [Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/)                                                                               | [Loop](src/test/java/org/willxu/algorithm/service/integer/CountItemsMatchingRuleTest.java)                                      |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
