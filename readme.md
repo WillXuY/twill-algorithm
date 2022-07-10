@@ -427,6 +427,7 @@ change the build tool to gradle, output a jar;
 | 1768  | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)                                                                                   | [Loop](src/test/java/org/willxu/algorithm/service/string/MergeStringsAlternatelyTest.java)                                      |
 | 1773  | [Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/)                                                                               | [Loop](src/test/java/org/willxu/algorithm/service/integer/CountItemsMatchingRuleTest.java)                                      |
 | 1779  | [Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/)                         | [Loop](src/test/java/org/willxu/algorithm/service/integer/FindNearestPointThatHasTheSameXoryCoordinateTest.java)                |
+| 1784  | [Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/)                         | [Loop](src/test/java/org/willxu/algorithm/service/bool/CheckIfBinaryStringHasAtMostOneSegmentOfOnesTest.java)                   |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
