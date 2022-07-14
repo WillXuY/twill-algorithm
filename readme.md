@@ -430,6 +430,7 @@ change the build tool to gradle, output a jar;
 | 1784  | [Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/)                         | [Loop](src/test/java/org/willxu/algorithm/service/bool/CheckIfBinaryStringHasAtMostOneSegmentOfOnesTest.java)                   |
 | 1790  | [Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/)                                       | [Loop](src/test/java/org/willxu/algorithm/service/bool/CheckIfOneStringSwapCanMakeStringsEqualTest.java)                        |
 | 1791  | [Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/)                                                                                   | [Equal](src/test/java/org/willxu/algorithm/service/integer/FindCenterOfStarGraphTest.java)                                      |
+| 1795  | [Rearrange Products Table](https://leetcode.com/problems/rearrange-products-table/)                                                                                     | [Sql](src/main/resources/RearrangeProductsTable.sql)                                                                            |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
