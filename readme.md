@@ -432,6 +432,7 @@ change the build tool to gradle, output a jar;
 | 1791  | [Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/)                                                                                   | [Equal](src/test/java/org/willxu/algorithm/service/integer/FindCenterOfStarGraphTest.java)                                      |
 | 1795  | [Rearrange Products Table](https://leetcode.com/problems/rearrange-products-table/)                                                                                     | [Sql](src/main/resources/RearrangeProductsTable.sql)                                                                            |
 | 1796  | [Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/)                                                                     | [Set](src/test/java/org/willxu/algorithm/service/integer/SecondLargestDigitInStringTest.java)                                   |
+| 1800  | [Maximum Ascending Subarray Sum](https://leetcode.com/problems/maximum-ascending-subarray-sum/)                                                                         | [Count](src/test/java/org/willxu/algorithm/service/integer/MaximumAscendingSubarraySumTest.java)                                |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
