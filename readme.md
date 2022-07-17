@@ -433,6 +433,7 @@ change the build tool to gradle, output a jar;
 | 1795  | [Rearrange Products Table](https://leetcode.com/problems/rearrange-products-table/)                                                                                     | [Sql](src/main/resources/RearrangeProductsTable.sql)                                                                            |
 | 1796  | [Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/)                                                                     | [Set](src/test/java/org/willxu/algorithm/service/integer/SecondLargestDigitInStringTest.java)                                   |
 | 1800  | [Maximum Ascending Subarray Sum](https://leetcode.com/problems/maximum-ascending-subarray-sum/)                                                                         | [Count](src/test/java/org/willxu/algorithm/service/integer/MaximumAscendingSubarraySumTest.java)                                |
+| 1805  | [Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/)                                                     | [Set](src/test/java/org/willxu/algorithm/service/integer/NumberOfDifferentIntegersInStringTest.java)                            |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
