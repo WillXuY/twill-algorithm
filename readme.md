@@ -436,6 +436,7 @@ change the build tool to gradle, output a jar;
 | 1805  | [Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/)                                                     | [Set](src/test/java/org/willxu/algorithm/service/integer/NumberOfDifferentIntegersInStringTest.java)                            |
 | 1812  | [Determine Color of a Chessboard Square](https://leetcode.com/problems/determine-color-of-a-chessboard-square/)                                                         | [Parity](src/test/java/org/willxu/algorithm/service/bool/DetermineColorOfChessboardSquareTest.java)                             |
 | 1816  | [Truncate Sentence](https://leetcode.com/problems/truncate-sentence/)                                                                                                   | [Count](src/test/java/org/willxu/algorithm/service/string/TruncateSentenceTest.java)                                            |
+| 1822  | [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/)                                                                       | [Loop](src/test/java/org/willxu/algorithm/service/integer/SignOfTheProductOfAnArrayTest.java)                                   |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
