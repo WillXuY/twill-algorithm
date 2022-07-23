@@ -438,6 +438,7 @@ change the build tool to gradle, output a jar;
 | 1816  | [Truncate Sentence](https://leetcode.com/problems/truncate-sentence/)                                                                                                   | [Count](src/test/java/org/willxu/algorithm/service/string/TruncateSentenceTest.java)                                            |
 | 1822  | [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/)                                                                       | [Loop](src/test/java/org/willxu/algorithm/service/integer/SignOfTheProductOfAnArrayTest.java)                                   |
 | 1827  | [Minimum Operations to Make the Array Increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/)                                       | [Loop](src/test/java/org/willxu/algorithm/service/integer/MinumumOperationsToMakeTheArrayIncreasingTest.java)                   |
+| 1832  | [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)                                                                     | [Array](src/test/java/org/willxu/algorithm/service/bool/CheckIfTheSentenceIsPangramTest.java)                                   |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
