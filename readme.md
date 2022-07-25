@@ -440,6 +440,7 @@ change the build tool to gradle, output a jar;
 | 1827  | [Minimum Operations to Make the Array Increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/)                                       | [Loop](src/test/java/org/willxu/algorithm/service/integer/MinumumOperationsToMakeTheArrayIncreasingTest.java)                   |
 | 1832  | [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)                                                                     | [Array](src/test/java/org/willxu/algorithm/service/bool/CheckIfTheSentenceIsPangramTest.java)                                   |
 | 1837  | [Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k/)                                                                                       | [Divide](src/test/java/org/willxu/algorithm/service/integer/SumOfDigitsInBaseKTest.java)                                        |
+| 1844  | [Replace All Digits with Characters](https://leetcode.com/problems/replace-all-digits-with-characters/)                                                                 | [Loop](src/test/java/org/willxu/algorithm/service/string/ReplaceAllDigitsWithCharactersTest.java)                               |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
