@@ -445,6 +445,7 @@ change the build tool to gradle, output a jar;
 | 1854  | [Maximum Population Year](https://leetcode.com/problems/maximum-population-year/)                                                                                       | [Count](src/test/java/org/willxu/algorithm/service/integer/MaximumPopulationYearTest.java)                                      |
 | 1859  | [Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence/)                                                                                             | [Array](src/test/java/org/willxu/algorithm/service/string/SortingTheSentenceTest.java)                                          |
 | 1863  | [Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/)                                                                             | [Recursive](src/test/java/org/willxu/algorithm/service/integer/SumOfAllSubsetXorTotalsTest.java)                                |
+| 1869  | [Longer Contiguous Segments of Ones than Zeros](https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros/)                                           | [Count](src/test/java/org/willxu/algorithm/service/bool/LongerContiguousSegmentsOfOnesThanZerosTest.java)                       |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
