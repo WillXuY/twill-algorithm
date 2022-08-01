@@ -447,6 +447,7 @@ change the build tool to gradle, output a jar;
 | 1863  | [Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/)                                                                             | [Recursive](src/test/java/org/willxu/algorithm/service/integer/SumOfAllSubsetXorTotalsTest.java)                                |
 | 1869  | [Longer Contiguous Segments of Ones than Zeros](https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros/)                                           | [Count](src/test/java/org/willxu/algorithm/service/bool/LongerContiguousSegmentsOfOnesThanZerosTest.java)                       |
 | 1873  | [Calculate Special Bonus](https://leetcode.com/problems/calculate-special-bonus/)                                                                                       | [Sql](src/main/resources/CalculateSpecialBonus.sql)                                                                             |
+| 1876  | [Substrings of Size Three with Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/)                                   | [Loop](src/test/java/org/willxu/algorithm/service/integer/SubstringsOfSizeThreeWithDistinctCharactersTest.java)                 |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
