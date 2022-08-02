@@ -448,6 +448,7 @@ change the build tool to gradle, output a jar;
 | 1869  | [Longer Contiguous Segments of Ones than Zeros](https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros/)                                           | [Count](src/test/java/org/willxu/algorithm/service/bool/LongerContiguousSegmentsOfOnesThanZerosTest.java)                       |
 | 1873  | [Calculate Special Bonus](https://leetcode.com/problems/calculate-special-bonus/)                                                                                       | [Sql](src/main/resources/CalculateSpecialBonus.sql)                                                                             |
 | 1876  | [Substrings of Size Three with Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/)                                   | [Loop](src/test/java/org/willxu/algorithm/service/integer/SubstringsOfSizeThreeWithDistinctCharactersTest.java)                 |
+| 1880  | [Check if Word Equals Summation of Two Words](https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/)                                               | [Calculate](src/test/java/org/willxu/algorithm/service/bool/CheckIfWordEqualsSummationOfTwoWordsTest.java)                      |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
