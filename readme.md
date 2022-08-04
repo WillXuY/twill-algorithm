@@ -450,6 +450,7 @@ change the build tool to gradle, output a jar;
 | 1876  | [Substrings of Size Three with Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/)                                   | [Loop](src/test/java/org/willxu/algorithm/service/integer/SubstringsOfSizeThreeWithDistinctCharactersTest.java)                 |
 | 1880  | [Check if Word Equals Summation of Two Words](https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/)                                               | [Calculate](src/test/java/org/willxu/algorithm/service/bool/CheckIfWordEqualsSummationOfTwoWordsTest.java)                      |
 | 1886  | [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/)                             | [Four](src/test/java/org/willxu/algorithm/service/bool/DetermineWhetherMatrixCanBeObtainedByRotationTest.java)                  |
+| 1890  | [The Latest Login in 2020](https://leetcode.com/problems/the-latest-login-in-2020/)                                                                                     | [Sql](src/main/resources/TheLatestLoginIn2020.sql)                                                                              |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
