@@ -452,6 +452,7 @@ change the build tool to gradle, output a jar;
 | 1886  | [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/)                             | [Four](src/test/java/org/willxu/algorithm/service/bool/DetermineWhetherMatrixCanBeObtainedByRotationTest.java)                  |
 | 1890  | [The Latest Login in 2020](https://leetcode.com/problems/the-latest-login-in-2020/)                                                                                     | [Sql](src/main/resources/TheLatestLoginIn2020.sql)                                                                              |
 | 1893  | [Check if All the Integers in a Range Are Covered](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/)                                     | [Set](src/test/java/org/willxu/algorithm/service/bool/CheckIfAllTheIntegersInRangeAreCoveredTest.java)                          |
+| 1897  | [Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/)                                   | [Count](src/test/java/org/willxu/algorithm/service/bool/RedistributeCharactersToMakeAllStringsEqualTest.java)                   |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
