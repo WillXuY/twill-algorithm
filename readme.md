@@ -454,6 +454,7 @@ change the build tool to gradle, output a jar;
 | 1893  | [Check if All the Integers in a Range Are Covered](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/)                                     | [Set](src/test/java/org/willxu/algorithm/service/bool/CheckIfAllTheIntegersInRangeAreCoveredTest.java)                          |
 | 1897  | [Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/)                                   | [Count](src/test/java/org/willxu/algorithm/service/bool/RedistributeCharactersToMakeAllStringsEqualTest.java)                   |
 | 1903  | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/)                                                                             | [Index](src/test/java/org/willxu/algorithm/service/string/LargestOddNumberInStringTest.java)                                    |
+| 1909  | [Remove One Element to Make the Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/)                     | [Loop](src/test/java/org/willxu/algorithm/service/bool/RemoveOneElementToMakeTheArrayStrictlyIncreasingTest.java)               |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
