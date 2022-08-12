@@ -457,6 +457,7 @@ change the build tool to gradle, output a jar;
 | 1909  | [Remove One Element to Make the Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/)                     | [Loop](src/test/java/org/willxu/algorithm/service/bool/RemoveOneElementToMakeTheArrayStrictlyIncreasingTest.java)               |
 | 1913  | [Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/)                                             | [Extremum](src/test/java/org/willxu/algorithm/service/integer/MaximumProductDifferenceBetweenTwoPairsTest.java)                 |
 | 1920  | [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)                                                                             | [Loop](src/test/java/org/willxu/algorithm/service/ints/BuildArrayFromPermutationTest.java)                                      |
+| 1925  | [Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/)                                                                                     | [Exhaustive](src/test/java/org/willxu/algorithm/service/integer/CountSquareSumTriplesTest.java)                                 |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
