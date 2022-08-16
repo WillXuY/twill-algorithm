@@ -461,6 +461,7 @@ change the build tool to gradle, output a jar;
 | 1929  | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)                                                                                         | [Copy](src/test/java/org/willxu/algorithm/service/ints/ConcatenationOfArrayTest.java)                                           |
 | 1935  | [Maximum Number of Words You Can Type](https://leetcode.com/problems/maximum-number-of-words-you-can-type/)                                                             | [Split](src/test/java/org/willxu/algorithm/service/integer/MaximumNumberOfWordsYouCanTypeTest.java)                             |
 | 1941  | [Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/)                     | [Map](src/test/java/org/willxu/algorithm/service/bool/CheckIfAllCharactersHaveEqualNumberOfOccurrencesTest.java)                |
+| 1945  | [Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/)                                                           | [Loop](src/test/java/org/willxu/algorithm/service/integer/SumOfDigitsOfStringAfterConvertTest.java)                             |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
