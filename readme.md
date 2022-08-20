@@ -465,6 +465,7 @@ change the build tool to gradle, output a jar;
 | 1952  | [Three Divisors](https://leetcode.com/problems/three-divisors/)                                                                                                         | [Exhaustive](src/test/java/org/willxu/algorithm/service/bool/ThreeDivisorsTest.java)                                            |
 | 1957  | [Delete Characters to Make Fancy String](https://leetcode.com/problems/delete-characters-to-make-fancy-string/)                                                         | [Count](src/test/java/org/willxu/algorithm/service/string/DeleteCharactersToMakeFancyStringTest.java)                           |
 | 1961  | [Check If String Is a Prefix of Array](https://leetcode.com/problems/check-if-string-is-a-prefix-of-array/)                                                             | [Equals](src/test/java/org/willxu/algorithm/service/bool/CheckIfStringIsPrefixOfArrayTest.java)                                 |
+| 1965  | [Employees With Missing Information](https://leetcode.com/problems/employees-with-missing-information/)                                                                 | [Sql](src/main/resources/EmployeesWithMissingInformation.sql)                                                                   |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
