@@ -3,7 +3,7 @@ package org.willxu.algorithm.service.integer;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.integer.NumberOfStringsThatAppearAsSubstringsInWordConatins;
+import org.willxu.algorithm.service.impl.integer.NumberOfStringsThatAppearAsSubstringsInWordContains;
 
 import java.util.stream.Stream;
 
@@ -23,7 +23,7 @@ public class NumberOfStringsThatAppearAsSubstringsInWordTest {
     @MethodSource("dataProvider")
     public void testContains(String[] patterns, String word, int excepted) {
         NumberOfStringsThatAppearAsSubstringsInWord contains =
-                new NumberOfStringsThatAppearAsSubstringsInWordConatins();
+                new NumberOfStringsThatAppearAsSubstringsInWordContains();
         assertEquals(excepted, contains.numOfStrings(patterns, word));
     }
 }
