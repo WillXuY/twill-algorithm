@@ -468,6 +468,7 @@ change the build tool to gradle, output a jar;
 | 1965  | [Employees With Missing Information](https://leetcode.com/problems/employees-with-missing-information/)                                                                 | [Sql](src/main/resources/EmployeesWithMissingInformation.sql)                                                                   |
 | 1967  | [Number of Strings That Appear as Substrings in Word](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/)                               | [Contains](src/test/java/org/willxu/algorithm/service/integer/NumberOfStringsThatAppearAsSubstringsInWordTest.java)             |
 | 1971  | [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/)                                                                             | [Loop](src/test/java/org/willxu/algorithm/service/bool/FindIfPathExistsInGraphTest.java)                                        |
+| 1974  | [Minimum Time to Type Word Using Special Typewriter](https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter/)                                 | [Subtraction](src/test/java/org/willxu/algorithm/service/integer/MinimumTimeToTypeWordUsingSpecialTypewriterTest.java)          |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
