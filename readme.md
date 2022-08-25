@@ -469,6 +469,7 @@ change the build tool to gradle, output a jar;
 | 1967  | [Number of Strings That Appear as Substrings in Word](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/)                               | [Contains](src/test/java/org/willxu/algorithm/service/integer/NumberOfStringsThatAppearAsSubstringsInWordTest.java)             |
 | 1971  | [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/)                                                                             | [Loop](src/test/java/org/willxu/algorithm/service/bool/FindIfPathExistsInGraphTest.java)                                        |
 | 1974  | [Minimum Time to Type Word Using Special Typewriter](https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter/)                                 | [Subtraction](src/test/java/org/willxu/algorithm/service/integer/MinimumTimeToTypeWordUsingSpecialTypewriterTest.java)          |
+| 1979  | [Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/)                                                           | [Loop](src/test/java/org/willxu/algorithm/service/integer/FindGreatestCommonDivisorOfArrayTest.java)                            |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
