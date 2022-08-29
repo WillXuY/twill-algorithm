@@ -473,6 +473,7 @@ change the build tool to gradle, output a jar;
 | 1984  | [Minimum Difference Between Highest and Lowest of K Scores](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/)                   | [Sort](src/test/java/org/willxu/algorithm/service/integer/MinimumDifferenceBetweenHighestAndLowestOfScoresTest.java)            |
 | 1991  | [Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/)                                                                         | [Sum](src/test/java/org/willxu/algorithm/service/integer/FindTheMiddleIndexInArrayTest.java)                                    |
 | 1995  | [Count Special Quadruplets](https://leetcode.com/problems/count-special-quadruplets/)                                                                                   | [Loop](src/test/java/org/willxu/algorithm/service/integer/CountSpecialQuadrupletsTest.java)                                     |
+| 2000  | [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)                                                                                         | [Loop](src/test/java/org/willxu/algorithm/service/string/ReversePrefixOfWordTest.java)                                          |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
