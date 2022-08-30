@@ -474,6 +474,7 @@ change the build tool to gradle, output a jar;
 | 1991  | [Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/)                                                                         | [Sum](src/test/java/org/willxu/algorithm/service/integer/FindTheMiddleIndexInArrayTest.java)                                    |
 | 1995  | [Count Special Quadruplets](https://leetcode.com/problems/count-special-quadruplets/)                                                                                   | [Loop](src/test/java/org/willxu/algorithm/service/integer/CountSpecialQuadrupletsTest.java)                                     |
 | 2000  | [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)                                                                                         | [Loop](src/test/java/org/willxu/algorithm/service/string/ReversePrefixOfWordTest.java)                                          |
+| 2006  | [Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/)                                     | [Count](src/test/java/org/willxu/algorithm/service/integer/CountNumberOfPairsWithAbsoluteDifferenceTest.java)                   |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
