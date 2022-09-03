@@ -478,6 +478,7 @@ change the build tool to gradle, output a jar;
 | 2011  | [Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)                               | [Map](src/test/java/org/willxu/algorithm/service/integer/FinalValueOfVariableAfterPerformingOperationsTest.java)                |
 | 2016  | [Maximum Difference Between Increasing Elements](https://leetcode.com/problems/maximum-difference-between-increasing-elements/)                                         | [Loop](src/test/java/org/willxu/algorithm/service/integer/MaximumDifferenceBetweenIncreasingElementsTest.java)                  |
 | 2022  | [Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array/)                                                                         | [Loop](src/test/java/org/willxu/algorithm/service/matrix/Convert1dArrayInto2dArrayTest.java)                                    |
+| 2027  | [Minimum Moves to Convert String](https://leetcode.com/problems/minimum-moves-to-convert-string/)                                                                       | [Skip](src/test/java/org/willxu/algorithm/service/integer/MinimumMovesToConvertStringTest.java)                                 |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
