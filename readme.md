@@ -480,6 +480,7 @@ change the build tool to gradle, output a jar;
 | 2022  | [Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array/)                                                                         | [Loop](src/test/java/org/willxu/algorithm/service/matrix/Convert1dArrayInto2dArrayTest.java)                                    |
 | 2027  | [Minimum Moves to Convert String](https://leetcode.com/problems/minimum-moves-to-convert-string/)                                                                       | [Skip](src/test/java/org/willxu/algorithm/service/integer/MinimumMovesToConvertStringTest.java)                                 |
 | 2032  | [Two Out of Three](https://leetcode.com/problems/two-out-of-three/)                                                                                                     | [Count](src/test/java/org/willxu/algorithm/service/intlist/TwoOutOfThreeTest.java)                                              |
+| 2037  | [Minimum Number of Moves to Seat Everyone](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/)                                                     | [Sort](src/test/java/org/willxu/algorithm/service/integer/MinimumNumberOfMovesToSeatEveryoneTest.java)                          |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
