@@ -483,6 +483,7 @@ change the build tool to gradle, output a jar;
 | 2037  | [Minimum Number of Moves to Seat Everyone](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/)                                                     | [Sort](src/test/java/org/willxu/algorithm/service/integer/MinimumNumberOfMovesToSeatEveryoneTest.java)                          |
 | 2042  | [Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence/)                                             | [Loop](src/test/java/org/willxu/algorithm/service/bool/CheckIfNumbersAreAscendingInSentenceTest.java)                           |
 | 2047  | [Number of Valid Words in a Sentence](https://leetcode.com/problems/number-of-valid-words-in-a-sentence/)                                                               | [Loop](src/test/java/org/willxu/algorithm/service/integer/NumberOfValidWordsInSentenceTest.java)                                |
+| 2053  | [Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/)                                                                       | [List](src/test/java/org/willxu/algorithm/service/string/KthDistinctStringInAnArrayTest.java)                                   |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
