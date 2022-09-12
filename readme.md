@@ -486,6 +486,7 @@ change the build tool to gradle, output a jar;
 | 2053  | [Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/)                                                                       | [List](src/test/java/org/willxu/algorithm/service/string/KthDistinctStringInAnArrayTest.java)                                   |
 | 2057  | [Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value/)                                                                       | [Loop](src/test/java/org/willxu/algorithm/service/integer/SmallestIndexWithEqualValueTest.java)                                 |
 | 2062  | [Count Vowel Substrings of a String](https://leetcode.com/problems/count-vowel-substrings-of-a-string/)                                                                 | [Count](src/test/java/org/willxu/algorithm/service/integer/CountVowelSubstringsOfStringTest.java)                               |
+| 2068  | [Check Whether Two Strings are Almost Equivalent](https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/)                                       | [Count](src/test/java/org/willxu/algorithm/service/bool/CheckWhetherTwoStringsAreAlmostEquivalentTest.java)                     |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
