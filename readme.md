@@ -490,6 +490,7 @@ change the build tool to gradle, output a jar;
 | 2073  | [Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/)                                                                                 | [Loop](src/test/java/org/willxu/algorithm/service/integer/TimeNeededToBuyTicketsTest.java)                                      |
 | 2078  | [Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/)                                                   | [Extremum](src/test/java/org/willxu/algorithm/service/integer/TwoFurthestHousesWithDifferentColorsTest.java)                    |
 | 2085  | [Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/)                                                         | [Retain](src/test/java/org/willxu/algorithm/service/integer/CountCommonWordsWithOneOccurrenceTest.java)                         |
+| 2089  | [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/)                                                       | [Sort](src/test/java/org/willxu/algorithm/service/intlist/FindTargetIndicesAfterSortingArrayTest.java)                          |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
