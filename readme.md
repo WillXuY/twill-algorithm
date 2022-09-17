@@ -491,6 +491,7 @@ change the build tool to gradle, output a jar;
 | 2078  | [Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/)                                                   | [Extremum](src/test/java/org/willxu/algorithm/service/integer/TwoFurthestHousesWithDifferentColorsTest.java)                    |
 | 2085  | [Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/)                                                         | [Retain](src/test/java/org/willxu/algorithm/service/integer/CountCommonWordsWithOneOccurrenceTest.java)                         |
 | 2089  | [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/)                                                       | [Sort](src/test/java/org/willxu/algorithm/service/intlist/FindTargetIndicesAfterSortingArrayTest.java)                          |
+| 2094  | [Finding 3-Digit Even Numbers](https://leetcode.com/problems/finding-3-digit-even-numbers/)                                                                             | [Pick](src/test/java/org/willxu/algorithm/service/ints/Finding3DigitEvenNumbersTest.java)                                       |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
