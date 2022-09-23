@@ -496,6 +496,7 @@ change the build tool to gradle, output a jar;
 | 2103  | [Rings and Rods](https://leetcode.com/problems/rings-and-rods/)                                                                                                         | [Count](src/test/java/org/willxu/algorithm/service/integer/RingsAndRodsTest.java)                                               |
 | 2108  | [Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/)                                                 | [Loop](src/test/java/org/willxu/algorithm/service/string/FindFirstPalindromicStringInTheArrayTest.java)                         |
 | 2114  | [Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/)                                                 | [Split](src/test/java/org/willxu/algorithm/service/integer/MaximumNumberOfWordsFoundInSentencesTest.java)                       |
+| 2119  | [A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/)                                                                     | [Length](src/test/java/org/willxu/algorithm/service/bool/NumberAfterDoubleReversalTest.java)                                    |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
