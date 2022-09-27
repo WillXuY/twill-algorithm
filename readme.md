@@ -500,6 +500,7 @@ change the build tool to gradle, output a jar;
 | 2124  | [Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/)                                                         | [Loop](src/test/java/org/willxu/algorithm/service/bool/CheckIfAllAsAppearsBeforeAllBsTest.java)                                 |
 | 2129  | [Capitalize the Title](https://leetcode.com/problems/capitalize-the-title/)                                                                                             | [Loop](src/test/java/org/willxu/algorithm/service/string/CapitalizeTheTitleTest.java)                                           |
 | 2133  | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers/)                                 | [Loop](src/test/java/org/willxu/algorithm/service/bool/CheckIfEveryRowAndColumnContainsAllNumbersTest.java)                     |
+| 2138  | [Divide a String Into Groups of Size k](https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/)                                                           | [Builder](src/test/java/org/willxu/algorithm/service/strs/DivideStringIntoGroupsOfSizeTest.java)                                |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
