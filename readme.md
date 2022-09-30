@@ -503,6 +503,7 @@ change the build tool to gradle, output a jar;
 | 2138  | [Divide a String Into Groups of Size k](https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/)                                                           | [Builder](src/test/java/org/willxu/algorithm/service/strs/DivideStringIntoGroupsOfSizeTest.java)                                |
 | 2144  | [Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/)                                             | [Sort](src/test/java/org/willxu/algorithm/service/integer/MinimumCostOfBuyingCandiesWithDiscountTest.java)                      |
 | 2148  | [Count Elements With Strictly Smaller and Greater Elements](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/)                   | [Sort](src/test/java/org/willxu/algorithm/service/integer/CountElementsWithStrictlySmallerAndGreaterElementsTest.java)          |
+| 2154  | [Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two/)                                                             | [Set](src/test/java/org/willxu/algorithm/service/integer/KeepMultiplyingFoundValuesByTwoTest.java)                              |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
