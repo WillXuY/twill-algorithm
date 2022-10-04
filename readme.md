@@ -507,6 +507,7 @@ change the build tool to gradle, output a jar;
 | 2160  | [Minimum Sum of Four Digit Number After Splitting Digits](https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/)                       | [Sort](src/test/java/org/willxu/algorithm/service/integer/MinimumSumOfFourDigitNumberAfterSplittingDigitsTest.java)             |
 | 2164  | [Sort Even and Odd Indices Independently](https://leetcode.com/problems/sort-even-and-odd-indices-independently/)                                                       | [Insert](src/test/java/org/willxu/algorithm/service/ints/SortEvenAndOddIndicesIndependentlyTest.java)                           |
 | 2169  | [Count Operations to Obtain Zero](https://leetcode.com/problems/count-operations-to-obtain-zero/)                                                                       | [Loop](src/test/java/org/willxu/algorithm/service/integer/CountOperationsToObtainZeroTest.java)                                 |
+| 2176  | [Count Equal and Divisible Pairs in an Array](https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/)                                               | [Count](src/test/java/org/willxu/algorithm/service/integer/CountEqualAndDivisiblePairsInAnArrayTest.java)                       |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
