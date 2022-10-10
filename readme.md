@@ -512,6 +512,7 @@ change the build tool to gradle, output a jar;
 | 2185  | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/)                                                                 | [Regex](src/test/java/org/willxu/algorithm/service/integer/CountingWordsWithGivenPrefixTest.java)                               |
 | 2190  | [Most Frequent Number Following Key In an Array](https://leetcode.com/problems/most-frequent-number-following-key-in-an-array/)                                         | [Count](src/test/java/org/willxu/algorithm/service/integer/MostFrequentNumberFollowingKeyInAnArrayTest.java)                    |
 | 2194  | [Cells in a Range on an Excel Sheet](https://leetcode.com/problems/cells-in-a-range-on-an-excel-sheet/)                                                                 | [Loop](src/test/java/org/willxu/algorithm/service/strlist/CellsInRangeOnAnExcelSheetTest.java)                                  |
+| 2200  | [Find All K-Distant Indices in an Array](https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/)                                                         | [Loop](src/test/java/org/willxu/algorithm/service/intlist/FindAllDistantIndicesInAnArrayTest.java)                              |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
