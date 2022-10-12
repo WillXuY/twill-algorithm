@@ -514,6 +514,7 @@ change the build tool to gradle, output a jar;
 | 2194  | [Cells in a Range on an Excel Sheet](https://leetcode.com/problems/cells-in-a-range-on-an-excel-sheet/)                                                                 | [Loop](src/test/java/org/willxu/algorithm/service/strlist/CellsInRangeOnAnExcelSheetTest.java)                                  |
 | 2200  | [Find All K-Distant Indices in an Array](https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/)                                                         | [Loop](src/test/java/org/willxu/algorithm/service/intlist/FindAllDistantIndicesInAnArrayTest.java)                              |
 | 2206  | [Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs/)                                                                           | [Parity](src/test/java/org/willxu/algorithm/service/bool/DivideArrayInfoEqualPairsTest.java)                                    |
+| 2210  | [ Count Hills and Valleys in an Array](https://leetcode.com/problems/count-hills-and-valleys-in-an-array/)                                                              | [Loop](src/test/java/org/willxu/algorithm/service/integer/CountHillsAndValleysInAnArrayTest.java)                               |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
