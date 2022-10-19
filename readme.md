@@ -521,6 +521,7 @@ change the build tool to gradle, output a jar;
 | 2231  | [Largest Number After Digit Swaps by Parity](https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/)                                                 | [Order](src/test/java/org/willxu/algorithm/service/integer/LargestNumberAfterDigitSwapsByParityTest.java)                       |
 | 2235  | [Add Two Integers](https://leetcode.com/problems/add-two-integers/)                                                                                                     | [Add](src/test/java/org/willxu/algorithm/service/integer/AddTwoIntegersTest.java)                                               |
 | 2236  | [Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/)                                                                               | [Add](src/test/java/org/willxu/algorithm/service/bool/RootEqualsSumOfChildrenTest.java)                                         |
+| 2239  | [Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero/)                                                                               | [Abs](src/test/java/org/willxu/algorithm/service/integer/FindClosestNumberToZeroTest.java)                                      |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
