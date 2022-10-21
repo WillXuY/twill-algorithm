@@ -523,6 +523,7 @@ change the build tool to gradle, output a jar;
 | 2236  | [Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/)                                                                               | [Add](src/test/java/org/willxu/algorithm/service/bool/RootEqualsSumOfChildrenTest.java)                                         |
 | 2239  | [Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero/)                                                                               | [Abs](src/test/java/org/willxu/algorithm/service/integer/FindClosestNumberToZeroTest.java)                                      |
 | 2243  | [Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/)                                                                       | [Loop](src/test/java/org/willxu/algorithm/service/string/CalculateDigitSumOfStringTest.java)                                    |
+| 2248  | [Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/)                                                                       | [Map](src/test/java/org/willxu/algorithm/service/intlist/IntersectionOfMultipleArraysTest.java)                                 |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
