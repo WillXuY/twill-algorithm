@@ -525,6 +525,7 @@ change the build tool to gradle, output a jar;
 | 2243  | [Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/)                                                                       | [Loop](src/test/java/org/willxu/algorithm/service/string/CalculateDigitSumOfStringTest.java)                                    |
 | 2248  | [Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/)                                                                       | [Map](src/test/java/org/willxu/algorithm/service/intlist/IntersectionOfMultipleArraysTest.java)                                 |
 | 2255  | [Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/)                                                                     | [Regex](src/test/java/org/willxu/algorithm/service/integer/CountPrefixesOfGivenStringTest.java)                                 |
+| 2259  | [Remove Digit From Number to Maximize Result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/)                                               | [Compare](src/test/java/org/willxu/algorithm/service/string/RemoveDigitFromNumberToMaximizeResultTest.java)                     |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
