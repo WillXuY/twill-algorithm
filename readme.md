@@ -529,6 +529,7 @@ change the build tool to gradle, output a jar;
 | 2264  | [Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/)                                                           | [Loop](src/test/java/org/willxu/algorithm/service/string/Largest3SameDigitNumberInStringTest.java)                              |
 | 2269  | [Find the K-Beauty of a Number](https://leetcode.com/problems/find-the-k-beauty-of-a-number/)                                                                           | [Loop](src/test/java/org/willxu/algorithm/service/integer/FindTheBeautyOfNumberTest.java)                                       |
 | 2273  | [Find Resultant Array After Removing Anagrams](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/)                                             | [Sort](src/test/java/org/willxu/algorithm/service/strlist/FingResultantArrayAfterRemovingAnagramsTest.java)                     |
+| 2278  | [Percentage of Letter in String](https://leetcode.com/problems/percentage-of-letter-in-string/)                                                                         | [Count](src/test/java/org/willxu/algorithm/service/integer/PercentageOfLetterInStringTest.java)                                 |
 
 ## [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 ### double-linked list: [CircularQueueDoubleLinked](src/test/java/org/willxu/algorithm/domain/queue/DesignCircularQueueTest.java)
