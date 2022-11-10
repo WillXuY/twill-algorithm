@@ -7,7 +7,7 @@ import org.willxu.algorithm.service.impl.doublepoint.CalculateAmountPaidInTaxesL
 
 import java.util.stream.Stream;
 
-import static org.gradle.internal.impldep.org.testng.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.params.provider.Arguments.arguments;
 
 public class CalculateAmountPaidInTaxesTest {
@@ -23,6 +23,6 @@ public class CalculateAmountPaidInTaxesTest {
     @MethodSource("dataProvider")
     public void testLoop(int[][] brackets, int income, double excepted) {
         CalculateAmountPaidInTaxes loop = new CalculateAmountPaidInTaxesLoop();
-        assertEquals(loop.calculateTax(brackets, income), excepted);
+        assertEquals(excepted, loop.calculateTax(brackets, income));
     }
 }
