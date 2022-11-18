@@ -14,7 +14,8 @@ public class MinimumRecolorsToGetConsecutiveBlackBlocksTest {
     static Stream<Arguments> dataProvider() {
         return Stream.of(
                 // TODO
-                arguments("BWBBWWBWWBWWWWWWBBBWWWBBBWWWWWWBWBWBBBBWBWWBWWBWBWWBWWWBWBBBWBWBWWWWWBWBBWB", 50, 27),
+                arguments("BWBBWWBWWBWWWWWWBBBWWWBBBWWWWWWBWBW" +
+                        "BBBBWBWWBWWBWBWWBWWWBWBBBWBWBWWWWWBWBBWB", 50, 27),
                 arguments("W", 1, 1),
                 arguments("WBBWWBBWBW", 7, 3),
                 arguments("WBWBBBW", 2, 0)
