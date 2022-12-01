@@ -1,0 +1,30 @@
+package org.willxu.algorithm.service.integer;
+
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.MethodSource;
+import org.willxu.algorithm.service.impl.integer.TheEmployeeThatWorkedOnTheLongestTaskCompare;
+
+import java.util.stream.Stream;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.params.provider.Arguments.arguments;
+
+public class TheEmployeeThatWorkedOnTheLongestTaskTest {
+    static Stream<Arguments> dataProvider() {
+        return Stream.of(
+                arguments(70, new int[][] {{36, 3}, {1, 5}, {12, 8}}, 12),
+                arguments(10, new int[][] {{0, 3}, {2, 5}, {0, 9}, {1, 15}}, 1),
+                arguments(26, new int[][] {{1,1}, {3, 7}, {2, 12}, {7, 17}}, 3),
+                arguments(2, new int[][] {{0, 10}, {1, 20}}, 0)
+        );
+    }
+
+    @ParameterizedTest(name = "Compare {index}")
+    @MethodSource("dataProvider")
+    public void testCompare(int n, int[][] logs, int excepted) {
+        TheEmployeeThatWorkedOnTheLongestTask compare =
+                new TheEmployeeThatWorkedOnTheLongestTaskCompare();
+        assertEquals(excepted, compare.hardestWorker(n, logs));
+    }
+}
