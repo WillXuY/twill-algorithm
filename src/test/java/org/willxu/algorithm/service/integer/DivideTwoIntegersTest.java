@@ -3,6 +3,7 @@ package org.willxu.algorithm.service.integer;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
+import org.willxu.algorithm.service.impl.integer.DivideTwoIntegersLeft;
 import org.willxu.algorithm.service.impl.integer.DivideTwoIntegersSubtraction;
 
 import java.util.stream.Stream;
@@ -21,6 +22,13 @@ public class DivideTwoIntegersTest {
                 arguments(10, 3, 3),
                 arguments(7, -3, -2)
         );
+    }
+
+    @ParameterizedTest(name = "Left {index}")
+    @MethodSource("dataProvider")
+    public void testLeft(int dividend, int divisor, int excepted) {
+        DivideTwoIntegers left = new DivideTwoIntegersLeft();
+        assertEquals(excepted, left.divide(dividend, divisor));
     }
 
     @ParameterizedTest(name = "Subtraction {index}")
