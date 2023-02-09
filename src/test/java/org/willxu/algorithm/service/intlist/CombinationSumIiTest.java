@@ -48,6 +48,21 @@ public class CombinationSumIiTest {
         );
     }
 
+    @ParameterizedTest(name = "Map {index}")
+    @MethodSource("dataProvider")
+    public void testMap(int[] candidates, int target,
+                        List<List<Integer>> excepted)
+            throws JsonProcessingException {
+            CombinationSumIi map = new CombinationSumIiMap();
+            ObjectMapper objectMapper = new ObjectMapper();
+            String output = objectMapper.writeValueAsString(
+                    map.combinationSum2(candidates, target));
+            assertEquals(objectMapper.writeValueAsString(excepted), output);
+    }
+
+    /**
+     * Time out
+     */
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
     public void testRecursive(int[] candidates, int target,
