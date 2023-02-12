@@ -4,6 +4,7 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 import org.willxu.algorithm.service.impl.integer.JumpGameIiLoop;
+import org.willxu.algorithm.service.impl.integer.JumpGameIiRange;
 
 import java.util.stream.Stream;
 
@@ -17,6 +18,13 @@ public class JumpGameIiTest {
                 arguments(new int[] {2, 3, 1, 1, 4}, 2),
                 arguments(new int[] {2, 3, 0, 1, 4}, 2)
         );
+    }
+
+    @ParameterizedTest(name = "Range {index}")
+    @MethodSource("dataProvider")
+    public void testRange(int[] nums, int excepted) {
+        JumpGameIi range = new JumpGameIiRange();
+        assertEquals(excepted, range.jump(nums));
     }
 
     @ParameterizedTest(name = "Loop {index}")
