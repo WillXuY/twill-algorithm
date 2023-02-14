@@ -5,8 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.intlist.CombinationSumIiMap;
-import org.willxu.algorithm.service.impl.intlist.CombinationSumIiRecursive;
+import org.willxu.algorithm.service.impl.intlist.PermutationsRecursive;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -15,64 +14,56 @@ import java.util.stream.Stream;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.params.provider.Arguments.arguments;
 
-public class CombinationSumIiTest {
+public class PermutationsTest {
     static Stream<Arguments> dataProvider() {
         return Stream.of(
                 arguments(
-                        new int[] {10, 1, 2, 7, 6, 1, 5}, 8,
+                        new int[] {1, 2, 3},
                         Stream.of(
                                 Stream.of(
-                                        1, 1, 6
+                                        1, 2, 3
                                 ).collect(Collectors.toList()),
                                 Stream.of(
-                                        1, 2, 5
+                                        1, 3, 2
                                 ).collect(Collectors.toList()),
                                 Stream.of(
-                                        1, 7
+                                        2, 1, 3
                                 ).collect(Collectors.toList()),
                                 Stream.of(
-                                        2, 6
+                                        2, 3, 1
+                                ).collect(Collectors.toList()),
+                                Stream.of(
+                                        3, 1, 2
+                                ).collect(Collectors.toList()),
+                                Stream.of(
+                                        3, 2, 1
                                 ).collect(Collectors.toList())
                         ).collect(Collectors.toList())
                 ),
                 arguments(
-                        new int[] {2, 5, 2, 1, 2}, 5,
+                        new int[] {0, 1},
                         Stream.of(
-                                Stream.of(
-                                        1, 2, 2
-                                ).collect(Collectors.toList()),
-                                Stream.of(
-                                        5
-                                ).collect(Collectors.toList())
+                                Stream.of(0, 1).collect(Collectors.toList()),
+                                Stream.of(1, 0).collect(Collectors.toList())
+                        ).collect(Collectors.toList())
+                ),
+                arguments(
+                        new int[] {1},
+                        Stream.of(
+                                Stream.of(1).collect(Collectors.toList())
                         ).collect(Collectors.toList())
                 )
         );
     }
 
-    @ParameterizedTest(name = "Map {index}")
-    @MethodSource("dataProvider")
-    public void testMap(int[] candidates, int target,
-                        List<List<Integer>> excepted)
-            throws JsonProcessingException {
-            CombinationSumIi map = new CombinationSumIiMap();
-            ObjectMapper objectMapper = new ObjectMapper();
-            String output = objectMapper.writeValueAsString(
-                    map.combinationSum2(candidates, target));
-            assertEquals(objectMapper.writeValueAsString(excepted), output);
-    }
-
-    /**
-     * Time out
-     */
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(int[] candidates, int target,
-                              List<List<Integer>> excepted)
+    public void testRecursive(int[] nums, List<List<Integer>> excepted)
             throws JsonProcessingException {
-        CombinationSumIi recursive = new CombinationSumIiRecursive();
+        Permutations recursive = new PermutationsRecursive();
         ObjectMapper objectMapper = new ObjectMapper();
         String output = objectMapper.writeValueAsString(
-                recursive.combinationSum2(candidates, target));
+                recursive.permute(nums));
         assertEquals(objectMapper.writeValueAsString(excepted), output);
     }
 }

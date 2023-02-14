@@ -1,4 +1,6 @@
-package org.willxu.algorithm.service.intlist;
+package org.willxu.algorithm.service.impl.intlist;
+
+import org.willxu.algorithm.service.intlist.CombinationSumIi;
 
 import java.util.*;
 
