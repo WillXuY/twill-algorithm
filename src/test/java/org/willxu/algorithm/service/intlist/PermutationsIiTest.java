@@ -1,10 +1,17 @@
 package org.willxu.algorithm.service.intlist;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.MethodSource;
+import org.willxu.algorithm.service.impl.intlist.PermutationsIiRecursive;
 
+import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.params.provider.Arguments.arguments;
 
 public class PermutationsIiTest {
@@ -48,5 +55,16 @@ public class PermutationsIiTest {
                         ).collect(Collectors.toList())
                 )
         );
+    }
+
+    @ParameterizedTest(name = "Recursive {index}")
+    @MethodSource("dataProvider")
+    public void testRecursive(int[] nums, List<List<Integer>> excepted)
+            throws JsonProcessingException {
+        PermutationsIi recursive = new PermutationsIiRecursive();
+        ObjectMapper objectMapper = new ObjectMapper();
+        String output = objectMapper.writeValueAsString(
+                recursive.permuteUnique(nums));
+        assertEquals(objectMapper.writeValueAsString(excepted), output);
     }
 }
