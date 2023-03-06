@@ -1,0 +1,46 @@
+package org.willxu.algorithm.service.bool;
+
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.MethodSource;
+import org.willxu.algorithm.service.impl.bool.Search2dMatrixHalf;
+
+import java.util.stream.Stream;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.params.provider.Arguments.arguments;
+
+public class Search2dMatrixTest {
+    static Stream<Arguments> dataProvider() {
+        return Stream.of(
+                arguments(new int[][] {{1}, {3}}, 3, true),
+                arguments(new int[][] {{1, 3}}, 3, true),
+                arguments(new int[][] {{1}}, 1, true),
+                arguments(
+                        new int[][] {
+                                {1, 3, 5, 7},
+                                {10, 11, 16, 20},
+                                {23, 30, 34, 60}
+                        },
+                        3,
+                        true
+                ),
+                arguments(
+                        new int[][] {
+                                {1, 3, 5, 7},
+                                {10, 11, 16, 20},
+                                {23, 30, 34, 60}
+                        },
+                        13,
+                        false
+                )
+        );
+    }
+
+    @ParameterizedTest(name = "Half {index}")
+    @MethodSource("dataProvider")
+    public void testHalf(int[][] matrix, int target, boolean excepted) {
+        Search2dMatrix half = new Search2dMatrixHalf();
+        assertEquals(excepted, half.searchMatrix(matrix, target));
+    }
+}
