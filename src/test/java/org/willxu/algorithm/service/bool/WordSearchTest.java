@@ -5,6 +5,7 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 import org.willxu.algorithm.service.impl.bool.WordSearchLoop;
+import org.willxu.algorithm.service.impl.bool.WordSearchRecursive;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -54,6 +55,13 @@ public class WordSearchTest {
                         "ABCB", false
                 )
         );
+    }
+
+    @ParameterizedTest(name = "Recursive {index}")
+    @MethodSource("dataProvider")
+    public void testRecursive(char[][] board, String word, boolean excepted) {
+        WordSearch recursive = new WordSearchRecursive();
+        assertEquals(excepted, recursive.exist(board, word));
     }
 
     @ParameterizedTest(name = "Loop {index}")
