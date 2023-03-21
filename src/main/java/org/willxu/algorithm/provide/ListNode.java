@@ -30,6 +30,18 @@ public class ListNode {
         this.next = next;
     }
 
+    public boolean equals(Object listNode) {
+        if (this == listNode) {
+            return true;
+        }
+        if (!(listNode instanceof ListNode)) {
+            return false;
+        }
+        int[] thisArray = this.toIntArray();
+        int[] checkArray = ((ListNode) listNode).toIntArray();
+        return Arrays.equals(thisArray, checkArray);
+    }
+
     public static ListNode getListNodeFromIntArray(int[] input) {
         ListNode iterator = null;
         for (int i = input.length - 1; i >= 0; i--) {
