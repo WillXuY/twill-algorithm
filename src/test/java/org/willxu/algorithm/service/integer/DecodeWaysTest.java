@@ -3,6 +3,7 @@ package org.willxu.algorithm.service.integer;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
+import org.willxu.algorithm.service.impl.integer.DecodeWaysArray;
 import org.willxu.algorithm.service.impl.integer.DecodeWaysRecursive;
 
 import java.util.stream.Stream;
@@ -17,6 +18,13 @@ public class DecodeWaysTest {
                 arguments("226", 3),
                 arguments("06", 0)
         );
+    }
+
+    @ParameterizedTest(name = "Array {index}")
+    @MethodSource("dataProvider")
+    public void testArray(String s, int excepted) {
+        DecodeWays array = new DecodeWaysArray();
+        assertEquals(excepted, array.numDecodings(s));
     }
 
     /**
