@@ -24,9 +24,20 @@ public class TreeNode {
         this.right = right;
     }
 
+    public boolean equals(Object object) {
+        if (this == object) {
+            return true;
+        }
+        if (!(object instanceof TreeNode tree)) {
+            return false;
+        }
+        return tree.val == this.val && tree.left.equals(this.left)
+                && tree.right.equals(this.right);
+    }
+
     /**
      * lever traversal, simplify the null node.
-     *
+     * <p>
      * Error 1: What the traversal leetcode use is level traversal
      * rather than preorder traversal.
      *
