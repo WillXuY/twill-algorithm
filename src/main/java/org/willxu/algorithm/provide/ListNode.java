@@ -30,6 +30,10 @@ public class ListNode {
         this.next = next;
     }
 
+    public String toString() {
+        return Arrays.toString(this.toIntArray());
+    }
+
     public boolean equals(Object listNode) {
         if (this == listNode) {
             return true;
