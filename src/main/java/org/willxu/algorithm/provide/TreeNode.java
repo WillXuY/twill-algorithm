@@ -32,6 +32,7 @@ public class TreeNode {
         if (!(object instanceof TreeNode tree)) {
             return false;
         }
+        // Deal null point exception.
         boolean rootEqual = tree.val == this.val;
         boolean leftEqual = Objects.equals(tree.left, this.left);
         boolean rightEqual = Objects.equals(tree.right, this.right);
