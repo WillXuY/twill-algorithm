@@ -11,6 +11,7 @@ package org.willxu.algorithm.provide;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class TreeNode {
     public int val;
@@ -31,8 +32,10 @@ public class TreeNode {
         if (!(object instanceof TreeNode tree)) {
             return false;
         }
-        return tree.val == this.val && tree.left.equals(this.left)
-                && tree.right.equals(this.right);
+        boolean rootEqual = tree.val == this.val;
+        boolean leftEqual = Objects.equals(tree.left, this.left);
+        boolean rightEqual = Objects.equals(tree.right, this.right);
+        return rootEqual && leftEqual && rightEqual;
     }
 
     /**
