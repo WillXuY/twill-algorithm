@@ -14,7 +14,7 @@ public interface ReverseWordsInString {
      * spaces between two words. The returned string should only have a
      * single space separating the words. Do not include any extra spaces.
      *
-     * @param s 1 <= s.length <= 104
+     * @param s 1 <= s.length <= 10^4
      *          contains English letters (upper-case and lower-case),
      *          digits, and spaces ' '.
      *          There is at least one word in s.
