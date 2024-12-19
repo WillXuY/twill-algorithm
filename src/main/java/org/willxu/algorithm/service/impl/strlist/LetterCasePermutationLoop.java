@@ -9,7 +9,7 @@ public class LetterCasePermutationLoop implements LetterCasePermutation {
     @Override
     public List<String> letterCasePermutation(String s) {
         List<List<String>> possibleCharsList = getPossibleCharsList(s);
-        List<String> result = possibleCharsList.getFirst();
+        List<String> result = possibleCharsList.get(0);
         for (int i = 1; i < possibleCharsList.size(); i++) {
             List<String> nextResult = new ArrayList<>();
             List<String> possibleChars = possibleCharsList.get(i);

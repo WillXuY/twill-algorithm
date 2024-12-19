@@ -4,7 +4,6 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 import org.willxu.algorithm.provide.TreeNode;
-import org.willxu.algorithm.service.impl.integer.PathSumIiiRecursive;
 
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -44,7 +43,7 @@ public class PathSumIiiTest {
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
     public void testRecursive(TreeNode root, int targetSum, int excepted) {
-        PathSumIii recursive = new PathSumIiiRecursive();
+        PathSumIii recursive = new org.willxu.algorithm.service.integer.PathSumIiiRecursive();
         assertEquals(excepted, recursive.pathSum(root, targetSum));
     }
 }
