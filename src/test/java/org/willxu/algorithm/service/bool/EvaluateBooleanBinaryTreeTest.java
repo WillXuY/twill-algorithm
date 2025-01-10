@@ -9,7 +9,7 @@ import org.willxu.algorithm.service.impl.bool.EvaluateBooleanBinaryTreeRecursice
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import static org.gradle.internal.impldep.org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.params.provider.Arguments.arguments;
 
 public class EvaluateBooleanBinaryTreeTest {

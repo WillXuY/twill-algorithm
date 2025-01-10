@@ -7,7 +7,7 @@ import org.willxu.algorithm.service.impl.bool.DetermineWhetherMatrixCanBeObtaine
 
 import java.util.stream.Stream;
 
-import static org.gradle.internal.impldep.org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.params.provider.Arguments.arguments;
 
 public class DetermineWhetherMatrixCanBeObtainedByRotationTest {
