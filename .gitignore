@@ -21,3 +21,10 @@ gradle-app.setting
 
 ### VS Code ###
 .vscode/
+
+/.settings
+/gradle/
+/bin/
+*.class
+/.classpath
+/.project
