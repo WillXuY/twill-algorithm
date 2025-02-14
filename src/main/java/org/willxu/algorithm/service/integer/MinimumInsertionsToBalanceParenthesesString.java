@@ -24,5 +24,5 @@ public interface MinimumInsertionsToBalanceParenthesesString {
 	 * @param s 1 <= s.length <= 10^5
 	 *          consists of '(' and ')' only.
 	 */
-int minInsertions(String s);
+	int minInsertions(String s);
 }
