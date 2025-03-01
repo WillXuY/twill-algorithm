@@ -37,15 +37,15 @@ public class PowerOfTwoTest {
      */
     @ParameterizedTest(name = "String {index}")
     @MethodSource("dataProvider")
-    public void testString(int input, boolean excepted) {
+    public void testString(int input, boolean expected) {
         PowerOfTwo string = new PowerOfTwoString();
-        assertEquals(excepted, string.isPowerOfTwo(input));
+        assertEquals(expected, string.isPowerOfTwo(input));
     }
 
     @ParameterizedTest(name = "Binary {index}")
     @MethodSource("dataProvider")
-    public void testBinary(int input, boolean excepted) {
+    public void testBinary(int input, boolean expected) {
         PowerOfTwo binary = new PowerOfTwoBinary();
-        assertEquals(excepted, binary.isPowerOfTwo(input));
+        assertEquals(expected, binary.isPowerOfTwo(input));
     }
 }

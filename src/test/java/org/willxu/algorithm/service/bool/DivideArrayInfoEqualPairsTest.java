@@ -20,9 +20,9 @@ public class DivideArrayInfoEqualPairsTest {
 
     @ParameterizedTest(name = "Parity {index}")
     @MethodSource("dataProvider")
-    public void testParity(int[] nums, boolean excepted) {
+    public void testParity(int[] nums, boolean expected) {
         DivideArrayIntoEqualPairs parity =
                 new DivideArrayIntoEqualPairsParity();
-        assertEquals(excepted, parity.divideArray(nums));
+        assertEquals(expected, parity.divideArray(nums));
     }
 }

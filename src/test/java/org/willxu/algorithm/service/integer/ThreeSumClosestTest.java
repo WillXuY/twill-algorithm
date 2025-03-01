@@ -21,8 +21,8 @@ public class ThreeSumClosestTest {
 
     @ParameterizedTest(name = "Pointer {index}")
     @MethodSource("dataProvider")
-    public void testPointer(int[] nums, int target, int excepted) {
+    public void testPointer(int[] nums, int target, int expected) {
         ThreeSumClosest pointer = new ThreeSumClosestPointer();
-        assertEquals(excepted, pointer.threeSumClosest(nums, target));
+        assertEquals(expected, pointer.threeSumClosest(nums, target));
     }
 }

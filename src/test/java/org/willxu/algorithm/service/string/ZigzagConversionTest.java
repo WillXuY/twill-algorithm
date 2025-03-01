@@ -32,8 +32,8 @@ public class ZigzagConversionTest {
 
     @ParameterizedTest(name = "Index {index}")
     @MethodSource("dataProvider")
-    public void testIndex(String s, int numRows, String excepted) {
+    public void testIndex(String s, int numRows, String expected) {
         ZigzagConversion index = new ZigzagConversionIndex();
-        assertEquals(excepted, index.convert(s, numRows));
+        assertEquals(expected, index.convert(s, numRows));
     }
 }

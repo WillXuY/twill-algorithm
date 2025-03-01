@@ -21,9 +21,9 @@ public class MinimumMovesToConvertStringTest {
 
     @ParameterizedTest(name = "Skip {index}")
     @MethodSource("dataProvider")
-    public void testSkip(String s, int excepted) {
+    public void testSkip(String s, int expected) {
         MinimumMovesToConvertString skip =
                 new MinimumMovesToConvertStringSkip();
-        assertEquals(excepted, skip.minimumMoves(s));
+        assertEquals(expected, skip.minimumMoves(s));
     }
 }

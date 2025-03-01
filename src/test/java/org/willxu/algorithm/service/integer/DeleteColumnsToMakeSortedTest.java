@@ -28,8 +28,8 @@ public class DeleteColumnsToMakeSortedTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String[] strs, int excepted) {
+    public void testLoop(String[] strs, int expected) {
         DeleteColumnsToMakeSorted loop = new DeleteColumnsToMakeSortedLoop();
-        assertEquals(excepted, loop.minDeletionSize(strs));
+        assertEquals(expected, loop.minDeletionSize(strs));
     }
 }

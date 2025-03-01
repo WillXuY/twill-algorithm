@@ -20,9 +20,9 @@ public class KeepMultiplyingFoundValuesByTwoTest {
 
     @ParameterizedTest(name = "Set {index}")
     @MethodSource("dataProvider")
-    public void testSet(int[] nums, int original, int excepted) {
+    public void testSet(int[] nums, int original, int expected) {
         KeepMultiplyingFoundValuesByTwo set =
                 new KeepMultiplyingFoundValuesByTwoSet();
-        assertEquals(excepted, set.findFinalValue(nums, original));
+        assertEquals(expected, set.findFinalValue(nums, original));
     }
 }

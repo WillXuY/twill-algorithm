@@ -21,8 +21,8 @@ public class CalculateDigitSumOfStringTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String s, int k, String excepted) {
+    public void testLoop(String s, int k, String expected) {
         CalculateDigitSumOfString loop = new CalculateDigitSumOfStringLoop();
-        assertEquals(excepted, loop.digitSum(s, k));
+        assertEquals(expected, loop.digitSum(s, k));
     }
 }

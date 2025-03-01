@@ -20,8 +20,8 @@ public class PredictTheWinnerTest {
 
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(int[] nums, boolean excepted) {
+    public void testRecursive(int[] nums, boolean expected) {
         PredictTheWinner recursive = new PredictTheWinnerRecursive();
-        assertEquals(excepted, recursive.predictTheWinner(nums));
+        assertEquals(expected, recursive.predictTheWinner(nums));
     }
 }

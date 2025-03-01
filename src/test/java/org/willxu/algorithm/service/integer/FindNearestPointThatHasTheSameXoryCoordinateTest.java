@@ -26,9 +26,9 @@ public class FindNearestPointThatHasTheSameXoryCoordinateTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int x, int y, int[][] points, int excepted) {
+    public void testLoop(int x, int y, int[][] points, int expected) {
         FindNearestPointThatHasTheSameXoryCoordinate loop =
                 new FindNearestPointThatHasTheSameXoryCoordinateLoop();
-        assertEquals(excepted, loop.nearestValidPoint(x, y, points));
+        assertEquals(expected, loop.nearestValidPoint(x, y, points));
     }
 }

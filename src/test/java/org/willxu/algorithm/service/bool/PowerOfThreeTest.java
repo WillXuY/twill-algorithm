@@ -32,9 +32,9 @@ public class PowerOfThreeTest {
 
     @ParameterizedTest(name = "Enumeration {index}")
     @MethodSource("dataProvider")
-    public void testEnumeration(int input, boolean excepted) {
+    public void testEnumeration(int input, boolean expected) {
         PowerOfThree enumeration = new PowerOfThreeEnumeration();
-        assertEquals(excepted, enumeration.isPowerOfThree(input));
+        assertEquals(expected, enumeration.isPowerOfThree(input));
     }
 
     @Test

@@ -49,10 +49,10 @@ public class ReverseLinkedListTest {
 
     @ParameterizedTest(name = "Iterator {index}")
     @MethodSource("dataProvider")
-    public void testIterator(ListNode input, ListNode excepted) throws JsonProcessingException {
+    public void testIterator(ListNode input, ListNode expected) throws JsonProcessingException {
         ReverseLinkedList iterator = new ReverseLinkedListIterator();
         ObjectMapper objectMapper = new ObjectMapper();
-        String except = objectMapper.writeValueAsString(excepted);
+        String except = objectMapper.writeValueAsString(expected);
         ListNode output = iterator.reverseList(input);
         assertEquals(except, objectMapper.writeValueAsString(output));
     }

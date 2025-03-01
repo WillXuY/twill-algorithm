@@ -20,8 +20,8 @@ public class PathCrossingTest {
 
     @ParameterizedTest(name = "Point {index}")
     @MethodSource("dataProvider")
-    public void testPoint(String path, boolean excepted) {
+    public void testPoint(String path, boolean expected) {
         PathCrossing point = new PathCrossingPoint();
-        assertEquals(excepted, point.isPathCrossing(path));
+        assertEquals(expected, point.isPathCrossing(path));
     }
 }

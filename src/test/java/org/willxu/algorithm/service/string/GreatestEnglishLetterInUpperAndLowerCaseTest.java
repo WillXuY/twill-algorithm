@@ -21,9 +21,9 @@ public class GreatestEnglishLetterInUpperAndLowerCaseTest {
 
     @ParameterizedTest(name = "Set {index}")
     @MethodSource("dataProvider")
-    public void testSet(String s, String excepted) {
+    public void testSet(String s, String expected) {
         GreatestEnglishLetterInUpperAndLowerCase set =
                 new GreatestEnglishLetterInUpperAndLowerCaseSet();
-        assertEquals(excepted, set.greatestLetter(s));
+        assertEquals(expected, set.greatestLetter(s));
     }
 }

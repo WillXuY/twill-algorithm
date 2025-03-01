@@ -21,9 +21,9 @@ public class SmallestIndexWithEqualValueTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] nums, int excepted) {
+    public void testLoop(int[] nums, int expected) {
         SmallestIndexWithEqualValue loop =
                 new SmallestIndexWithEqualValueLoop();
-        assertEquals(excepted, loop.smallestEqual(nums));
+        assertEquals(expected, loop.smallestEqual(nums));
     }
 }

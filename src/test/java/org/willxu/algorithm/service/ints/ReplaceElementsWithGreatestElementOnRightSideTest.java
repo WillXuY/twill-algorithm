@@ -23,9 +23,9 @@ public class ReplaceElementsWithGreatestElementOnRightSideTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] arr, int[] excepted) {
+    public void testLoop(int[] arr, int[] expected) {
         ReplaceElementsWithGreatestElementOnRightSide loop
                 = new ReplaceElementsWithGreatestElementOnRightSideLoop();
-        assertArrayEquals(excepted, loop.replaceElements(arr));
+        assertArrayEquals(expected, loop.replaceElements(arr));
     }
 }

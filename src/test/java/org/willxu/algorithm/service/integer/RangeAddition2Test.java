@@ -46,8 +46,8 @@ public class RangeAddition2Test {
 
     @ParameterizedTest(name = "Conjunction {index}")
     @MethodSource("dataProvider")
-    public void testConjunction(int m, int n, int[][] ops, int excepted) {
+    public void testConjunction(int m, int n, int[][] ops, int expected) {
         RangeAddition2 conjunction = new RangeAddition2Conjunction();
-        assertEquals(excepted, conjunction.maxCount(m, n, ops));
+        assertEquals(expected, conjunction.maxCount(m, n, ops));
     }
 }

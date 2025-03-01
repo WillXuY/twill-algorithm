@@ -21,8 +21,8 @@ public class SmallestRange1Test {
 
     @ParameterizedTest(name = "Find {index}")
     @MethodSource("dataProvider")
-    public void testFind(int[] nums, int k, int excepted) {
+    public void testFind(int[] nums, int k, int expected) {
         SmallestRange1 find = new SmallestRange1Find();
-        assertEquals(excepted, find.smallestRangeI(nums, k));
+        assertEquals(expected, find.smallestRangeI(nums, k));
     }
 }

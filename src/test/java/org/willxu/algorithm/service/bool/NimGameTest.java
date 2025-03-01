@@ -22,8 +22,8 @@ public class NimGameTest {
 
     @ParameterizedTest(name = "Divide4 {index}")
     @MethodSource("dataProvider")
-    public void testDivide4(int input, boolean excepted) {
+    public void testDivide4(int input, boolean expected) {
         NimGame divide4 = new NimGameDivide4();
-        assertEquals(excepted, divide4.canWinNim(input));
+        assertEquals(expected, divide4.canWinNim(input));
     }
 }

@@ -28,9 +28,9 @@ public class ProjectionAreaOf3dShapesTest {
 
     @ParameterizedTest(name = "Calculation {index}")
     @MethodSource("dataProvider")
-    public void testCalculation(int[][] grid, int excepted) {
+    public void testCalculation(int[][] grid, int expected) {
         ProjectionAreaOf3dShapes calculation =
                 new ProjectionAreaOf3dShapesCalculation();
-        assertEquals(excepted, calculation.projectionArea(grid));
+        assertEquals(expected, calculation.projectionArea(grid));
     }
 }

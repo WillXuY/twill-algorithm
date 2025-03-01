@@ -33,17 +33,17 @@ public class MaximumOfAbsoluteValueExpressionTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testMath(int[] arr1, int[] arr2, int excepted) {
+    public void testMath(int[] arr1, int[] arr2, int expected) {
         MaximumOfAbsoluteValueExpression math =
                 new MaximumOfAbsoluteValueExpressionMath();
-        assertEquals(excepted, math.maxAbsValExpr(arr1, arr2));
+        assertEquals(expected, math.maxAbsValExpr(arr1, arr2));
     }
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] arr1, int[] arr2, int excepted) {
+    public void testLoop(int[] arr1, int[] arr2, int expected) {
         MaximumOfAbsoluteValueExpression loop =
                 new MaximumOfAbsoluteValueExpressionLoop();
-        assertEquals(excepted, loop.maxAbsValExpr(arr1, arr2));
+        assertEquals(expected, loop.maxAbsValExpr(arr1, arr2));
     }
 }

@@ -36,9 +36,9 @@ public class MaximumBinaryTreeTest {
 
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(int[] nums, TreeNode excepted) {
+    public void testRecursive(int[] nums, TreeNode expected) {
         MaximumBinaryTree recursive = new MaximumBinaryTreeRecursive();
         TreeNode output = recursive.constructMaximumBinaryTree(nums);
-        assertEquals(excepted, output);
+        assertEquals(expected, output);
     }
 }

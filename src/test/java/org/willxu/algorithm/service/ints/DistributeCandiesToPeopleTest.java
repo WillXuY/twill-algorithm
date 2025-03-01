@@ -22,8 +22,8 @@ public class DistributeCandiesToPeopleTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int candies, int num, int[] excepted) {
+    public void testLoop(int candies, int num, int[] expected) {
         DistributeCandiesToPeople loop = new DistributeCandiesToPeopleLoop();
-        assertArrayEquals(excepted, loop.distributeCandies(candies, num));
+        assertArrayEquals(expected, loop.distributeCandies(candies, num));
     }
 }

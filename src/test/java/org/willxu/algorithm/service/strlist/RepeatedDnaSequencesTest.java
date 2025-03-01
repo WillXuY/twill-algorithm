@@ -32,8 +32,8 @@ public class RepeatedDnaSequencesTest {
 
     @ParameterizedTest(name = "Set {index}")
     @MethodSource("dataProvider")
-    public void testSet(String s, List<String> excepted) {
+    public void testSet(String s, List<String> expected) {
         RepeatedDnaSequences set = new RepeatedDnaSequencesSet();
-        assertEquals(excepted, set.findRepeatedDnaSequences(s));
+        assertEquals(expected, set.findRepeatedDnaSequences(s));
     }
 }

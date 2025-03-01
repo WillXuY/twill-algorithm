@@ -20,9 +20,9 @@ public class AverageValueOfEvenNumbersThatAreDivisibleByThreeTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(int[] nums, int excepted) {
+    public void testCount(int[] nums, int expected) {
         AverageValueOfEvenNumbersThatAreDivisibleByThree count =
                 new AverageValueOfEvenNumbersThatAreDivisibleByThreeCount();
-        assertEquals(excepted, count.averageValue(nums));
+        assertEquals(expected, count.averageValue(nums));
     }
 }

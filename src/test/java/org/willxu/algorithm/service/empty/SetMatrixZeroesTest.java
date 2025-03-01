@@ -42,9 +42,9 @@ public class SetMatrixZeroesTest {
 
     @ParameterizedTest(name = "Set {index}")
     @MethodSource("dataProvider")
-    public void testSet(int[][] matrix, int[][] excepted) {
+    public void testSet(int[][] matrix, int[][] expected) {
         SetMatrixZeroes set = new SetMatrixZeroesSet();
         set.setZeroes(matrix);
-        assertArrayEquals(excepted, matrix);
+        assertArrayEquals(expected, matrix);
     }
 }

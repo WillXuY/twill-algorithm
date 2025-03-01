@@ -22,15 +22,15 @@ public class ContainerWithMostWaterTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] height, int excepted) {
+    public void testLoop(int[] height, int expected) {
         ContainerWithMostWater loop = new ContainerWithMostWaterLoop();
-        assertEquals(excepted, loop.maxArea(height));
+        assertEquals(expected, loop.maxArea(height));
     }
 
     @ParameterizedTest(name = "Pointer {index}")
     @MethodSource("dataProvider")
-    public void testPointer(int[] height, int excepted) {
+    public void testPointer(int[] height, int expected) {
         ContainerWithMostWater pointer = new ContainerWithMostWaterPointer();
-        assertEquals(excepted, pointer.maxArea(height));
+        assertEquals(expected, pointer.maxArea(height));
     }
 }

@@ -20,9 +20,9 @@ public class MaximumNestingDepthOfTheParenthesesTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(String s, int excepted) {
+    public void testCount(String s, int expected) {
         MaximumNestingDepthOfTheParentheses count =
                 new MaximumNestingDepthOfTheParenthesesCount();
-        assertEquals(excepted, count.maxDepth(s));
+        assertEquals(expected, count.maxDepth(s));
     }
 }

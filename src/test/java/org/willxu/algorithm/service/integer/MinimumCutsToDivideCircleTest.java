@@ -21,9 +21,9 @@ public class MinimumCutsToDivideCircleTest {
 
     @ParameterizedTest(name = "Divide {index}")
     @MethodSource("dataProvider")
-    public void testDivide(int n, int excepted) {
+    public void testDivide(int n, int expected) {
         MinimumCutsToDivideCircle divide = new
                 MinimumCutsToDivideCircleDivide();
-        assertEquals(excepted, divide.numberOfCuts(n));
+        assertEquals(expected, divide.numberOfCuts(n));
     }
 }

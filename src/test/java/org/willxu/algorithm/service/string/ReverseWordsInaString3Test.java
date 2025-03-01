@@ -23,8 +23,8 @@ public class ReverseWordsInaString3Test {
 
     @ParameterizedTest(name = "Index {index}")
     @MethodSource("dataProvider")
-    public void testIndex(String input, String excepted) {
+    public void testIndex(String input, String expected) {
         ReverseWordsInaString3 index = new ReverseWordsInaString3Index();
-        assertEquals(excepted, index.reverseWords(input));
+        assertEquals(expected, index.reverseWords(input));
     }
 }

@@ -21,9 +21,9 @@ public class FirstUniqueCharacterInaStringTest {
 
     @ParameterizedTest(name = "Remove {index}")
     @MethodSource("dataProvider")
-    public void testRemove(String input, int excepted) {
+    public void testRemove(String input, int expected) {
         FirstUniqueCharacterInaString remove =
                 new FirstUniqueCharacterInaStringRemove();
-        assertEquals(excepted, remove.firstUniqChar(input));
+        assertEquals(expected, remove.firstUniqChar(input));
     }
 }

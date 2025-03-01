@@ -20,8 +20,8 @@ public class NumberOfDistinctAveragesTest {
 
     @ParameterizedTest(name = "Sort {index}")
     @MethodSource("dataProvider")
-    public void testSort(int[] nums, int excepted) {
+    public void testSort(int[] nums, int expected) {
         NumberOfDistinctAverages sort = new NumberOfDistinctAveragesSort();
-        assertEquals(excepted, sort.distinctAverages(nums));
+        assertEquals(expected, sort.distinctAverages(nums));
     }
 }

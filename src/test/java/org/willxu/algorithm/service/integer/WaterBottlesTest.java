@@ -20,8 +20,8 @@ public class WaterBottlesTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int numBottles, int numExchange, int excepted) {
+    public void testLoop(int numBottles, int numExchange, int expected) {
         WaterBottles loop = new WaterBottlesLoop();
-        assertEquals(excepted, loop.numWaterBottles(numBottles, numExchange));
+        assertEquals(expected, loop.numWaterBottles(numBottles, numExchange));
     }
 }

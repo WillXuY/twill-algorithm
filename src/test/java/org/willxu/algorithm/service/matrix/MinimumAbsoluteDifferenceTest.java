@@ -46,12 +46,12 @@ public class MinimumAbsoluteDifferenceTest {
 
     @ParameterizedTest(name = "Sort {index}")
     @MethodSource("dataProvider")
-    public void testSort(int[] arr, List<List<Integer>> excepted)
+    public void testSort(int[] arr, List<List<Integer>> expected)
             throws JsonProcessingException {
         MinimumAbsoluteDifference sort = new MinimumAbsoluteDifferenceSort();
         List<List<Integer>> output = sort.minimumAbsDifference(arr);
         ObjectMapper objectMapper = new ObjectMapper();
-        String except = objectMapper.writeValueAsString(excepted);
+        String except = objectMapper.writeValueAsString(expected);
         assertEquals(except, objectMapper.writeValueAsString(output));
     }
 }

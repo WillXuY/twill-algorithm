@@ -53,8 +53,8 @@ public class FlippingAnImageTest {
 
     @ParameterizedTest
     @MethodSource("dataProvider")
-    public void testLoop(int[][] image, int[][] excepted) {
+    public void testLoop(int[][] image, int[][] expected) {
         FlippingAnImage loop = new FlippingAnImageLoop();
-        assertArrayEquals(excepted, loop.flipAndInvertImage(image));
+        assertArrayEquals(expected, loop.flipAndInvertImage(image));
     }
 }

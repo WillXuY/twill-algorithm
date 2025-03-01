@@ -20,8 +20,8 @@ public class Base7Test {
 
     @ParameterizedTest(name = "Division {index}")
     @MethodSource("dataProvider")
-    public void testDivision(int input, String excepted) {
+    public void testDivision(int input, String expected) {
         Base7 division = new Base7Division();
-        assertEquals(excepted, division.convertToBase7(input));
+        assertEquals(expected, division.convertToBase7(input));
     }
 }

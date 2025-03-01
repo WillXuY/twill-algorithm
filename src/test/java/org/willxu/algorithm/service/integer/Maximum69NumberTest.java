@@ -21,8 +21,8 @@ public class Maximum69NumberTest {
 
     @ParameterizedTest(name = "Divide {index}")
     @MethodSource("dataProvider")
-    public void testDivide(int num, int excepted) {
+    public void testDivide(int num, int expected) {
         Maximum69Number divide = new Maximum69NumberDivide();
-        assertEquals(excepted, divide.maximum69Number(num));
+        assertEquals(expected, divide.maximum69Number(num));
     }
 }

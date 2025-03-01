@@ -46,16 +46,16 @@ public class BestTimeToBuyAndSellStockTest {
 
     @ParameterizedTest(name = "Cycle {index}")
     @MethodSource("dataProvider")
-    public void testCycle(int[] input, int excepted) {
+    public void testCycle(int[] input, int expected) {
         BestTimeToBuyAndSellStock cycle = new BestTimeToBuyAndSellStockCycle();
-        assertEquals(excepted, cycle.maxProfit(input));
+        assertEquals(expected, cycle.maxProfit(input));
     }
 
     @ParameterizedTest(name = "Save min {index}")
     @MethodSource("dataProvider")
-    public void testSaveMin(int[] input, int excepted) {
+    public void testSaveMin(int[] input, int expected) {
         BestTimeToBuyAndSellStock cycle =
                 new BestTimeToBuyAndSellStockSaveMin();
-        assertEquals(excepted, cycle.maxProfit(input));
+        assertEquals(expected, cycle.maxProfit(input));
     }
 }

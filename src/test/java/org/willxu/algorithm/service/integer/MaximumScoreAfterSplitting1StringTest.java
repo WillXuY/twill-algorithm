@@ -20,9 +20,9 @@ public class MaximumScoreAfterSplitting1StringTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(String s, int excepted) {
+    public void testCount(String s, int expected) {
         MaximumScoreAfterSplitting1String count =
                 new MaximumScoreAfterSplitting1StringCount();
-        assertEquals(excepted, count.maxScore(s));
+        assertEquals(expected, count.maxScore(s));
     }
 }

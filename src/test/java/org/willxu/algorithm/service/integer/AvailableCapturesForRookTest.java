@@ -57,8 +57,8 @@ public class AvailableCapturesForRookTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(char[][] board, int excepted) {
+    public void testLoop(char[][] board, int expected) {
         AvailableCapturesForRook loop = new AvailableCapturesForRookLoop();
-        assertEquals(excepted, loop.numRookCaptures(board));
+        assertEquals(expected, loop.numRookCaptures(board));
     }
 }

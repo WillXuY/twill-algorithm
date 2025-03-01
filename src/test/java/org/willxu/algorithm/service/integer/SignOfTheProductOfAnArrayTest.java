@@ -21,8 +21,8 @@ public class SignOfTheProductOfAnArrayTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] nums, int excepted) {
+    public void testLoop(int[] nums, int expected) {
         SignOfTheProductOfAnArray loop = new SignOfTheProductOfAnArrayLoop();
-        assertEquals(excepted, loop.arraySign(nums));
+        assertEquals(expected, loop.arraySign(nums));
     }
 }

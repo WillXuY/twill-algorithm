@@ -28,8 +28,8 @@ public class SimplifyPathTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String path, String excepted) {
+    public void testLoop(String path, String expected) {
         SimplifyPath loop = new SimplifyPathLoop();
-        assertEquals(excepted, loop.simplifyPath(path));
+        assertEquals(expected, loop.simplifyPath(path));
     }
 }

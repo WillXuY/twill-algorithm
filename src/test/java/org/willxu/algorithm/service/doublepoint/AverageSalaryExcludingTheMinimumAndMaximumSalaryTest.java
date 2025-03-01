@@ -20,10 +20,10 @@ public class AverageSalaryExcludingTheMinimumAndMaximumSalaryTest {
 
     @ParameterizedTest(name = "Sort {index}")
     @MethodSource("dataProvider")
-    public void testSort(int[] salary, double excepted) {
+    public void testSort(int[] salary, double expected) {
         AverageSalaryExcludingTheMinimumAndMaximumSalary sort =
                 new AverageSalaryExcludingTheMinimumAndMaximumSalarySort();
-        assertEquals(excepted, sort.average(salary));
+        assertEquals(expected, sort.average(salary));
     }
 
     // todo: save the max and min salary.

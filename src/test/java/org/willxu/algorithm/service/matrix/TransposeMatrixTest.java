@@ -50,8 +50,8 @@ public class TransposeMatrixTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[][] matrix, int[][] excepted) {
+    public void testLoop(int[][] matrix, int[][] expected) {
         TransposeMatrix loop = new TransposeMatrixLoop();
-        assertArrayEquals(excepted, loop.transpose(matrix));
+        assertArrayEquals(expected, loop.transpose(matrix));
     }
 }

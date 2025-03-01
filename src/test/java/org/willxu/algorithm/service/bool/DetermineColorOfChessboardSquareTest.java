@@ -21,9 +21,9 @@ public class DetermineColorOfChessboardSquareTest {
 
     @ParameterizedTest(name = "Parity {index}")
     @MethodSource("dataProvider")
-    public void testParity(String coordinates, boolean excepted) {
+    public void testParity(String coordinates, boolean expected) {
         DetermineColorOfChessboardSquare parity =
                 new DetermineColorOfChessboardSquareParity();
-        assertEquals(excepted, parity.squareIsWhite(coordinates));
+        assertEquals(expected, parity.squareIsWhite(coordinates));
     }
 }

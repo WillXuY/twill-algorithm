@@ -64,8 +64,8 @@ public class MergeIntervalsTest {
 
     @ParameterizedTest(name = "Sort {index}")
     @MethodSource("dataProvider")
-    public void testSort(int[][] intervals, int[][] excepted) {
+    public void testSort(int[][] intervals, int[][] expected) {
         MergeIntervals sort = new MergeIntervalsSort();
-        assertArrayEquals(excepted, sort.merge(intervals));
+        assertArrayEquals(expected, sort.merge(intervals));
     }
 }

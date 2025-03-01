@@ -21,9 +21,9 @@ public class CountEqualAndDivisiblePairsInAnArrayTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(int[] nums, int k, int excepted) {
+    public void testCount(int[] nums, int k, int expected) {
         CountEqualAndDivisiblePairsInAnArray count =
                 new CountEqualAndDivisiblePairsInAnArrayCount();
-        assertEquals(excepted, count.countPairs(nums, k));
+        assertEquals(expected, count.countPairs(nums, k));
     }
 }

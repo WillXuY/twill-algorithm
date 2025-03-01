@@ -44,10 +44,10 @@ public class BuildAnArrayWithStackOperationsTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] target, int n, List<String> excepted) {
+    public void testLoop(int[] target, int n, List<String> expected) {
         BuildAnArrayWithStackOperations loop =
                 new BuildAnArrayWithStackOperationsLoop();
-        assertArrayEquals(excepted.toArray(),
+        assertArrayEquals(expected.toArray(),
                 loop.buildArray(target, n).toArray());
     }
 }

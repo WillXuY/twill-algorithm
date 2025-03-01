@@ -31,8 +31,8 @@ public class MostFrequentSubtreeSumTest {
 
     @ParameterizedTest(name = "Map {index}")
     @MethodSource("dataProvider")
-    public void testMap(TreeNode root, int[] excepted) {
+    public void testMap(TreeNode root, int[] expected) {
         MostFrequentSubtreeSum map = new MostFrequentSubtreeSumMap();
-        assertArrayEquals(excepted, map.findFrequentTreeSum(root));
+        assertArrayEquals(expected, map.findFrequentTreeSum(root));
     }
 }

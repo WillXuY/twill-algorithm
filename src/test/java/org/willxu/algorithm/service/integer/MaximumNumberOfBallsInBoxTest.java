@@ -21,8 +21,8 @@ public class MaximumNumberOfBallsInBoxTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(int lowLimit, int highLimit, int excepted) {
+    public void testCount(int lowLimit, int highLimit, int expected) {
         MaximumNumberOfBallsInBox count = new MaximumNumberOfBallsInBoxCount();
-        assertEquals(excepted, count.countBalls(lowLimit, highLimit));
+        assertEquals(expected, count.countBalls(lowLimit, highLimit));
     }
 }

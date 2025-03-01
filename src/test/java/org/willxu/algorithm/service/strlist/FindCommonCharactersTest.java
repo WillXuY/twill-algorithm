@@ -32,9 +32,9 @@ public class FindCommonCharactersTest {
 
     @ParameterizedTest(name = "Compare {index}")
     @MethodSource("dataProvider")
-    public void testCompare(String[] words, List<String> excepted) {
+    public void testCompare(String[] words, List<String> expected) {
         FindCommonCharacters compare = new FindCommonCharactersCompare();
-        assertArrayEquals(excepted.toArray(),
+        assertArrayEquals(expected.toArray(),
                 compare.commonChars(words).toArray());
     }
 }

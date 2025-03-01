@@ -64,8 +64,8 @@ public class FloodFillTest {
     @ParameterizedTest(name = "List {index}")
     @MethodSource("dataProvider")
     public void testList(int[][] image, int sr, int sc, int newColor,
-                         int[][] excepted) {
+                         int[][] expected) {
         FloodFill list = new FloodFillList();
-        assertArrayEquals(excepted, list.floodFill(image, sr, sc, newColor));
+        assertArrayEquals(expected, list.floodFill(image, sr, sc, newColor));
     }
 }

@@ -22,9 +22,9 @@ public class MaximumAscendingSubarraySumTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(int[] nums, int excepted) {
+    public void testCount(int[] nums, int expected) {
         MaximumAscendingSubarraySum count =
                 new MaximumAscendingSubarraySumCount();
-        assertEquals(excepted, count.maxAscendingSum(nums));
+        assertEquals(expected, count.maxAscendingSum(nums));
     }
 }

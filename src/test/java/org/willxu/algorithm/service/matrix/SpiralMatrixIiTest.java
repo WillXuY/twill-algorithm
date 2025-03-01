@@ -27,8 +27,8 @@ public class SpiralMatrixIiTest {
 
     @ParameterizedTest(name = "Edge {index}")
     @MethodSource("dataProvider")
-    public void testEdge(int n, int[][] excepted) {
+    public void testEdge(int n, int[][] expected) {
         SpiralMatrixIi edge = new SpiralMatrixIiEdge();
-        assertArrayEquals(excepted, edge.generateMatrix(n));
+        assertArrayEquals(expected, edge.generateMatrix(n));
     }
 }

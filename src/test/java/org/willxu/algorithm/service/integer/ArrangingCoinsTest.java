@@ -22,15 +22,15 @@ public class ArrangingCoinsTest {
 
     @ParameterizedTest(name = "Equation {index}")
     @MethodSource("dataProvider")
-    public void testEquation(int input, int excepted) {
+    public void testEquation(int input, int expected) {
         ArrangingCoins equation = new ArrangingCoinsEquation();
-        assertEquals(excepted, equation.arrangeCoins(input));
+        assertEquals(expected, equation.arrangeCoins(input));
     }
 
     @ParameterizedTest(name = "Cycle {index}")
     @MethodSource("dataProvider")
-    public void testCycle(int input, int excepted) {
+    public void testCycle(int input, int expected) {
         ArrangingCoins cycle = new ArrangingCoinsCycle();
-        assertEquals(excepted, cycle.arrangeCoins(input));
+        assertEquals(expected, cycle.arrangeCoins(input));
     }
 }

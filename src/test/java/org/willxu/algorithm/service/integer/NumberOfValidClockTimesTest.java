@@ -21,8 +21,8 @@ public class NumberOfValidClockTimesTest {
 
     @ParameterizedTest(name = "If {index}")
     @MethodSource("dataProvider")
-    public void testIf(String time, int excepted) {
+    public void testIf(String time, int expected) {
         NumberOfValidClockTimes timesIf = new NumberOfValidClockTimesIf();
-        assertEquals(excepted, timesIf.countTime(time));
+        assertEquals(expected, timesIf.countTime(time));
     }
 }

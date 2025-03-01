@@ -20,8 +20,8 @@ public class CompareVersionNumbersTest {
 
     @ParameterizedTest(name = "Split {index}")
     @MethodSource("dataProvider")
-    public void testSplit(String version1, String version2, int excepted) {
+    public void testSplit(String version1, String version2, int expected) {
         CompareVersionNumbers split = new CompareVersionNumbersSplit();
-        assertEquals(excepted, split.compareVersion(version1, version2));
+        assertEquals(expected, split.compareVersion(version1, version2));
     }
 }

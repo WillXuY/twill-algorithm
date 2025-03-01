@@ -20,8 +20,8 @@ public class DefangingAnIpAddressTest {
 
     @ParameterizedTest(name = "Regex {index}")
     @MethodSource("dataProvider")
-    public void testRegex(String address, String excepted) {
+    public void testRegex(String address, String expected) {
         DefangingAnIpAddress regex = new DefangingAnIpAddressRegex();
-        assertEquals(excepted, regex.defangIPaddr(address));
+        assertEquals(expected, regex.defangIPaddr(address));
     }
 }

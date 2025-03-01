@@ -45,8 +45,8 @@ public class MatrixCellsInDistanceOrderTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int r, int c, int rc, int cc, int[][] excepted) {
+    public void testLoop(int r, int c, int rc, int cc, int[][] expected) {
         MatrixCellsInDistanceOrder loop = new MatrixCellsInDistanceOrderLoop();
-        assertArrayEquals(excepted, loop.allCellsDistOrder(r, c, rc, cc));
+        assertArrayEquals(expected, loop.allCellsDistOrder(r, c, rc, cc));
     }
 }

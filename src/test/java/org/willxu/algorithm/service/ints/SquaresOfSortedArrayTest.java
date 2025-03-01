@@ -26,8 +26,8 @@ public class SquaresOfSortedArrayTest {
 
     @ParameterizedTest(name = "Insert {index}")
     @MethodSource("dataProvider")
-    public void testInsert(int[] nums, int[] excepted) {
+    public void testInsert(int[] nums, int[] expected) {
         SquaresOfSortedArray insert = new SquaresOfSortedArrayInsert();
-        assertArrayEquals(excepted, insert.sortedSquares(nums));
+        assertArrayEquals(expected, insert.sortedSquares(nums));
     }
 }

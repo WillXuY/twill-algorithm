@@ -36,8 +36,8 @@ public class MatrixDiagonalSumTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[][] mat, int excepted) {
+    public void testLoop(int[][] mat, int expected) {
         MatrixDiagonalSum loop = new MatrixDiagonalSumLoop();
-        assertEquals(excepted, loop.diagonalSum(mat));
+        assertEquals(expected, loop.diagonalSum(mat));
     }
 }

@@ -19,8 +19,8 @@ public class SumOfTwoIntegersTest {
 
     @ParameterizedTest(name = "Bit {index}")
     @MethodSource("dataProvider")
-    public void testBit(int a, int b, int excepted) {
+    public void testBit(int a, int b, int expected) {
         SumOfTwoIntegers bit = new SumOfTwoIntegersBit();
-        assertEquals(excepted, bit.getSum(a, b));
+        assertEquals(expected, bit.getSum(a, b));
     }
 }

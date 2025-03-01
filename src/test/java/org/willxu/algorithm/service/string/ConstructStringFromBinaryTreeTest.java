@@ -41,9 +41,9 @@ public class ConstructStringFromBinaryTreeTest {
 
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(TreeNode root, String excepted) {
+    public void testRecursive(TreeNode root, String expected) {
         ConstructStringFromBinaryTree recursive =
                 new ConstructStringFromBinaryTreeRecursive();
-        assertEquals(excepted, recursive.tree2str(root));
+        assertEquals(expected, recursive.tree2str(root));
     }
 }

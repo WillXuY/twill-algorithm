@@ -31,8 +31,8 @@ public class SumRootToLeafNumbersTest {
 
     @ParameterizedTest(name = "Level {index}")
     @MethodSource("dataProvider")
-    public void testLevel(TreeNode root, int excepted) {
+    public void testLevel(TreeNode root, int expected) {
         SumRootToLeafNumbers level = new SumRootToLeafNumbersLevel();
-        assertEquals(excepted, level.sumNumbers(root));
+        assertEquals(expected, level.sumNumbers(root));
     }
 }

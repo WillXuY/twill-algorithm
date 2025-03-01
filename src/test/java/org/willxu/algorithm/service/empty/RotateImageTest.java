@@ -44,9 +44,9 @@ public class RotateImageTest {
 
     @ParameterizedTest(name = "Exchange {index}")
     @MethodSource("dataProvider")
-    public void testExchange(int[][] matrix, int[][] excepted) {
+    public void testExchange(int[][] matrix, int[][] expected) {
         RotateImage exchange = new RotateImageExchange();
         exchange.rotate(matrix);
-        assertArrayEquals(excepted, matrix);
+        assertArrayEquals(expected, matrix);
     }
 }

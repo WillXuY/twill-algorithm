@@ -21,8 +21,8 @@ public class MakeTheStringGreatTest {
 
     @ParameterizedTest(name = "Stack {index}")
     @MethodSource("dataProvider")
-    public void testStack(String s, String excepted) {
+    public void testStack(String s, String expected) {
         MakeTheStringGreat stack = new MakeTheStringGreatStack();
-        assertEquals(excepted, stack.makeGood(s));
+        assertEquals(expected, stack.makeGood(s));
     }
 }

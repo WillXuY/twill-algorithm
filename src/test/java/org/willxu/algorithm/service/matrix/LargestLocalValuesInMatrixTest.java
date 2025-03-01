@@ -41,8 +41,8 @@ public class LargestLocalValuesInMatrixTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[][] grid, int[][] excepted) {
+    public void testLoop(int[][] grid, int[][] expected) {
         LargestLocalValuesInMatrix loop = new LargestLocalValuesInMatrixLoop();
-        assertArrayEquals(excepted, loop.largestLocal(grid));
+        assertArrayEquals(expected, loop.largestLocal(grid));
     }
 }

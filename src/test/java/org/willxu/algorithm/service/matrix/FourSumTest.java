@@ -58,12 +58,12 @@ public class FourSumTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] nums, int target, List<List<Integer>> excepted)
+    public void testLoop(int[] nums, int target, List<List<Integer>> expected)
             throws JsonProcessingException {
         ObjectMapper objectMapper = new ObjectMapper();
         FourSum loop = new FourSumLoop();
         String output = objectMapper.writeValueAsString(
                 loop.fourSum(nums, target));
-        assertEquals(objectMapper.writeValueAsString(excepted), output);
+        assertEquals(objectMapper.writeValueAsString(expected), output);
     }
 }

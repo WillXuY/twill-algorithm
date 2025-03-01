@@ -35,9 +35,9 @@ public class ShortestDistanceToCharacterTest {
 
     @ParameterizedTest
     @MethodSource("dataProvider")
-    public void testLoop(String s, char c, int[] excepted) {
+    public void testLoop(String s, char c, int[] expected) {
         ShortestDistanceToCharacter loop =
                 new ShortestDistanceToCharacterLoop();
-        assertArrayEquals(excepted, loop.shortestToChar(s, c));
+        assertArrayEquals(expected, loop.shortestToChar(s, c));
     }
 }

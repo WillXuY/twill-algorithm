@@ -20,8 +20,8 @@ public class UniquePathsTest {
 
     @ParameterizedTest(name = "Matrix {index}")
     @MethodSource("dataProvider")
-    public void testMatrix(int m, int n, int excepted) {
+    public void testMatrix(int m, int n, int expected) {
         UniquePaths matrix = new UniquePathsMatrix();
-        assertEquals(excepted, matrix.uniquePaths(m, n));
+        assertEquals(expected, matrix.uniquePaths(m, n));
     }
 }

@@ -20,9 +20,9 @@ public class ElementAppearingMoreThan25pInSortedArrayTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(int[] arr, int excepted) {
+    public void testCount(int[] arr, int expected) {
         ElementAppearingMoreThan25pInSortedArray count
                 = new ElementAppearingMoreThan25pInSortedArrayCount();
-        assertEquals(excepted, count.findSpecialInteger(arr));
+        assertEquals(expected, count.findSpecialInteger(arr));
     }
 }

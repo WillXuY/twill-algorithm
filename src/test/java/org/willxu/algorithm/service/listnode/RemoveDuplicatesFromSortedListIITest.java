@@ -36,14 +36,14 @@ public class RemoveDuplicatesFromSortedListIITest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(ListNode head, ListNode excepted) {
+    public void testLoop(ListNode head, ListNode expected) {
         RemoveDuplicatesFromSortedListIi loop =
                 new RemoveDuplicatesFromSortedListIiLoop();
         ListNode output = loop.deleteDuplicates(head);
-        if (excepted == null) {
+        if (expected == null) {
             assertNull(output);
         } else {
-            assertArrayEquals(excepted.toIntArray(), output.toIntArray());
+            assertArrayEquals(expected.toIntArray(), output.toIntArray());
         }
     }
 }

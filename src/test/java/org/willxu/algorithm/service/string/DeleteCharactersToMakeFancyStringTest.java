@@ -21,9 +21,9 @@ public class DeleteCharactersToMakeFancyStringTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(String s, String excepted) {
+    public void testCount(String s, String expected) {
         DeleteCharactersToMakeFancyString count =
                 new DeleteCharactersToMakeFancyStringCount();
-        assertEquals(excepted, count.makeFancyString(s));
+        assertEquals(expected, count.makeFancyString(s));
     }
 }

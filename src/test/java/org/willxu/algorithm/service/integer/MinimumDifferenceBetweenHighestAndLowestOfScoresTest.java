@@ -23,9 +23,9 @@ public class MinimumDifferenceBetweenHighestAndLowestOfScoresTest {
 
     @ParameterizedTest(name = "Sort {index}")
     @MethodSource("dataProvider")
-    public void testSort(int[] nums, int k, int excepted) {
+    public void testSort(int[] nums, int k, int expected) {
         MinimumDifferenceBetweenHighestAndLowestOfScores sort =
                 new MinimumDifferenceBetweenHighestAndLowestOfScoresSort();
-        assertEquals(excepted, sort.minimumDifference(nums, k));
+        assertEquals(expected, sort.minimumDifference(nums, k));
     }
 }

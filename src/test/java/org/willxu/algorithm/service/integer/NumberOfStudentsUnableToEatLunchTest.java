@@ -34,9 +34,9 @@ public class NumberOfStudentsUnableToEatLunchTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(int[] students, int[] sandwiches, int excepted) {
+    public void testCount(int[] students, int[] sandwiches, int expected) {
         NumberOfStudentsUnableToEatLunch count
                 = new NumberOfStudentsUnableToEatLunchCount();
-        assertEquals(excepted, count.countStudents(students, sandwiches));
+        assertEquals(expected, count.countStudents(students, sandwiches));
     }
 }

@@ -21,9 +21,9 @@ public class MinimumNumberOfMovesToSeatEveryoneTest {
 
     @ParameterizedTest(name = "Sort {index}")
     @MethodSource("dataProvider")
-    public void testSort(int[] seats, int[] students, int excepted) {
+    public void testSort(int[] seats, int[] students, int expected) {
         MinimumNumberOfMovesToSeatEveryone sort =
                 new MinimumNumberOfMovesToSeatEveryoneSort();
-        assertEquals(excepted, sort.minMovesToSeat(seats, students));
+        assertEquals(expected, sort.minMovesToSeat(seats, students));
     }
 }

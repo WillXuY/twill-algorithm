@@ -20,9 +20,9 @@ public class MaximumEnemyFortsThatCanBeCapturedTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(int[] forts, int excepted) {
+    public void testCount(int[] forts, int expected) {
         MaximumEnemyFortsThatCanBeCaptured count =
                 new MaximumEnemyFortsThatCanBeCapturedCount();
-        assertEquals(excepted, count.captureForts(forts));
+        assertEquals(expected, count.captureForts(forts));
     }
 }

@@ -31,8 +31,8 @@ public class CanPlaceFlowersTest {
 
     @ParameterizedTest(name = "Iterator {index}")
     @MethodSource("dataProvider")
-    public void testIterator(int[] flowerbed, int n, boolean excepted) {
+    public void testIterator(int[] flowerbed, int n, boolean expected) {
         CanPlaceFlowers iterator = new CanPlaceFlowersIterator();
-        assertEquals(excepted, iterator.canPlaceFlowers(flowerbed, n));
+        assertEquals(expected, iterator.canPlaceFlowers(flowerbed, n));
     }
 }

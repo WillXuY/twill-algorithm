@@ -21,8 +21,8 @@ public class DivisiorGameTest {
 
     @ParameterizedTest(name = "Parity {index}")
     @MethodSource("dataProvider")
-    public void testParity(int n, boolean excepted) {
+    public void testParity(int n, boolean expected) {
         DivisorGame parity = new DivisorGameParity();
-        assertEquals(excepted, parity.divisorGame(n));
+        assertEquals(expected, parity.divisorGame(n));
     }
 }

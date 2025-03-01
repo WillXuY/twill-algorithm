@@ -47,8 +47,8 @@ public class FindIfPathExistsInGraphTest {
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
     public void testLoop(int n, int[][] edges,
-                         int source, int destination, boolean excepted) {
+                         int source, int destination, boolean expected) {
         FindIfPathExistsInGraph loop = new FindIfPathExistsInGraphLoop();
-        assertEquals(excepted, loop.validPath(n, edges, source, destination));
+        assertEquals(expected, loop.validPath(n, edges, source, destination));
     }
 }

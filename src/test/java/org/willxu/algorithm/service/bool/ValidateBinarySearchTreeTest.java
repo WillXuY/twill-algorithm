@@ -53,9 +53,9 @@ public class ValidateBinarySearchTreeTest {
 
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(TreeNode root, boolean excepted) {
+    public void testRecursive(TreeNode root, boolean expected) {
         ValidateBinarySearchTree recursive =
                 new ValidateBinarySearchTreeRecursive();
-        assertEquals(excepted, recursive.isValidBST(root));
+        assertEquals(expected, recursive.isValidBST(root));
     }
 }

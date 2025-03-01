@@ -21,8 +21,8 @@ public class ThreeDivisorsTest {
 
     @ParameterizedTest(name = "Exhaustive {index}")
     @MethodSource("dataProvider")
-    public void testExhaustive(int n, boolean excepted) {
+    public void testExhaustive(int n, boolean expected) {
         ThreeDivisors exhaustive = new ThreeDivisorsExhaustive();
-        assertEquals(excepted, exhaustive.isThree(n));
+        assertEquals(expected, exhaustive.isThree(n));
     }
 }

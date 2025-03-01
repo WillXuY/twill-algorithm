@@ -21,8 +21,8 @@ public class FindThePivotIntegerTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(int n, int excepted) {
+    public void testCount(int n, int expected) {
         FindThePivotInteger count = new FindThePivotIntegerCount();
-        assertEquals(excepted, count.pivotInteger(n));
+        assertEquals(expected, count.pivotInteger(n));
     }
 }

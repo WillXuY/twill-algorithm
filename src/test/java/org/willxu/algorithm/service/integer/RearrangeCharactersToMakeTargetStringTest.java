@@ -21,9 +21,9 @@ public class RearrangeCharactersToMakeTargetStringTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(String s, String target, int excepted) {
+    public void testCount(String s, String target, int expected) {
         RearrangeCharactersToMakeTargetString count =
                 new RearrangeCharactersToMakeTargetStringCount();
-        assertEquals(excepted, count.rearrangeCharacters(s, target));
+        assertEquals(expected, count.rearrangeCharacters(s, target));
     }
 }

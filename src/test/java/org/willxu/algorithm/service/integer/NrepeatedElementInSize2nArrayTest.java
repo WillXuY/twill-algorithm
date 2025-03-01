@@ -21,9 +21,9 @@ public class NrepeatedElementInSize2nArrayTest {
 
     @ParameterizedTest(name = "Set {index}")
     @MethodSource("dataProvider")
-    public void testSet(int[] nums, int excepted) {
+    public void testSet(int[] nums, int expected) {
         NrepeatedElementInSize2nArray set =
                 new NrepeatedElementInSize2nArraySet();
-        assertEquals(excepted, set.repeatedNTimes(nums));
+        assertEquals(expected, set.repeatedNTimes(nums));
     }
 }

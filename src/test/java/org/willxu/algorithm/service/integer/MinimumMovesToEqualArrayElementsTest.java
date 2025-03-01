@@ -30,9 +30,9 @@ public class MinimumMovesToEqualArrayElementsTest {
 
     @ParameterizedTest(name = "Math {index}")
     @MethodSource("dataProvider")
-    public void testMath(int[] input, int excepted) {
+    public void testMath(int[] input, int expected) {
         MinimumMovesToEqualArrayElements math =
                 new MinimumMovesToEqualArrayElementsMath();
-        assertEquals(excepted, math.minMoves(input));
+        assertEquals(expected, math.minMoves(input));
     }
 }

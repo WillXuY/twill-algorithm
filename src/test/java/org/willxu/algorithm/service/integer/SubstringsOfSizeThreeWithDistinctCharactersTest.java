@@ -20,9 +20,9 @@ public class SubstringsOfSizeThreeWithDistinctCharactersTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String s, int excepted) {
+    public void testLoop(String s, int expected) {
         SubstringsOfSizeThreeWithDistinctCharacters loop =
                 new SubstringsOfSizeThreeWithDistinctCharactersLoop();
-        assertEquals(excepted, loop.countGoodSubstrings(s));
+        assertEquals(expected, loop.countGoodSubstrings(s));
     }
 }

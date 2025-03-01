@@ -28,9 +28,9 @@ public class CountOddNumbersInAnIntervalRangeTest {
 
     @ParameterizedTest(name = "Calculate {index}")
     @MethodSource("dataProvider")
-    public void testCalculate(int low, int high, int excepted) {
+    public void testCalculate(int low, int high, int expected) {
         CountOddNumbersInAnIntervalRange calculate =
                 new CountOddNumbersInAnIntervalRangeCalculate();
-        assertEquals(excepted, calculate.countOdds(low, high));
+        assertEquals(expected, calculate.countOdds(low, high));
     }
 }

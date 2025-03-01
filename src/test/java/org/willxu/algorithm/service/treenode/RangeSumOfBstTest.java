@@ -32,8 +32,8 @@ public class RangeSumOfBstTest {
 
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(TreeNode root, int low, int high, int excepted) {
+    public void testRecursive(TreeNode root, int low, int high, int expected) {
         RangeSumOfBst recursive = new RangeSumOfBstRecursive();
-        assertEquals(excepted, recursive.rangeSumBST(root, low, high));
+        assertEquals(expected, recursive.rangeSumBST(root, low, high));
     }
 }

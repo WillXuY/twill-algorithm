@@ -20,8 +20,8 @@ public class AddTwoIntegersTest {
 
     @ParameterizedTest(name = "Add {index}")
     @MethodSource("dataProvider")
-    public void testAdd(int num1, int num2, int excepted) {
+    public void testAdd(int num1, int num2, int expected) {
         AddTwoIntegers add = new AddTwoIntegersAdd();
-        assertEquals(excepted, add.sum(num1, num2));
+        assertEquals(expected, add.sum(num1, num2));
     }
 }

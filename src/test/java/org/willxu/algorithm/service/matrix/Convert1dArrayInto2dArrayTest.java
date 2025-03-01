@@ -24,8 +24,8 @@ public class Convert1dArrayInto2dArrayTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop (int[] original, int m, int n, int[][] excepted) {
+    public void testLoop (int[] original, int m, int n, int[][] expected) {
         Convert1dArrayInto2dArray loop = new Convert1dArrayInto2dArrayLoop();
-        assertArrayEquals(excepted, loop.construct2DArray(original, m, n));
+        assertArrayEquals(expected, loop.construct2DArray(original, m, n));
     }
 }

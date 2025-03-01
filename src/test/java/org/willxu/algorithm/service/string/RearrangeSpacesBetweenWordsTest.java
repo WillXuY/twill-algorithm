@@ -26,9 +26,9 @@ public class RearrangeSpacesBetweenWordsTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String text, String excepted) {
+    public void testLoop(String text, String expected) {
         RearrangeSpacesBetweenWords loop =
                 new RearrangeSpacesBetweenWordsLoop();
-        assertEquals(excepted, loop.reorderSpaces(text));
+        assertEquals(expected, loop.reorderSpaces(text));
     }
 }

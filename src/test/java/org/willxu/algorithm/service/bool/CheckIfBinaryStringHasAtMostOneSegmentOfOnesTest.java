@@ -21,9 +21,9 @@ public class CheckIfBinaryStringHasAtMostOneSegmentOfOnesTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String s, boolean excepted) {
+    public void testLoop(String s, boolean expected) {
         CheckIfBinaryStringHasAtMostOneSegmentOfOnes loop =
                 new CheckIfBinaryStringHasAtMostOneSegmentOfOnesLoop();
-        assertEquals(excepted, loop.checkOnesSegment(s));
+        assertEquals(expected, loop.checkOnesSegment(s));
     }
 }

@@ -21,9 +21,9 @@ public class NumberOfUnequalTripletsInArrayTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(int[] nums, int excepted) {
+    public void testCount(int[] nums, int expected) {
         NumberOfUnequalTripletsInArray count =
                 new NumberOfUnequalTripletsInArrayCount();
-        assertEquals(excepted, count.unequalTriplets(nums));
+        assertEquals(expected, count.unequalTriplets(nums));
     }
 }

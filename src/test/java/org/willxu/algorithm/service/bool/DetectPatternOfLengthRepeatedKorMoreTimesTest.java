@@ -23,9 +23,9 @@ public class DetectPatternOfLengthRepeatedKorMoreTimesTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(int[] arr, int m, int k, boolean excepted) {
+    public void testCount(int[] arr, int m, int k, boolean expected) {
         DetectPatternOfLengthRepeatedKorMoreTimes count =
                 new DetectPatternOfLengthRepeatedKorMoreTimesCount();
-        assertEquals(excepted, count.containsPattern(arr, m, k));
+        assertEquals(expected, count.containsPattern(arr, m, k));
     }
 }

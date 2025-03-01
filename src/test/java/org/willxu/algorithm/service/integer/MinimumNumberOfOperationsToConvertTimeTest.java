@@ -20,9 +20,9 @@ public class MinimumNumberOfOperationsToConvertTimeTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String current, String correct, int excepted) {
+    public void testLoop(String current, String correct, int expected) {
         MinimumNumberOfOperationsToConvertTime loop =
                 new MinimumNumberOfOperationsToConvertTimeLoop();
-        assertEquals(excepted, loop.convertTime(current, correct));
+        assertEquals(expected, loop.convertTime(current, correct));
     }
 }

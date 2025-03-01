@@ -29,8 +29,8 @@ public class RepeatedSubstringPatternTest {
 
     @ParameterizedTest(name = "Pointer {index}")
     @MethodSource("dataProvider")
-    public void testPointer(String input, boolean excepted) {
+    public void testPointer(String input, boolean expected) {
         RepeatedSubstringPattern pointer = new RepeatedSubstringPatternPointer();
-        assertEquals(excepted, pointer.repeatedSubstringPattern(input));
+        assertEquals(expected, pointer.repeatedSubstringPattern(input));
     }
 }

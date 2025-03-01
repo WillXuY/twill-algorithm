@@ -25,9 +25,9 @@ public class NextPermutationTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] nums, int[] excepted) {
+    public void testLoop(int[] nums, int[] expected) {
         NextPermutation loop = new NextPermutationLoop();
         loop.nextPermutation(nums);
-        assertArrayEquals(excepted, nums);
+        assertArrayEquals(expected, nums);
     }
 }

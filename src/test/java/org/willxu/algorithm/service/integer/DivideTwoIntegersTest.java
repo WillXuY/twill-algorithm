@@ -26,15 +26,15 @@ public class DivideTwoIntegersTest {
 
     @ParameterizedTest(name = "Left {index}")
     @MethodSource("dataProvider")
-    public void testLeft(int dividend, int divisor, int excepted) {
+    public void testLeft(int dividend, int divisor, int expected) {
         DivideTwoIntegers left = new DivideTwoIntegersLeft();
-        assertEquals(excepted, left.divide(dividend, divisor));
+        assertEquals(expected, left.divide(dividend, divisor));
     }
 
     @ParameterizedTest(name = "Subtraction {index}")
     @MethodSource("dataProvider")
-    public void testSubtraction(int dividend, int divisor, int excepted) {
+    public void testSubtraction(int dividend, int divisor, int expected) {
         DivideTwoIntegers subtraction = new DivideTwoIntegersSubtraction();
-        assertEquals(excepted, subtraction.divide(dividend, divisor));
+        assertEquals(expected, subtraction.divide(dividend, divisor));
     }
 }

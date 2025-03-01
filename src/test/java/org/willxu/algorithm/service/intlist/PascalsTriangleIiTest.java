@@ -40,11 +40,11 @@ public class PascalsTriangleIiTest {
 
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(int input, List<Integer> excepted)
+    public void testRecursive(int input, List<Integer> expected)
             throws JsonProcessingException {
         PascalsTriangleIi recursive = new PascalsTriangleIiRecursive();
         ObjectMapper mapper = new ObjectMapper();
         String output = mapper.writeValueAsString(recursive.getRow(input));
-        assertEquals(mapper.writeValueAsString(excepted), output);
+        assertEquals(mapper.writeValueAsString(expected), output);
     }
 }

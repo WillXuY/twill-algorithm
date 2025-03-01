@@ -36,9 +36,9 @@ public class LuckyNumbersInMatrixTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[][] matrix, List<Integer> excepted) {
+    public void testLoop(int[][] matrix, List<Integer> expected) {
         LuckyNumbersInMatrix loop = new LuckyNumbersInMatrixLoop();
-        assertArrayEquals(excepted.toArray(),
+        assertArrayEquals(expected.toArray(),
                 loop.luckyNumbers(matrix).toArray());
     }
 }

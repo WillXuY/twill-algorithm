@@ -27,9 +27,9 @@ public class KthSmallestElementInSortedMatrixTest {
 
     @ParameterizedTest(name = "Sort {index}")
     @MethodSource("dataProvider")
-    public void testSort(int[][] matrix, int k, int excepted) {
+    public void testSort(int[][] matrix, int k, int expected) {
         KthSmallestElementInSortedMatrix sort =
                 new KthSmallestElementInSortedMatrixSort();
-        assertEquals(excepted, sort.kthSmallest(matrix, k));
+        assertEquals(expected, sort.kthSmallest(matrix, k));
     }
 }

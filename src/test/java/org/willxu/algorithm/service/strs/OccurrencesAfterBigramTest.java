@@ -35,8 +35,8 @@ public class OccurrencesAfterBigramTest {
     @ParameterizedTest(name = "Regex {index}")
     @MethodSource("dataProvider")
     public void testRegex(String text, String first, String second,
-                          String[] excepted) {
+                          String[] expected) {
         OccurrencesAfterBigram regex = new OccurrencesAfterBigramRegex();
-        assertArrayEquals(excepted, regex.findOcurrences(text, first, second));
+        assertArrayEquals(expected, regex.findOcurrences(text, first, second));
     }
 }

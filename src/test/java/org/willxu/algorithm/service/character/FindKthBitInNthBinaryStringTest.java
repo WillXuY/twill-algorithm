@@ -21,8 +21,8 @@ public class FindKthBitInNthBinaryStringTest {
 	
 	@ParameterizedTest(name = "Recursive {index}")
 	@MethodSource("dataProvider")
-	public void testRecursive(int n, int k, char excepted) {
+	public void testRecursive(int n, int k, char expected) {
 		FindKthBitInNthBinaryString recursive = new FindKthBitInNthBinaryStringRecursive();
-		assertEquals(excepted, recursive.findKthBit(n, k));
+		assertEquals(expected, recursive.findKthBit(n, k));
 	}
 }

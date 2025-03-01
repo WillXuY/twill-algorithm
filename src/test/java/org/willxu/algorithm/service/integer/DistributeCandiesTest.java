@@ -30,8 +30,8 @@ public class DistributeCandiesTest {
 
     @ParameterizedTest(name = "Group {index}")
     @MethodSource("dataProvider")
-    public void testGroup(int[] input, int excepted) {
+    public void testGroup(int[] input, int expected) {
         DistributeCandies group = new DistributeCandiesGroup();
-        assertEquals(excepted, group.distributeCandies(input));
+        assertEquals(expected, group.distributeCandies(input));
     }
 }

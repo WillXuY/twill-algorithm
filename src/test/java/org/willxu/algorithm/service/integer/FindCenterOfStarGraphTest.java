@@ -20,8 +20,8 @@ public class FindCenterOfStarGraphTest {
 
     @ParameterizedTest(name = "Equal {index}")
     @MethodSource("dataProvider")
-    public void testEqual(int[][] edges, int excepted) {
+    public void testEqual(int[][] edges, int expected) {
         FindCenterOfStarGraph equal = new FindCenterOfStarGraphEqual();
-        assertEquals(excepted, equal.findCenter(edges));
+        assertEquals(expected, equal.findCenter(edges));
     }
 }

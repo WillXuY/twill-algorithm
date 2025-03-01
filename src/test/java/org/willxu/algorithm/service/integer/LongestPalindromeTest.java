@@ -25,8 +25,8 @@ public class LongestPalindromeTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(String input, int excepted) {
+    public void testCount(String input, int expected) {
         LongestPalindrome count = new LongestPalindromeCount();
-        assertEquals(excepted, count.longestPalindrome(input));
+        assertEquals(expected, count.longestPalindrome(input));
     }
 }

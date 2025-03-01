@@ -35,8 +35,8 @@ public class PeakIndexInMountainArrayTest {
 
     @ParameterizedTest
     @MethodSource("dataProvider")
-    public void testLoop(int[] arr, int excepted) {
+    public void testLoop(int[] arr, int expected) {
         PeakIndexInMountainArray loop = new PeakIndexInMountainArrayLoop();
-        assertEquals(excepted, loop.peakIndexInMountainArray(arr));
+        assertEquals(expected, loop.peakIndexInMountainArray(arr));
     }
 }

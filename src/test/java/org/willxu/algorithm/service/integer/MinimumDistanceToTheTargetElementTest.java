@@ -21,9 +21,9 @@ public class MinimumDistanceToTheTargetElementTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] nums, int target, int start, int excepted) {
+    public void testLoop(int[] nums, int target, int start, int expected) {
         MinimumDistanceToTheTargetElement loop =
                 new MinimumDistanceToTheTargetElementLoop();
-        assertEquals(excepted, loop.getMinDistance(nums, target, start));
+        assertEquals(expected, loop.getMinDistance(nums, target, start));
     }
 }

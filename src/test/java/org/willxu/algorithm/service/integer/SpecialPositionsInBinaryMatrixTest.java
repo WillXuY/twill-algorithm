@@ -30,9 +30,9 @@ public class SpecialPositionsInBinaryMatrixTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[][] mat, int excepted) {
+    public void testLoop(int[][] mat, int expected) {
         SpecialPositionsInBinaryMatrix loop =
                 new SpecialPositionsInBinaryMatrixLoop();
-        assertEquals(excepted, loop.numSpecial(mat));
+        assertEquals(expected, loop.numSpecial(mat));
     }
 }

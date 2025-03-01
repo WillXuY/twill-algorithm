@@ -21,9 +21,9 @@ public class LargestSubstringBetweenTwoEqualCharactersTest {
 
     @ParameterizedTest(name = "Index {index}")
     @MethodSource("dataProvider")
-    public void testIndex(String s, int excepted) {
+    public void testIndex(String s, int expected) {
         LargestSubstringBetweenTwoEqualCharacters index =
                 new LargestSubstringBetweenTwoEqualCharactersIndex();
-        assertEquals(excepted, index.maxLengthBetweenEqualCharacters(s));
+        assertEquals(expected, index.maxLengthBetweenEqualCharacters(s));
     }
 }

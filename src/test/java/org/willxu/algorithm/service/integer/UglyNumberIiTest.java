@@ -19,8 +19,8 @@ public class UglyNumberIiTest {
 
     @ParameterizedTest(name = "Min {index}")
     @MethodSource("dataProvider")
-    public void testMin(int n, int excepted) {
+    public void testMin(int n, int expected) {
         UglyNumberIi min = new UglyNumberIiMin();
-        assertEquals(excepted, min.nthUglyNumber(n));
+        assertEquals(expected, min.nthUglyNumber(n));
     }
 }

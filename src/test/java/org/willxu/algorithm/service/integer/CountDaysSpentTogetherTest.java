@@ -21,9 +21,9 @@ public class CountDaysSpentTogetherTest {
     @ParameterizedTest(name = "Add {index}")
     @MethodSource("dataProvider")
     public void testAdd(String arriveAlice, String leaveAlice,
-                        String arriveBob, String leaveBob, int excepted) {
+                        String arriveBob, String leaveBob, int expected) {
         CountDaysSpentTogether add = new CountDaysSpentTogetherAdd();
-        assertEquals(excepted, add.countDaysTogether(
+        assertEquals(expected, add.countDaysTogether(
                 arriveAlice, leaveAlice, arriveBob, leaveBob));
     }
 }

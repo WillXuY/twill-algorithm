@@ -48,8 +48,8 @@ public class ValidPalindromeTest {
 
     @ParameterizedTest(name = "Preprocessing {index}")
     @MethodSource("dataProvider")
-    public void testPreprocessing(String input, boolean excepted) {
+    public void testPreprocessing(String input, boolean expected) {
         ValidPalindrome preprocessing = new ValidPalindromePreprocessing();
-        assertEquals(excepted, preprocessing.isPalindrome(input));
+        assertEquals(expected, preprocessing.isPalindrome(input));
     }
 }

@@ -23,8 +23,8 @@ public class ComplementOfBase10IntegerTest {
 
     @ParameterizedTest(name = "Bit {index}")
     @MethodSource("dataProvider")
-    public void testBit(int n, int excepted) {
+    public void testBit(int n, int expected) {
         ComplementOfBase10Integer bit = new ComplementOfBase10IntegerBit();
-        assertEquals(excepted, bit.bitwiseComplement(n));
+        assertEquals(expected, bit.bitwiseComplement(n));
     }
 }

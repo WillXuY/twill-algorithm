@@ -25,9 +25,9 @@ public class PartitionArrayIntoDisjointIntervalsTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] nums, int excepted) {
+    public void testLoop(int[] nums, int expected) {
         PartitionArrayIntoDisjointIntervals loop =
                 new PartitionArrayIntoDisjointIntervalsLoop();
-        assertEquals(excepted, loop.partitionDisjoint(nums));
+        assertEquals(expected, loop.partitionDisjoint(nums));
     }
 }

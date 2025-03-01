@@ -20,9 +20,9 @@ public class SearchInRotatedSortedArrayIiTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] nums, int target, boolean excepted) {
+    public void testLoop(int[] nums, int target, boolean expected) {
         SearchInRotatedSortedArrayIi loop =
                 new SearchInRotatedSortedArrayIiLoop();
-        assertEquals(excepted, loop.search(nums, target));
+        assertEquals(expected, loop.search(nums, target));
     }
 }

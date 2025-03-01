@@ -21,8 +21,8 @@ public class RingsAndRodsTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(String rings, int excepted) {
+    public void testCount(String rings, int expected) {
         RingsAndRods count = new RingsAndRodsCount();
-        assertEquals(excepted, count.countPoints(rings));
+        assertEquals(expected, count.countPoints(rings));
     }
 }

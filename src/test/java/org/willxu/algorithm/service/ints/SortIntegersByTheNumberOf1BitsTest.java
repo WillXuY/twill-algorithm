@@ -31,9 +31,9 @@ public class SortIntegersByTheNumberOf1BitsTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(int[] arr, int[] excepted) {
+    public void testCount(int[] arr, int[] expected) {
         SortIntegersByTheNumberOf1Bits count
                 = new SortIntegersByTheNumberOf1BitsCount();
-        assertArrayEquals(excepted, count.sortByBits(arr));
+        assertArrayEquals(expected, count.sortByBits(arr));
     }
 }

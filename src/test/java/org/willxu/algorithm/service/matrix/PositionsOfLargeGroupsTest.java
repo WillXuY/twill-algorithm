@@ -62,9 +62,9 @@ public class PositionsOfLargeGroupsTest {
 
     @ParameterizedTest
     @MethodSource("dataProvider")
-    public void testLoop(String s, List<List<Integer>> excepted) {
+    public void testLoop(String s, List<List<Integer>> expected) {
         PositionsOfLargeGroups loop = new PositionsOfLargeGroupsLoop();
-        assertEquals(excepted.toString(),
+        assertEquals(expected.toString(),
                 loop.largeGroupPositions(s).toString());
     }
 }

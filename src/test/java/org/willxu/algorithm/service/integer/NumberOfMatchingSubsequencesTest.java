@@ -32,10 +32,10 @@ public class NumberOfMatchingSubsequencesTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String s, String[] words, int excepted) {
+    public void testLoop(String s, String[] words, int expected) {
         NumberOfMatchingSubsequences loop =
                 new NumberOfMatchingSubsequencesLoop();
-        assertEquals(excepted, loop.numMatchingSubseq(s, words));
+        assertEquals(expected, loop.numMatchingSubseq(s, words));
     }
 
     /**
@@ -43,9 +43,9 @@ public class NumberOfMatchingSubsequencesTest {
      */
     @ParameterizedTest(name = "Regex {index}")
     @MethodSource("dataProvider")
-    public void testRegex(String s, String[] words, int excepted) {
+    public void testRegex(String s, String[] words, int expected) {
         NumberOfMatchingSubsequences regex =
                 new NumberOfMatchingSubsequencesRegex();
-        assertEquals(excepted, regex.numMatchingSubseq(s, words));
+        assertEquals(expected, regex.numMatchingSubseq(s, words));
     }
 }

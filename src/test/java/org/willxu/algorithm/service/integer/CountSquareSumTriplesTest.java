@@ -20,9 +20,9 @@ public class CountSquareSumTriplesTest {
 
     @ParameterizedTest(name = "Exhaustive {index}")
     @MethodSource("dataProvider")
-    public void testExhaustive(int n, int excepted) {
+    public void testExhaustive(int n, int expected) {
         CountSquareSumTriples exhaustive =
                 new CountSquareSumTriplesExhaustive();
-        assertEquals(excepted, exhaustive.countTriples(n));
+        assertEquals(expected, exhaustive.countTriples(n));
     }
 }

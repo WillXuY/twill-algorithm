@@ -43,8 +43,8 @@ public class NumberOf1BitsTest {
 
     @ParameterizedTest(name = "Move right {index}")
     @MethodSource("dataProvider")
-    public void testMoveRight(int input, int excepted) {
+    public void testMoveRight(int input, int expected) {
         NumberOf1Bits moveRight = new NumberOf1BitsMoveRight();
-        assertEquals(excepted, moveRight.hammingWeight(input));
+        assertEquals(expected, moveRight.hammingWeight(input));
     }
 }

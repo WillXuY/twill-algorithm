@@ -31,8 +31,8 @@ public class RobotReturnToOriginTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(String input, boolean excepted) {
+    public void testCount(String input, boolean expected) {
         RobotReturnToOrigin count = new RobotReturnToOriginCount();
-        assertEquals(excepted, count.judgeCircle(input));
+        assertEquals(expected, count.judgeCircle(input));
     }
 }

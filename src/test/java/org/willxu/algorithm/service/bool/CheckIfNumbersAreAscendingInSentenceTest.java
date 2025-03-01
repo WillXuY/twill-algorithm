@@ -27,9 +27,9 @@ public class CheckIfNumbersAreAscendingInSentenceTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String s, boolean excepted) {
+    public void testLoop(String s, boolean expected) {
         CheckIfNumbersAreAscendingInSentence loop =
                 new CheckIfNumbersAreAscendingInSentenceLoop();
-        assertEquals(excepted, loop.areNumbersAscending(s));
+        assertEquals(expected, loop.areNumbersAscending(s));
     }
 }

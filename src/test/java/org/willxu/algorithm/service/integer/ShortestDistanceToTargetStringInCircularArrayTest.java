@@ -32,9 +32,9 @@ public class ShortestDistanceToTargetStringInCircularArrayTest {
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
     public void testLoop(
-            String[] words, String target, int startIndex, int excepted) {
+            String[] words, String target, int startIndex, int expected) {
         ShortestDistanceToTargetStringInCircularArray loop =
                 new ShortestDistanceToTargetStringInCircularArrayLoop();
-        assertEquals(excepted, loop.closetTarget(words, target, startIndex));
+        assertEquals(expected, loop.closetTarget(words, target, startIndex));
     }
 }

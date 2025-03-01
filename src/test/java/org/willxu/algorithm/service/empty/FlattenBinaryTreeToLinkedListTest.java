@@ -40,10 +40,10 @@ public class FlattenBinaryTreeToLinkedListTest {
 
     @ParameterizedTest(name = "Stack {index}")
     @MethodSource("dataProvider")
-    public void testStack(TreeNode root, TreeNode excepted) {
+    public void testStack(TreeNode root, TreeNode expected) {
         FlattenBinaryTreeToLinkedList stack =
                 new FlattenBinaryTreeToLinkedListStack();
         stack.flatten(root);
-        assertEquals(excepted, root);
+        assertEquals(expected, root);
     }
 }

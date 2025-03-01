@@ -29,9 +29,9 @@ public class NumberOfStudentsDoingHomeworkAtGivenTimeTest {
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
     public void testLoop(
-            int[] startTime, int[] endTime, int queryTime, int excepted) {
+            int[] startTime, int[] endTime, int queryTime, int expected) {
         NumberOfStudentsDoingHomeworkAtGivenTime loop =
                 new NumberOfStudentsDoingHomeworkAtGivenTimeLoop();
-        assertEquals(excepted, loop.busyStudent(startTime, endTime, queryTime));
+        assertEquals(expected, loop.busyStudent(startTime, endTime, queryTime));
     }
 }

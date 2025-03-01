@@ -29,8 +29,8 @@ public class ShuffleTheArrayTest {
 
     @ParameterizedTest(name = "Exchange {index}")
     @MethodSource("dataProvider")
-    public void testExchange(int[] nums, int n, int[] excepted) {
+    public void testExchange(int[] nums, int n, int[] expected) {
         ShuffleTheArray exchange = new ShuffleTheArrayExchange();
-        assertArrayEquals(excepted, exchange.shuffle(nums, n));
+        assertArrayEquals(expected, exchange.shuffle(nums, n));
     }
 }

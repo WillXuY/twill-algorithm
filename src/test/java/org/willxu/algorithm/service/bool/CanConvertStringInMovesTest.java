@@ -21,8 +21,8 @@ public class CanConvertStringInMovesTest {
     
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(String s, String t, int k, boolean excepted) {
+    public void testCount(String s, String t, int k, boolean expected) {
     	CanConvertStringInMoves count = new CanConvertStringInMovesCount();
-    	assertEquals(excepted, count.canConvertString(s, t, k));
+    	assertEquals(expected, count.canConvertString(s, t, k));
     }
 }

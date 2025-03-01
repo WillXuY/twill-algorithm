@@ -21,9 +21,9 @@ public class CheckIfAllAsAppearsBeforeAllBsTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String s, boolean excepted) {
+    public void testLoop(String s, boolean expected) {
         CheckIfAllAsAppearsBeforeAllBs loop =
                 new CheckIfAllAsAppearsBeforeAllBsLoop();
-        assertEquals(excepted, loop.checkString(s));
+        assertEquals(expected, loop.checkString(s));
     }
 }

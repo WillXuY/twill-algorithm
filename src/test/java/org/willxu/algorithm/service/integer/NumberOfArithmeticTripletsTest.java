@@ -20,8 +20,8 @@ public class NumberOfArithmeticTripletsTest {
 
     @ParameterizedTest(name = "Set {index}")
     @MethodSource("dataProvider")
-    public void testSet(int[] nums, int diff, int excepted) {
+    public void testSet(int[] nums, int diff, int expected) {
         NumberOfArithmeticTriplets set = new NumberOfArithmeticTripletsSet();
-        assertEquals(excepted, set.arithmeticTriplets(nums, diff));
+        assertEquals(expected, set.arithmeticTriplets(nums, diff));
     }
 }

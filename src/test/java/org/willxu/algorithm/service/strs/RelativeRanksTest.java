@@ -32,8 +32,8 @@ public class RelativeRanksTest {
 
     @ParameterizedTest(name = "Pointer {index}")
     @MethodSource("dataProvider")
-    public void testPointer(int[] input, String[] excepted) {
+    public void testPointer(int[] input, String[] expected) {
         RelativeRanks pointer = new RelativeRanksPointer();
-        assertArrayEquals(excepted, pointer.findRelativeRanks(input));
+        assertArrayEquals(expected, pointer.findRelativeRanks(input));
     }
 }

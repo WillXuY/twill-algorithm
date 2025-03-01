@@ -23,8 +23,8 @@ public class MaximumRepeatingSubstringTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String sequence, String word, int excepted) {
+    public void testLoop(String sequence, String word, int expected) {
         MaximumRepeatingSubstring loop = new MaximumRepeatingSubstringLoop();
-        assertEquals(excepted, loop.maxRepeating(sequence, word));
+        assertEquals(expected, loop.maxRepeating(sequence, word));
     }
 }

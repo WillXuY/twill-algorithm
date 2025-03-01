@@ -21,9 +21,9 @@ public class MinimumCOstToMoveChipsToTheSamePositionTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(int[] position, int excepted) {
+    public void testCount(int[] position, int expected) {
         MinimumCostToMoveChipsToTheSamePosition count
                 = new MinimumCostToMoveChipsToTheSamePositionCount();
-        assertEquals(excepted, count.minCostToMoveChips(position));
+        assertEquals(expected, count.minCostToMoveChips(position));
     }
 }

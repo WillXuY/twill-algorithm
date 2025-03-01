@@ -20,8 +20,8 @@ public class TimeNeededToBuyTicketsTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] tickets, int k, int excepted) {
+    public void testLoop(int[] tickets, int k, int expected) {
         TimeNeededToBuyTickets loop = new TimeNeededToBuyTicketsLoop();
-        assertEquals(excepted, loop.timeRequiredToBuy(tickets, k));
+        assertEquals(expected, loop.timeRequiredToBuy(tickets, k));
     }
 }

@@ -66,12 +66,12 @@ public class BinaryTreePostOrderTraversalTest {
 
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(TreeNode input, List<Integer> excepted)
+    public void testRecursive(TreeNode input, List<Integer> expected)
             throws JsonProcessingException {
         BinaryTreePostOrderTraversal recursive =
                 new BinaryTreePostOrderTraversalRecursive();
         ObjectMapper mapper = new ObjectMapper();
-        String except = mapper.writeValueAsString(excepted);
+        String except = mapper.writeValueAsString(expected);
         List<Integer> output = recursive.postorderTraversal(input);
         assertEquals(except, mapper.writeValueAsString(output));
     }

@@ -21,8 +21,8 @@ public class SearchInRotatedSortedArrayTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] nums, int target, int excepted) {
+    public void testLoop(int[] nums, int target, int expected) {
         SearchInRotatedSortedArray loop = new SearchInRotatedSortedArrayLoop();
-        assertEquals(excepted, loop.search(nums, target));
+        assertEquals(expected, loop.search(nums, target));
     }
 }

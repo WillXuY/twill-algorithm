@@ -22,9 +22,9 @@ public class FindGreatestCommonDivisorOfArrayTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] nums, int excepted) {
+    public void testLoop(int[] nums, int expected) {
         FindGreatestCommonDivisorOfArray loop =
                 new FindGreatestCommonDivisorOfArrayLoop();
-        assertEquals(excepted, loop.findGCD(nums));
+        assertEquals(expected, loop.findGCD(nums));
     }
 }

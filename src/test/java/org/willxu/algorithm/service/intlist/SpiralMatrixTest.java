@@ -48,9 +48,9 @@ public class SpiralMatrixTest {
 
     @ParameterizedTest(name = "Edge {index}")
     @MethodSource("dataProvider")
-    public void testEdge(int[][] matrix, List<Integer> excepted) {
+    public void testEdge(int[][] matrix, List<Integer> expected) {
         SpiralMatrix edge = new SpiralMatrixEdge();
-        assertArrayEquals(excepted.toArray(),
+        assertArrayEquals(expected.toArray(),
                 edge.spiralOrder(matrix).toArray());
     }
 }

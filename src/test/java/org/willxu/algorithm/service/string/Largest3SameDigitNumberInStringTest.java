@@ -21,9 +21,9 @@ public class Largest3SameDigitNumberInStringTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String num, String excepted) {
+    public void testLoop(String num, String expected) {
         Largest3SameDigitNumberInString loop =
                 new Largest3SameDigitNumberInStringLoop();
-        assertEquals(excepted, loop.largestGoodInteger(num));
+        assertEquals(expected, loop.largestGoodInteger(num));
     }
 }

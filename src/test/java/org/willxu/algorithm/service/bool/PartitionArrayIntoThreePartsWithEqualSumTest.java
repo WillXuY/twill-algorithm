@@ -25,9 +25,9 @@ public class PartitionArrayIntoThreePartsWithEqualSumTest {
 
     @ParameterizedTest(name = "Save {index}")
     @MethodSource("dataProvider")
-    public void testSave(int[] arr, boolean excepted) {
+    public void testSave(int[] arr, boolean expected) {
         PartitionArrayIntoThreePartsWithEqualSum save =
                 new PartitionArrayIntoThreePartsWithEqualSumSave();
-        assertEquals(excepted, save.canThreePartsEqualSum(arr));
+        assertEquals(expected, save.canThreePartsEqualSum(arr));
     }
 }

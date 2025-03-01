@@ -34,9 +34,9 @@ public class LetterCombinationsOfPhoneNumberTest {
 
     @ParameterizedTest(name = "Array {index}")
     @MethodSource("dataProvider")
-    public void testArray(String digits, List<String> excepted) {
+    public void testArray(String digits, List<String> expected) {
         LetterCombinationsOfPhoneNumber array =
                 new LetterCombinationsOfPhoneNumberArray();
-        assertEquals(excepted, array.letterCombinations(digits));
+        assertEquals(expected, array.letterCombinations(digits));
     }
 }

@@ -30,9 +30,9 @@ public class LargestNumberAtLeastTwiceOfOthersTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] nums, int excepted) {
+    public void testLoop(int[] nums, int expected) {
         LargestNumberAtLeastTwiceOfOthers loop =
                 new LargestNumberAtLeastTwiceOfOthersLoop();
-        assertEquals(excepted, loop.dominantIndex(nums));
+        assertEquals(expected, loop.dominantIndex(nums));
     }
 }

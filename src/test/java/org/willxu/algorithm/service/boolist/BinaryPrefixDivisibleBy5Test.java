@@ -56,9 +56,9 @@ public class BinaryPrefixDivisibleBy5Test {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] nums, List<Boolean> excepted) {
+    public void testLoop(int[] nums, List<Boolean> expected) {
         BinaryPrefixDivisibleBy5 loop = new BinaryPrefixDivisibleBy5Loop();
-        assertArrayEquals(excepted.toArray(),
+        assertArrayEquals(expected.toArray(),
                 loop.prefixesDivBy5(nums).toArray());
     }
 }

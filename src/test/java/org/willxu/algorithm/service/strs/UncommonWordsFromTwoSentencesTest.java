@@ -23,9 +23,9 @@ public class UncommonWordsFromTwoSentencesTest {
 
     @ParameterizedTest(name = "Set {index}")
     @MethodSource("dataProvider")
-    public void testSet(String s1, String s2, String[] excepted) {
+    public void testSet(String s1, String s2, String[] expected) {
         UncommonWordsFromTwoSentences set =
                 new UncommonWordsFromTwoSentencesSet();
-        assertArrayEquals(excepted, set.uncommonFromSentences(s1, s2));
+        assertArrayEquals(expected, set.uncommonFromSentences(s1, s2));
     }
 }

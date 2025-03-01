@@ -34,8 +34,8 @@ public class ValidBoomerangTest {
 
     @ParameterizedTest(name = "Calculate {index}")
     @MethodSource("dataProvider")
-    public void testCalculate(int[][] points, boolean excepted) {
+    public void testCalculate(int[][] points, boolean expected) {
         ValidBoomerang calculate = new ValidBoomerangCalculate();
-        assertEquals(excepted, calculate.isBoomerang(points));
+        assertEquals(expected, calculate.isBoomerang(points));
     }
 }

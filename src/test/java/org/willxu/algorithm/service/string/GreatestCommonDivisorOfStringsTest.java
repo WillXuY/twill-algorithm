@@ -23,9 +23,9 @@ public class GreatestCommonDivisorOfStringsTest {
 
     @ParameterizedTest(name = "Length {index}")
     @MethodSource("dataProvider")
-    public void testLength(String str1, String str2, String excepted) {
+    public void testLength(String str1, String str2, String expected) {
         GreatestCommonDivisorOfStrings length
                 = new GreatestCommonDivisorOfStringsLength();
-        assertEquals(excepted, length.gcdOfStrings(str1, str2));
+        assertEquals(expected, length.gcdOfStrings(str1, str2));
     }
 }

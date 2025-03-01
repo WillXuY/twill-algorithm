@@ -41,10 +41,10 @@ public class FindAllDistantIndicesInAnArrayTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] nums, int key, int k, List<Integer> excepted) {
+    public void testLoop(int[] nums, int key, int k, List<Integer> expected) {
         FindAllDistantIndicesInAnArray loop =
                 new FindAllDistantIndicesInAnArrayLoop();
-        assertArrayEquals(excepted.toArray(),
+        assertArrayEquals(expected.toArray(),
                 loop.findKDistantIndices(nums, key, k).toArray());
     }
 }

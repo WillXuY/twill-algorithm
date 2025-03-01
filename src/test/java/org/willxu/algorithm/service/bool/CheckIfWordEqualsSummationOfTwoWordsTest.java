@@ -22,10 +22,10 @@ public class CheckIfWordEqualsSummationOfTwoWordsTest {
     @ParameterizedTest(name = "Calculate {index}")
     @MethodSource("dataProvider")
     public void testCalculate(String firstWord, String secondWord,
-                              String targetWord, boolean excepted) {
+                              String targetWord, boolean expected) {
         CheckIfWordEqualsSummationOfTwoWords calculate =
                 new CheckIfWordEqualsSummationOfTwoWordsCalculate();
-        assertEquals(excepted,
+        assertEquals(expected,
                 calculate.isSumEqual(firstWord, secondWord, targetWord));
     }
 }

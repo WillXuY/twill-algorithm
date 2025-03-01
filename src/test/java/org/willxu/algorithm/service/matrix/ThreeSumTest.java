@@ -43,11 +43,11 @@ public class ThreeSumTest {
 
     @ParameterizedTest(name = "Pointer {index}")
     @MethodSource("dataProvider")
-    public void testPointer(int[] nums, List<List<Integer>> excepted)
+    public void testPointer(int[] nums, List<List<Integer>> expected)
             throws JsonProcessingException {
         ObjectMapper objectMapper = new ObjectMapper();
         ThreeSum pointer = new ThreeSumPointer();
         String output = objectMapper.writeValueAsString(pointer.threeSum(nums));
-        assertEquals(objectMapper.writeValueAsString(excepted), output);
+        assertEquals(objectMapper.writeValueAsString(expected), output);
     }
 }

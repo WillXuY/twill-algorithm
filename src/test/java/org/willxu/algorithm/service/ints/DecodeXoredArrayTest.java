@@ -20,8 +20,8 @@ public class DecodeXoredArrayTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] encoded, int first, int[] excepted) {
+    public void testLoop(int[] encoded, int first, int[] expected) {
         DecodeXoredArray loop = new DecodeXoredArrayLoop();
-        assertArrayEquals(excepted, loop.decode(encoded, first));
+        assertArrayEquals(expected, loop.decode(encoded, first));
     }
 }

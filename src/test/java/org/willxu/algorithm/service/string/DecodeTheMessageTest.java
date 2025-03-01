@@ -28,8 +28,8 @@ public class DecodeTheMessageTest {
 
     @ParameterizedTest(name = "Map {index}")
     @MethodSource("dataProvider")
-    public void testMap(String key, String message, String excepted) {
+    public void testMap(String key, String message, String expected) {
         DecodeTheMessage map = new DecodeTheMessageMap();
-        assertEquals(excepted, map.decodeMessage(key, message));
+        assertEquals(expected, map.decodeMessage(key, message));
     }
 }

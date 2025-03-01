@@ -20,8 +20,8 @@ public class MaxConsecutiveOnesTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] input, int excepted) {
+    public void testLoop(int[] input, int expected) {
         MaxConsecutiveOnes loop = new MaxConsecutiveOnesLoop();
-        assertEquals(excepted, loop.findMaxConsecutiveOnes(input));
+        assertEquals(expected, loop.findMaxConsecutiveOnes(input));
     }
 }

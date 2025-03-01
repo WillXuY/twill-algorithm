@@ -21,8 +21,8 @@ public class FindTheMiddleIndexInArrayTest {
 
     @ParameterizedTest(name = "Sum {index}")
     @MethodSource("dataProvider")
-    public void testSum(int[] nums, int excepted) {
+    public void testSum(int[] nums, int expected) {
         FindTheMiddleIndexInArray sum = new FindTheMiddleIndexInArraySum();
-        assertEquals(excepted, sum.findMiddleIndex(nums));
+        assertEquals(expected, sum.findMiddleIndex(nums));
     }
 }

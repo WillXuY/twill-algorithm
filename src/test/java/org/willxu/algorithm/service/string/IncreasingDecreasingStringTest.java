@@ -20,9 +20,9 @@ public class IncreasingDecreasingStringTest {
 
     @ParameterizedTest(name = "TreeMap {index}")
     @MethodSource("dataProvider")
-    public void testTreeMap(String s, String excepted) {
+    public void testTreeMap(String s, String expected) {
         IncreasingDecreasingString treeMap
                 = new IncreasingDecreasingStringTreeMap();
-        assertEquals(excepted, treeMap.sortString(s));
+        assertEquals(expected, treeMap.sortString(s));
     }
 }

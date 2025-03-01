@@ -25,9 +25,9 @@ public class CheckIfWordOccursAsPrefixOfAnyWordInSentenceTest {
 
     @ParameterizedTest(name = "Split {index}")
     @MethodSource("dataProvider")
-    public void testSplit(String sentence, String searchWord, int excepted) {
+    public void testSplit(String sentence, String searchWord, int expected) {
         CheckIfWordOccursAsPrefixOfAnyWordInSentence split =
                 new CheckIfWordOccursAsPrefixOfAnyWordInSentenceSplit();
-        assertEquals(excepted, split.isPrefixOfWord(sentence, searchWord));
+        assertEquals(expected, split.isPrefixOfWord(sentence, searchWord));
     }
 }

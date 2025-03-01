@@ -23,9 +23,9 @@ public class SplitStringInBalancedStringsTest {
 
     @ParameterizedTest(name = "Stack {index}")
     @MethodSource("dataProvider")
-    public void testStack(String s, int excepted) {
+    public void testStack(String s, int expected) {
         SplitStringInBalancedStrings stack =
                 new SplitStringInBalancedStringsStack();
-        assertEquals(excepted, stack.balancedStringSplit(s));
+        assertEquals(expected, stack.balancedStringSplit(s));
     }
 }

@@ -43,12 +43,12 @@ public class SubsetsTest {
 
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(int[] nums, List<List<Integer>> excepted)
+    public void testRecursive(int[] nums, List<List<Integer>> expected)
             throws JsonProcessingException {
         ObjectMapper objectMapper = new ObjectMapper();
         Subsets recursive = new SubsetsRecursive();
         String output = objectMapper.writeValueAsString(
                 recursive.subsets(nums));
-        assertEquals(objectMapper.writeValueAsString(excepted), output);
+        assertEquals(objectMapper.writeValueAsString(expected), output);
     }
 }

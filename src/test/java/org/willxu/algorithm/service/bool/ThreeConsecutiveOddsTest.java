@@ -20,8 +20,8 @@ public class ThreeConsecutiveOddsTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(int[] arr, boolean excepted) {
+    public void testCount(int[] arr, boolean expected) {
         ThreeConsecutiveOdds count = new ThreeConsecutiveOddsCount();
-        assertEquals(excepted, count.threeConsecutiveOdds(arr));
+        assertEquals(expected, count.threeConsecutiveOdds(arr));
     }
 }

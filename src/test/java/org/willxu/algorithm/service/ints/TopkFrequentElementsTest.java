@@ -23,8 +23,8 @@ public class TopkFrequentElementsTest {
 
     @ParameterizedTest(name = "Map {index}")
     @MethodSource("dataProvider")
-    public void testMap(int[] nums, int k, int[] excepted) {
+    public void testMap(int[] nums, int k, int[] expected) {
         TopkFrequentElements map = new TopkFrequentElementsMap();
-        assertArrayEquals(excepted, map.topKFrequent(nums, k));
+        assertArrayEquals(expected, map.topKFrequent(nums, k));
     }
 }

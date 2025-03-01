@@ -21,8 +21,8 @@ public class ConstructTheRectangleTest {
 
     @ParameterizedTest(name = "Sqrt {index}")
     @MethodSource("dataProvider")
-    public void testSqrt(int input, int[] excepted) {
+    public void testSqrt(int input, int[] expected) {
         ConstructTheRectangle sqrt = new ConstructTheRectangleSqrt();
-        assertArrayEquals(excepted, sqrt.constructRectangle(input));
+        assertArrayEquals(expected, sqrt.constructRectangle(input));
     }
 }

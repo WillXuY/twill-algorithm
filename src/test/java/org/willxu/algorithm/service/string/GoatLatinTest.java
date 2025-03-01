@@ -37,8 +37,8 @@ public class GoatLatinTest {
 
     @ParameterizedTest
     @MethodSource("dataProvider")
-    public void testLoop(String sentence, String excepted) {
+    public void testLoop(String sentence, String expected) {
         GoatLatin loop = new GoatLatinLoop();
-        assertEquals(excepted, loop.toGoatLatin(sentence));
+        assertEquals(expected, loop.toGoatLatin(sentence));
     }
 }

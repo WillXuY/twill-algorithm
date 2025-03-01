@@ -54,9 +54,9 @@ public class MergeTwoBinaryTreesTest {
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
     public void testRecursive(TreeNode root1, TreeNode root2,
-                              TreeNode excepted) throws JsonProcessingException {
+                              TreeNode expected) throws JsonProcessingException {
         ObjectMapper objectMapper = new ObjectMapper();
-        String except = objectMapper.writeValueAsString(excepted);
+        String except = objectMapper.writeValueAsString(expected);
         MergeTwoBinaryTrees recursive = new MergeTwoBinaryTreesRecursive();
         TreeNode output = recursive.mergeTrees(root1, root2);
         assertEquals(except, objectMapper.writeValueAsString(output));

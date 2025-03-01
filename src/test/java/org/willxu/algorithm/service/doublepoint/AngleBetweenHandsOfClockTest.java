@@ -20,9 +20,9 @@ public class AngleBetweenHandsOfClockTest {
 
     @ParameterizedTest(name = "Calculate {index}")
     @MethodSource("dataProvider")
-    public void testCalculate(int hour, int minute, double excepted) {
+    public void testCalculate(int hour, int minute, double expected) {
         AngleBetweenHandsOfClock calculate =
                 new AngleBetweenHandsOfClockCalculate();
-        assertEquals(excepted, calculate.angleClock(hour, minute));
+        assertEquals(expected, calculate.angleClock(hour, minute));
     }
 }

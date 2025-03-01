@@ -39,13 +39,13 @@ public class RemoveNthNodeFromEndOfListTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(ListNode head, int n, ListNode excepted) {
+    public void testLoop(ListNode head, int n, ListNode expected) {
         RemoveNthNodeFromEndOfList loop = new RemoveNthNodeFromEndOfListLoop();
         ListNode output = loop.removeNthFromEnd(head, n);
-        if (excepted == null) {
+        if (expected == null) {
             assertNull(output);
         } else {
-            assertArrayEquals(excepted.toIntArray(), output.toIntArray());
+            assertArrayEquals(expected.toIntArray(), output.toIntArray());
         }
     }
 }

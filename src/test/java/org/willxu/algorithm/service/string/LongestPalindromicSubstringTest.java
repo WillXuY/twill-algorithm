@@ -26,17 +26,17 @@ public class LongestPalindromicSubstringTest {
      */
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String s, String excepted) {
+    public void testLoop(String s, String expected) {
         LongestPalindromicSubstring loop =
                 new LongestPalindromicSubstringLoop();
-        assertEquals(excepted, loop.longestPalindrome(s));
+        assertEquals(expected, loop.longestPalindrome(s));
     }
 
     @ParameterizedTest(name = "Dynamic {index}")
     @MethodSource("dataProvider")
-    public void testDynamic(String s, String excepted) {
+    public void testDynamic(String s, String expected) {
         LongestPalindromicSubstring dynamic =
                 new LongestPalindromicSubstringDynamic();
-        assertEquals(excepted, dynamic.longestPalindrome(s));
+        assertEquals(expected, dynamic.longestPalindrome(s));
     }
 }

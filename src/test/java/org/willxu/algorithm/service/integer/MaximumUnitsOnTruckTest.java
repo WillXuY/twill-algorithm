@@ -20,8 +20,8 @@ public class MaximumUnitsOnTruckTest {
 
     @ParameterizedTest(name = "Sort {index}")
     @MethodSource("dataProvider")
-    public void testSort(int[][] boxTypes, int truckSize, int excepted) {
+    public void testSort(int[][] boxTypes, int truckSize, int expected) {
         MaximumUnitsOnTruck sort = new MaximumUnitsOnTruckSort();
-        assertEquals(excepted, sort.maximumUnits(boxTypes, truckSize));
+        assertEquals(expected, sort.maximumUnits(boxTypes, truckSize));
     }
 }

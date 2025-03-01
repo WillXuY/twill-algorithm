@@ -31,8 +31,8 @@ public class UglyNumberTest {
 
     @ParameterizedTest(name = "Divide {index}")
     @MethodSource("dataProvider")
-    public void testDivide(int input, boolean excepted) {
+    public void testDivide(int input, boolean expected) {
         UglyNumber divide = new UglyNumberDivide();
-        assertEquals(excepted, divide.isUgly(input));
+        assertEquals(expected, divide.isUgly(input));
     }
 }

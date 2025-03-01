@@ -21,9 +21,9 @@ public class MinimumValueToGetPositiveStepByStepSumTest {
 
     @ParameterizedTest(name = "Min {index}")
     @MethodSource("dataProvider")
-    public void testMin(int[] nums, int excepted) {
+    public void testMin(int[] nums, int expected) {
         MinimumValueToGetPositiveStepByStepSum min =
                 new MinimumValueToGetPositiveStepByStepSumMin();
-        assertEquals(excepted, min.minStartValue(nums));
+        assertEquals(expected, min.minStartValue(nums));
     }
 }

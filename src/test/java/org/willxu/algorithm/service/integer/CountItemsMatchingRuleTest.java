@@ -53,8 +53,8 @@ public class CountItemsMatchingRuleTest {
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
     public void testLoop(List<List<String>> items, String ruleKey,
-                         String ruleValue, int excepted) {
+                         String ruleValue, int expected) {
         CountItemsMatchingRule loop = new CountItemsMatchingRuleLoop();
-        assertEquals(excepted, loop.countMatches(items, ruleKey, ruleValue));
+        assertEquals(expected, loop.countMatches(items, ruleKey, ruleValue));
     }
 }

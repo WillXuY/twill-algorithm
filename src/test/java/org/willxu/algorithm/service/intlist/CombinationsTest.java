@@ -39,12 +39,12 @@ public class CombinationsTest {
 
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(int n, int k, List<List<Integer>> excepted)
+    public void testRecursive(int n, int k, List<List<Integer>> expected)
             throws JsonProcessingException {
         ObjectMapper objectMapper = new ObjectMapper();
         Combinations recursive = new CombinationsRecursive();
         String output = objectMapper.writeValueAsString(
                 recursive.combine(n, k));
-        assertEquals(objectMapper.writeValueAsString(excepted), output);
+        assertEquals(objectMapper.writeValueAsString(expected), output);
     }
 }

@@ -30,8 +30,8 @@ public class ToLowerCaseTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String s, String excepted) {
+    public void testLoop(String s, String expected) {
         ToLowerCase loop = new ToLowerCaseLoop();
-        assertEquals(excepted, loop.toLowerCase(s));
+        assertEquals(expected, loop.toLowerCase(s));
     }
 }

@@ -43,8 +43,8 @@ public class NumberOfLinesToWriteStringTest {
 
     @ParameterizedTest
     @MethodSource("dataProvider")
-    public void testLoop(int[] widths, String s, int[] excepted) {
+    public void testLoop(int[] widths, String s, int[] expected) {
         NumberOfLinesToWriteString loop = new NumberOfLinesToWriteStringLoop();
-        assertArrayEquals(excepted, loop.numberOfLines(widths, s));
+        assertArrayEquals(expected, loop.numberOfLines(widths, s));
     }
 }

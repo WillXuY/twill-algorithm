@@ -39,9 +39,9 @@ public class SelfDividingNumbersTest {
 
     @ParameterizedTest(name = "Divide {index}")
     @MethodSource("dataProvider")
-    public void testDivide(int left, int right, List<Integer> excepted) {
+    public void testDivide(int left, int right, List<Integer> expected) {
         SelfDividingNumbers divide = new SelfDividingNumbersDivide();
-        assertArrayEquals(excepted.toArray(),
+        assertArrayEquals(expected.toArray(),
                 divide.selfDividingNumbers(left, right).toArray());
     }
 }

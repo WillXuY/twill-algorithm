@@ -21,8 +21,8 @@ public class ReachNumberTest {
 
     @ParameterizedTest(name = "Set {index}")
     @MethodSource("dataProvider")
-    public void testSet(int target, int excepted) {
+    public void testSet(int target, int expected) {
         ReachNumber set = new ReachNumberSet();
-        assertEquals(excepted, set.reachNumber(target));
+        assertEquals(expected, set.reachNumber(target));
     }
 }

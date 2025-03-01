@@ -25,8 +25,8 @@ public class MaxChunksToMakeSortedTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] arr, int excepted) {
+    public void testLoop(int[] arr, int expected) {
         MaxChunksToMakeSorted loop = new MaxChunksToMakeSortedLoop();
-        assertEquals(excepted, loop.maxChunksToSorted(arr));
+        assertEquals(expected, loop.maxChunksToSorted(arr));
     }
 }

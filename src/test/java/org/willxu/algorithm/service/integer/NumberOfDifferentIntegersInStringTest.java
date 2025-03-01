@@ -22,9 +22,9 @@ public class NumberOfDifferentIntegersInStringTest {
 
     @ParameterizedTest(name = "Set {index}")
     @MethodSource("dataProvider")
-    public void testSet(String word, int excepted) {
+    public void testSet(String word, int expected) {
         NumberOfDifferentIntegersInString set =
                 new NumberOfDifferentIntegersInStringSet();
-        assertEquals(excepted, set.numDifferentIntegers(word));
+        assertEquals(expected, set.numDifferentIntegers(word));
     }
 }

@@ -42,11 +42,11 @@ public class FindTheDifferenceOfTwoArraysTest {
     @ParameterizedTest(name = "Remove {index}")
     @MethodSource("dataProvider")
     public void testRemove(
-            int[] nums1, int[] nums2, List<List<Integer>> excepted) {
+            int[] nums1, int[] nums2, List<List<Integer>> expected) {
         FindTheDifferenceOfTwoArrays remove =
                 new FindTheDifferenceOfTwoArraysRemove();
         List<List<Integer>> output = remove.findDifference(nums1, nums2);
-        assertArrayEquals(excepted.get(0).toArray(), output.get(0).toArray());
-        assertArrayEquals(excepted.get(1).toArray(), output.get(1).toArray());
+        assertArrayEquals(expected.get(0).toArray(), output.get(0).toArray());
+        assertArrayEquals(expected.get(1).toArray(), output.get(1).toArray());
     }
 }

@@ -36,8 +36,8 @@ public class OneBitAnd2BitCharactersTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] bits, boolean excepted) {
+    public void testLoop(int[] bits, boolean expected) {
         OneBitAnd2BitCharacters loop = new OneBitAnd2BitCharactersLoop();
-        assertEquals(excepted, loop.isOneBitCharacter(bits));
+        assertEquals(expected, loop.isOneBitCharacter(bits));
     }
 }

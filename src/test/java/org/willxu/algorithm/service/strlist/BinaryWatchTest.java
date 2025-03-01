@@ -34,13 +34,13 @@ public class BinaryWatchTest {
 
     @ParameterizedTest(name = "Combinations {index}")
     @MethodSource("dataProvider")
-    public void testCombinations(int turnedOn, List<String> excepted)
+    public void testCombinations(int turnedOn, List<String> expected)
             throws JsonProcessingException {
         ObjectMapper objectMapper = new ObjectMapper();
-        String exceptedString = objectMapper.writeValueAsString(excepted);
+        String expectedString = objectMapper.writeValueAsString(expected);
         BinaryWatch combinations = new BinaryWatchCombinations();
         List<String> output = combinations.readBinaryWatch(turnedOn);
-        assertEquals(exceptedString, objectMapper.writeValueAsString(output));
+        assertEquals(expectedString, objectMapper.writeValueAsString(output));
     }
 
     @Test

@@ -20,9 +20,9 @@ public class CountElementsWithStrictlySmallerAndGreaterElementsTest {
 
     @ParameterizedTest(name = "Sort {index}")
     @MethodSource("dataProvider")
-    public void testSort(int[] nums, int excepted) {
+    public void testSort(int[] nums, int expected) {
         CountElementsWithStrictlySmallerAndGreaterElements sort =
                 new CountElementsWithStrictlySmallerAndGreaterElementsSort();
-        assertEquals(excepted, sort.countElements(nums));
+        assertEquals(expected, sort.countElements(nums));
     }
 }

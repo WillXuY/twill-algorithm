@@ -33,8 +33,8 @@ public class BestPokerHandTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(int[] ranks, char[] suits, String excepted) {
+    public void testCount(int[] ranks, char[] suits, String expected) {
         BestPokerHand count = new BestPokerHandCount();
-        assertEquals(excepted, count.bestHand(ranks, suits));
+        assertEquals(expected, count.bestHand(ranks, suits));
     }
 }

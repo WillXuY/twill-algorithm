@@ -23,10 +23,10 @@ public class RemoveAllAdjacentDuplicatesInStringTest {
 
     @ParameterizedTest(name = "Stack {index}")
     @MethodSource("dataProvider")
-    public void testStack(String s, String excepted) {
+    public void testStack(String s, String expected) {
         RemoveAllAdjacentDuplicatesInString stack =
                 new RemoveAllAdjacentDuplicatesInStringStack();
-        assertEquals(excepted, stack.removeDuplicates(s));
+        assertEquals(expected, stack.removeDuplicates(s));
     }
 
     /**
@@ -34,9 +34,9 @@ public class RemoveAllAdjacentDuplicatesInStringTest {
      */
     @ParameterizedTest(name = "Regex {index}")
     @MethodSource("dataProvider")
-    public void testRegex(String s, String excepted) {
+    public void testRegex(String s, String expected) {
         RemoveAllAdjacentDuplicatesInString regex
                 = new RemoveAllAdjacentDuplicatesInStringRegex();
-        assertEquals(excepted, regex.removeDuplicates(s));
+        assertEquals(expected, regex.removeDuplicates(s));
     }
 }

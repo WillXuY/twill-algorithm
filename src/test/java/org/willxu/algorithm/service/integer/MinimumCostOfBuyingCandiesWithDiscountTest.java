@@ -23,9 +23,9 @@ public class MinimumCostOfBuyingCandiesWithDiscountTest {
 
     @ParameterizedTest(name = "Sort {index}")
     @MethodSource("dataProvider")
-    public void testSort(int[] cost, int excepted) {
+    public void testSort(int[] cost, int expected) {
         MinimumCostOfBuyingCandiesWithDiscount sort =
                 new MinimumCostOfBuyingCandiesWithDiscountSort();
-        assertEquals(excepted, sort.minimumCost(cost));
+        assertEquals(expected, sort.minimumCost(cost));
     }
 }

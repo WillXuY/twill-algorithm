@@ -26,8 +26,8 @@ public class BuildArrayFromPermutationTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] nums, int[] excepted) {
+    public void testLoop(int[] nums, int[] expected) {
         BuildArrayFromPermutation loop = new BuildArrayFromPermutationLoop();
-        assertArrayEquals(excepted, loop.buildArray(nums));
+        assertArrayEquals(expected, loop.buildArray(nums));
     }
 }

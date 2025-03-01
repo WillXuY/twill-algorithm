@@ -41,9 +41,9 @@ public class AddToArrayFormOfIntegerTest {
 
     @ParameterizedTest(name = "Divide {index}")
     @MethodSource("dataProvider")
-    public void testDivide(int[] num, int k, List<Integer> excepted) {
+    public void testDivide(int[] num, int k, List<Integer> expected) {
         AddToArrayFormOfInteger divide = new AddToArrayFormOfIntegerDivide();
-        assertArrayEquals(excepted.toArray(),
+        assertArrayEquals(expected.toArray(),
                 divide.addToArrayForm(num, k).toArray());
     }
 }

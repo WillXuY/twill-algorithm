@@ -24,8 +24,8 @@ public class ShuffleStringTest {
 
     @ParameterizedTest(name = "Index {index}")
     @MethodSource("dataProvider")
-    public void testIndex(String s, int[] indices, String excepted) {
+    public void testIndex(String s, int[] indices, String expected) {
         ShuffleString index = new ShuffleStringIndex();
-        assertEquals(excepted, index.restoreString(s, indices));
+        assertEquals(expected, index.restoreString(s, indices));
     }
 }

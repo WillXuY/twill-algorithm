@@ -20,9 +20,9 @@ public class ReplaceAllDigitsWithCharactersTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String s, String excepted) {
+    public void testLoop(String s, String expected) {
         ReplaceAllDigitsWithCharacters loop =
                 new ReplaceAllDigitsWithCharactersLoop();
-        assertEquals(excepted, loop.replaceDigits(s));
+        assertEquals(expected, loop.replaceDigits(s));
     }
 }

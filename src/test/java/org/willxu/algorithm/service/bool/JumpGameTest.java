@@ -22,8 +22,8 @@ public class JumpGameTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] nums, boolean excepted) {
+    public void testLoop(int[] nums, boolean expected) {
         JumpGame loop = new JumpGameLoop();
-        assertEquals(excepted, loop.canJump(nums));
+        assertEquals(expected, loop.canJump(nums));
     }
 }

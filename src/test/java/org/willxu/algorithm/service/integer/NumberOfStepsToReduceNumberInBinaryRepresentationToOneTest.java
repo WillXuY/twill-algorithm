@@ -21,9 +21,9 @@ public class NumberOfStepsToReduceNumberInBinaryRepresentationToOneTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String s, int excepted) {
+    public void testLoop(String s, int expected) {
         NumberOfStepsToReduceNumberInBinaryRepresentationToOne loop =
                 new NumberOfStepsToReduceNumberInBinaryRepresentationToOneLoop();
-        assertEquals(excepted, loop.numSteps(s));
+        assertEquals(expected, loop.numSteps(s));
     }
 }

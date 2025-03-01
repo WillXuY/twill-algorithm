@@ -34,8 +34,8 @@ public class VerifyingAnAlienDictionaryTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String[] words, String order, boolean excepted) {
+    public void testLoop(String[] words, String order, boolean expected) {
         VerifyingAnAlienDictionary loop = new VerifyingAndAlienDictionaryLoop();
-        assertEquals(excepted, loop.isAlienSorted(words, order));
+        assertEquals(expected, loop.isAlienSorted(words, order));
     }
 }

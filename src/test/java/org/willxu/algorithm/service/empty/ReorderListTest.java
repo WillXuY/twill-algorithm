@@ -34,9 +34,9 @@ public class ReorderListTest {
 
     @ParameterizedTest(name = "List {index}")
     @MethodSource("dataProvider")
-    public void testList(ListNode head, ListNode excepted) {
+    public void testList(ListNode head, ListNode expected) {
         ReorderList list = new ReorderListList();
         list.reorderList(head);
-        assertEquals(excepted, head);
+        assertEquals(expected, head);
     }
 }

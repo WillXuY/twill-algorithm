@@ -33,8 +33,8 @@ public class MinimumPathSumTest {
 
     @ParameterizedTest(name = "Matrix {index}")
     @MethodSource("dataProvider")
-    public void testMatrix(int[][] grid, int excepted) {
+    public void testMatrix(int[][] grid, int expected) {
         MinimumPathSum matrix = new MinimumPathSumMatrix();
-        assertEquals(excepted, matrix.minPathSum(grid));
+        assertEquals(expected, matrix.minPathSum(grid));
     }
 }

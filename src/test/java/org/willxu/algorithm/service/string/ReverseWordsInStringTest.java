@@ -20,8 +20,8 @@ public class ReverseWordsInStringTest {
 
     @ParameterizedTest(name = "Split {index}")
     @MethodSource("dataProvider")
-    public void testSplit(String s, String excepted) {
+    public void testSplit(String s, String expected) {
         ReverseWordsInString split = new ReverseWordsInStringSplit();
-        assertEquals(excepted, split.reverseWords(s));
+        assertEquals(expected, split.reverseWords(s));
     }
 }

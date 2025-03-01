@@ -30,8 +30,8 @@ public class LastStoneWeightTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] stones, int excepted) {
+    public void testLoop(int[] stones, int expected) {
         LastStoneWeight loop = new LastStoneWeightLoop();
-        assertEquals(excepted, loop.lastStoneWeight(stones));
+        assertEquals(expected, loop.lastStoneWeight(stones));
     }
 }

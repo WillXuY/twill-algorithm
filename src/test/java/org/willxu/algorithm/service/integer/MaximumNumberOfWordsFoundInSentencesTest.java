@@ -34,9 +34,9 @@ public class MaximumNumberOfWordsFoundInSentencesTest {
 
     @ParameterizedTest(name = "Split {index}")
     @MethodSource("dataProvider")
-    public void testSplit(String[] sentences, int excepted) {
+    public void testSplit(String[] sentences, int expected) {
         MaximumNumberOfWordsFoundInSentences split =
                 new MaximumNumberOfWordsFoundInSentencesSplit();
-        assertEquals(excepted, split.mostWordsFound(sentences));
+        assertEquals(expected, split.mostWordsFound(sentences));
     }
 }

@@ -21,8 +21,8 @@ public class RichestCustomerWealthTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(int[][] accounts, int excepted) {
+    public void testCount(int[][] accounts, int expected) {
         RichestCustomerWealth count = new RichestCustomerWealthCount();
-        assertEquals(excepted, count.maximumWealth(accounts));
+        assertEquals(expected, count.maximumWealth(accounts));
     }
 }

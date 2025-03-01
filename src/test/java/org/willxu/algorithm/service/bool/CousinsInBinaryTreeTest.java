@@ -38,8 +38,8 @@ public class CousinsInBinaryTreeTest {
 
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(TreeNode root, int x, int y, boolean excepted) {
+    public void testRecursive(TreeNode root, int x, int y, boolean expected) {
         CousinsInBinaryTree recursive = new CousinsInBinaryTreeRecursive();
-        assertEquals(excepted, recursive.isCousins(root, x, y));
+        assertEquals(expected, recursive.isCousins(root, x, y));
     }
 }

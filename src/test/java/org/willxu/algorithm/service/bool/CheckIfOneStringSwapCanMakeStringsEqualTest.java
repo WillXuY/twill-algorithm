@@ -26,9 +26,9 @@ public class CheckIfOneStringSwapCanMakeStringsEqualTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String s1, String s2, boolean excepted) {
+    public void testLoop(String s1, String s2, boolean expected) {
         CheckIfOneStringSwapCanMakeStringsEqual loop =
                 new CheckIfOneStringSwapCanMakeStringsEqualLoop();
-        assertEquals(excepted, loop.areAlmostEqual(s1, s2));
+        assertEquals(expected, loop.areAlmostEqual(s1, s2));
     }
 }

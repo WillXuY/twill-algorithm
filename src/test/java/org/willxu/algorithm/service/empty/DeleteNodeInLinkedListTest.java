@@ -75,13 +75,13 @@ public class DeleteNodeInLinkedListTest {
 
     @ParameterizedTest(name = "Point {index}")
     @MethodSource("dataProvider")
-    public void testPoint(ListNode head, int nodeVal, ListNode excepted)
+    public void testPoint(ListNode head, int nodeVal, ListNode expected)
             throws JsonProcessingException {
         DeleteNodeInLinkedList point = new DeleteNodeInLinkedListPoint();
         ListNode node = getNodeInHead(head, nodeVal);
         point.deleteNode(node);
         ObjectMapper objectMapper = new ObjectMapper();
-        String exceptString = objectMapper.writeValueAsString(excepted);
+        String exceptString = objectMapper.writeValueAsString(expected);
         assertEquals(exceptString, objectMapper.writeValueAsString(head));
     }
 

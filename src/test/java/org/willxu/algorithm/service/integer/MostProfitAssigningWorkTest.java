@@ -36,9 +36,9 @@ public class MostProfitAssigningWorkTest {
     @ParameterizedTest(name = "Array {index}")
     @MethodSource("dataProvider")
     public void testArray(int[] difficulty, int[] profit,
-                          int[] worker, int excepted) {
+                          int[] worker, int expected) {
         MostProfitAssigningWork array = new MostProfitAssigningWorkArray();
-        assertEquals(excepted,
+        assertEquals(expected,
                 array.maxProfitAssignment(difficulty, profit, worker));
     }
 }

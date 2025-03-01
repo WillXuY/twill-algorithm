@@ -51,9 +51,9 @@ public class AddTwoNumbersTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(ListNode l1, ListNode l2, ListNode excepted) {
+    public void testLoop(ListNode l1, ListNode l2, ListNode expected) {
         AddTwoNumbers loop = new AddTwoNumbersLoop();
         int[] output = loop.addTwoNumbers(l1, l2).toIntArray();
-        assertArrayEquals(excepted.toIntArray(), output);
+        assertArrayEquals(expected.toIntArray(), output);
     }
 }

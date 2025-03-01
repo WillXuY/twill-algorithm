@@ -34,10 +34,10 @@ public class FingResultantArrayAfterRemovingAnagramsTest {
 
     @ParameterizedTest(name = "Sort {index}")
     @MethodSource("dataProvider")
-    public void testSort(String[] words, List<String> excepted) {
+    public void testSort(String[] words, List<String> expected) {
         FindResultantArrayAfterRemovingAnagrams sort =
                 new FindResultantArrayAfterRemovingAnagramsSort();
-        assertArrayEquals(excepted.toArray(),
+        assertArrayEquals(expected.toArray(),
                 sort.removeAnagrams(words).toArray());
     }
 }

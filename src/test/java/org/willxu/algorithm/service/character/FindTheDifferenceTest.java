@@ -21,8 +21,8 @@ public class FindTheDifferenceTest {
 
     @ParameterizedTest(name = "Remove {index}")
     @MethodSource("dataProvider")
-    public void testRemove(String s, String t, char excepted) {
+    public void testRemove(String s, String t, char expected) {
         FindTheDifference remove = new FindTheDifferenceRemove();
-        assertEquals(excepted, remove.findTheDifference(s, t));
+        assertEquals(expected, remove.findTheDifference(s, t));
     }
 }

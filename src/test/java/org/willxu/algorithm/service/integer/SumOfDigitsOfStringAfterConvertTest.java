@@ -21,9 +21,9 @@ public class SumOfDigitsOfStringAfterConvertTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String s, int k, int excepted) {
+    public void testLoop(String s, int k, int expected) {
         SumOfDigitsOfStringAfterConvert loop =
                 new SumOfDigitsOfStringAfterConvertLoop();
-        assertEquals(excepted, loop.getLucky(s, k));
+        assertEquals(expected, loop.getLucky(s, k));
     }
 }

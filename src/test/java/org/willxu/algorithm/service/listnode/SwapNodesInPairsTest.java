@@ -36,13 +36,13 @@ public class SwapNodesInPairsTest {
 
     @ParameterizedTest(name = "Pointer {index}")
     @MethodSource("dataProvider")
-    public void testPointer(ListNode head, ListNode excepted) {
+    public void testPointer(ListNode head, ListNode expected) {
         SwapNodesInPairs pointer = new SwapNodesInPairsPointer();
-        if (excepted == null) {
+        if (expected == null) {
             assertNull(pointer.swapPairs(head));
             return;
         }
-        assertArrayEquals(excepted.toIntArray(),
+        assertArrayEquals(expected.toIntArray(),
                 pointer.swapPairs(head).toIntArray());
     }
 }

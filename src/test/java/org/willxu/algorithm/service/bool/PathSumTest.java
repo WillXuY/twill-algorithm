@@ -102,8 +102,8 @@ public class PathSumTest {
 
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(TreeNode root, int target, boolean excepted) {
+    public void testRecursive(TreeNode root, int target, boolean expected) {
         PathSum recursive = new PathSumRecursive();
-        assertEquals(excepted, recursive.hasPathSum(root, target));
+        assertEquals(expected, recursive.hasPathSum(root, target));
     }
 }

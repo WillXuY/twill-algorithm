@@ -26,9 +26,9 @@ public class ReverseStringTest {
 
     @ParameterizedTest(name = "Exchange {index}")
     @MethodSource("dataProvider")
-    public void testExchange(char[] input, char[] excepted) {
+    public void testExchange(char[] input, char[] expected) {
         ReverseString exchange = new ReverseStringExchange();
         exchange.reverseString(input);
-        assertArrayEquals(excepted, input);
+        assertArrayEquals(expected, input);
     }
 }

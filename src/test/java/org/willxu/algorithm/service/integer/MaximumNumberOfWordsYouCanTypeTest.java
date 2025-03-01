@@ -21,9 +21,9 @@ public class MaximumNumberOfWordsYouCanTypeTest {
 
     @ParameterizedTest(name = "Split {index}")
     @MethodSource("dataProvider")
-    public void testSplit(String text, String brokenLetters, int excepted) {
+    public void testSplit(String text, String brokenLetters, int expected) {
         MaximumNumberOfWordsYouCanType split =
                 new MaximumNumberOfWordsYouCanTypeSplit();
-        assertEquals(excepted, split.canBeTypedWords(text, brokenLetters));
+        assertEquals(expected, split.canBeTypedWords(text, brokenLetters));
     }
 }

@@ -41,8 +41,8 @@ public class WordBreakTest {
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
     public void testRecursive(String s, List<String> wordDict,
-                              boolean excepted) {
+                              boolean expected) {
         WordBreak recursive = new WordBreakRecursive();
-        assertEquals(excepted, recursive.wordBreak(s, wordDict));
+        assertEquals(expected, recursive.wordBreak(s, wordDict));
     }
 }

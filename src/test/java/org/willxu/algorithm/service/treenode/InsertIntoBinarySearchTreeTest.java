@@ -67,9 +67,9 @@ public class InsertIntoBinarySearchTreeTest {
 
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(TreeNode root, int val, TreeNode excepted) {
+    public void testRecursive(TreeNode root, int val, TreeNode expected) {
         InsertIntoBinarySearchTree recursive =
                 new InsertIntoBinarySearchTreeRecursive();
-        assertEquals(excepted, recursive.insertIntoBST(root, val));
+        assertEquals(expected, recursive.insertIntoBST(root, val));
     }
 }

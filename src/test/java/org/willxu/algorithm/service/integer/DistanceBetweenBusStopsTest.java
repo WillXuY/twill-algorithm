@@ -29,10 +29,10 @@ public class DistanceBetweenBusStopsTest {
     @ParameterizedTest(name = "Exhaustive {index}")
     @MethodSource("dataProvider")
     public void testExhaustive(int[] distance, int start, int destination,
-                               int excepted) {
+                               int expected) {
         DistanceBetweenBusStops exhaustive =
                 new DistanceBetweenBusStopsExhaustive();
-        assertEquals(excepted, exhaustive.distanceBetweenBusStops(
+        assertEquals(expected, exhaustive.distanceBetweenBusStops(
                 distance, start, destination));
     }
 }

@@ -21,9 +21,9 @@ public class SumOfAllSubsetXorTotalsTest {
 
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(int[] nums, int excepted) {
+    public void testRecursive(int[] nums, int expected) {
         SumOfAllSubsetXorTotals recursive =
                 new SumOfAllSubsetXorTotalsRecursive();
-        assertEquals(excepted, recursive.subsetXORSum(nums));
+        assertEquals(expected, recursive.subsetXORSum(nums));
     }
 }

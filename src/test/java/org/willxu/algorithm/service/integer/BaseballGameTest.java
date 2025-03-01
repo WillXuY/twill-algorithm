@@ -44,8 +44,8 @@ public class BaseballGameTest {
 
     @ParameterizedTest(name = "List {index}")
     @MethodSource("dataProvider")
-    public void testList(String[] input, int excepted) {
+    public void testList(String[] input, int expected) {
         BaseballGame list = new BaseballGameList();
-        assertEquals(excepted, list.calPoints(input));
+        assertEquals(expected, list.calPoints(input));
     }
 }

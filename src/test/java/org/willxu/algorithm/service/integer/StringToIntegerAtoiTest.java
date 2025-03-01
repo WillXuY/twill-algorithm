@@ -26,8 +26,8 @@ public class StringToIntegerAtoiTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String s, int excepted) {
+    public void testLoop(String s, int expected) {
         StringToIntegerAtoi loop = new StringToIntegerAtoiLoop();
-        assertEquals(excepted, loop.myAtoi(s));
+        assertEquals(expected, loop.myAtoi(s));
     }
 }

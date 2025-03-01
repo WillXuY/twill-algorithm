@@ -21,8 +21,8 @@ public class SumOfUniqueElementsTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(int[] nums, int excepted) {
+    public void testCount(int[] nums, int expected) {
         SumOfUniqueElements count = new SumOfUniqueElementsCount();
-        assertEquals(excepted, count.sumOfUnique(nums));
+        assertEquals(expected, count.sumOfUnique(nums));
     }
 }

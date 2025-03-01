@@ -20,9 +20,9 @@ public class DeleteGreatestValueInEachRowTest {
 
     @ParameterizedTest(name = "Sort {index}")
     @MethodSource("dataProvider")
-    public void testSort(int[][] grid, int excepted) {
+    public void testSort(int[][] grid, int expected) {
         DeleteGreatestValueInEachRow sort =
                 new DeleteGreatestValueInEachRowSort();
-        assertEquals(excepted, sort.deleteGreatestValue(grid));
+        assertEquals(expected, sort.deleteGreatestValue(grid));
     }
 }

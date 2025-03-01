@@ -21,8 +21,8 @@ public class IntegerToRomanTest {
 
     @ParameterizedTest(name = "Flow {index}")
     @MethodSource("dataProvider")
-    public void testFlow(int num, String excepted) {
+    public void testFlow(int num, String expected) {
         IntegerToRoman flow = new IntegerToRomanFlow();
-        assertEquals(excepted, flow.intToRoman(num));
+        assertEquals(expected, flow.intToRoman(num));
     }
 }

@@ -20,8 +20,8 @@ public class DayOfTheYearTest {
 
     @ParameterizedTest(name = "Format {index}")
     @MethodSource("dataProvider")
-    public void testFormat(String date, int excepted) {
+    public void testFormat(String date, int expected) {
         DayOfTheYear format = new DayOfTheYearFormat();
-        assertEquals(excepted, format.dayOfYear(date));
+        assertEquals(expected, format.dayOfYear(date));
     }
 }

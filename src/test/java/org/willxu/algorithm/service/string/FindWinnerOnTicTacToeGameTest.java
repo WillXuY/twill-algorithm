@@ -58,8 +58,8 @@ public class FindWinnerOnTicTacToeGameTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[][] moves, String excepted) {
+    public void testLoop(int[][] moves, String expected) {
         FindWinnerOnTicTacToeGame loop = new FindWinnerOnTicTacToeGameLoop();
-        assertEquals(excepted, loop.tictactoe(moves));
+        assertEquals(expected, loop.tictactoe(moves));
     }
 }

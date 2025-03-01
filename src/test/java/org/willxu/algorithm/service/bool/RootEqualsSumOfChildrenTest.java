@@ -32,8 +32,8 @@ public class RootEqualsSumOfChildrenTest {
 
     @ParameterizedTest(name = "Add {index}")
     @MethodSource("dataProvider")
-    public void testAdd(TreeNode root, boolean excepted) {
+    public void testAdd(TreeNode root, boolean expected) {
         RootEqualsSumOfChildren add = new RootEqualsSumOfChildrenAdd();
-        assertEquals(excepted, add.checkTree(root));
+        assertEquals(expected, add.checkTree(root));
     }
 }

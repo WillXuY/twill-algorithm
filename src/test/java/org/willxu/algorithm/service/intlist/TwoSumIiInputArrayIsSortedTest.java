@@ -30,9 +30,9 @@ public class TwoSumIiInputArrayIsSortedTest {
 
     @ParameterizedTest(name = "Traversal {index}")
     @MethodSource("dataProvider")
-    public void testTraversal(int[] numbers, int target, int[] excepted) {
+    public void testTraversal(int[] numbers, int target, int[] expected) {
         TwoSumIiInputArrayIsSorted traversal =
                 new TwoSumIiInputArrayIsSortedTraversal();
-        assertArrayEquals(excepted, traversal.twoSum(numbers, target));
+        assertArrayEquals(expected, traversal.twoSum(numbers, target));
     }
 }

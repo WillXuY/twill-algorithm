@@ -36,9 +36,9 @@ public class CheckDistanceBetweenSameLettersTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String s, int[] distance, boolean excepted) {
+    public void testLoop(String s, int[] distance, boolean expected) {
         CheckDistanceBetweenSameLetters loop =
                 new CheckDistanceBetweenSameLettersLoop();
-        assertEquals(excepted, loop.checkDistances(s, distance));
+        assertEquals(expected, loop.checkDistances(s, distance));
     }
 }

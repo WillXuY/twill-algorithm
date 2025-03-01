@@ -20,9 +20,9 @@ public class CanMakeArithmeticProgressionFromSequenceTest {
 
     @ParameterizedTest(name = "Sort {index}")
     @MethodSource("dataProvider")
-    public void testSort(int[] arr, boolean excepted) {
+    public void testSort(int[] arr, boolean expected) {
         CanMakeArithmeticProgressionFromSequence sort =
                 new CanMakeArithmeticProgressionFromSequenceSort();
-        assertEquals(excepted, sort.canMakeArithmeticProgression(arr));
+        assertEquals(expected, sort.canMakeArithmeticProgression(arr));
     }
 }

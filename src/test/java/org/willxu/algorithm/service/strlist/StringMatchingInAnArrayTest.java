@@ -33,10 +33,10 @@ public class StringMatchingInAnArrayTest {
 
     @ParameterizedTest(name = "Contains {index}")
     @MethodSource("dataProvider")
-    public void testContains(String[] words, List<String> excepted) {
+    public void testContains(String[] words, List<String> expected) {
         StringMatchingInAnArray contains =
                 new StringMatchingInAnArrayContains();
-        assertArrayEquals(excepted.toArray(),
+        assertArrayEquals(expected.toArray(),
                 contains.stringMatching(words).toArray());
     }
 }

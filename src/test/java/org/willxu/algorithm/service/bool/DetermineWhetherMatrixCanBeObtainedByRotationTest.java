@@ -28,9 +28,9 @@ public class DetermineWhetherMatrixCanBeObtainedByRotationTest {
 
     @ParameterizedTest(name = "Four {index}")
     @MethodSource("dataProvider")
-    public void testFour(int[][] mat, int[][] target, boolean excepted) {
+    public void testFour(int[][] mat, int[][] target, boolean expected) {
         DetermineWhetherMatrixCanBeObtainedByRotation four =
                 new DetermineWhetherMatrixCanBeObtainedByRotationFour();
-        assertEquals(excepted, four.findRotation(mat, target));
+        assertEquals(expected, four.findRotation(mat, target));
     }
 }

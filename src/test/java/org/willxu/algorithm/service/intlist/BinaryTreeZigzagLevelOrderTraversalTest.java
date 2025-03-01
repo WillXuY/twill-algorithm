@@ -57,9 +57,9 @@ public class BinaryTreeZigzagLevelOrderTraversalTest {
 
     @ParameterizedTest(name = "List {index}")
     @MethodSource("dataProvider")
-    public void testList(TreeNode root, List<List<Integer>> excepted) {
+    public void testList(TreeNode root, List<List<Integer>> expected) {
         BinaryTreeZigzagLevelOrderTraversal list =
                 new BinaryTreeZigzagLevelOrderTraversalList();
-        assertEquals(excepted, list.zigzagLevelOrder(root));
+        assertEquals(expected, list.zigzagLevelOrder(root));
     }
 }

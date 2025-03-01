@@ -21,9 +21,9 @@ public class CheckWhetherTwoStringsAreAlmostEquivalentTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(String word1, String word2, boolean excepted) {
+    public void testCount(String word1, String word2, boolean expected) {
         CheckWhetherTwoStringsAreAlmostEquivalent count =
                 new CheckWhetherTwoStringsAreAlmostEquivalentCount();
-        assertEquals(excepted, count.checkAlmostEquivalent(word1, word2));
+        assertEquals(expected, count.checkAlmostEquivalent(word1, word2));
     }
 }

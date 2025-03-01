@@ -32,8 +32,8 @@ public class BackspaceStringCompareTest {
 
     @ParameterizedTest
     @MethodSource("dataProvider")
-    public void testLoop(String s, String t, boolean excepted) {
+    public void testLoop(String s, String t, boolean expected) {
         BackspaceStringCompare loop = new BackspaceStringCompareLoop();
-        assertEquals(excepted, loop.backspaceCompare(s, t));
+        assertEquals(expected, loop.backspaceCompare(s, t));
     }
 }

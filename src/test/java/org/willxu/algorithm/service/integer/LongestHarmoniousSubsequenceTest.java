@@ -31,9 +31,9 @@ public class LongestHarmoniousSubsequenceTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(int[] input, int excepted) {
+    public void testCount(int[] input, int expected) {
         LongestHarmoniousSubsequence count =
                 new LongestHarmoniousSubsequenceCount();
-        assertEquals(excepted, count.findLHS(input));
+        assertEquals(expected, count.findLHS(input));
     }
 }

@@ -20,8 +20,8 @@ public class SortArrayByParityTest {
 
     @ParameterizedTest(name = "dataProvider")
     @MethodSource("dataProvider")
-    public void testLoop(int[] nums, int[] excepted) {
+    public void testLoop(int[] nums, int[] expected) {
         SortArrayByParity loop = new SortArrayByParityLoop();
-        assertArrayEquals(excepted, loop.sortArrayByParity(nums));
+        assertArrayEquals(expected, loop.sortArrayByParity(nums));
     }
 }

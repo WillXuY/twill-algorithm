@@ -21,8 +21,8 @@ public class FindPeakElementTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] nums, int excepted) {
+    public void testLoop(int[] nums, int expected) {
         FindPeakElement loop = new FindPeakElementLoop();
-        assertEquals(excepted, loop.findPeakElement(nums));
+        assertEquals(expected, loop.findPeakElement(nums));
     }
 }

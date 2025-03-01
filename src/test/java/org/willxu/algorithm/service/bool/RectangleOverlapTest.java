@@ -52,8 +52,8 @@ public class RectangleOverlapTest {
 
     @ParameterizedTest
     @MethodSource("dataProvider")
-    public void testCenter(int[] rec1, int[] rec2, boolean excepted) {
+    public void testCenter(int[] rec1, int[] rec2, boolean expected) {
         RectangleOverlap center = new RectangleOverlapCenter();
-        assertEquals(excepted, center.isRectangleOverlap(rec1,  rec2));
+        assertEquals(expected, center.isRectangleOverlap(rec1,  rec2));
     }
 }

@@ -20,8 +20,8 @@ public class SortArrayByParity2Test {
 
     @ParameterizedTest(name = "index {index}")
     @MethodSource("dataProvider")
-    public void testIndex(int[] nums, int[] excepted) {
+    public void testIndex(int[] nums, int[] expected) {
         SortArrayByParity2 index = new SortArrayByParity2Index();
-        assertArrayEquals(excepted, index.sortArrayByParityII(nums));
+        assertArrayEquals(expected, index.sortArrayByParityII(nums));
     }
 }

@@ -19,8 +19,8 @@ public class MaximumSwapTest {
 
     @ParameterizedTest(name = "Map {index}")
     @MethodSource("dataProvider")
-    public void testMap(int num, int excepted) {
+    public void testMap(int num, int expected) {
         MaximumSwap map = new MaximumSwapMap();
-        assertEquals(excepted, map.maximumSwap(num));
+        assertEquals(expected, map.maximumSwap(num));
     }
 }

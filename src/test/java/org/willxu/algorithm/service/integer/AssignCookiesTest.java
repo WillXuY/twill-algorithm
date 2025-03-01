@@ -33,8 +33,8 @@ public class AssignCookiesTest {
 
     @ParameterizedTest(name = "Map {index}")
     @MethodSource("dataProvider")
-    public void testMap(int[] children, int[] cookies, int excepted) {
+    public void testMap(int[] children, int[] cookies, int expected) {
         AssignCookies map = new AssignCookiesMap();
-        assertEquals(excepted, map.findContentChildren(children, cookies));
+        assertEquals(expected, map.findContentChildren(children, cookies));
     }
 }

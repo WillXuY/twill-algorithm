@@ -20,8 +20,8 @@ public class NumberComplementTest {
 
     @ParameterizedTest(name = "Dividing {index}")
     @MethodSource("dataProvider")
-    public void testDividing(int input, int excepted) {
+    public void testDividing(int input, int expected) {
         NumberComplement dividing = new NumberComplementDividing();
-        assertEquals(excepted, dividing.findComplement(input));
+        assertEquals(expected, dividing.findComplement(input));
     }
 }

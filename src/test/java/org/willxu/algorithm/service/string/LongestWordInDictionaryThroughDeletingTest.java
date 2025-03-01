@@ -33,9 +33,9 @@ public class LongestWordInDictionaryThroughDeletingTest {
 
     @ParameterizedTest(name = "Map {index}")
     @MethodSource("dataProvider")
-    public void testMap(String s, List<String> dictionary, String excepted) {
+    public void testMap(String s, List<String> dictionary, String expected) {
         LongestWordInDictionaryThroughDeleting map =
                 new LongestWordInDictionaryThroughDeletingMap();
-        assertEquals(excepted, map.findLongestWord(s, dictionary));
+        assertEquals(expected, map.findLongestWord(s, dictionary));
     }
 }

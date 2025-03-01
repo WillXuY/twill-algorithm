@@ -31,8 +31,8 @@ public class CountBinarySubstringsTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String binary, int excepted) {
+    public void testLoop(String binary, int expected) {
         CountBinarySubstrings loop = new CountBinarySubstringsLoop();
-        assertEquals(excepted, loop.countBinarySubstrings(binary));
+        assertEquals(expected, loop.countBinarySubstrings(binary));
     }
 }

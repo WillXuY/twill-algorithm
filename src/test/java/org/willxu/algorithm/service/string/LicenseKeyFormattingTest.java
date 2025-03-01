@@ -20,8 +20,8 @@ public class LicenseKeyFormattingTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String input, int length, String excepted) {
+    public void testLoop(String input, int length, String expected) {
         LicenseKeyFormatting loop = new LicenseKeyFormattingLoop();
-        assertEquals(excepted, loop.licenseKeyFormatting(input, length));
+        assertEquals(expected, loop.licenseKeyFormatting(input, length));
     }
 }

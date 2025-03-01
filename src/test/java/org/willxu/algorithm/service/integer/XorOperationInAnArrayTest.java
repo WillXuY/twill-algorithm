@@ -20,8 +20,8 @@ public class XorOperationInAnArrayTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int n, int start, int excepted) {
+    public void testLoop(int n, int start, int expected) {
         XorOperationInAnArray loop = new XorOperationInAnArrayLoop();
-        assertEquals(excepted, loop.xorOperation(n, start));
+        assertEquals(expected, loop.xorOperation(n, start));
     }
 }

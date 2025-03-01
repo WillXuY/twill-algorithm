@@ -33,9 +33,9 @@ public class CheckIfStringIsPrefixOfArrayTest {
 
     @ParameterizedTest(name = "Equals {index}")
     @MethodSource("dataProvider")
-    public void testEquals(String s, String[] words, boolean excepted) {
+    public void testEquals(String s, String[] words, boolean expected) {
         CheckIfStringIsPrefixOfArray equals =
                 new CheckIfStringIsPrefixOfArrayEquals();
-        assertEquals(excepted, equals.isPrefixString(s, words));
+        assertEquals(expected, equals.isPrefixString(s, words));
     }
 }

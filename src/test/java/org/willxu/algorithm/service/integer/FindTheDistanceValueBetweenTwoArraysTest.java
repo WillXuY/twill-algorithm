@@ -36,9 +36,9 @@ public class FindTheDistanceValueBetweenTwoArraysTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] arr1, int[] arr2, int d, int excepted) {
+    public void testLoop(int[] arr1, int[] arr2, int d, int expected) {
         FindTheDistanceValueBetweenTwoArrays loop
                 = new FindTheDistanceValueBetweenTwoArraysLoop();
-        assertEquals(excepted, loop.findTheDistanceValue(arr1, arr2, d));
+        assertEquals(expected, loop.findTheDistanceValue(arr1, arr2, d));
     }
 }

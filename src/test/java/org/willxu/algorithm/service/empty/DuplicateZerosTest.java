@@ -24,11 +24,11 @@ public class DuplicateZerosTest {
         );
     }
 
-    @ParameterizedTest(name = "Excepted {index}")
+    @ParameterizedTest(name = "expected {index}")
     @MethodSource("dataProvider")
-    public void testCopy(int[] arr, int[] excepted) {
+    public void testCopy(int[] arr, int[] expected) {
         DuplicateZeros copy = new DuplicateZerosCopy();
         copy.duplicateZeros(arr);
-        assertArrayEquals(excepted, arr);
+        assertArrayEquals(expected, arr);
     }
 }

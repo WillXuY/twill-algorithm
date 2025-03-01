@@ -36,9 +36,9 @@ public class FindLargestValueInEachTreeRowTest {
 
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(TreeNode root, List<Integer> excepted) {
+    public void testRecursive(TreeNode root, List<Integer> expected) {
         FindLargestValueInEachTreeRow recursive =
                 new FindLargestValueInEachTreeRowRecursive();
-        assertEquals(excepted, recursive.largestValues(root));
+        assertEquals(expected, recursive.largestValues(root));
     }
 }

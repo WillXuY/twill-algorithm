@@ -51,9 +51,9 @@ public class SortColorsTest {
 
     @ParameterizedTest(name = "Exchange {index}")
     @MethodSource("dataProvider")
-    public void testExchange(int[] nums, int[] excepted) {
+    public void testExchange(int[] nums, int[] expected) {
         SortColors exchange = new SortColorsExchange();
         exchange.sortColors(nums);
-        assertArrayEquals(excepted, nums);
+        assertArrayEquals(expected, nums);
     }
 }

@@ -20,8 +20,8 @@ public class SmallestEvenMultipleTest {
 
     @ParameterizedTest(name = "And {index}")
     @MethodSource("dataProvider")
-    public void testAnd(int n, int excepted) {
+    public void testAnd(int n, int expected) {
         SmallestEvenMultiple and = new SmallestEvenMultipleAnd();
-        assertEquals(excepted, and.smallestEvenMultiple(n));
+        assertEquals(expected, and.smallestEvenMultiple(n));
     }
 }

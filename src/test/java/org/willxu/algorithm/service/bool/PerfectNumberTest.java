@@ -26,8 +26,8 @@ public class PerfectNumberTest {
 
     @ParameterizedTest(name = "Division {index}")
     @MethodSource("dataProvider")
-    public void testDivision(int input, boolean excepted) {
+    public void testDivision(int input, boolean expected) {
         PerfectNumber division = new PerfectNumberDivision();
-        assertEquals(excepted, division.checkPerfectNumber(input));
+        assertEquals(expected, division.checkPerfectNumber(input));
     }
 }

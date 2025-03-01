@@ -40,8 +40,8 @@ public class FindkClosestElementsTest {
 
     @ParameterizedTest(name = "Map {index}")
     @MethodSource("dataProvider")
-    public void testMap(int[] arr, int k, int x, List<Integer> excepted) {
+    public void testMap(int[] arr, int k, int x, List<Integer> expected) {
         FindkClosestElements map = new FindkClosestElementsMap();
-        assertEquals(excepted, map.findClosestElements(arr, k, x));
+        assertEquals(expected, map.findClosestElements(arr, k, x));
     }
 }

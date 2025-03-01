@@ -21,8 +21,8 @@ public class TwoKeysKeyboardTest {
 
     @ParameterizedTest(name = "Divide {index}")
     @MethodSource("dataProvider")
-    public void testDivide(int n, int excepted) {
+    public void testDivide(int n, int expected) {
         TwoKeysKeyboard divide = new TwoKeysKeyboardDivide();
-        assertEquals(excepted, divide.minSteps(n));
+        assertEquals(expected, divide.minSteps(n));
     }
 }

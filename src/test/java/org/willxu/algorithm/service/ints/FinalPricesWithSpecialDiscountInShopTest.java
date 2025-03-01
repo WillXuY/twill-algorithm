@@ -21,9 +21,9 @@ public class FinalPricesWithSpecialDiscountInShopTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] prices, int[] excepted) {
+    public void testLoop(int[] prices, int[] expected) {
         FinalPricesWithSpecialDiscountInShop loop =
                 new FinalPricesWithSpecialDiscountInShopLoop();
-        assertArrayEquals(excepted, loop.finalPrices(prices));
+        assertArrayEquals(expected, loop.finalPrices(prices));
     }
 }

@@ -21,9 +21,9 @@ public class SubtractTheProductAndSumOfDigitsOfAnIntegerTest {
 
     @ParameterizedTest(name = "Division {index}")
     @MethodSource("dataProvider")
-    public void testDivision(int n, int excepted) {
+    public void testDivision(int n, int expected) {
         SubtractTheProductAndSumOfDigitsOfAnInteger division
                 = new SubtractTheProductAndSumOfDigitsOfAnIntegerDivision();
-        assertEquals(excepted, division.subtractProductAndSum(n));
+        assertEquals(expected, division.subtractProductAndSum(n));
     }
 }

@@ -39,9 +39,9 @@ public class ReverseBitsTest {
 
     @ParameterizedTest(name = "ToString {index}")
     @MethodSource("dataProvider")
-    public void testToString(int input, int excepted) {
+    public void testToString(int input, int expected) {
         ReverseBits toString = new ReversBitsToString();
-        assertEquals(excepted, toString.reverseBits(input));
+        assertEquals(expected, toString.reverseBits(input));
     }
 
     /**

@@ -23,8 +23,8 @@ public class GetMaximumInGeneratedArrayTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int n, int excepted) {
+    public void testLoop(int n, int expected) {
         GetMaximumInGeneratedArray loop = new GetMaximumInGeneratedArrayLoop();
-        assertEquals(excepted, loop.getMaximumGenerated(n));
+        assertEquals(expected, loop.getMaximumGenerated(n));
     }
 }

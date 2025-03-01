@@ -30,8 +30,8 @@ public class TeemoAttackingTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] timeSeries, int duration, int excepted) {
+    public void testLoop(int[] timeSeries, int duration, int expected) {
         TeemoAttacking loop = new TeemoAttackingLoop();
-        assertEquals(excepted, loop.findPoisonedDuration(timeSeries, duration));
+        assertEquals(expected, loop.findPoisonedDuration(timeSeries, duration));
     }
 }

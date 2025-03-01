@@ -21,8 +21,8 @@ public class RansomNoteTest {
     @ParameterizedTest(name = "Remove {index}")
     @MethodSource("dataProvider")
     public void testRemove(String ransomNote, String magazine,
-                           boolean excepted) {
+                           boolean expected) {
         RansomNote remove = new RansomNoteRemove();
-        assertEquals(excepted, remove.canConstruct(ransomNote, magazine));
+        assertEquals(expected, remove.canConstruct(ransomNote, magazine));
     }
 }

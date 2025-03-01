@@ -37,9 +37,9 @@ public class CountPrimesTest {
 
     @ParameterizedTest(name = "Mark remove {index}")
     @MethodSource("dataProvider")
-    public void testMarkRemove(int input, int excepted) {
+    public void testMarkRemove(int input, int expected) {
         CountPrimes markRemove = new CountPrimesMarkRemove();
-        assertEquals(excepted, markRemove.countPrimes(input));
+        assertEquals(expected, markRemove.countPrimes(input));
     }
 
     /**
@@ -47,8 +47,8 @@ public class CountPrimesTest {
      */
     @ParameterizedTest(name = "Cycle calculate {index}")
     @MethodSource("dataProvider")
-    public void testCycleCalculate(int input, int excepted) {
+    public void testCycleCalculate(int input, int expected) {
         CountPrimes cycleCalculate = new CountPrimesCycleCalculate();
-        assertEquals(excepted, cycleCalculate.countPrimes(input));
+        assertEquals(expected, cycleCalculate.countPrimes(input));
     }
 }

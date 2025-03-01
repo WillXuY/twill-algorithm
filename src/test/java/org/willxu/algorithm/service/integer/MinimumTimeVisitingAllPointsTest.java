@@ -20,9 +20,9 @@ public class MinimumTimeVisitingAllPointsTest {
 
     @ParameterizedTest(name = "Abs {index}")
     @MethodSource("dataProvider")
-    public void testAbs(int[][] points, int excepted) {
+    public void testAbs(int[][] points, int expected) {
         MinimumTimeVisitingAllPoints abs =
                 new MinimumTimeVisitingAllPointsAbs();
-        assertEquals(excepted, abs.minTimeToVisitAllPoints(points));
+        assertEquals(expected, abs.minTimeToVisitAllPoints(points));
     }
 }

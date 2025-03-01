@@ -28,9 +28,9 @@ public class RemoveLetterToEqualizeFrequencyTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(String word, boolean excepted) {
+    public void testCount(String word, boolean expected) {
         RemoveLetterToEqualizeFrequency count =
                 new RemoveLetterToEqualizeFrequencyCount();
-        assertEquals(excepted, count.equalFrequency(word));
+        assertEquals(expected, count.equalFrequency(word));
     }
 }

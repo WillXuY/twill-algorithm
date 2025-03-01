@@ -26,8 +26,8 @@ public class LongPressedNameTest {
 
     @ParameterizedTest(name = "Index {index}")
     @MethodSource("dataProvider")
-    public void testIndex(String name, String typed, boolean excepted) {
+    public void testIndex(String name, String typed, boolean expected) {
         LongPressedName index = new LongPressedNameIndex();
-        assertEquals(excepted, index.isLongPressedName(name, typed));
+        assertEquals(expected, index.isLongPressedName(name, typed));
     }
 }

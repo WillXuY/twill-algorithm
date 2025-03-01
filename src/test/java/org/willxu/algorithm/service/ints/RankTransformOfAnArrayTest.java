@@ -35,9 +35,9 @@ public class RankTransformOfAnArrayTest {
 
     @ParameterizedTest(name = "Map {index}")
     @MethodSource("dataProvider")
-    public void testMap(int[] arr, int[] excepted) {
+    public void testMap(int[] arr, int[] expected) {
         RankTransformOfAnArray map = new RankTransformOfAnArrayMap();
-        assertArrayEquals(excepted, map.arrayRankTransform(arr));
+        assertArrayEquals(expected, map.arrayRankTransform(arr));
     }
 
     /**
@@ -45,10 +45,10 @@ public class RankTransformOfAnArrayTest {
      */
     @ParameterizedTest(name = "Pointer {index}")
     @MethodSource("dataProvider")
-    public void testPointer(int[] arr, int[] excepted) {
+    public void testPointer(int[] arr, int[] expected) {
         RankTransformOfAnArray pointer = new RankTransformOfAnArrayPointer();
-        System.out.println(Arrays.toString(excepted));
+        System.out.println(Arrays.toString(expected));
         System.out.println(Arrays.toString(pointer.arrayRankTransform(arr)));
-        assertArrayEquals(excepted, pointer.arrayRankTransform(arr));
+        assertArrayEquals(expected, pointer.arrayRankTransform(arr));
     }
 }

@@ -21,9 +21,9 @@ public class CalculateMoneyInLeetcodeBankTest {
 
     @ParameterizedTest(name = "Calculate {index}")
     @MethodSource("dataProvider")
-    public void testCalculate(int n, int excepted) {
+    public void testCalculate(int n, int expected) {
         CalculateMoneyInLeetcodeBank calculate =
                 new CalculateMoneyInLeetcodeBankCalculate();
-        assertEquals(excepted, calculate.totalMoney(n));
+        assertEquals(expected, calculate.totalMoney(n));
     }
 }

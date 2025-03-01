@@ -24,9 +24,9 @@ public class SumOfAllOddLengthSubarraysTest {
 
     @ParameterizedTest(name = "Calculate {index}")
     @MethodSource("dataProvider")
-    public void testCalculate(int[] arr, int excepted) {
+    public void testCalculate(int[] arr, int expected) {
         SumOfAllOddLengthSubarrays calculate =
                 new SumOfAllOddLengthSubarraysCalculate();
-        assertEquals(excepted, calculate.sumOddLengthSubarrays(arr));
+        assertEquals(expected, calculate.sumOddLengthSubarrays(arr));
     }
 }

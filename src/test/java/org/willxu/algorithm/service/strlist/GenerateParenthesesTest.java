@@ -43,9 +43,9 @@ public class GenerateParenthesesTest {
 
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(int n, List<String> excepted) {
+    public void testRecursive(int n, List<String> expected) {
         GenerateParentheses recursive = new GenerateParenthesesRecursive();
-        assertEquals(new HashSet<>(excepted),
+        assertEquals(new HashSet<>(expected),
                 new HashSet<>(recursive.generateParenthesis(n)));
     }
 }

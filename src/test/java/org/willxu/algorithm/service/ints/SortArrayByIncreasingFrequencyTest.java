@@ -28,9 +28,9 @@ public class SortArrayByIncreasingFrequencyTest {
 
     @ParameterizedTest(name = "Map {index}")
     @MethodSource("dataProvider")
-    public void testMap(int[] nums, int[] excepted) {
+    public void testMap(int[] nums, int[] expected) {
         SortArrayByIncreasingFrequency map =
                 new SortArrayByIncreasingFrequencyMap();
-        assertArrayEquals(excepted, map.frequencySort(nums));
+        assertArrayEquals(expected, map.frequencySort(nums));
     }
 }

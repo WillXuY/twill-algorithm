@@ -19,8 +19,8 @@ public class EditDistanceTest {
 
     @ParameterizedTest(name = "Matrix {index}")
     @MethodSource("dataProvider")
-    public void testMatrix(String word1, String word2, int excepted) {
+    public void testMatrix(String word1, String word2, int expected) {
         EditDistance matrix = new EditDistanceMatrix();
-        assertEquals(excepted, matrix.minDistance(word1, word2));
+        assertEquals(expected, matrix.minDistance(word1, word2));
     }
 }

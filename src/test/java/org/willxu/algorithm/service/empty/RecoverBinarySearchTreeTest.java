@@ -44,10 +44,10 @@ public class RecoverBinarySearchTreeTest {
 
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(TreeNode root, TreeNode excepted) {
+    public void testRecursive(TreeNode root, TreeNode expected) {
         RecoverBinarySearchTree recursive =
                 new RecoverBinarySearchTreeRecursive();
         recursive.recoverTree(root);
-        assertEquals(excepted, root);
+        assertEquals(expected, root);
     }
 }

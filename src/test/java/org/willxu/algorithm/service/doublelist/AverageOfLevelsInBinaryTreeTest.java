@@ -46,10 +46,10 @@ public class AverageOfLevelsInBinaryTreeTest {
 
     @ParameterizedTest(name = "Level {index}")
     @MethodSource("dataProvider")
-    public void testLevel(TreeNode root, List<Double> excepted) {
+    public void testLevel(TreeNode root, List<Double> expected) {
         AverageOfLevelsInBinaryTree level =
                 new AverageOfLevelsInBinaryTreeLevel();
-        assertArrayEquals(excepted.toArray(),
+        assertArrayEquals(expected.toArray(),
                 level.averageOfLevels(root).toArray());
     }
 }

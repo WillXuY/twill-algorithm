@@ -36,9 +36,9 @@ public class PrimeNumberOfSetBitsInBinaryRepresentationTest {
 
     @ParameterizedTest(name = "Array {index}")
     @MethodSource("dataProvider")
-    public void testArray(int left, int right, int excepted) {
+    public void testArray(int left, int right, int expected) {
         PrimeNumberOfSetBitsInBinaryRepresentation array =
                 new PrimeNumberOfSetBitsInBinaryRepresentationArray();
-        assertEquals(excepted, array.countPrimeSetBits(left, right));
+        assertEquals(expected, array.countPrimeSetBits(left, right));
     }
 }

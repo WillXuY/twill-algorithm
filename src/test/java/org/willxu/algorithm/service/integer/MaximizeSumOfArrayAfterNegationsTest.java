@@ -25,9 +25,9 @@ public class MaximizeSumOfArrayAfterNegationsTest {
 
     @ParameterizedTest(name = "Order {index}")
     @MethodSource("dataProvider")
-    public void testOrder(int[] nums, int k, int excepted) {
+    public void testOrder(int[] nums, int k, int expected) {
         MaximizeSumOfArrayAfterNegations order =
                 new MaximizeSumOfArrayAfterNegationsOrder();
-        assertEquals(excepted, order.largestSumAfterKNegations(nums, k));
+        assertEquals(expected, order.largestSumAfterKNegations(nums, k));
     }
 }

@@ -24,8 +24,8 @@ public class MissingNumberTest {
 
     @ParameterizedTest(name = "Remove {index}")
     @MethodSource("dataProvider")
-    public void testRemove(int[] input, int excepted) {
+    public void testRemove(int[] input, int expected) {
         MissingNumber remove = new MissingNumberRemove();
-        assertEquals(excepted, remove.missingNumber(input));
+        assertEquals(expected, remove.missingNumber(input));
     }
 }

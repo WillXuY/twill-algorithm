@@ -67,8 +67,8 @@ public class LeafSimilarTreesTest {
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
     public void testRecursive(
-            TreeNode root1, TreeNode root2, boolean excepted) {
+            TreeNode root1, TreeNode root2, boolean expected) {
         LeafSimilarTrees recursive = new LeafSimilarTreesRecursive();
-        assertEquals(excepted, recursive.leafSimilar(root1, root2));
+        assertEquals(expected, recursive.leafSimilar(root1, root2));
     }
 }

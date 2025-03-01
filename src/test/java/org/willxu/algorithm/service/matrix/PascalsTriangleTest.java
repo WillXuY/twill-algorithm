@@ -53,11 +53,11 @@ public class PascalsTriangleTest {
 
     @ParameterizedTest(name = "Level {index}")
     @MethodSource("dataProvider")
-    public void testLevel(int input, List<List<Integer>> excepted)
+    public void testLevel(int input, List<List<Integer>> expected)
             throws JsonProcessingException {
         PascalsTriangle level = new PascalsTriangleLevel();
         ObjectMapper mapper = new ObjectMapper();
         String output = mapper.writeValueAsString(level.generate(input));
-        assertEquals(mapper.writeValueAsString(excepted), output);
+        assertEquals(mapper.writeValueAsString(expected), output);
     }
 }

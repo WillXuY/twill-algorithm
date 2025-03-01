@@ -21,9 +21,9 @@ public class MaximumDifferenceBetweenIncreasingElementsTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] nums, int excepted) {
+    public void testLoop(int[] nums, int expected) {
         MaximumDifferenceBetweenIncreasingElements loop =
                 new MaximumDifferenceBetweenIncreasingElementsLoop();
-        assertEquals(excepted, loop.maximumDifference(nums));
+        assertEquals(expected, loop.maximumDifference(nums));
     }
 }

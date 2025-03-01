@@ -26,9 +26,9 @@ public class CountingWordsWithGivenPrefixTest {
 
     @ParameterizedTest(name = "Regex {index}")
     @MethodSource("dataProvider")
-    public void testRegex(String[] words, String pref, int excepted) {
+    public void testRegex(String[] words, String pref, int expected) {
         CountingWordsWithGivenPrefix regex =
                 new CountingWordsWithGivenPrefixRegex();
-        assertEquals(excepted, regex.prefixCount(words, pref));
+        assertEquals(expected, regex.prefixCount(words, pref));
     }
 }

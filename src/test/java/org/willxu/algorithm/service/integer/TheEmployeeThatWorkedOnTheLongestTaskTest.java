@@ -22,9 +22,9 @@ public class TheEmployeeThatWorkedOnTheLongestTaskTest {
 
     @ParameterizedTest(name = "Compare {index}")
     @MethodSource("dataProvider")
-    public void testCompare(int n, int[][] logs, int excepted) {
+    public void testCompare(int n, int[][] logs, int expected) {
         TheEmployeeThatWorkedOnTheLongestTask compare =
                 new TheEmployeeThatWorkedOnTheLongestTaskCompare();
-        assertEquals(excepted, compare.hardestWorker(n, logs));
+        assertEquals(expected, compare.hardestWorker(n, logs));
     }
 }

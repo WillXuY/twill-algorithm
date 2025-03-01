@@ -25,8 +25,8 @@ public class PrimeArrangementsTest {
 
     @ParameterizedTest(name = "Sift {index}")
     @MethodSource("dataProvider")
-    public void testSift(int n, int excepted) {
+    public void testSift(int n, int expected) {
         PrimeArrangements sift = new PrimeArrangementsSift();
-        assertEquals(excepted, sift.numPrimeArrangements(n));
+        assertEquals(expected, sift.numPrimeArrangements(n));
     }
 }

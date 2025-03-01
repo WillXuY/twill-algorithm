@@ -74,12 +74,12 @@ public class LowestCommonAncestorOfBstTest {
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
     public void testRecursive(TreeNode root, TreeNode p, TreeNode q,
-                              TreeNode exceptedNode) throws JsonProcessingException {
+                              TreeNode expectedNode) throws JsonProcessingException {
         LowestCommonAncestorOfBst recursive =
                 new LowestCommonAncestorOfBstRecursive();
         TreeNode output = recursive.lowestCommonAncestor(root, p, q);
         ObjectMapper objectMapper = new ObjectMapper();
-        String excepted = objectMapper.writeValueAsString(exceptedNode);
-        assertEquals(excepted, objectMapper.writeValueAsString(output));
+        String expected = objectMapper.writeValueAsString(expectedNode);
+        assertEquals(expected, objectMapper.writeValueAsString(output));
     }
 }

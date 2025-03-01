@@ -22,9 +22,9 @@ public class SpecialArrayWithxElementsGreaterThanOrEqualxTest {
 
     @ParameterizedTest(name = "Sort {index}")
     @MethodSource("dataProvider")
-    public void testSort(int[] nums, int excepted) {
+    public void testSort(int[] nums, int expected) {
         SpecialArrayWithxElementsGreaterThanOrEqualX sort =
                 new SpecialArrayWithxElementsGreaterThanOrEqualxSort();
-        assertEquals(excepted, sort.specialArray(nums));
+        assertEquals(expected, sort.specialArray(nums));
     }
 }

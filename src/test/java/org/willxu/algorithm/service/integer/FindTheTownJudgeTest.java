@@ -25,8 +25,8 @@ public class FindTheTownJudgeTest {
 
     @ParameterizedTest(name = "Set {index}")
     @MethodSource("dataProvider")
-    public void testSet(int n, int[][] trust, int excepted) {
+    public void testSet(int n, int[][] trust, int expected) {
         FindTheTownJudge set = new FindTheTownJudgeSet();
-        assertEquals(excepted, set.findJudge(n, trust));
+        assertEquals(expected, set.findJudge(n, trust));
     }
 }

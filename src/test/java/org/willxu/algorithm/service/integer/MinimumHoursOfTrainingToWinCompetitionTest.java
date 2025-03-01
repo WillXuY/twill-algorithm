@@ -29,10 +29,10 @@ public class MinimumHoursOfTrainingToWinCompetitionTest {
     @ParameterizedTest(name = "Max {index}")
     @MethodSource("dataProvider")
     public void testMax(int initialEnergy, int initialExperience, int[] energy,
-                        int[] experience, int excepted) {
+                        int[] experience, int expected) {
         MinimumHoursOfTrainingToWinCompetition max =
                 new MinimumHoursOfTrainingToWinCompetitionMax();
-        assertEquals(excepted, max.minNumberOfHours(
+        assertEquals(expected, max.minNumberOfHours(
                 initialEnergy, initialExperience, energy, experience));
     }
 }

@@ -39,8 +39,8 @@ public class Search2dMatrixTest {
 
     @ParameterizedTest(name = "Half {index}")
     @MethodSource("dataProvider")
-    public void testHalf(int[][] matrix, int target, boolean excepted) {
+    public void testHalf(int[][] matrix, int target, boolean expected) {
         Search2dMatrix half = new Search2dMatrixHalf();
-        assertEquals(excepted, half.searchMatrix(matrix, target));
+        assertEquals(expected, half.searchMatrix(matrix, target));
     }
 }

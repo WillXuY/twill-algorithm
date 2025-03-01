@@ -25,9 +25,9 @@ public class NumberOfSubArraysOfSizeAndAverageGreaterThanOrEqualToThresholdTest 
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] arr, int k, int threshold, int excepted) {
+    public void testLoop(int[] arr, int k, int threshold, int expected) {
         NumberOfSubArraysOfSizeAndAverageGreaterThanOrEqualToThreshold loop =
                 new NumberOfSubArraysOfSizeAndAverageGreaterThanOrEqualToThresholdLoop();
-        assertEquals(excepted, loop.numOfSubarrays(arr, k, threshold));
+        assertEquals(expected, loop.numOfSubarrays(arr, k, threshold));
     }
 }

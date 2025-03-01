@@ -22,9 +22,9 @@ public class NumberAfterDoubleReversalTest {
 
     @ParameterizedTest(name = "Length {index}")
     @MethodSource("dataProvider")
-    public void testLength(int num, boolean excepted) {
+    public void testLength(int num, boolean expected) {
         NumberAfterDoubleReversal length =
                 new NumberAfterDoubleReversalLength();
-        assertEquals(excepted, length.isSameAfterReversals(num));
+        assertEquals(expected, length.isSameAfterReversals(num));
     }
 }

@@ -33,9 +33,9 @@ public class CountCommonWordsWithOneOccurrenceTest {
 
     @ParameterizedTest(name = "Retain {index}")
     @MethodSource("dataProvider")
-    public void testRetain(String[] words1, String[] words2, int excepted) {
+    public void testRetain(String[] words1, String[] words2, int expected) {
         CountCommonWordsWithOneOccurrence retain =
                 new CountCommonWordsWithOneOccurrenceRetain();
-        assertEquals(excepted, retain.countWords(words1, words2));
+        assertEquals(expected, retain.countWords(words1, words2));
     }
 }

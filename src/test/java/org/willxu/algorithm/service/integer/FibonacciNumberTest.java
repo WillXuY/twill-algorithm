@@ -21,8 +21,8 @@ public class FibonacciNumberTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int input, int excepted) {
+    public void testLoop(int input, int expected) {
         FibonacciNumber loop = new FibonacciNumberLoop();
-        assertEquals(excepted, loop.fib(input));
+        assertEquals(expected, loop.fib(input));
     }
 }

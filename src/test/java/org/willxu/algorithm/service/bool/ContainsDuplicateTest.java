@@ -36,9 +36,9 @@ public class ContainsDuplicateTest {
      */
     @ParameterizedTest(name = "Set {index}")
     @MethodSource("dataProvider")
-    public void testSet(int[] input, boolean excepted) {
+    public void testSet(int[] input, boolean expected) {
         ContainsDuplicate set = new ContainsDuplicateSet();
-        assertEquals(excepted, set.containsDuplicate(input));
+        assertEquals(expected, set.containsDuplicate(input));
     }
 
     /**
@@ -46,8 +46,8 @@ public class ContainsDuplicateTest {
      */
     @ParameterizedTest(name = "Bubble {index}")
     @MethodSource("dataProvider")
-    public void testBubble(int[] input, boolean excepted) {
+    public void testBubble(int[] input, boolean expected) {
         ContainsDuplicate bubble = new ContainsDuplicateBubble();
-        assertEquals(excepted, bubble.containsDuplicate(input));
+        assertEquals(expected, bubble.containsDuplicate(input));
     }
 }

@@ -20,9 +20,9 @@ public class GenerateStringWithCharactersThatHaveOddCountsTest {
 
     @ParameterizedTest(name = "Fill {index}")
     @MethodSource("dataProvider")
-    public void testFill(int n, String excepted) {
+    public void testFill(int n, String expected) {
         GenerateStringWithCharactersThatHaveOddCounts fill
                 = new GenerateStringWithCharactersThatHaveOddCountsFill();
-        assertEquals(excepted, fill.generateTheString(n));
+        assertEquals(expected, fill.generateTheString(n));
     }
 }

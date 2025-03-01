@@ -19,8 +19,8 @@ public class SingleNumberIiTest {
 
     @ParameterizedTest(name = "Set {index}")
     @MethodSource("dataProvider")
-    public void testSet(int[] nums, int excepted) {
+    public void testSet(int[] nums, int expected) {
         SingleNumberIi set = new SingleNumberIiSet();
-        assertEquals(excepted, set.singleNumber(nums));
+        assertEquals(expected, set.singleNumber(nums));
     }
 }

@@ -40,8 +40,8 @@ public class MostCommonWordTest {
 
     @ParameterizedTest
     @MethodSource("dataProvider")
-    public void testLoop(String paragraph, String[] banned, String excepted) {
+    public void testLoop(String paragraph, String[] banned, String expected) {
         MostCommonWord loop = new MostCommonWordLoop();
-        assertEquals(excepted, loop.mostCommonWord(paragraph, banned));
+        assertEquals(expected, loop.mostCommonWord(paragraph, banned));
     }
 }

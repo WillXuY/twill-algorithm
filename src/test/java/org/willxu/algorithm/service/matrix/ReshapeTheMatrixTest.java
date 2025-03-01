@@ -36,8 +36,8 @@ public class ReshapeTheMatrixTest {
 
     @ParameterizedTest(name = "Iterator {index}")
     @MethodSource("dataProvider")
-    public void testIterator(int[][] origin, int r, int c, int[][] excepted) {
+    public void testIterator(int[][] origin, int r, int c, int[][] expected) {
         ReshapeTheMatrix iterator = new ReshapeTheMatrixIterator();
-        assertArrayEquals(excepted, iterator.matrixReshape(origin, r, c));
+        assertArrayEquals(expected, iterator.matrixReshape(origin, r, c));
     }
 }

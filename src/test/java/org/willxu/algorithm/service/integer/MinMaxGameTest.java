@@ -20,8 +20,8 @@ public class MinMaxGameTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] nums, int excepted) {
+    public void testLoop(int[] nums, int expected) {
         MinMaxGame loop = new MinMaxGameLoop();
-        assertEquals(excepted, loop.minMaxGame(nums));
+        assertEquals(expected, loop.minMaxGame(nums));
     }
 }

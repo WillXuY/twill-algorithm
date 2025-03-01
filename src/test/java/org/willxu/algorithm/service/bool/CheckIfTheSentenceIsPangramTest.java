@@ -20,9 +20,9 @@ public class CheckIfTheSentenceIsPangramTest {
 
     @ParameterizedTest(name = "Array {index}")
     @MethodSource("dataProvider")
-    public void testArray(String sentence, boolean excepted) {
+    public void testArray(String sentence, boolean expected) {
         CheckIfTheSentenceIsPangram array =
                 new CheckIfTheSentenceIsPangramArray();
-        assertEquals(excepted, array.checkIfPangram(sentence));
+        assertEquals(expected, array.checkIfPangram(sentence));
     }
 }

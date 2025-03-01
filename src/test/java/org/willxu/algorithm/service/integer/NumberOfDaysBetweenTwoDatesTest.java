@@ -20,9 +20,9 @@ public class NumberOfDaysBetweenTwoDatesTest {
 
     @ParameterizedTest(name = "Format {index}")
     @MethodSource("dataProvider")
-    public void testFormat(String date1, String date2, int excepted) {
+    public void testFormat(String date1, String date2, int expected) {
         NumberOfDaysBetweenTwoDates format
                 = new NumberOfDaysBetweenTwoDatesFormat();
-        assertEquals(excepted, format.daysBetweenDates(date1, date2));
+        assertEquals(expected, format.daysBetweenDates(date1, date2));
     }
 }

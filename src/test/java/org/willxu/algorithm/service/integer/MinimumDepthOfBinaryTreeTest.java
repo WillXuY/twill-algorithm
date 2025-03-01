@@ -42,8 +42,8 @@ public class MinimumDepthOfBinaryTreeTest {
 
     @ParameterizedTest(name = "Level {index}")
     @MethodSource("dataProvider")
-    public void testLevel(TreeNode input, int excepted) {
+    public void testLevel(TreeNode input, int expected) {
         MinimumDepthOrBinaryTree level = new MinimumDepthOfBinaryTreeLevel();
-        assertEquals(excepted, level.minDepth(input));
+        assertEquals(expected, level.minDepth(input));
     }
 }

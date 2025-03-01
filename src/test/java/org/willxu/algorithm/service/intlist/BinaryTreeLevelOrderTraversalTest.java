@@ -44,9 +44,9 @@ public class BinaryTreeLevelOrderTraversalTest {
 
     @ParameterizedTest(name = "List {index}")
     @MethodSource("dataProvider")
-    public void testList(TreeNode root, List<List<Integer>> excepted) {
+    public void testList(TreeNode root, List<List<Integer>> expected) {
         BinaryTreeLevelOrderTraversal list =
                 new BinaryTreeLevelOrderTraversalList();
-        assertEquals(excepted, list.levelOrder(root));
+        assertEquals(expected, list.levelOrder(root));
     }
 }

@@ -72,8 +72,8 @@ public class TwoSum4InputIsBstTest {
 
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(TreeNode root, int k, boolean excepted) {
+    public void testRecursive(TreeNode root, int k, boolean expected) {
         TwoSum4InputIsBst recursive = new TwoSum4InputIsBstRecursive();
-        assertEquals(excepted, recursive.findTarget(root, k));
+        assertEquals(expected, recursive.findTarget(root, k));
     }
 }

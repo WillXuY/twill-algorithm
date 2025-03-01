@@ -21,8 +21,8 @@ public class ReverseOnlyLettersTest {
 
     @ParameterizedTest(name = "Index {index}")
     @MethodSource("dataProvider")
-    public void testIndex(String s, String excepted) {
+    public void testIndex(String s, String expected) {
         ReverseOnlyLetters index = new ReverseOnlyLettersIndex();
-        assertEquals(excepted, index.reverseOnlyLetters(s));
+        assertEquals(expected, index.reverseOnlyLetters(s));
     }
 }

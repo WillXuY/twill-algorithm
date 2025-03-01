@@ -24,9 +24,9 @@ public class FindFirstPalindromicStringInTheArrayTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String[] words, String excepted) {
+    public void testLoop(String[] words, String expected) {
         FindFirstPalindromicStringInTheArray loop =
                 new FindFirstPalindromicStringInTheArrayLoop();
-        assertEquals(excepted, loop.firstPalindrome(words));
+        assertEquals(expected, loop.firstPalindrome(words));
     }
 }

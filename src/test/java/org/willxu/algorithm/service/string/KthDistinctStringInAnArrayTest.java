@@ -21,8 +21,8 @@ public class KthDistinctStringInAnArrayTest {
 
     @ParameterizedTest(name = "List {index}")
     @MethodSource("dataProvider")
-    public void testList(String[] arr, int k, String excepted) {
+    public void testList(String[] arr, int k, String expected) {
         KthDistinctStringInAnArray list = new KthDistinctStringInAnArrayList();
-        assertEquals(excepted, list.kthDistinct(arr, k));
+        assertEquals(expected, list.kthDistinct(arr, k));
     }
 }

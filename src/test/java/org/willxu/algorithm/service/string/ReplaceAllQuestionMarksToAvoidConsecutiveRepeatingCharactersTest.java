@@ -22,9 +22,9 @@ public class ReplaceAllQuestionMarksToAvoidConsecutiveRepeatingCharactersTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String s, String excepted) {
+    public void testLoop(String s, String expected) {
         ReplaceAllQuestionMarksToAvoidConsecutiveRepeatingCharacters loop =
                 new ReplaceAllQuestionMarksToAvoidConsecutiveRepeatingCharactersLoop();
-        assertEquals(excepted, loop.modifyString(s));
+        assertEquals(expected, loop.modifyString(s));
     }
 }

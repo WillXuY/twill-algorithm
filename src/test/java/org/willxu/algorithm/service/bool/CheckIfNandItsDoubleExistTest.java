@@ -27,8 +27,8 @@ public class CheckIfNandItsDoubleExistTest {
 
     @ParameterizedTest(name = "Set {index}")
     @MethodSource("dataProvider")
-    public void testSet(int[] arr, boolean excepted) {
+    public void testSet(int[] arr, boolean expected) {
         CheckIfNandItsDoubleExist set = new CheckIfNandItsDoubleExistSet();
-        assertEquals(excepted, set.checkIfExist(arr));
+        assertEquals(expected, set.checkIfExist(arr));
     }
 }

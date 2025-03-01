@@ -22,9 +22,9 @@ public class CountOperationsToObtainZeroTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int num1, int num2, int excepted) {
+    public void testLoop(int num1, int num2, int expected) {
         CountOperationsToObtainZero loop =
                 new CountOperationsToObtainZeroLoop();
-        assertEquals(excepted, loop.countOperations(num1, num2));
+        assertEquals(expected, loop.countOperations(num1, num2));
     }
 }

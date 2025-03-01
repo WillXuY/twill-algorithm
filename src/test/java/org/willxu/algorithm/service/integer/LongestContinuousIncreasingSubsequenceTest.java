@@ -31,9 +31,9 @@ public class LongestContinuousIncreasingSubsequenceTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] input, int excepted) {
+    public void testLoop(int[] input, int expected) {
         LongestContinuousIncreasingSubsequence loop =
                 new LongestContinuousIncreasingSubsequenceLoop();
-        assertEquals(excepted, loop.findLengthOfLCIS(input));
+        assertEquals(expected, loop.findLengthOfLCIS(input));
     }
 }

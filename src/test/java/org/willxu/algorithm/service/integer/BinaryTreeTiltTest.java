@@ -47,8 +47,8 @@ public class BinaryTreeTiltTest {
 
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(TreeNode input, int excepted) {
+    public void testRecursive(TreeNode input, int expected) {
         BinaryTreeTilt recursive = new BinaryTreeTiltRecursive();
-        assertEquals(excepted, recursive.findTilt(input));
+        assertEquals(expected, recursive.findTilt(input));
     }
 }

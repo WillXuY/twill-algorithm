@@ -20,8 +20,8 @@ public class SortingTheSentenceTest {
 
     @ParameterizedTest(name = "Array {index}")
     @MethodSource("dataProvider")
-    public void testArray(String s, String excepted) {
+    public void testArray(String s, String expected) {
         SortingTheSentence array = new SortingTheSentenceArray();
-        assertEquals(excepted, array.sortSentence(s));
+        assertEquals(expected, array.sortSentence(s));
     }
 }

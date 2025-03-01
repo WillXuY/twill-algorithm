@@ -29,8 +29,8 @@ public class IntersectionOfTwoArraysTest {
 
     @ParameterizedTest(name = "Set {index}")
     @MethodSource("dataProvider")
-    public void testSet(int[] nums1, int[] nums2, int[] excepted) {
+    public void testSet(int[] nums1, int[] nums2, int[] expected) {
         IntersectionOfTwoArrays set = new IntersectionOfTwoArraysSet();
-        assertArrayEquals(excepted, set.intersection(nums1, nums2));
+        assertArrayEquals(expected, set.intersection(nums1, nums2));
     }
 }

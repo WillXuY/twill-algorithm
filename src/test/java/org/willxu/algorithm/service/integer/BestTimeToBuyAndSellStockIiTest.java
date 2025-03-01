@@ -77,9 +77,9 @@ public class BestTimeToBuyAndSellStockIiTest {
 
     @ParameterizedTest(name = "Greedy {index}")
     @MethodSource("dataProvider")
-    public void testGreedy(int[] input, int excepted) {
+    public void testGreedy(int[] input, int expected) {
         BestTimeToBuyAndSellStockIi greedy =
                 new BestTimeToBuyAndSellStockIiGreedy();
-        assertEquals(excepted, greedy.maxProfit(input));
+        assertEquals(expected, greedy.maxProfit(input));
     }
 }

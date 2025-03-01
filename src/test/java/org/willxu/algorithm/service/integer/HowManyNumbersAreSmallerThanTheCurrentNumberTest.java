@@ -21,9 +21,9 @@ public class HowManyNumbersAreSmallerThanTheCurrentNumberTest {
 
     @ParameterizedTest(name = "TreeMap {index}")
     @MethodSource("dataProvider")
-    public void testTreeMap(int[] nums, int[] excepted) {
+    public void testTreeMap(int[] nums, int[] expected) {
         HowManyNumbersAreSmallerThanTheCurrentNumber treeMap
                 = new HowManyNumbersAreSmallerThanTheCurrentNumberTreeMap();
-        assertArrayEquals(excepted, treeMap.smallerNumbersThanCurrent(nums));
+        assertArrayEquals(expected, treeMap.smallerNumbersThanCurrent(nums));
     }
 }

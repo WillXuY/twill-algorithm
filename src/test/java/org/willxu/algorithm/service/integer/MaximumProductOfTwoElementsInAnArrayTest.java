@@ -21,9 +21,9 @@ public class MaximumProductOfTwoElementsInAnArrayTest {
 
     @ParameterizedTest(name = "Max {index}")
     @MethodSource("dataProvider")
-    public void testMax(int[] nums, int excepted) {
+    public void testMax(int[] nums, int expected) {
         MaximumProductOfTwoElementsInAnArray max =
                 new MaximumProductOfTwoElementsInAnArrayMax();
-        assertEquals(excepted, max.maxProduct(nums));
+        assertEquals(expected, max.maxProduct(nums));
     }
 }

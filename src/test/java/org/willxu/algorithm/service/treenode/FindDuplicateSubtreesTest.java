@@ -78,8 +78,8 @@ public class FindDuplicateSubtreesTest {
 
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(TreeNode root, List<TreeNode> excepted) {
+    public void testRecursive(TreeNode root, List<TreeNode> expected) {
         FindDuplicateSubtrees recursive = new FindDuplicateSubtreesRecursive();
-        assertEquals(excepted, recursive.findDuplicateSubtrees(root));
+        assertEquals(expected, recursive.findDuplicateSubtrees(root));
     }
 }

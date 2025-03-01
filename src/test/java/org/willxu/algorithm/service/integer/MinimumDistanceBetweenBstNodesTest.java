@@ -47,9 +47,9 @@ public class MinimumDistanceBetweenBstNodesTest {
 
     @ParameterizedTest
     @MethodSource("dataProvider")
-    public void testRecursive(TreeNode root, int excepted) {
+    public void testRecursive(TreeNode root, int expected) {
         MinimumDistanceBetweenBstNodes recursive =
                 new MinimumDistanceBetweenBstNodesRecursive();
-        assertEquals(excepted, recursive.minDiffInBST(root));
+        assertEquals(expected, recursive.minDiffInBST(root));
     }
 }

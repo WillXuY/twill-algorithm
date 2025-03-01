@@ -21,8 +21,8 @@ public class MostFrequentEvenElementTest {
 
     @ParameterizedTest(name = "Map {index}")
     @MethodSource("dataProvider")
-    public void testMap(int[] nums, int excepted) {
+    public void testMap(int[] nums, int expected) {
         MostFrequentEvenElement map = new MostFrequentEvenElementMap();
-        assertEquals(excepted, map.mostFrequentEven(nums));
+        assertEquals(expected, map.mostFrequentEven(nums));
     }
 }

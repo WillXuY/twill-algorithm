@@ -20,8 +20,8 @@ public class OddStringDifferenceTest {
 
     @ParameterizedTest(name = "Compare {index}")
     @MethodSource("dataProvider")
-    public void testCompare(String[] words, String excepted) {
+    public void testCompare(String[] words, String expected) {
         OddStringDifference compare = new OddStringDifferenceCompare();
-        assertEquals(excepted, compare.oddString(words));
+        assertEquals(expected, compare.oddString(words));
     }
 }

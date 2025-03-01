@@ -46,8 +46,8 @@ public class ValidSudokuTest {
 
     @ParameterizedTest(name = "Set {index}")
     @MethodSource("dataProvider")
-    public void testSet(char[][] board, boolean excepted) {
+    public void testSet(char[][] board, boolean expected) {
         ValidSudoku set = new ValidSudokuSet();
-        assertEquals(excepted, set.isValidSudoku(board));
+        assertEquals(expected, set.isValidSudoku(board));
     }
 }

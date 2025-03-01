@@ -42,8 +42,8 @@ public class ToeplitzMatrixTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[][] matrix, boolean excepted) {
+    public void testLoop(int[][] matrix, boolean expected) {
         ToeplitzMatrix loop = new ToeplitzMatrixLoop();
-        assertEquals(excepted, loop.isToeplitzMatrix(matrix));
+        assertEquals(expected, loop.isToeplitzMatrix(matrix));
     }
 }

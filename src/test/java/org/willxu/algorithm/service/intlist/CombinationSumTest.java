@@ -50,12 +50,12 @@ public class CombinationSumTest {
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
     public void testRecursive(int[] candidates, int target,
-                              List<List<Integer>> excepted)
+                              List<List<Integer>> expected)
             throws JsonProcessingException {
         ObjectMapper objectMapper = new ObjectMapper();
         CombinationSum recursive = new CombinationSumRecursive();
         String output = objectMapper.writeValueAsString(
                 recursive.combinationSum(candidates, target));
-        assertEquals(objectMapper.writeValueAsString(excepted), output);
+        assertEquals(objectMapper.writeValueAsString(expected), output);
     }
 }

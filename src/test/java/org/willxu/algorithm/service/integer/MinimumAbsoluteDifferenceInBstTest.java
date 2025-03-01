@@ -38,9 +38,9 @@ public class MinimumAbsoluteDifferenceInBstTest {
 
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(TreeNode input, int excepted) {
+    public void testRecursive(TreeNode input, int expected) {
         MinimumAbsoluteDifferenceInBst recursive =
                 new MinimumAbsoluteDifferenceInBstRecursive();
-        assertEquals(excepted, recursive.getMinimumDifference(input));
+        assertEquals(expected, recursive.getMinimumDifference(input));
     }
 }

@@ -157,8 +157,8 @@ public class AccountsMergeTest {
     @ParameterizedTest(name = "Set {index}")
     @MethodSource("dataProvider")
     public void testSet(List<List<String>> accounts,
-                        List<List<String>> excepted) {
+                        List<List<String>> expected) {
         AccountsMerge set = new AccountsMergeSet();
-        assertEquals(excepted, set.accountsMerge(accounts));
+        assertEquals(expected, set.accountsMerge(accounts));
     }
 }

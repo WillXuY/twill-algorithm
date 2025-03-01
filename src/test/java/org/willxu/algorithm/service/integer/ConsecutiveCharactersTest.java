@@ -21,8 +21,8 @@ public class ConsecutiveCharactersTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String s, int excepted) {
+    public void testLoop(String s, int expected) {
         ConsecutiveCharacters loop = new ConsecutiveCharactersLoop();
-        assertEquals(excepted, loop.maxPower(s));
+        assertEquals(expected, loop.maxPower(s));
     }
 }

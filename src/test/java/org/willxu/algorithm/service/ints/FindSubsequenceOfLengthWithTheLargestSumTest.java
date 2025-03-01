@@ -22,9 +22,9 @@ public class FindSubsequenceOfLengthWithTheLargestSumTest {
 
     @ParameterizedTest(name = "Sort {index}")
     @MethodSource("dataProvider")
-    public void testSort(int[] nums, int k, int[] excepted) {
+    public void testSort(int[] nums, int k, int[] expected) {
         FindSubsequenceOfLengthWithTheLargestSum sort =
                 new FindSubsequenceOfLengthWithTheLargestSumSort();
-        assertArrayEquals(excepted, sort.maxSubsequence(nums, k));
+        assertArrayEquals(expected, sort.maxSubsequence(nums, k));
     }
 }

@@ -58,12 +58,12 @@ public class PermutationsTest {
 
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(int[] nums, List<List<Integer>> excepted)
+    public void testRecursive(int[] nums, List<List<Integer>> expected)
             throws JsonProcessingException {
         Permutations recursive = new PermutationsRecursive();
         ObjectMapper objectMapper = new ObjectMapper();
         String output = objectMapper.writeValueAsString(
                 recursive.permute(nums));
-        assertEquals(objectMapper.writeValueAsString(excepted), output);
+        assertEquals(objectMapper.writeValueAsString(expected), output);
     }
 }

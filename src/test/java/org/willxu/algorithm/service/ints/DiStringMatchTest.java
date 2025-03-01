@@ -29,8 +29,8 @@ public class DiStringMatchTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String s, int[] excepted) {
+    public void testLoop(String s, int[] expected) {
         DiStringMatch loop = new DiStringMatchLoop();
-        assertArrayEquals(excepted, loop.diStringMatch(s));
+        assertArrayEquals(expected, loop.diStringMatch(s));
     }
 }

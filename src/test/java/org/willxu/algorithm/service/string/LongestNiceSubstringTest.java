@@ -21,8 +21,8 @@ public class LongestNiceSubstringTest {
 
     @ParameterizedTest(name = "Set {index}")
     @MethodSource("dataProvider")
-    public void testSet(String s, String excepted) {
+    public void testSet(String s, String expected) {
         LongestNiceSubstring set = new LongestNiceSubstringSet();
-        assertEquals(excepted, set.longestNiceSubstring(s));
+        assertEquals(expected, set.longestNiceSubstring(s));
     }
 }

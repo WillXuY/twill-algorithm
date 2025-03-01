@@ -31,8 +31,8 @@ public class SumOfLeftLeavesTest {
 
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(TreeNode input, int excepted) {
+    public void testRecursive(TreeNode input, int expected) {
         SumOfLeftLeaves recursive = new SumOfLeftLeavesRecursive();
-        assertEquals(excepted, recursive.sumOfLeftLeaves(input));
+        assertEquals(expected, recursive.sumOfLeftLeaves(input));
     }
 }

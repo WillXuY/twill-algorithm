@@ -31,8 +31,8 @@ public class FactorialTrailingZeroesTest {
 
     @ParameterizedTest(name = "Find5 {index}")
     @MethodSource("dataProvider")
-    public void testFind5(int input, int excepted) {
+    public void testFind5(int input, int expected) {
         FactorialTrailingZeroes find5 = new FactorialTrailingZeroesFind5();
-        assertEquals(excepted, find5.trailingZeroes(input));
+        assertEquals(expected, find5.trailingZeroes(input));
     }
 }

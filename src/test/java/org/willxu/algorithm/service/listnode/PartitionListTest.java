@@ -38,13 +38,13 @@ public class PartitionListTest {
 
     @ParameterizedTest(name = "Save {index}")
     @MethodSource("dataProvider")
-    public void testSave(ListNode head, int x, ListNode excepted) {
+    public void testSave(ListNode head, int x, ListNode expected) {
         PartitionList save = new PartitionListSave();
         ListNode output = save.partition(head, x);
-        if (excepted == null) {
+        if (expected == null) {
             assertNull(output);
         } else {
-            assertArrayEquals(excepted.toIntArray(), output.toIntArray());
+            assertArrayEquals(expected.toIntArray(), output.toIntArray());
         }
     }
 }

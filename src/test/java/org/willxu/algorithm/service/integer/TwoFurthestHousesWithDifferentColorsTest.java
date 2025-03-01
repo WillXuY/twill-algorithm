@@ -21,9 +21,9 @@ public class TwoFurthestHousesWithDifferentColorsTest {
 
     @ParameterizedTest(name = "Extremum {index}")
     @MethodSource("dataProvider")
-    public void testExtremum(int[] colors, int excepted) {
+    public void testExtremum(int[] colors, int expected) {
         TwoFurthestHousesWithDifferentColors extremum =
                 new TwoFurthestHousesWithDifferentColorsExtremum();
-        assertEquals(excepted, extremum.maxDistance(colors));
+        assertEquals(expected, extremum.maxDistance(colors));
     }
 }

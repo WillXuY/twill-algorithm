@@ -26,8 +26,8 @@ public class RemoveOutermostParenthesesTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String s, String excepted) {
+    public void testLoop(String s, String expected) {
         RemoveOutermostParentheses loop = new RemoveOutermostParenthesesLoop();
-        assertEquals(excepted, loop.removeOuterParentheses(s));
+        assertEquals(expected, loop.removeOuterParentheses(s));
     }
 }

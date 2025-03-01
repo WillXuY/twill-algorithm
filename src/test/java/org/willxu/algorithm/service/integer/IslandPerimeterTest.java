@@ -47,8 +47,8 @@ public class IslandPerimeterTest {
 
     @ParameterizedTest(name = "Remove public edge {index}")
     @MethodSource("dataProvider")
-    public void testRemovePublicEdge(int[][] grid, int excepted) {
+    public void testRemovePublicEdge(int[][] grid, int expected) {
         IslandPerimeter edge = new IslandPerimeterRemovePublicEdge();
-        assertEquals(excepted, edge.islandPerimeter(grid));
+        assertEquals(expected, edge.islandPerimeter(grid));
     }
 }

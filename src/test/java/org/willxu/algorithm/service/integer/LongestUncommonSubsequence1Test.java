@@ -21,9 +21,9 @@ public class LongestUncommonSubsequence1Test {
 
     @ParameterizedTest(name = "Endpoint {index}")
     @MethodSource("dataProvider")
-    public void testEndpoint(String a, String b, int excepted) {
+    public void testEndpoint(String a, String b, int expected) {
         LongestUncommonSubsequence1 endpoint =
                 new LongestUncommonSubsequence1Endpoint();
-        assertEquals(excepted, endpoint.findLUSlength(a, b));
+        assertEquals(expected, endpoint.findLUSlength(a, b));
     }
 }

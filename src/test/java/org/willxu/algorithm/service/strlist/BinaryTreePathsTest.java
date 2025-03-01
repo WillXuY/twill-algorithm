@@ -48,12 +48,12 @@ public class BinaryTreePathsTest {
 
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(TreeNode input, List<String> excepted)
+    public void testRecursive(TreeNode input, List<String> expected)
             throws JsonProcessingException {
         BinaryTreePaths recursive = new BinaryTreePathsRecursive();
         List<String> output = recursive.binaryTreePaths(input);
         ObjectMapper objectMapper = new ObjectMapper();
-        String exceptStr = objectMapper.writeValueAsString(excepted);
+        String exceptStr = objectMapper.writeValueAsString(expected);
         assertEquals(exceptStr, objectMapper.writeValueAsString(output));
     }
 }

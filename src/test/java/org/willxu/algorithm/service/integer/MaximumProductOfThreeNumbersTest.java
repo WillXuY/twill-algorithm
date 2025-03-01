@@ -32,9 +32,9 @@ public class MaximumProductOfThreeNumbersTest {
 
     @ParameterizedTest(name = "Classify {index}")
     @MethodSource("dataProvider")
-    public void testClassify(int[] input, int excepted) {
+    public void testClassify(int[] input, int expected) {
         MaximumProductOfThreeNumbers classify =
                 new MaximumProductOfThreeNumbersClassify();
-        assertEquals(excepted, classify.maximumProduct(input));
+        assertEquals(expected, classify.maximumProduct(input));
     }
 }

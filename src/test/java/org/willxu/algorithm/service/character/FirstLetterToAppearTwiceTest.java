@@ -20,8 +20,8 @@ public class FirstLetterToAppearTwiceTest {
 
     @ParameterizedTest(name = "Set {index}")
     @MethodSource("dataProvider")
-    public void testSet(String s, char excepted) {
+    public void testSet(String s, char expected) {
         FirstLetterToAppearTwice set = new FirstLetterToAppearTwiceSet();
-        assertEquals(excepted, set.repeatedCharacter(s));
+        assertEquals(expected, set.repeatedCharacter(s));
     }
 }

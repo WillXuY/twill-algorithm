@@ -20,9 +20,9 @@ public class CountIntegersWithEvenDigitSumTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(int num, int excepted) {
+    public void testCount(int num, int expected) {
         CountIntegersWithEvenDigitSum count =
                 new CountIntegersWithEvenDigitSumCount();
-        assertEquals(excepted, count.countEven(num));
+        assertEquals(expected, count.countEven(num));
     }
 }

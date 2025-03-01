@@ -21,8 +21,8 @@ public class UniqueNumberOfOccurrencesTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(int[] arr, boolean excepted) {
+    public void testCount(int[] arr, boolean expected) {
         UniqueNumberOfOccurrences count = new UniqueNumberOfOccurrencesCount();
-        assertEquals(excepted, count.uniqueOccurrences(arr));
+        assertEquals(expected, count.uniqueOccurrences(arr));
     }
 }

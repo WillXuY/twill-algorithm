@@ -20,8 +20,8 @@ public class SumOfDigitsInBaseKTest {
 
     @ParameterizedTest(name = "Divide {index}")
     @MethodSource("dataProvider")
-    public void testDivide(int n, int k, int excepted) {
+    public void testDivide(int n, int k, int expected) {
         SumOfDigitsInBaseK divide = new SumOfDigitsInBaseKDivide();
-        assertEquals(excepted, divide.sumBase(n, k));
+        assertEquals(expected, divide.sumBase(n, k));
     }
 }

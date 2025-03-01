@@ -56,8 +56,8 @@ public class NonDecreasingSubsequencesTest {
 
     @ParameterizedTest(name = "Map {index}")
     @MethodSource("dataProvider")
-    public void testMap(int[] nums, List<List<Integer>> excepted) {
+    public void testMap(int[] nums, List<List<Integer>> expected) {
         NonDecreasingSubsequences map = new NonDecreasingSubsequencesMap();
-        assertEquals(excepted, map.findSubsequences(nums));
+        assertEquals(expected, map.findSubsequences(nums));
     }
 }

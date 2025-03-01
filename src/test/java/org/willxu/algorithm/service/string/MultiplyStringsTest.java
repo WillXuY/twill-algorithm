@@ -21,8 +21,8 @@ public class MultiplyStringsTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String num1, String num2, String excepted) {
+    public void testLoop(String num1, String num2, String expected) {
         MultiplyStrings loop = new MultiplyStringsLoop();
-        assertEquals(excepted, loop.multiply(num1, num2));
+        assertEquals(expected, loop.multiply(num1, num2));
     }
 }

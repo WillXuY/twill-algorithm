@@ -22,8 +22,8 @@ public class DetectCapitalTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String input, boolean excepted) {
+    public void testLoop(String input, boolean expected) {
         DetectCapital loop = new DetectCapitalLoop();
-        assertEquals(excepted, loop.detectCapitalUse(input));
+        assertEquals(expected, loop.detectCapitalUse(input));
     }
 }

@@ -21,9 +21,9 @@ public class ShortestSubarrayToBeRemovedToMakeArraySortedTest {
 
 	@ParameterizedTest(name = "TwoPointers {index}")
 	@MethodSource("dataProvider")
-	public void testTwoPointers(int[] arr, int excepted) {
+	public void testTwoPointers(int[] arr, int expected) {
 		ShortestSubarrayToBeRemovedToMakeArraySorted twoPointers =
 				new ShortestSubarrayToBeRemovedToMakeArraySortedTwoPointers();
-		assertEquals(excepted, twoPointers.findLengthOfShortestSubarray(arr));
+		assertEquals(expected, twoPointers.findLengthOfShortestSubarray(arr));
 	}
 }

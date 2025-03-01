@@ -29,10 +29,10 @@ public class IntersectionOfTwoArraysIiTest {
 
     @ParameterizedTest(name = "Remove {index}")
     @MethodSource("dataProvider")
-    public void testRemove(int[] nums1, int[] nums2, int[] excepted) {
+    public void testRemove(int[] nums1, int[] nums2, int[] expected) {
         IntersectionOfTwoArraysIi remove =
                 new IntersectionOfTwoArraysIiRemove();
-        assertArrayEquals(excepted, remove.intersect(nums1, nums2));
+        assertArrayEquals(expected, remove.intersect(nums1, nums2));
     }
 
 }

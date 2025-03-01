@@ -23,9 +23,9 @@ public class RedistributeCharactersToMakeAllStringsEqualTest {
      */
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(String[] words, boolean excepted) {
+    public void testCount(String[] words, boolean expected) {
         RedistributeCharactersToMakeAllStringsEqual count =
                 new RedistributeCharactersToMakeAllStringsEqualCount();
-        assertEquals(excepted, count.makeEqual(words));
+        assertEquals(expected, count.makeEqual(words));
     }
 }

@@ -21,9 +21,9 @@ public class CountNumberOfPairsWithAbsoluteDifferenceTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(int[] nums, int k, int excepted) {
+    public void testCount(int[] nums, int k, int expected) {
         CountNumberOfPairsWithAbsoluteDifference count =
                 new CountNumberOfPairsWithAbsoluteDifferenceCount();
-        assertEquals(excepted, count.countKDifference(nums, k));
+        assertEquals(expected, count.countKDifference(nums, k));
     }
 }

@@ -23,8 +23,8 @@ public class ApplyOperationsToAnArrayTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] nums, int[] excepted) {
+    public void testLoop(int[] nums, int[] expected) {
         ApplyOperationsToAnArray loop = new ApplyOperationsToAnArrayLoop();
-        assertArrayEquals(excepted, loop.applyOperations(nums));
+        assertArrayEquals(expected, loop.applyOperations(nums));
     }
 }

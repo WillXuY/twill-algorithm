@@ -32,8 +32,8 @@ public class UnivaluedBinaryTreeTest {
 
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(TreeNode root, boolean excepted) {
+    public void testRecursive(TreeNode root, boolean expected) {
         UnivaluedBinaryTree recursive = new UnivaluedBinaryTreeRecursive();
-        assertEquals(excepted, recursive.isUnivalTree(root));
+        assertEquals(expected, recursive.isUnivalTree(root));
     }
 }

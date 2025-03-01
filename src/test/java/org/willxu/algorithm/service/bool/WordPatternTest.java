@@ -22,8 +22,8 @@ public class WordPatternTest {
 
     @ParameterizedTest(name = "Map {index}")
     @MethodSource("dataProvider")
-    public void testMap(String pattern, String s, boolean excepted) {
+    public void testMap(String pattern, String s, boolean expected) {
         WordPattern map = new WordPatternMap();
-        assertEquals(excepted, map.wordPattern(pattern, s));
+        assertEquals(expected, map.wordPattern(pattern, s));
     }
 }

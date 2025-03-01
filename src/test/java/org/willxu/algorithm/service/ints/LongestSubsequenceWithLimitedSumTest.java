@@ -24,9 +24,9 @@ public class LongestSubsequenceWithLimitedSumTest {
 
     @ParameterizedTest(name = "Sort {index}")
     @MethodSource("dataProvider")
-    public void testSort(int[] nums, int[] queries, int[] excepted) {
+    public void testSort(int[] nums, int[] queries, int[] expected) {
         LongestSubsequenceWithLimitedSum sort =
                 new LongestSubsequenceWithLimitedSumSort();
-        assertArrayEquals(excepted, sort.answerQueries(nums, queries));
+        assertArrayEquals(expected, sort.answerQueries(nums, queries));
     }
 }

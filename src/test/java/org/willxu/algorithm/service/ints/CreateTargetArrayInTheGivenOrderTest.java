@@ -33,9 +33,9 @@ public class CreateTargetArrayInTheGivenOrderTest {
 
     @ParameterizedTest(name = "Copy {index}")
     @MethodSource("dataProvider")
-    public void testCopy(int[] nums, int[] index, int[] excepted) {
+    public void testCopy(int[] nums, int[] index, int[] expected) {
         CreateTargetArrayInTheGivenOrder copy
                 = new CreateTargetArrayInTheGivenOrderCopy();
-        assertArrayEquals(excepted, copy.createTargetArray(nums, index));
+        assertArrayEquals(expected, copy.createTargetArray(nums, index));
     }
 }

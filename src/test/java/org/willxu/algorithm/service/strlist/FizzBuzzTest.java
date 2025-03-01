@@ -41,12 +41,12 @@ public class FizzBuzzTest {
 
     @ParameterizedTest(name = "Cycle {index}")
     @MethodSource("dataProvider")
-    public void testCycle(int input, List<String> exceptedList)
+    public void testCycle(int input, List<String> expectedList)
             throws JsonProcessingException {
         ObjectMapper objectMapper = new ObjectMapper();
-        String excepted = objectMapper.writeValueAsString(exceptedList);
+        String expected = objectMapper.writeValueAsString(expectedList);
         FizzBuzz cycle = new FizzBuzzCycle();
         List<String> result = cycle.fizzBuzz(input);
-        assertEquals(excepted, objectMapper.writeValueAsString(result));
+        assertEquals(expected, objectMapper.writeValueAsString(result));
     }
 }

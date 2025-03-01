@@ -47,8 +47,8 @@ public class FindDuplicateFileInSystemTest {
 
     @ParameterizedTest(name = "Split {index}")
     @MethodSource("dataProvider")
-    public void testSplit(String[] paths, List<List<String>> excepted) {
+    public void testSplit(String[] paths, List<List<String>> expected) {
         FindDuplicateFileInSystem split = new FindDuplicateFileInSystemSplit();
-        assertEquals(excepted, split.findDuplicate(paths));
+        assertEquals(expected, split.findDuplicate(paths));
     }
 }

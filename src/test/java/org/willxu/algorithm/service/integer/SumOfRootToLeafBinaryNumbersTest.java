@@ -35,9 +35,9 @@ public class SumOfRootToLeafBinaryNumbersTest {
 
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(TreeNode root, int excepted) {
+    public void testRecursive(TreeNode root, int expected) {
         SumOfRootToLeafBinaryNumbers recursive =
                 new SumOfRootToLeafBinaryNumbersRecursive();
-        assertEquals(excepted, recursive.sumRootToLeaf(root));
+        assertEquals(expected, recursive.sumRootToLeaf(root));
     }
 }

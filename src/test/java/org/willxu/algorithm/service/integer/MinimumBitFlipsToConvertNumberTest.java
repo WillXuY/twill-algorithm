@@ -20,9 +20,9 @@ public class MinimumBitFlipsToConvertNumberTest {
 
     @ParameterizedTest(name = "Bit {index}")
     @MethodSource("dataProvider")
-    public void testBit(int start, int goal, int excepted) {
+    public void testBit(int start, int goal, int expected) {
         MinimumBitFlipsToConvertNumber bit =
                 new MinimumBitFlipsToConvertNumberBit();
-        assertEquals(excepted, bit.minBitFlips(start, goal));
+        assertEquals(expected, bit.minBitFlips(start, goal));
     }
 }

@@ -31,8 +31,8 @@ public class LemonadeChangeTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(int[] bills, boolean excepted) {
+    public void testCount(int[] bills, boolean expected) {
         LemonadeChange count = new LemonadeChangeCount();
-        assertEquals(excepted, count.lemonadeChange(bills));
+        assertEquals(expected, count.lemonadeChange(bills));
     }
 }

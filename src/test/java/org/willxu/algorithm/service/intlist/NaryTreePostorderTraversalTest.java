@@ -52,10 +52,10 @@ public class NaryTreePostorderTraversalTest {
 
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(Node input, List<Integer> excepted)
+    public void testRecursive(Node input, List<Integer> expected)
             throws JsonProcessingException {
         ObjectMapper objectMapper = new ObjectMapper();
-        String except = objectMapper.writeValueAsString(excepted);
+        String except = objectMapper.writeValueAsString(expected);
         NaryTreePostorderTraversal recursive =
                 new NaryTreePostorderTraversalRecursive();
         List<Integer> output = recursive.postorder(input);

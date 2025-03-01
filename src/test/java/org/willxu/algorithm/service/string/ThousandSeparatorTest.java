@@ -22,8 +22,8 @@ public class ThousandSeparatorTest {
 
     @ParameterizedTest(name = "Character {index}")
     @MethodSource("dataProvider")
-    public void testCharacter(int n, String excepted) {
+    public void testCharacter(int n, String expected) {
         ThousandSeparator character = new ThousandSeparatorCharacter();
-        assertEquals(excepted, character.thousandSeparator(n));
+        assertEquals(expected, character.thousandSeparator(n));
     }
 }

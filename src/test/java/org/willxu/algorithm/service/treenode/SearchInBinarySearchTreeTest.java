@@ -48,10 +48,10 @@ public class SearchInBinarySearchTreeTest {
 
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(TreeNode root, int val, TreeNode excepted)
+    public void testRecursive(TreeNode root, int val, TreeNode expected)
             throws JsonProcessingException {
         ObjectMapper objectMapper = new ObjectMapper();
-        String except = objectMapper.writeValueAsString(excepted);
+        String except = objectMapper.writeValueAsString(expected);
         SearchInBinarySearchTree recursive =
                 new SearchInBinarySearchTreeRecursive();
         TreeNode output = recursive.searchBST(root, val);

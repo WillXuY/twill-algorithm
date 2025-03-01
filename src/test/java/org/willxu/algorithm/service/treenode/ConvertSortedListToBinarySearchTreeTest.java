@@ -33,9 +33,9 @@ public class ConvertSortedListToBinarySearchTreeTest {
 
     @ParameterizedTest(name = "List {index}")
     @MethodSource("dataProvider")
-    public void testList(ListNode head, TreeNode excepted) {
+    public void testList(ListNode head, TreeNode expected) {
         ConvertSortedListToBinarySearchTree list =
                 new ConvertSortedListToBinarySearchTreeList();
-        assertEquals(excepted, list.sortedListToBST(head));
+        assertEquals(expected, list.sortedListToBST(head));
     }
 }

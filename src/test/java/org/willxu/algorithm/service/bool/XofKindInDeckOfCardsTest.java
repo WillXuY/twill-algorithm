@@ -28,8 +28,8 @@ public class XofKindInDeckOfCardsTest {
 
     @ParameterizedTest(name = "Map {index}")
     @MethodSource("dataProvider")
-    public void testMap(int[] deck, boolean excepted) {
+    public void testMap(int[] deck, boolean expected) {
         XofKingInDeckOfCards map = new XofKingInDeckOfCardsMap();
-        assertEquals(excepted, map.hasGroupsSizeX(deck));
+        assertEquals(expected, map.hasGroupsSizeX(deck));
     }
 }

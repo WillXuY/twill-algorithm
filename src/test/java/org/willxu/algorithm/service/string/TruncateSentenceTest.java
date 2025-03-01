@@ -33,8 +33,8 @@ public class TruncateSentenceTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(String s, int k, String excepted) {
+    public void testCount(String s, int k, String expected) {
         TruncateSentence count = new TruncateSentenceCount();
-        assertEquals(excepted, count.truncateSentence(s, k));
+        assertEquals(expected, count.truncateSentence(s, k));
     }
 }

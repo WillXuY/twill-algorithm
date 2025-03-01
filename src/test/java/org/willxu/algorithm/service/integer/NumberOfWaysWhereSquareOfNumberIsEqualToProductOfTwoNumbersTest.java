@@ -21,9 +21,9 @@ public class NumberOfWaysWhereSquareOfNumberIsEqualToProductOfTwoNumbersTest {
 	
 	@ParameterizedTest(name = "Map {index}")
 	@MethodSource("dataProvider")
-	public void testMap(int[] num1, int[] num2, int excepted) {
+	public void testMap(int[] num1, int[] num2, int expected) {
 		NumberOfWaysWhereSquareOfNumberIsEqualToProductOfTwoNumbers map =
 				new NumberOfWaysWhereSquareOfNumberIsEqualToProductOfTwoNumbersMap();
-		assertEquals(excepted, map.numTriplets(num1, num2));
+		assertEquals(expected, map.numTriplets(num1, num2));
 	}
 }

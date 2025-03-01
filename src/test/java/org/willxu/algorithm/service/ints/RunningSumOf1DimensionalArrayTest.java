@@ -24,9 +24,9 @@ public class RunningSumOf1DimensionalArrayTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] nums, int[] excepted) {
+    public void testLoop(int[] nums, int[] expected) {
         RunningSumOf1DimensionalArray loop =
                 new RunningSumOf1DimensionalArrayLoop();
-        assertArrayEquals(excepted, loop.runningSum(nums));
+        assertArrayEquals(expected, loop.runningSum(nums));
     }
 }

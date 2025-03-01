@@ -20,9 +20,9 @@ public class CheckIfNumberHasEqualDigitCountAndDigitValueTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(String num, boolean excepted) {
+    public void testCount(String num, boolean expected) {
         CheckIfNumberHasEqualDigitCountAndDigitValue count =
                 new CheckIfNumberHasEqualDigitCountAndDigitValueCount();
-        assertEquals(excepted, count.digitCount(num));
+        assertEquals(expected, count.digitCount(num));
     }
 }

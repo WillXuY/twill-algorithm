@@ -22,8 +22,8 @@ public class CountAndSayTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int n, String excepted) {
+    public void testLoop(int n, String expected) {
         CountAndSay loop = new CountAndSayLoop();
-        assertEquals(excepted, loop.countAndSay(n));
+        assertEquals(expected, loop.countAndSay(n));
     }
 }

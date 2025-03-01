@@ -20,8 +20,8 @@ public class NextGreaterElementIiiTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int n, int excepted) {
+    public void testLoop(int n, int expected) {
         NextGreaterElementIii loop = new NextGreaterElementIiiLoop();
-        assertEquals(excepted, loop.nextGreaterElement(n));
+        assertEquals(expected, loop.nextGreaterElement(n));
     }
 }

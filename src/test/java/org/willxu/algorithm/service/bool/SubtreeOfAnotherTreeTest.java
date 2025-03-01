@@ -48,8 +48,8 @@ public class SubtreeOfAnotherTreeTest {
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
     public void testRecursive(
-            TreeNode tree, TreeNode subTree, boolean excepted) {
+            TreeNode tree, TreeNode subTree, boolean expected) {
         SubtreeOfAnotherTree recursive = new SubtreeOfAnotherTreeRecursive();
-        assertEquals(excepted, recursive.isSubtree(tree, subTree));
+        assertEquals(expected, recursive.isSubtree(tree, subTree));
     }
 }

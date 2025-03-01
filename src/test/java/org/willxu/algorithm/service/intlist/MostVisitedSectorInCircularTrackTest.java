@@ -42,10 +42,10 @@ public class MostVisitedSectorInCircularTrackTest {
 
     @ParameterizedTest(name = "Endpoint {index}")
     @MethodSource("dataProvider")
-    public void testEndpoint(int n, int[] rounds, List<Integer> excepted) {
+    public void testEndpoint(int n, int[] rounds, List<Integer> expected) {
         MostVisitedSectorInCircularTrack endpoint =
                 new MostVisitedSectorInCircularTrackEndpoint();
-        assertArrayEquals(excepted.toArray(),
+        assertArrayEquals(expected.toArray(),
                 endpoint.mostVisited(n, rounds).toArray());
     }
 }

@@ -23,9 +23,9 @@ public class RemoveDigitFromNumberToMaximizeResultTest {
 
     @ParameterizedTest(name = "Compare {index}")
     @MethodSource("dataProvider")
-    public void testCompare(String number, char digit, String excepted) {
+    public void testCompare(String number, char digit, String expected) {
         RemoveDigitFromNumberToMaximizeResult compare =
                 new RemoveDigitFromNumberToMaximizeResultCompare();
-        assertEquals(excepted, compare.removeDigit(number, digit));
+        assertEquals(expected, compare.removeDigit(number, digit));
     }
 }

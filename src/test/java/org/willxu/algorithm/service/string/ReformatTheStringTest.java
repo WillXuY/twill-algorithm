@@ -25,8 +25,8 @@ public class ReformatTheStringTest {
 
     @ParameterizedTest(name = "Insert {index}")
     @MethodSource("dataProvider")
-    public void testInsert(String s, String excepted) {
+    public void testInsert(String s, String expected) {
         ReformatTheString insert = new ReformatTheStringInsert();
-        assertEquals(excepted, insert.reformat(s));
+        assertEquals(expected, insert.reformat(s));
     }
 }

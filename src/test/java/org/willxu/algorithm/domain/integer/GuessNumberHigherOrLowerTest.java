@@ -25,9 +25,9 @@ public class GuessNumberHigherOrLowerTest {
 
     @ParameterizedTest(name = "Golden {index}")
     @MethodSource("dataProvider")
-    public void testGolden(int max, int excepted) {
+    public void testGolden(int max, int expected) {
         AbstractGuessNumberHigherOrLower golden
-                = new GuessNumberHigherOrLowerGolden(excepted);
-        assertEquals(excepted, golden.guessNumber(max));
+                = new GuessNumberHigherOrLowerGolden(expected);
+        assertEquals(expected, golden.guessNumber(max));
     }
 }

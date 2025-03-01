@@ -26,8 +26,8 @@ public class GrayCodeTest {
 
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(int n, List<Integer> excepted) {
+    public void testRecursive(int n, List<Integer> expected) {
         GrayCode recursive = new GrayCodeRecursive();
-        assertEquals(excepted, recursive.grayCode(n));
+        assertEquals(expected, recursive.grayCode(n));
     }
 }

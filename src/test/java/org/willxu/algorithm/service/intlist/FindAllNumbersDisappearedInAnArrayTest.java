@@ -30,14 +30,14 @@ public class FindAllNumbersDisappearedInAnArrayTest {
 
     @ParameterizedTest(name = "Cycle {index}")
     @MethodSource("dataProvider")
-    public void testCycle(int[] input, List<Integer> excepted)
+    public void testCycle(int[] input, List<Integer> expected)
             throws JsonProcessingException {
         ObjectMapper objectMapper = new ObjectMapper();
-        String exceptedString = objectMapper.writeValueAsString(excepted);
+        String expectedString = objectMapper.writeValueAsString(expected);
         FindAllNumbersDisappearedInAnArray cycle =
                 new FindAllNumbersDisappearedInAnArrayCycle();
         List<Integer> output = cycle.findDisappearedNumbers(input);
         String outputString = objectMapper.writeValueAsString(output);
-        assertEquals(exceptedString, outputString);
+        assertEquals(expectedString, outputString);
     }
 }

@@ -22,8 +22,8 @@ public class ThirdMaximumNumberTest {
 
     @ParameterizedTest(name = "Compare {index}")
     @MethodSource("dataProvider")
-    public void testCompare(int[] input, int excepted) {
+    public void testCompare(int[] input, int expected) {
         ThirdMaximumNumber compare = new ThirdMaximumNumberCompare();
-        assertEquals(excepted, compare.thirdMax(input));
+        assertEquals(expected, compare.thirdMax(input));
     }
 }

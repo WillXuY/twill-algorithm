@@ -23,8 +23,8 @@ public class SecondLargestDigitInStringTest {
      */
     @ParameterizedTest(name = "Set {index}")
     @MethodSource("dataProvider")
-    public void testSet(String s, int excepted) {
+    public void testSet(String s, int expected) {
         SecondLargestDigitInString set = new SecondLargestDigitInStringSet();
-        assertEquals(excepted, set.secondHighest(s));
+        assertEquals(expected, set.secondHighest(s));
     }
 }

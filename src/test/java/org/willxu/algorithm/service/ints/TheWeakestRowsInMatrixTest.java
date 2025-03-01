@@ -37,8 +37,8 @@ public class TheWeakestRowsInMatrixTest {
 
     @ParameterizedTest(name = "Sort {index}")
     @MethodSource("dataProvider")
-    public void testSort(int[][] mat, int k, int[] excepted) {
+    public void testSort(int[][] mat, int k, int[] expected) {
         TheWeakestRowsInMatrix sort = new TheWeakestRowsInMatrixSort();
-        assertArrayEquals(excepted, sort.kWeakestRows(mat, k));
+        assertArrayEquals(expected, sort.kWeakestRows(mat, k));
     }
 }

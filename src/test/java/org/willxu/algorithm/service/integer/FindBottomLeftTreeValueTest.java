@@ -31,9 +31,9 @@ public class FindBottomLeftTreeValueTest {
 
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(TreeNode node, int excepted) {
+    public void testRecursive(TreeNode node, int expected) {
         FindBottomLeftTreeValue recursive =
                 new FindBottomLeftTreeValueRecursive();
-        assertEquals(excepted, recursive.findBottomLeftValue(node));
+        assertEquals(expected, recursive.findBottomLeftValue(node));
     }
 }

@@ -20,8 +20,8 @@ public class MagicalStringTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int n, int excepted) {
+    public void testLoop(int n, int expected) {
         MagicalString loop = new MagicalStringLoop();
-        assertEquals(excepted, loop.magicalString(n));
+        assertEquals(expected, loop.magicalString(n));
     }
 }

@@ -21,8 +21,8 @@ public class AddDigitsTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int input, int excepted) {
+    public void testLoop(int input, int expected) {
         AddDigits loop = new AddDigitsLoop();
-        assertEquals(excepted, loop.addDigits(input));
+        assertEquals(expected, loop.addDigits(input));
     }
 }

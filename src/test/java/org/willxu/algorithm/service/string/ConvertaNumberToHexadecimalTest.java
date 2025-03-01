@@ -22,10 +22,10 @@ public class ConvertaNumberToHexadecimalTest {
 
     @ParameterizedTest(name = "Remainder {index}")
     @MethodSource("dataProvider")
-    public void testRemainder(int input, String excepted) {
+    public void testRemainder(int input, String expected) {
         ConvertaNumberToHexadecimal remainder =
                 new ConvertaNumberToHexadecimalRemainder();
-        assertEquals(excepted, remainder.toHex(input));
+        assertEquals(expected, remainder.toHex(input));
     }
 
     /**

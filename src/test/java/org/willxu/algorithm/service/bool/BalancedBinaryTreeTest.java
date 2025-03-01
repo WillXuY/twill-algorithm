@@ -47,8 +47,8 @@ public class BalancedBinaryTreeTest {
 
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(TreeNode input, boolean excepted) {
+    public void testRecursive(TreeNode input, boolean expected) {
         BalancedBinaryTree recursive = new BalancedBinaryTreeRecursive();
-        assertEquals(excepted, recursive.isBalanced(input));
+        assertEquals(expected, recursive.isBalanced(input));
     }
 }

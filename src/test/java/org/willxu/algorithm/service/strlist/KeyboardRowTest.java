@@ -30,8 +30,8 @@ public class KeyboardRowTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(String[] input, String[] excepted) {
+    public void testCount(String[] input, String[] expected) {
         KeyboardRow count = new KeyboardRowCount();
-        assertArrayEquals(excepted, count.findWords(input));
+        assertArrayEquals(expected, count.findWords(input));
     }
 }

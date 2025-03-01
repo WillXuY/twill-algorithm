@@ -60,9 +60,9 @@ public class FindModeInBinarySearchTreeTest {
 
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(TreeNode input, int[] excepted) {
+    public void testRecursive(TreeNode input, int[] expected) {
         FindModeInBinarySearchTree recursive =
                 new FindModeInBinarySearchTreeRecursive();
-        assertArrayEquals(excepted, recursive.findMode(input));
+        assertArrayEquals(expected, recursive.findMode(input));
     }
 }

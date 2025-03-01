@@ -21,8 +21,8 @@ public class GoalParserInterpretationTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String command, String excepted) {
+    public void testLoop(String command, String expected) {
         GoalParserInterpretation loop = new GoalParserInterpretationLoop();
-        assertEquals(excepted, loop.interpret(command));
+        assertEquals(expected, loop.interpret(command));
     }
 }

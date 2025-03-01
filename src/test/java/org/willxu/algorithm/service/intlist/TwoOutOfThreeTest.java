@@ -40,9 +40,9 @@ public class TwoOutOfThreeTest {
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
     public void testCount(
-            int[] nums1, int[] nums2, int[] nums3, List<Integer> excepted) {
+            int[] nums1, int[] nums2, int[] nums3, List<Integer> expected) {
         TwoOutOfThree count = new TwoOutOfThreeCount();
-        assertArrayEquals(excepted.toArray()
+        assertArrayEquals(expected.toArray()
                 , count.twoOutOfThree(nums1, nums2, nums3).toArray());
     }
 }

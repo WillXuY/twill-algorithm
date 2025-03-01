@@ -21,8 +21,8 @@ public class MaximumNumberOfBalloonsTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(String text, int excepted) {
+    public void testCount(String text, int expected) {
         MaximumNumberOfBalloons count = new MaximumNumberOfBalloonsCount();
-        assertEquals(excepted, count.maxNumberOfBalloons(text));
+        assertEquals(expected, count.maxNumberOfBalloons(text));
     }
 }

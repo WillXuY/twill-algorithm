@@ -67,8 +67,8 @@ public class PathSumIiTest {
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
     public void testCount(TreeNode root, int targetSum,
-                          List<List<Integer>> excepted) {
+                          List<List<Integer>> expected) {
         PathSumIi count = new PathSumIiCount();
-        assertEquals(excepted, count.pathSum(root, targetSum));
+        assertEquals(expected, count.pathSum(root, targetSum));
     }
 }

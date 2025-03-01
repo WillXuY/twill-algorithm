@@ -45,8 +45,8 @@ public class InsertIntervalTest {
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
     public void testLoop(
-            int[][] intervals, int[] newInterval, int[][] excepted) {
+            int[][] intervals, int[] newInterval, int[][] expected) {
         InsertInterval loop = new InsertIntervalLoop();
-        assertArrayEquals(excepted, loop.insert(intervals, newInterval));
+        assertArrayEquals(expected, loop.insert(intervals, newInterval));
     }
 }

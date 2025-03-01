@@ -41,11 +41,11 @@ public class SubsetsIiTest {
 
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(int[] nums, List<List<Integer>> excepted) {
+    public void testRecursive(int[] nums, List<List<Integer>> expected) {
         SubsetsIi recursive = new SubsetsIiRecursive();
-        Set<List<Integer>> exceptedSet = new HashSet<>(excepted);
+        Set<List<Integer>> expectedSet = new HashSet<>(expected);
         Set<List<Integer>> outputSet = new HashSet<>(
                 recursive.subsetsWithDup(nums));
-        assertEquals(exceptedSet, outputSet);
+        assertEquals(expectedSet, outputSet);
     }
 }

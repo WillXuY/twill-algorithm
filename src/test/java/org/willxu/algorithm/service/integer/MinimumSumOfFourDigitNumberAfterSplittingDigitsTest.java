@@ -20,9 +20,9 @@ public class MinimumSumOfFourDigitNumberAfterSplittingDigitsTest {
 
     @ParameterizedTest(name = "Sort {index}")
     @MethodSource("dataProvider")
-    public void testSort(int num, int excepted) {
+    public void testSort(int num, int expected) {
         MinimumSumOfFourDigitNumberAfterSplittingDigits sort =
                 new MinimumSumOfFourDigitNumberAfterSplittingDigitsSort();
-        assertEquals(excepted, sort.minimumSum(num));
+        assertEquals(expected, sort.minimumSum(num));
     }
 }

@@ -48,12 +48,12 @@ public class GroupAnagramsTest {
 
     @ParameterizedTest(name = "Hash {index}")
     @MethodSource("dataProvider")
-    public void testHash(String[] strs, List<List<String>> excepted)
+    public void testHash(String[] strs, List<List<String>> expected)
             throws JsonProcessingException {
         GroupAnagrams hash = new GroupAnagramsHash();
         ObjectMapper objectMapper = new ObjectMapper();
         String output = objectMapper.writeValueAsString(
                 hash.groupAnagrams(strs));
-        assertEquals(objectMapper.writeValueAsString(excepted), output);
+        assertEquals(objectMapper.writeValueAsString(expected), output);
     }
 }

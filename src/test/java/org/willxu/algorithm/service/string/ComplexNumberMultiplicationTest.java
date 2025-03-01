@@ -19,9 +19,9 @@ public class ComplexNumberMultiplicationTest {
 
     @ParameterizedTest(name = "Split {index}")
     @MethodSource("dataProvider")
-    public void testSplit(String num1, String num2, String excepted) {
+    public void testSplit(String num1, String num2, String expected) {
         ComplexNumberMultiplication split =
                 new ComplexNumberMultiplicationSplit();
-        assertEquals(excepted, split.complexNumberMultiply(num1, num2));
+        assertEquals(expected, split.complexNumberMultiply(num1, num2));
     }
 }

@@ -33,9 +33,9 @@ public class NumberOfEquivalentDominoPairsTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(int[][] dominoes, int excepted) {
+    public void testCount(int[][] dominoes, int expected) {
         NumberOfEquivalentDominoPairs count =
                 new NumberOfEquivalentDominoPairsCount();
-        assertEquals(excepted, count.numEquivDominoPairs(dominoes));
+        assertEquals(expected, count.numEquivDominoPairs(dominoes));
     }
 }

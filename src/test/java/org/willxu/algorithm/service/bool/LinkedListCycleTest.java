@@ -58,8 +58,8 @@ public class LinkedListCycleTest {
 
     @ParameterizedTest(name = "Iterator {index}")
     @MethodSource("dataProvider")
-    public void testIterator(ListNode head, boolean excepted) {
+    public void testIterator(ListNode head, boolean expected) {
         LinkedListCycle iterator = new LinkedListCycleIterator();
-        assertEquals(excepted, iterator.hasCycle(head));
+        assertEquals(expected, iterator.hasCycle(head));
     }
 }

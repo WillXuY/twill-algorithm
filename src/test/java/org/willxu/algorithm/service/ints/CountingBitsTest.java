@@ -42,8 +42,8 @@ public class CountingBitsTest {
 
     @ParameterizedTest(name = "Cycle multi 2 {index}")
     @MethodSource("dataProvider")
-    public void testCycleMulti2(int input, int[] excepted) {
+    public void testCycleMulti2(int input, int[] expected) {
         CountingBits cycleMulti2 = new CountingBitsCycleMulti2();
-        assertArrayEquals(excepted, cycleMulti2.countBits(input));
+        assertArrayEquals(expected, cycleMulti2.countBits(input));
     }
 }

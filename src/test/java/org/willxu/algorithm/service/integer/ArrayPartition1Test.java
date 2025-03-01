@@ -35,8 +35,8 @@ public class ArrayPartition1Test {
 
     @ParameterizedTest(name = "Order {index}")
     @MethodSource("dataProvider")
-    public void testOrder(int[] input, int excepted) {
+    public void testOrder(int[] input, int expected) {
         ArrayPartition1 order = new ArrayPartition1Order();
-        assertEquals(excepted, order.arrayPairSum(input));
+        assertEquals(expected, order.arrayPairSum(input));
     }
 }

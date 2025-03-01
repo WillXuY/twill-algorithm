@@ -20,9 +20,9 @@ public class CountOfMatchesInTournamentTest {
 
     @ParameterizedTest(name = "Calculate {index}")
     @MethodSource("dataProvider")
-    public void testCalculate(int n, int excepted) {
+    public void testCalculate(int n, int expected) {
         CountOfMatchesInTournament calculate =
                 new CountOfMatchesInTournamentCalculate();
-        assertEquals(excepted, calculate.numberOfMatches(n));
+        assertEquals(expected, calculate.numberOfMatches(n));
     }
 }

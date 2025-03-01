@@ -26,9 +26,9 @@ public class MoveZerosTest {
 
     @ParameterizedTest(name = "Exchange {index}")
     @MethodSource("dataProvider")
-    public void testExchange(int[] input, int[] excepted) {
+    public void testExchange(int[] input, int[] expected) {
         MoveZeros exchange = new MoveZerosExchange();
         exchange.moveZeroes(input);
-        assertArrayEquals(excepted, input);
+        assertArrayEquals(expected, input);
     }
 }

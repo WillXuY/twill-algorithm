@@ -43,8 +43,8 @@ public class TrimBinarySearchTreeTest {
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
     public void testRecursive(
-            TreeNode root, int low, int high, TreeNode excepted) {
+            TreeNode root, int low, int high, TreeNode expected) {
         TrimBinarySearchTree recursive = new TrimBinarySearchTreeRecursive();
-        assertEquals(excepted, recursive.trimBST(root, low, high));
+        assertEquals(expected, recursive.trimBST(root, low, high));
     }
 }

@@ -21,9 +21,9 @@ public class MinimumTimeToTypeWordUsingSpecialTypewriterTest {
 
     @ParameterizedTest(name = "Subtraction {index}")
     @MethodSource("dataProvider")
-    public void testSubtraction(String word, int excepted) {
+    public void testSubtraction(String word, int expected) {
         MinimumTimeToTypeWordUsingSpecialTypewriter subtraction =
                 new MinimumTimeToTypeWordUsingSpecialTypewriterSubtraction();
-        assertEquals(excepted, subtraction.minTimeToType(word));
+        assertEquals(expected, subtraction.minTimeToType(word));
     }
 }

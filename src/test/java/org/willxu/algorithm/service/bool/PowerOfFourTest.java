@@ -24,9 +24,9 @@ public class PowerOfFourTest {
 
     @ParameterizedTest(name = "Enumerate {index}")
     @MethodSource("dataProvider")
-    public void testEnumerate(int input, boolean excepted) {
+    public void testEnumerate(int input, boolean expected) {
         PowerOfFour enumerate = new PowerOfFourEnumerate();
-        assertEquals(excepted, enumerate.isPowerOfFour(input));
+        assertEquals(expected, enumerate.isPowerOfFour(input));
     }
 
     @Test

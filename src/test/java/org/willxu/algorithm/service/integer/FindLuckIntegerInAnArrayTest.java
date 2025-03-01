@@ -21,8 +21,8 @@ public class FindLuckIntegerInAnArrayTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(int[] arr, int excepted) {
+    public void testCount(int[] arr, int expected) {
         FindLuckIntegerInAnArray count = new FindLuckIntegerInAnArrayCount();
-        assertEquals(excepted, count.findLucky(arr));
+        assertEquals(expected, count.findLucky(arr));
     }
 }

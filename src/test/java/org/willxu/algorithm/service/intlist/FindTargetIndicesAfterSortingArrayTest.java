@@ -36,10 +36,10 @@ public class FindTargetIndicesAfterSortingArrayTest {
 
     @ParameterizedTest(name = "Sort {index}")
     @MethodSource("dataProvider")
-    public void testSort(int[] nums, int target, List<String> excepted) {
+    public void testSort(int[] nums, int target, List<String> expected) {
         FindTargetIndicesAfterSortingArray sort =
                 new FindTargetIndicesAfterSortingArraySort();
-        assertArrayEquals(excepted.toArray(),
+        assertArrayEquals(expected.toArray(),
                 sort.targetIndices(nums, target).toArray());
     }
 }

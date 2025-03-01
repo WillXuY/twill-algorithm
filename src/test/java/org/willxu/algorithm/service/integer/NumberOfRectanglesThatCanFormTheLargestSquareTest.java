@@ -20,9 +20,9 @@ public class NumberOfRectanglesThatCanFormTheLargestSquareTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[][] rectangles, int excepted) {
+    public void testLoop(int[][] rectangles, int expected) {
         NumberOfRectanglesThatCanFormTheLargestSquare loop =
                 new NumberOfRectanglesThatCanFormTheLargestSquareLoop();
-        assertEquals(excepted, loop.countGoodRectangles(rectangles));
+        assertEquals(expected, loop.countGoodRectangles(rectangles));
     }
 }

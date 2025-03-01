@@ -20,8 +20,8 @@ public class FindTheHighestAltitudeTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] gain, int excepted) {
+    public void testLoop(int[] gain, int expected) {
         FindTheHighestAltitude loop = new FindTheHighestAltitudeLoop();
-        assertEquals(excepted, loop.largestAltitude(gain));
+        assertEquals(expected, loop.largestAltitude(gain));
     }
 }

@@ -27,22 +27,22 @@ public class JumpGameIiTest {
 
     @ParameterizedTest(name = "Skip {index}")
     @MethodSource("dataProvider")
-    public void testSkip(int[] nums, int excepted) {
+    public void testSkip(int[] nums, int expected) {
         JumpGameIi skip = new JumpGameIiSkip();
-        assertEquals(excepted, skip.jump(nums));
+        assertEquals(expected, skip.jump(nums));
     }
 
     @ParameterizedTest(name = "Range {index}")
     @MethodSource("dataProvider")
-    public void testRange(int[] nums, int excepted) {
+    public void testRange(int[] nums, int expected) {
         JumpGameIi range = new JumpGameIiRange();
-        assertEquals(excepted, range.jump(nums));
+        assertEquals(expected, range.jump(nums));
     }
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] nums, int excepted) {
+    public void testLoop(int[] nums, int expected) {
         JumpGameIi loop = new JumpGameIiLoop();
-        assertEquals(excepted, loop.jump(nums));
+        assertEquals(expected, loop.jump(nums));
     }
 }

@@ -30,8 +30,8 @@ public class DegreeOfAnArrayTest {
 
     @ParameterizedTest(name = "Index {index}")
     @MethodSource("dataProvider")
-    public void testIndex(int[] input, int excepted) {
+    public void testIndex(int[] input, int expected) {
         DegreeOfAnArray index = new DegreeOfAnArrayIndex();
-        assertEquals(excepted, index.findShortestSubArray(input));
+        assertEquals(expected, index.findShortestSubArray(input));
     }
 }

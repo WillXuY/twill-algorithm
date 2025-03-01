@@ -21,8 +21,8 @@ public class ReversePrefixOfWordTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String word, char ch, String excepted) {
+    public void testLoop(String word, char ch, String expected) {
         ReversePrefixOfWord loop = new ReversePrefixOfWordLoop();
-        assertEquals(excepted, loop.reversePrefix(word, ch));
+        assertEquals(expected, loop.reversePrefix(word, ch));
     }
 }

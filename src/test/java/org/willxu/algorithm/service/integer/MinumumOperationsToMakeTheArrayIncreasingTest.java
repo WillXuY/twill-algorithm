@@ -21,9 +21,9 @@ public class MinumumOperationsToMakeTheArrayIncreasingTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] nums, int excepted) {
+    public void testLoop(int[] nums, int expected) {
         MinimumOperationsToMakeTheArrayIncreasing loop =
                 new MinimumOperationsToMakeTheArrayIncreasingLoop();
-        assertEquals(excepted, loop.minOperations(nums));
+        assertEquals(expected, loop.minOperations(nums));
     }
 }

@@ -31,8 +31,8 @@ public class BinarySearchTest {
 
     @ParameterizedTest(name = "Index {index}")
     @MethodSource("dataProvider")
-    public void testIndex(int[] input, int target, int excepted) {
+    public void testIndex(int[] input, int target, int expected) {
         BinarySearch index = new BinarySearchIndex();
-        assertEquals(excepted, index.search(input, target));
+        assertEquals(expected, index.search(input, target));
     }
 }

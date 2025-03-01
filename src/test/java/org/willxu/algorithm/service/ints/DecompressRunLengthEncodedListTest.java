@@ -20,9 +20,9 @@ public class DecompressRunLengthEncodedListTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] nums, int[] excepted) {
+    public void testLoop(int[] nums, int[] expected) {
         DecompressRunLengthEncodedList loop =
                 new DecompressRunLengthEncodedListLoop();
-        assertArrayEquals(excepted, loop.decompressRLElist(nums));
+        assertArrayEquals(expected, loop.decompressRLElist(nums));
     }
 }

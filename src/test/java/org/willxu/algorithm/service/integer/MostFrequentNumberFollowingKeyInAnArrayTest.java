@@ -21,9 +21,9 @@ public class MostFrequentNumberFollowingKeyInAnArrayTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(int[] nums, int key, int excepted) {
+    public void testCount(int[] nums, int key, int expected) {
         MostFrequentNumberFollowingKeyInAnArray count =
                 new MostFrequentNumberFollowingKeyInAnArrayCount();
-        assertEquals(excepted, count.mostFrequent(nums, key));
+        assertEquals(expected, count.mostFrequent(nums, key));
     }
 }

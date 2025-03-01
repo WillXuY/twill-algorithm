@@ -34,9 +34,9 @@ public class MaxIncreaseToKeepCitySkylineTest {
 
     @ParameterizedTest(name  = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[][] grid, int excepted) {
+    public void testLoop(int[][] grid, int expected) {
         MaxIncreaseToKeepCitySkyline loop =
                 new MaxIncreaseToKeepCitySkylineLoop();
-        assertEquals(excepted, loop.maxIncreaseKeepingSkyline(grid));
+        assertEquals(expected, loop.maxIncreaseKeepingSkyline(grid));
     }
 }

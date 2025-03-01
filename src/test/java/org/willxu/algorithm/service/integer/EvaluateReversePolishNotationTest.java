@@ -25,9 +25,9 @@ public class EvaluateReversePolishNotationTest {
 
     @ParameterizedTest(name = "Stack {index}")
     @MethodSource("dataProvider")
-    public void testStack(String[] tokens, int excepted) {
+    public void testStack(String[] tokens, int expected) {
         EvaluateReversePolishNotation stack =
                 new EvaluateReversePolishNotationStack();
-        assertEquals(excepted, stack.evalRPN(tokens));
+        assertEquals(expected, stack.evalRPN(tokens));
     }
 }

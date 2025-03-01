@@ -22,9 +22,9 @@ public class FindFirstAndLasrPositionOfElementInSortedArrayTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] nums, int target, int[] excepted) {
+    public void testLoop(int[] nums, int target, int[] expected) {
         FindFirstAndLastPositionOfElementInSortedArray loop =
                 new FindFirstAndLastPositionOfElementInSortedArrayLoop();
-        assertArrayEquals(excepted, loop.searchRange(nums, target));
+        assertArrayEquals(expected, loop.searchRange(nums, target));
     }
 }

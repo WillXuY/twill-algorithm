@@ -19,8 +19,8 @@ public class CombinationSumIvTest {
 
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(int[] nums, int target, int excepted) {
+    public void testRecursive(int[] nums, int target, int expected) {
         CombinationSumIv recursive = new CombinationSumIvRecursive();
-        assertEquals(excepted, recursive.combinationSum4(nums, target));
+        assertEquals(expected, recursive.combinationSum4(nums, target));
     }
 }

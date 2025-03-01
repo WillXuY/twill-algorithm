@@ -21,9 +21,9 @@ public class NumberOfStringsThatAppearAsSubstringsInWordTest {
 
     @ParameterizedTest(name = "Contains {index}")
     @MethodSource("dataProvider")
-    public void testContains(String[] patterns, String word, int excepted) {
+    public void testContains(String[] patterns, String word, int expected) {
         NumberOfStringsThatAppearAsSubstringsInWord contains =
                 new NumberOfStringsThatAppearAsSubstringsInWordContains();
-        assertEquals(excepted, contains.numOfStrings(patterns, word));
+        assertEquals(expected, contains.numOfStrings(patterns, word));
     }
 }

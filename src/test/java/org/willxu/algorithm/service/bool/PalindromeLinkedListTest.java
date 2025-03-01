@@ -41,16 +41,16 @@ public class PalindromeLinkedListTest {
 
     @ParameterizedTest(name = "array {index}")
     @MethodSource("dataProvider")
-    public void testArray(ListNode input, boolean excepted) {
+    public void testArray(ListNode input, boolean expected) {
         PalindromeLinkedList array= new PalindromeLinkedListArray();
-        assertEquals(excepted, array.isPalindrome(input));
+        assertEquals(expected, array.isPalindrome(input));
     }
 
     @ParameterizedTest(name = "Stack and queue {index}")
     @MethodSource("dataProvider")
-    public void testStackAndQueue(ListNode input, boolean excepted) {
+    public void testStackAndQueue(ListNode input, boolean expected) {
         PalindromeLinkedList stackAndQueue =
                 new PalindromeLinkedListStackAndQueue();
-        assertEquals(excepted, stackAndQueue.isPalindrome(input));
+        assertEquals(expected, stackAndQueue.isPalindrome(input));
     }
 }

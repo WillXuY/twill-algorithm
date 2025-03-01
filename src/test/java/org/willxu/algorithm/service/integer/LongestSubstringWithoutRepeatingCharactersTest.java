@@ -23,9 +23,9 @@ public class LongestSubstringWithoutRepeatingCharactersTest {
 
     @ParameterizedTest(name = "Set {index}")
     @MethodSource("dataProvider")
-    public void testSet(String s, int excepted) {
+    public void testSet(String s, int expected) {
         LongestSubstringWithoutRepeatingCharacters set =
                 new LongestSubstringWithoutRepeatingCharactersSet();
-        assertEquals(excepted, set.lengthOfLongestSubstring(s));
+        assertEquals(expected, set.lengthOfLongestSubstring(s));
     }
 }

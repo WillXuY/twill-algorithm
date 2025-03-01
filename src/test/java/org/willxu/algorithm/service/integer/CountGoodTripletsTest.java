@@ -20,8 +20,8 @@ public class CountGoodTripletsTest {
 
     @ParameterizedTest(name = "Combination {index}")
     @MethodSource("dataProvider")
-    public void testCombination(int[] arr, int a, int b, int c, int excepted) {
+    public void testCombination(int[] arr, int a, int b, int c, int expected) {
         CountGoodTriplets combination = new CountGoodTripletsCombination();
-        assertEquals(excepted, combination.countGoodTriplets(arr, a, b, c));
+        assertEquals(expected, combination.countGoodTriplets(arr, a, b, c));
     }
 }

@@ -20,8 +20,8 @@ public class NumberOfCommonFactorsTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int a, int b, int excepted) {
+    public void testLoop(int a, int b, int expected) {
         NumberOfCommonFactors loop = new NumberOfCommonFactorsLoop();
-        assertEquals(excepted, loop.commonFactors(a, b));
+        assertEquals(expected, loop.commonFactors(a, b));
     }
 }

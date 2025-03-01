@@ -66,7 +66,7 @@ public class InvertBinaryTreeTest {
         InvertBinaryTree recursive = new InvertBinaryTreeRecursive();
         TreeNode output = recursive.invertTree(input);
         ObjectMapper objectMapper = new ObjectMapper();
-        String excepted = objectMapper.writeValueAsString(except);
-        assertEquals(excepted, objectMapper.writeValueAsString(output));
+        String expected = objectMapper.writeValueAsString(except);
+        assertEquals(expected, objectMapper.writeValueAsString(output));
     }
 }

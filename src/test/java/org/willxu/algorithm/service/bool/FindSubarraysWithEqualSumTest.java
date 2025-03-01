@@ -22,8 +22,8 @@ public class FindSubarraysWithEqualSumTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] nums, boolean excepted) {
+    public void testLoop(int[] nums, boolean expected) {
         FindSubarraysWithEqualSum loop = new FindSubarraysWithEqualSumLoop();
-        assertEquals(excepted, loop.findSubarrays(nums));
+        assertEquals(expected, loop.findSubarrays(nums));
     }
 }

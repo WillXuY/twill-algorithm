@@ -32,7 +32,7 @@ public class LinkedListCycleIiTest {
     }
 
     @Test
-    public void testList(ListNode head, ListNode excepted) {
+    public void testList(ListNode head, ListNode expected) {
         // todo check loop linked node.
         LinkedListCycleIi list = new LinkedListCycleIiList();
         ListNode output = list.detectCycle(head);

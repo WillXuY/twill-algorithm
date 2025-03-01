@@ -21,9 +21,9 @@ public class CountVowelSubstringsOfStringTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(String word, int excepted) {
+    public void testCount(String word, int expected) {
         CountVowelSubstringsOfString count =
                 new CountVowelSubstringsOfStringCount();
-        assertEquals(excepted, count.countVowelSubstrings(word));
+        assertEquals(expected, count.countVowelSubstrings(word));
     }
 }

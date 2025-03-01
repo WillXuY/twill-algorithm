@@ -20,9 +20,9 @@ public class CheckIfAllOnesAreAtLeastLengthPlacesAwayTest {
 
     @ParameterizedTest(name = "Min {index}")
     @MethodSource("dataProvider")
-    public void testMin(int[] nums, int k, boolean excepted) {
+    public void testMin(int[] nums, int k, boolean expected) {
         CheckIfAllOnesAreAtLeastLengthPlacesAway min =
                 new CheckIfAllOnesAreAtLeastLengthPlacesAwayMin();
-        assertEquals(excepted, min.kLengthApart(nums, k));
+        assertEquals(expected, min.kLengthApart(nums, k));
     }
 }

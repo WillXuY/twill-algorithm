@@ -20,9 +20,9 @@ public class CountPrefixesOfGivenStringTest {
 
     @ParameterizedTest(name = "Regex {index}")
     @MethodSource("dataProvider")
-    public void testRegex(String[] words, String s, int excepted) {
+    public void testRegex(String[] words, String s, int expected) {
         CountPrefixesOfGivenString regex =
                 new CountPrefixesOfGivenStringRegex();
-        assertEquals(excepted, regex.countPrefixes(words, s));
+        assertEquals(expected, regex.countPrefixes(words, s));
     }
 }

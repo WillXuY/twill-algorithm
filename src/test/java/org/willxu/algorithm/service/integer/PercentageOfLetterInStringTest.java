@@ -20,9 +20,9 @@ public class PercentageOfLetterInStringTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(String s, char letter, int excepted) {
+    public void testCount(String s, char letter, int expected) {
         PercentageOfLetterInString count =
                 new PercentageOfLetterInStringCount();
-        assertEquals(excepted, count.percentageLetter(s, letter));
+        assertEquals(expected, count.percentageLetter(s, letter));
     }
 }

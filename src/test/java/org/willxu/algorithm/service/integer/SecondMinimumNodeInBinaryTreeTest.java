@@ -64,9 +64,9 @@ public class SecondMinimumNodeInBinaryTreeTest {
 
     @ParameterizedTest(name = "Level {index}")
     @MethodSource("dataProvider")
-    public void testLevel(TreeNode root, int excepted) {
+    public void testLevel(TreeNode root, int expected) {
         SecondMinimumNodeInBinaryTree level =
                 new SecondMinimumNodeInBinaryTreeLevel();
-        assertEquals(excepted, level.findSecondMinimumValue(root));
+        assertEquals(expected, level.findSecondMinimumValue(root));
     }
 }

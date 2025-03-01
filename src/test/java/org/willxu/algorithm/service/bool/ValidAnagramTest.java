@@ -30,8 +30,8 @@ public class ValidAnagramTest {
 
     @ParameterizedTest(name = "Remove {index}")
     @MethodSource("dataProvider")
-    public void testRemove(String s, String t, boolean excepted) {
+    public void testRemove(String s, String t, boolean expected) {
         ValidAnagram remove = new ValidAnagramRemove();
-        assertEquals(excepted, remove.isAnagram(s, t));
+        assertEquals(expected, remove.isAnagram(s, t));
     }
 }

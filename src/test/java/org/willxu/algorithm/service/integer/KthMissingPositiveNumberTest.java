@@ -21,8 +21,8 @@ public class KthMissingPositiveNumberTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] arr, int k, int excepted) {
+    public void testLoop(int[] arr, int k, int expected) {
         KthMissingPositiveNumber loop = new KthMissingPositiveNumberLoop();
-        assertEquals(excepted, loop.findKthPositive(arr, k));
+        assertEquals(expected, loop.findKthPositive(arr, k));
     }
 }

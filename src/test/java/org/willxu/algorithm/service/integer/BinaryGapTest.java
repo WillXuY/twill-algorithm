@@ -37,8 +37,8 @@ public class BinaryGapTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(int n, int excepted) {
+    public void testCount(int n, int expected) {
         BinaryGap count = new BinaryGapCount();
-        assertEquals(excepted, count.binaryGap(n));
+        assertEquals(expected, count.binaryGap(n));
     }
 }

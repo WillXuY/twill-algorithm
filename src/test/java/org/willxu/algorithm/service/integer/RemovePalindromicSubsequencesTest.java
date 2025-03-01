@@ -24,9 +24,9 @@ public class RemovePalindromicSubsequencesTest {
      */
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String s, int excepted) {
+    public void testLoop(String s, int expected) {
         RemovePalindromicSubsequences loop
                 = new RemovePalindromicSubsequencesLoop();
-        assertEquals(excepted, loop.removePalindromeSub(s));
+        assertEquals(expected, loop.removePalindromeSub(s));
     }
 }

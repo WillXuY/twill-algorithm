@@ -20,8 +20,8 @@ public class FindClosestNumberToZeroTest {
 
     @ParameterizedTest(name = "Abs {index}")
     @MethodSource("dataProvider")
-    public void testAbs(int[] nums, int excepted) {
+    public void testAbs(int[] nums, int expected) {
         FindClosestNumberToZero abs = new FindClosestNumberToZeroAbs();
-        assertEquals(excepted, abs.findClosestNumber(nums));
+        assertEquals(expected, abs.findClosestNumber(nums));
     }
 }

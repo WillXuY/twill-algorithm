@@ -23,9 +23,9 @@ public class NumberOfStepsToReduceNumberToZeroTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int num, int excepted) {
+    public void testLoop(int num, int expected) {
         NumberOfStepsToReduceNumberToZero loop
                 = new NumberOfStepsToReduceNumberToZeroLoop();
-        assertEquals(excepted, loop.numberOfSteps(num));
+        assertEquals(expected, loop.numberOfSteps(num));
     }
 }

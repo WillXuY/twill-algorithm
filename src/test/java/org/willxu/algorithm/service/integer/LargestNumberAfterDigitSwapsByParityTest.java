@@ -20,9 +20,9 @@ public class LargestNumberAfterDigitSwapsByParityTest {
 
     @ParameterizedTest(name = "Order {index}")
     @MethodSource("dataProvider")
-    public void testOrder(int num, int excepted) {
+    public void testOrder(int num, int expected) {
         LargestNumberAfterDigitSwapsByParity order =
                 new LargestNumberAfterDigitSwapsByParityOrder();
-        assertEquals(excepted, order.largestInteger(num));
+        assertEquals(expected, order.largestInteger(num));
     }
 }

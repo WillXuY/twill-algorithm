@@ -21,9 +21,9 @@ public class MakeArrayZeroBySubtractingEqualAmountsTest {
 
     @ParameterizedTest(name = "Set {index}")
     @MethodSource("dataProvider")
-    public void testSet(int[] nums, int excepted) {
+    public void testSet(int[] nums, int expected) {
         MakeArrayZeroBySubtractingEqualAmounts set =
                 new MakeArrayZeroBySubtractingEqualAmountsSet();
-        assertEquals(excepted, set.minimumOperations(nums));
+        assertEquals(expected, set.minimumOperations(nums));
     }
 }

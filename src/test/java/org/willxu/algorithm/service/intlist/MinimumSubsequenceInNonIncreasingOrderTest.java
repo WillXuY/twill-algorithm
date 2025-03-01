@@ -32,10 +32,10 @@ public class MinimumSubsequenceInNonIncreasingOrderTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(int[] nums, List<Integer> excepted) {
+    public void testCount(int[] nums, List<Integer> expected) {
         MinimumSubsequenceInNonIncreasingOrder count =
                 new MinimumSubsequenceInNonIncreasingOrderCount();
         assertArrayEquals(
-                excepted.toArray(), count.minSubsequence(nums).toArray());
+                expected.toArray(), count.minSubsequence(nums).toArray());
     }
 }

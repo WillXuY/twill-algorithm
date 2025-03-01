@@ -28,8 +28,8 @@ public class RelativeSortArrayTest {
 
     @ParameterizedTest(name = "Insert {index}")
     @MethodSource("dataProvider")
-    public void testInsert(int[] arr1, int[] arr2, int[] excepted) {
+    public void testInsert(int[] arr1, int[] arr2, int[] expected) {
         RelativeSortArray insert = new RelativeSortArrayInsert();
-        assertArrayEquals(excepted, insert.relativeSortArray(arr1, arr2));
+        assertArrayEquals(expected, insert.relativeSortArray(arr1, arr2));
     }
 }

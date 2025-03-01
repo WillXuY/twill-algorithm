@@ -34,8 +34,8 @@ public class MaxAreaOfIslandTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[][] grid, int excepted) {
+    public void testLoop(int[][] grid, int expected) {
         MaxAreaOfIsland loop = new MaxAreaOfIslandLoop();
-        assertEquals(excepted, loop.maxAreaOfIsland(grid));
+        assertEquals(expected, loop.maxAreaOfIsland(grid));
     }
 }

@@ -32,9 +32,9 @@ public class LetterCasePermutationTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String s, List<String> excepted) {
+    public void testLoop(String s, List<String> expected) {
         LetterCasePermutation loop = new LetterCasePermutationLoop();
-        assertEquals(new HashSet<>(excepted),
+        assertEquals(new HashSet<>(expected),
                 new HashSet<>(loop.letterCasePermutation(s)));
     }
 }

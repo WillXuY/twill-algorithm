@@ -33,8 +33,8 @@ public class DiameterOfBinaryTreeTest {
 
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(TreeNode input, int excepted) {
+    public void testRecursive(TreeNode input, int expected) {
         DiameterOfBinaryTree recursive = new DiameterOfBinaryTreeRecursive();
-        assertEquals(excepted, recursive.diameterOfBinaryTree(input));
+        assertEquals(expected, recursive.diameterOfBinaryTree(input));
     }
 }

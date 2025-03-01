@@ -29,8 +29,8 @@ public class MaximumAverageSubarray1Test {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] input, int k, double excepted) {
+    public void testLoop(int[] input, int k, double expected) {
         MaximumAverageSubarray1 loop = new MaximumAverageSubarray1Loop();
-        assertEquals(excepted, loop.findMaxAverage(input, k));
+        assertEquals(expected, loop.findMaxAverage(input, k));
     }
 }

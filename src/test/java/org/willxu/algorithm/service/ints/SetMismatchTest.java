@@ -29,8 +29,8 @@ public class SetMismatchTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] input, int[] excepted) {
+    public void testLoop(int[] input, int[] expected) {
         SetMismatch loop = new SetMismatchLoop();
-        assertArrayEquals(excepted, loop.findErrorNums(input));
+        assertArrayEquals(expected, loop.findErrorNums(input));
     }
 }

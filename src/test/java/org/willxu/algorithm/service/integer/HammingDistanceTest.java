@@ -25,8 +25,8 @@ public class HammingDistanceTest {
 
     @ParameterizedTest(name = "Dividing {index}")
     @MethodSource("dataProvider")
-    public void testDividing(int x, int y, int excepted) {
+    public void testDividing(int x, int y, int expected) {
         HammingDistance dividing = new HammingDistanceDividing();
-        assertEquals(excepted, dividing.hammingDistance(x, y));
+        assertEquals(expected, dividing.hammingDistance(x, y));
     }
 }

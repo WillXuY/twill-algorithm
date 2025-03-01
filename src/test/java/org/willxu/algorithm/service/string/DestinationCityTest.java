@@ -56,8 +56,8 @@ public class DestinationCityTest {
 
     @ParameterizedTest(name = "Remove {index}")
     @MethodSource("dataProvider")
-    public void testRemove(List<List<String>> paths, String excepted) {
+    public void testRemove(List<List<String>> paths, String expected) {
         DestinationCity remove = new DestinationCityRemove();
-        assertEquals(excepted, remove.destCity(paths));
+        assertEquals(expected, remove.destCity(paths));
     }
 }

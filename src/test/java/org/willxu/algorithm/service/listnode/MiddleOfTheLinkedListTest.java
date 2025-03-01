@@ -35,9 +35,9 @@ public class MiddleOfTheLinkedListTest {
 
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(ListNode head, ListNode excepted) {
+    public void testRecursive(ListNode head, ListNode expected) {
         MiddleOfTheLinkedList recursive = new MiddleOfTheLinkedListRecursive();
-        assertArrayEquals(excepted.toIntArray(),
+        assertArrayEquals(expected.toIntArray(),
                 recursive.middleNode(head).toIntArray());
     }
 }

@@ -21,8 +21,8 @@ public class ReformatPhoneNumberTest {
 
     @ParameterizedTest(name = "Remainder {index}")
     @MethodSource("dataProvider")
-    public void testRemainder(String number, String excepted) {
+    public void testRemainder(String number, String expected) {
         ReformatPhoneNumber remainder = new ReformatPhoneNumberRemainder();
-        assertEquals(excepted, remainder.reformatNumber(number));
+        assertEquals(expected, remainder.reformatNumber(number));
     }
 }

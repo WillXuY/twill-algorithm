@@ -39,10 +39,10 @@ public class KidsWithTheGreatestNumberOfCandiesTest {
     @ParameterizedTest(name = "Max {index}")
     @MethodSource("dataProvider")
     public void testMax(
-            int[] candies, int extraCandies, List<Boolean> excepted) {
+            int[] candies, int extraCandies, List<Boolean> expected) {
         KidsWithTheGreatestNumberOfCandies max =
                 new KidsWithTheGreatestNumberOfCandiesMax();
-        assertArrayEquals(excepted.toArray(),
+        assertArrayEquals(expected.toArray(),
                 max.kidsWithCandies(candies, extraCandies).toArray());
     }
 }

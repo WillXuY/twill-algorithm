@@ -42,8 +42,8 @@ public class PathSumIiiTest {
 
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(TreeNode root, int targetSum, int excepted) {
+    public void testRecursive(TreeNode root, int targetSum, int expected) {
         PathSumIii recursive = new org.willxu.algorithm.service.integer.PathSumIiiRecursive();
-        assertEquals(excepted, recursive.pathSum(root, targetSum));
+        assertEquals(expected, recursive.pathSum(root, targetSum));
     }
 }

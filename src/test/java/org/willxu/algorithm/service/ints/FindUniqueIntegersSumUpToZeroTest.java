@@ -21,9 +21,9 @@ public class FindUniqueIntegersSumUpToZeroTest {
 
     @ParameterizedTest(name = "Symmetry {index}")
     @MethodSource("dataProviderSymmetry")
-    public void testSymmetry(int n, int[] excepted) {
+    public void testSymmetry(int n, int[] expected) {
         FindUniqueIntegersSumUpToZero symmetry =
                 new FindUniqueIntegersSumUpToZeroSymmetry();
-        assertArrayEquals(excepted, symmetry.sumZero(n));
+        assertArrayEquals(expected, symmetry.sumZero(n));
     }
 }

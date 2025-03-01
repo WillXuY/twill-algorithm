@@ -19,8 +19,8 @@ public class ArithmeticSlicesTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] nums, int excepted) {
+    public void testLoop(int[] nums, int expected) {
         ArithmeticSlices loop = new ArithmeticSlicesLoop();
-        assertEquals(excepted, loop.numberOfArithmeticSlices(nums));
+        assertEquals(expected, loop.numberOfArithmeticSlices(nums));
     }
 }

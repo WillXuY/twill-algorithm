@@ -24,8 +24,8 @@ public class BreakPalindromeTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String palindrome, String excepted) {
+    public void testLoop(String palindrome, String expected) {
         BreakPalindrome loop = new BreakPalindromeLoop();
-        assertEquals(excepted, loop.breakPalindrome(palindrome));
+        assertEquals(expected, loop.breakPalindrome(palindrome));
     }
 }

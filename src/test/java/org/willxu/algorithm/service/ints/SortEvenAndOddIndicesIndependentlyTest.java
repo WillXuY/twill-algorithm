@@ -24,9 +24,9 @@ public class SortEvenAndOddIndicesIndependentlyTest {
 
     @ParameterizedTest(name = "Insert {index}")
     @MethodSource("dataProvider")
-    public void testInsert(int[] nums, int[] excepted) {
+    public void testInsert(int[] nums, int[] expected) {
         SortEvenAndOddIndicesIndependently insert =
                 new SortEvenAndOddIndicesIndependentlyInsert();
-        assertArrayEquals(excepted, insert.sortEvenOdd(nums));
+        assertArrayEquals(expected, insert.sortEvenOdd(nums));
     }
 }

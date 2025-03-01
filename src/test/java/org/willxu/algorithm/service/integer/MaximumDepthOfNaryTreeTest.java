@@ -47,9 +47,9 @@ public class MaximumDepthOfNaryTreeTest {
 
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(Node input, int excepted) {
+    public void testRecursive(Node input, int expected) {
         MaximumDepthOfNaryTree recursive =
                 new MaximumDepthOfNaryTreeRecursive();
-        assertEquals(excepted, recursive.maxDepth(input));
+        assertEquals(expected, recursive.maxDepth(input));
     }
 }

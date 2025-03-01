@@ -32,9 +32,9 @@ public class EvaluateBooleanBinaryTreeTest {
 
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(TreeNode root, boolean excepted) {
+    public void testRecursive(TreeNode root, boolean expected) {
         EvaluateBooleanBinaryTree recursive =
                 new EvaluateBooleanBinaryTreeRecursice();
-        assertEquals(excepted, recursive.evaluateTree(root));
+        assertEquals(expected, recursive.evaluateTree(root));
     }
 }

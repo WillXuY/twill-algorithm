@@ -49,8 +49,8 @@ public class UniquePathsIiTest {
 
     @ParameterizedTest(name = "Grid {index}")
     @MethodSource("dataProvider")
-    public void testGrid(int[][] obstacleGrid, int excepted) {
+    public void testGrid(int[][] obstacleGrid, int expected) {
         UniquePathsIi grid = new UniquePathsIiGrid();
-        assertEquals(excepted, grid.uniquePathsWithObstacles(obstacleGrid));
+        assertEquals(expected, grid.uniquePathsWithObstacles(obstacleGrid));
     }
 }

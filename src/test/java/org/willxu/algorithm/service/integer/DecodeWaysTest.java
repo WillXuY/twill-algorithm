@@ -22,9 +22,9 @@ public class DecodeWaysTest {
 
     @ParameterizedTest(name = "Array {index}")
     @MethodSource("dataProvider")
-    public void testArray(String s, int excepted) {
+    public void testArray(String s, int expected) {
         DecodeWays array = new DecodeWaysArray();
-        assertEquals(excepted, array.numDecodings(s));
+        assertEquals(expected, array.numDecodings(s));
     }
 
     /**
@@ -32,8 +32,8 @@ public class DecodeWaysTest {
      */
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(String s, int excepted) {
+    public void testRecursive(String s, int expected) {
         DecodeWays recursive = new DecodeWaysRecursive();
-        assertEquals(excepted, recursive.numDecodings(s));
+        assertEquals(expected, recursive.numDecodings(s));
     }
 }

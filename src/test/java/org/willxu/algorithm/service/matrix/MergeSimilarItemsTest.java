@@ -50,12 +50,12 @@ public class MergeSimilarItemsTest {
     @ParameterizedTest(name = "Map {index}")
     @MethodSource("dataProvider")
     public void testMap(int[][] items1, int[][] items2,
-                        List<List<Integer>> excepted)
+                        List<List<Integer>> expected)
             throws JsonProcessingException {
         MergeSimilarItems map = new MergeSimilarItemsMap();
         ObjectMapper objectMapper = new ObjectMapper();
         String output = objectMapper.writeValueAsString(
                 map.mergeSimilarItems(items1, items2));
-        assertEquals(objectMapper.writeValueAsString(excepted), output);
+        assertEquals(objectMapper.writeValueAsString(expected), output);
     }
 }

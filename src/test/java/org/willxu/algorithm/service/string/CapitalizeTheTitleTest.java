@@ -25,8 +25,8 @@ public class CapitalizeTheTitleTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String title, String excepted) {
+    public void testLoop(String title, String expected) {
         CapitalizeTheTitle loop = new CapitalizeTheTitleLoop();
-        assertEquals(excepted, loop.capitalizeTitle(title));
+        assertEquals(expected, loop.capitalizeTitle(title));
     }
 }

@@ -34,9 +34,9 @@ public class DetermineIfTwoEventsHaveConflictTest {
     @ParameterizedTest(name = "dataProvider")
     @MethodSource("dataProvider")
     public void testCompare(
-            String[] event1, String[] event2, boolean excepted) {
+            String[] event1, String[] event2, boolean expected) {
         DetermineIfTwoEventsHaveConflict compare =
                 new DetermineIfTwoEventsHaveConflictCompare();
-        assertEquals(excepted, compare.haveConflict(event1, event2));
+        assertEquals(expected, compare.haveConflict(event1, event2));
     }
 }

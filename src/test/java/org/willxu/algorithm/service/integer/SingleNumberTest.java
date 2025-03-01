@@ -39,8 +39,8 @@ public class SingleNumberTest {
 
     @ParameterizedTest(name = "Set {index}")
     @MethodSource("dataProvider")
-    public void testSet(int[] input, int excepted) {
+    public void testSet(int[] input, int expected) {
         SingleNumber set = new SingleNumberSet();
-        assertEquals(excepted, set.singleNumber(input));
+        assertEquals(expected, set.singleNumber(input));
     }
 }

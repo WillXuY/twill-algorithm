@@ -43,8 +43,8 @@ public class RestoreIpAddressTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String s, List<String> excepted) {
+    public void testLoop(String s, List<String> expected) {
         RestoreIpAddress loop = new RestoreIpAddressLoop();
-        assertEquals(excepted, loop.restoreIpAddresses(s));
+        assertEquals(expected, loop.restoreIpAddresses(s));
     }
 }

@@ -34,9 +34,9 @@ public class BinaryNumberWithAlternatingBitsTest {
 
     @ParameterizedTest(name = "Divide {index}")
     @MethodSource("dataProvider")
-    public void testDivide(int input, boolean excepted) {
+    public void testDivide(int input, boolean expected) {
         BinaryNumberWithAlternatingBits divide =
                 new BinaryNumberWithAlternatingBitsDivide();
-        assertEquals(excepted, divide.hasAlternatingBits(input));
+        assertEquals(expected, divide.hasAlternatingBits(input));
     }
 }

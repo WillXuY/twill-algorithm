@@ -28,8 +28,8 @@ public class AddStringsTest {
 
     @ParameterizedTest(name = "Split {index}")
     @MethodSource("dataProvider")
-    public void testSplit(String num1, String num2, String excepted) {
+    public void testSplit(String num1, String num2, String expected) {
         AddStrings split = new AddStringsSplit();
-        assertEquals(excepted, split.addStrings(num1, num2));
+        assertEquals(expected, split.addStrings(num1, num2));
     }
 }

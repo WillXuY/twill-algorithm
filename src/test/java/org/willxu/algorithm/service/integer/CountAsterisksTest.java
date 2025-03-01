@@ -21,8 +21,8 @@ public class CountAsterisksTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String s, int excepted) {
+    public void testLoop(String s, int expected) {
         CountAsterisks loop = new CountAsterisksLoop();
-        assertEquals(excepted, loop.countAsterisks(s));
+        assertEquals(expected, loop.countAsterisks(s));
     }
 }

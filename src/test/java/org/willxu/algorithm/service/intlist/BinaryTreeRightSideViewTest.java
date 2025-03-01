@@ -41,8 +41,8 @@ public class BinaryTreeRightSideViewTest {
 
     @ParameterizedTest(name = "Level {index}")
     @MethodSource("dataProvider")
-    public void testLevel(TreeNode root, List<Integer> excepted) {
+    public void testLevel(TreeNode root, List<Integer> expected) {
         BinaryTreeRightSideView level = new BinaryTreeRightSideViewLevel();
-        assertEquals(excepted, level.rightSideView(root));
+        assertEquals(expected, level.rightSideView(root));
     }
 }

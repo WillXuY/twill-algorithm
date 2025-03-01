@@ -30,8 +30,8 @@ public class RotateStringTest {
 
     @ParameterizedTest
     @MethodSource("dataProvider")
-    public void testLoop(String s, String goal, boolean excepted) {
+    public void testLoop(String s, String goal, boolean expected) {
         RotateString loop = new RotateStringLoop();
-        assertEquals(excepted, loop.rotateString(s, goal));
+        assertEquals(expected, loop.rotateString(s, goal));
     }
 }

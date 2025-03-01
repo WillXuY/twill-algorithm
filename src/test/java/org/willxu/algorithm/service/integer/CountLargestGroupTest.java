@@ -21,8 +21,8 @@ public class CountLargestGroupTest {
 
     @ParameterizedTest(name = "Calculate {index}")
     @MethodSource("dataProvider")
-    public void testCalculate(int n, int excepted) {
+    public void testCalculate(int n, int expected) {
         CountLargestGroup calculate = new CountLargestGroupCalculate();
-        assertEquals(excepted, calculate.countLargestGroup(n));
+        assertEquals(expected, calculate.countLargestGroup(n));
     }
 }

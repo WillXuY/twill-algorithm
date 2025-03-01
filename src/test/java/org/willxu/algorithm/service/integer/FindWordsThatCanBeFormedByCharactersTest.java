@@ -59,10 +59,10 @@ public class FindWordsThatCanBeFormedByCharactersTest {
 
     @ParameterizedTest(name = "Map {index}")
     @MethodSource("dataProvider")
-    public void testMap(String[] words, String chars, int excepted) {
+    public void testMap(String[] words, String chars, int expected) {
         FindWordsThatCanBeFormedByCharacters map =
                 new FindWordsThatCanBeFormedByCharactersMap();
-        assertEquals(excepted, map.countCharacters(words, chars));
+        assertEquals(expected, map.countCharacters(words, chars));
     }
 
     /**

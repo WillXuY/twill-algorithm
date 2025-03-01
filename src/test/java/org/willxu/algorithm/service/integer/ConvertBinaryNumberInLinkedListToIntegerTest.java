@@ -24,9 +24,9 @@ public class ConvertBinaryNumberInLinkedListToIntegerTest {
 
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(ListNode head, int excepted) {
+    public void testRecursive(ListNode head, int expected) {
         ConvertBinaryNumberInLinkedListToInteger recursive
                 = new ConvertBinaryNumberInLinkedListToIntegerRecursive();
-        assertEquals(excepted, recursive.getDecimalValue(head));
+        assertEquals(expected, recursive.getDecimalValue(head));
     }
 }

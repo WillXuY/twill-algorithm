@@ -19,8 +19,8 @@ public class ReverseVowelsOfaStringTest {
 
     @ParameterizedTest(name = "Pointer {index}")
     @MethodSource("dataProvider")
-    public void testPointer(String input, String excepted) {
+    public void testPointer(String input, String expected) {
         ReverseVowelsOfaString pointer = new ReverseVowelsOfaStringPointer();
-        assertEquals(excepted, pointer.reverseVowels(input));
+        assertEquals(expected, pointer.reverseVowels(input));
     }
 }

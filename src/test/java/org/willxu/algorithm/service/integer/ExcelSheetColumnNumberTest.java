@@ -31,8 +31,8 @@ public class ExcelSheetColumnNumberTest {
 
     @ParameterizedTest(name = "Add {index}")
     @MethodSource("dataProvider")
-    public void testAdd(String input, int excepted) {
+    public void testAdd(String input, int expected) {
         ExcelSheetColumnNumber add = new ExcelSheetColumnNumberAdd();
-        assertEquals(excepted, add.titleToNumber(input));
+        assertEquals(expected, add.titleToNumber(input));
     }
 }

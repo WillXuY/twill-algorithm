@@ -23,8 +23,8 @@ public class ValidMountainArrayTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] arr, boolean excepted) {
+    public void testLoop(int[] arr, boolean expected) {
         ValidMountainArray loop = new ValidMountainArrayLoop();
-        assertEquals(excepted, loop.validMountainArray(arr));
+        assertEquals(expected, loop.validMountainArray(arr));
     }
 }

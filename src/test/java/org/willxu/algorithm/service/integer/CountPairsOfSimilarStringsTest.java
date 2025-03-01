@@ -21,9 +21,9 @@ public class CountPairsOfSimilarStringsTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(String[] words, int excepted) {
+    public void testCount(String[] words, int expected) {
         CountPairsOfSimilarStrings count =
                 new CountPairsOfSimilarStringsCount();
-        assertEquals(excepted, count.similarPairs(words));
+        assertEquals(expected, count.similarPairs(words));
     }
 }

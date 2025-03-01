@@ -27,9 +27,9 @@ public class FindNumbersWithEvenNumberOfDigitsTest {
 
     @ParameterizedTest(name = "Division {index}")
     @MethodSource("dataProvider")
-    public void testDivision(int[] nums, int excepted) {
+    public void testDivision(int[] nums, int expected) {
         FindNumbersWithEvenNumberOfDigits division
                 = new FindNumbersWithEvenNumberOfDigitsDivision();
-        assertEquals(excepted, division.findNumbers(nums));
+        assertEquals(expected, division.findNumbers(nums));
     }
 }

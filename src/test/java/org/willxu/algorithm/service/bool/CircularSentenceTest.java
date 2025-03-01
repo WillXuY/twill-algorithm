@@ -23,8 +23,8 @@ public class CircularSentenceTest {
 
     @ParameterizedTest(name = "Split {index}")
     @MethodSource("dataProvider")
-    public void testSplit(String sentence, boolean excepted) {
+    public void testSplit(String sentence, boolean expected) {
         CircularSentence split = new CircularSentenceSplit();
-        assertEquals(excepted, split.isCircularSentence(sentence));
+        assertEquals(expected, split.isCircularSentence(sentence));
     }
 }

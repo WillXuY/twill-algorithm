@@ -22,8 +22,8 @@ public class SurfaceAreaOf3dShapesTest {
 
     @ParameterizedTest(name = "Subtract {index}")
     @MethodSource("dataProvider")
-    public void testSubtract(int[][] grid, int excepted) {
+    public void testSubtract(int[][] grid, int expected) {
         SurfaceAreaOf3dShapes subtract = new SurfaceAreaOf3dShapesSubtract();
-        assertEquals(excepted, subtract.surfaceArea(grid));
+        assertEquals(expected, subtract.surfaceArea(grid));
     }
 }

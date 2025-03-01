@@ -28,9 +28,9 @@ public class CheckIfItIsStraightLineTest {
 
     @ParameterizedTest(name = "Equation {index}")
     @MethodSource("dataProvider")
-    public void testEquation(int[][] coordinates, boolean excepted) {
+    public void testEquation(int[][] coordinates, boolean expected) {
         CheckIfItIsStraightLine equation =
                 new CheckIfItIsStraightLineEquation();
-        assertEquals(excepted, equation.checkStraightLine(coordinates));
+        assertEquals(expected, equation.checkStraightLine(coordinates));
     }
 }

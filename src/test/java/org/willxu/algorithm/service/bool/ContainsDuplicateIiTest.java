@@ -42,9 +42,9 @@ public class ContainsDuplicateIiTest {
 
     @ParameterizedTest(name = "Map key {index}")
     @MethodSource("dataProvider")
-    public void testMapKey(int[] nums, int k, boolean excepted) {
+    public void testMapKey(int[] nums, int k, boolean expected) {
         ContainsDuplicateIi mapKey = new ContainsDuplicateIiMapKey();
-        assertEquals(excepted, mapKey.containsNearbyDuplicate(nums, k));
+        assertEquals(expected, mapKey.containsNearbyDuplicate(nums, k));
     }
 
     /**
@@ -52,9 +52,9 @@ public class ContainsDuplicateIiTest {
      */
     @ParameterizedTest(name = "List {index}")
     @MethodSource("dataProvider")
-    public void testList(int[] nums, int k, boolean excepted) {
+    public void testList(int[] nums, int k, boolean expected) {
         ContainsDuplicateIi list = new ContainsDuplicateIiList();
-        assertEquals(excepted, list.containsNearbyDuplicate(nums, k));
+        assertEquals(expected, list.containsNearbyDuplicate(nums, k));
     }
 
     /**
@@ -62,8 +62,8 @@ public class ContainsDuplicateIiTest {
      */
     @ParameterizedTest(name = "Map value {index}")
     @MethodSource("dataProvider")
-    public void testMapValue(int[] nums, int k, boolean excepted) {
+    public void testMapValue(int[] nums, int k, boolean expected) {
         ContainsDuplicateIi mapValue = new ContainsDuplicateIiMapValue();
-        assertEquals(excepted, mapValue.containsNearbyDuplicate(nums, k));
+        assertEquals(expected, mapValue.containsNearbyDuplicate(nums, k));
     }
 }

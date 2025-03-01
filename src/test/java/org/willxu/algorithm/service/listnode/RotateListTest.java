@@ -92,13 +92,13 @@ public class RotateListTest {
 
     @ParameterizedTest(name = "Pointer {index}")
     @MethodSource("dataProvider")
-    public void testPointer(ListNode head, int k, ListNode excepted) {
+    public void testPointer(ListNode head, int k, ListNode expected) {
         RotateList pointer = new RotateListPointer();
         ListNode output = pointer.rotateRight(head, k);
-        if (excepted == null) {
+        if (expected == null) {
             assertNull(output);
         } else {
-            assertArrayEquals(excepted.toIntArray(), output.toIntArray());
+            assertArrayEquals(expected.toIntArray(), output.toIntArray());
         }
     }
 }

@@ -21,8 +21,8 @@ public class CountSpecialQuadrupletsTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] nums, int excepted) {
+    public void testLoop(int[] nums, int expected) {
         CountSpecialQuadruplets loop = new CountSpecialQuadrupletsLoop();
-        assertEquals(excepted, loop.countQuadruplets(nums));
+        assertEquals(expected, loop.countQuadruplets(nums));
     }
 }

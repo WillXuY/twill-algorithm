@@ -32,9 +32,9 @@ public class FindSmallestLetterGreaterThanTargetTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(char[] letters, char target, char excepted) {
+    public void testLoop(char[] letters, char target, char expected) {
         FindSmallestLetterGreaterThanTarget loop =
                 new FindSmallestLetterGreaterThanTargetStep();
-        assertEquals(excepted, loop.nextGreatestLetter(letters, target));
+        assertEquals(expected, loop.nextGreatestLetter(letters, target));
     }
 }

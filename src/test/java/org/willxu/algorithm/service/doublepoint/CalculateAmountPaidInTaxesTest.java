@@ -21,8 +21,8 @@ public class CalculateAmountPaidInTaxesTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[][] brackets, int income, double excepted) {
+    public void testLoop(int[][] brackets, int income, double expected) {
         CalculateAmountPaidInTaxes loop = new CalculateAmountPaidInTaxesLoop();
-        assertEquals(excepted, loop.calculateTax(brackets, income));
+        assertEquals(expected, loop.calculateTax(brackets, income));
     }
 }

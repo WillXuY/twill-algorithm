@@ -65,8 +65,8 @@ public class ReverseLinkedListIiTest {
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
     public void testLoop(ListNode head, int left, int right,
-                         ListNode excepted) {
+                         ListNode expected) {
         ReverseLinkedListIi loop = new ReverseLinkedListIiLoop();
-        assertEquals(excepted, loop.reverseBetween(head, left, right));
+        assertEquals(expected, loop.reverseBetween(head, left, right));
     }
 }

@@ -36,8 +36,8 @@ public class CountCompleteTreeNodesTest {
 
     @ParameterizedTest(name = "List {index}")
     @MethodSource("dataProvider")
-    public void testList(TreeNode root, int excepted) {
+    public void testList(TreeNode root, int expected) {
         CountCompleteTreeNodes list = new CountCompleteTreeNodesList();
-        assertEquals(excepted, list.countNodes(root));
+        assertEquals(expected, list.countNodes(root));
     }
 }

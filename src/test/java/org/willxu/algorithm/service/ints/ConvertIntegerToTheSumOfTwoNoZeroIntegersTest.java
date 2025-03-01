@@ -22,9 +22,9 @@ public class ConvertIntegerToTheSumOfTwoNoZeroIntegersTest {
 
     @ParameterizedTest(name = "Divide2 {index}")
     @MethodSource("dataProvider")
-    public void testDivide2(int n, int[] excepted) {
+    public void testDivide2(int n, int[] expected) {
         ConvertIntegerToTheSumOfTwoNoZeroIntegers divide2
                 = new ConvertIntegerToTheSumOfTwoNoZeroIntegersDivide2();
-        assertArrayEquals(excepted, divide2.getNoZeroIntegers(n));
+        assertArrayEquals(expected, divide2.getNoZeroIntegers(n));
     }
 }

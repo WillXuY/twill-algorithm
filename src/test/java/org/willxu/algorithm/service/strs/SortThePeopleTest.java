@@ -28,8 +28,8 @@ public class SortThePeopleTest {
 
     @ParameterizedTest(name = "Tree {index}")
     @MethodSource("dataProvider")
-    public void testTree(String[] names, int[] heights, String[] excepted) {
+    public void testTree(String[] names, int[] heights, String[] expected) {
         SortThePeople tree = new SortThePeopleTree();
-        assertArrayEquals(excepted, tree.sortPeople(names, heights));
+        assertArrayEquals(expected, tree.sortPeople(names, heights));
     }
 }

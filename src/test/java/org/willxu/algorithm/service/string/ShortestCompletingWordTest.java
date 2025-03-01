@@ -63,9 +63,9 @@ public class ShortestCompletingWordTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String plate, String[] words, String excepted) {
+    public void testLoop(String plate, String[] words, String expected) {
         ShortestCompletingWord loop = new ShortestCompletingWordLoop();
-        assertEquals(excepted, loop.shortestCompletingWord(plate, words));
+        assertEquals(expected, loop.shortestCompletingWord(plate, words));
     }
 
     @Test

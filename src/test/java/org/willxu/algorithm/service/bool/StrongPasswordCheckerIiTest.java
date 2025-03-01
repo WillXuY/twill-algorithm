@@ -21,8 +21,8 @@ public class StrongPasswordCheckerIiTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String password, boolean excepted) {
+    public void testLoop(String password, boolean expected) {
         StrongPasswordCheckerIi loop = new StrongPasswordCheckerIiLoop();
-        assertEquals(excepted, loop.strongPasswordCheckerII(password));
+        assertEquals(expected, loop.strongPasswordCheckerII(password));
     }
 }

@@ -29,11 +29,11 @@ public class RemoveDuplicatesFromSortedArrayIiTest {
 
      @ParameterizedTest(name = "Index {index}")
      @MethodSource("dataProvider")
-     public void testIndex(int[] nums, int length, int[] excepted) {
+     public void testIndex(int[] nums, int length, int[] expected) {
          RemoveDuplicatesFromSortedArrayIi index =
                  new RemoveDuplicatesFromSortedArrayIiIndex();
          int output = index.removeDuplicates(nums);
-         assertArrayEquals(Arrays.copyOfRange(excepted, 0, length),
+         assertArrayEquals(Arrays.copyOfRange(expected, 0, length),
                  Arrays.copyOfRange(nums, 0, output));
      }
 }

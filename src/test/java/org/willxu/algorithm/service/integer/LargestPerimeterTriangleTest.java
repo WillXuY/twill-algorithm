@@ -22,8 +22,8 @@ public class LargestPerimeterTriangleTest {
 
     @ParameterizedTest(name = "Map {index}")
     @MethodSource("dataProvider")
-    public void testMap(int[] nums, int excepted) {
+    public void testMap(int[] nums, int expected) {
         LargestPerimeterTriangle map = new LargestPerimeterTriangleMap();
-        assertEquals(excepted, map.largestPerimeter(nums));
+        assertEquals(expected, map.largestPerimeter(nums));
     }
 }

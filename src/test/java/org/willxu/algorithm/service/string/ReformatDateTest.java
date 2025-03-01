@@ -21,8 +21,8 @@ public class ReformatDateTest {
 
     @ParameterizedTest(name = "Map {index}")
     @MethodSource("dataProvider")
-    public void testMap(String date, String excepted) {
+    public void testMap(String date, String expected) {
         ReformatDate map = new ReformatDateMap();
-        assertEquals(excepted, map.reformatDate(date));
+        assertEquals(expected, map.reformatDate(date));
     }
 }

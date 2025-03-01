@@ -31,9 +31,9 @@ public class MeanOfArrayAfterRemovingSomeElementsTest {
 
     @ParameterizedTest(name = "Sort {index}")
     @MethodSource("dataProvider")
-    public void testSort(int[] arr, double excepted) {
+    public void testSort(int[] arr, double expected) {
         MeanOfArrayAfterRemovingSomeElements sort =
                 new MeanOfArrayAfterRemovingSomeElementsSort();
-        assertEquals(excepted, sort.trimMean(arr));
+        assertEquals(expected, sort.trimMean(arr));
     }
 }

@@ -20,9 +20,9 @@ public class DetermineIfStringHalvesAreAlikeTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(String s, boolean excepted) {
+    public void testCount(String s, boolean expected) {
         DetermineIfStringHalvesAreAlike count =
                 new DetermineIfStringHalvesAreAlikeCount();
-        assertEquals(excepted, count.halvesAreAlike(s));
+        assertEquals(expected, count.halvesAreAlike(s));
     }
 }

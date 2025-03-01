@@ -30,9 +30,9 @@ public class CheckArrayFormationThroughConcatenationTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] arr, int[][] pieces, boolean excepted) {
+    public void testLoop(int[] arr, int[][] pieces, boolean expected) {
         CheckArrayFormationThroughConcatenation loop =
                 new CheckArrayFormationThroughConcatenationLoop();
-        assertEquals(excepted, loop.canFormArray(arr, pieces));
+        assertEquals(expected, loop.canFormArray(arr, pieces));
     }
 }

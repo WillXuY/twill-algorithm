@@ -38,8 +38,8 @@ public class IsomorphicStringsTest {
 
     @ParameterizedTest(name = "Remove {index}")
     @MethodSource("dataProvider")
-    public void testRemove(String s, String t, boolean excepted) {
+    public void testRemove(String s, String t, boolean expected) {
         IsomorphicStrings remove = new IsomorphicStringsRemove();
-        assertEquals(excepted, remove.isIsomorphic(s, t));
+        assertEquals(expected, remove.isIsomorphic(s, t));
     }
 }

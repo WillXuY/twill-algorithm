@@ -38,8 +38,8 @@ public class PrintWordsVerticallyTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String s, List<String> excepted) {
+    public void testLoop(String s, List<String> expected) {
         PrintWordsVertically loop = new PrintWordsVerticallyLoop();
-        assertEquals(excepted, loop.printVertically(s));
+        assertEquals(expected, loop.printVertically(s));
     }
 }

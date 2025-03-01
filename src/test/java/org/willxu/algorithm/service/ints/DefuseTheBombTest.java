@@ -25,8 +25,8 @@ public class DefuseTheBombTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] code, int k, int[] excepted) {
+    public void testLoop(int[] code, int k, int[] expected) {
         DefuseTheBomb loop = new DefuseTheBombLoop();
-        assertArrayEquals(excepted, loop.decrypt(code, k));
+        assertArrayEquals(expected, loop.decrypt(code, k));
     }
 }

@@ -24,8 +24,8 @@ public class CrawlerLogFolderTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String[] logs, int excepted) {
+    public void testLoop(String[] logs, int expected) {
         CrawlerLogFolder loop = new CrawlerLogFolderLoop();
-        assertEquals(excepted, loop.minOperations(logs));
+        assertEquals(expected, loop.minOperations(logs));
     }
 }

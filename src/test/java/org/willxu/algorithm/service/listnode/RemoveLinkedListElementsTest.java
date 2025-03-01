@@ -48,9 +48,9 @@ public class RemoveLinkedListElementsTest {
 
     @ParameterizedTest(name = "Pointer {index}")
     @MethodSource("dataProvider")
-    public void testPointer(ListNode head, int val, ListNode excepted) throws JsonProcessingException {
+    public void testPointer(ListNode head, int val, ListNode expected) throws JsonProcessingException {
         RemoveLinkedListElements pointer =
                 new RemoveLinkedListElementsPointer();
-        assertEquals(excepted, pointer.removeElements(head, val));
+        assertEquals(expected, pointer.removeElements(head, val));
     }
 }

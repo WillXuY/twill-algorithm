@@ -20,8 +20,8 @@ public class FindTheBeautyOfNumberTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int num, int k, int excepted) {
+    public void testLoop(int num, int k, int expected) {
         FindTheBeautyOfNumber loop = new FindTheBeautyOfNumberLoop();
-        assertEquals(excepted, loop.divisorSubstrings(num, k));
+        assertEquals(expected, loop.divisorSubstrings(num, k));
     }
 }

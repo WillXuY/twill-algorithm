@@ -21,8 +21,8 @@ public class MergeStringsAlternatelyTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String word1, String word2, String excepted) {
+    public void testLoop(String word1, String word2, String expected) {
         MergeStringsAlternately loop = new MergeStringsAlternatelyLoop();
-        assertEquals(excepted, loop.mergeAlternately(word1, word2));
+        assertEquals(expected, loop.mergeAlternately(word1, word2));
     }
 }

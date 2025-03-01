@@ -21,9 +21,9 @@ public class FinalValueOfVariableAfterPerformingOperationsTest {
 
     @ParameterizedTest(name = "Map {index}")
     @MethodSource("dataProvider")
-    public void testMap(String[] operations, int excepted) {
+    public void testMap(String[] operations, int expected) {
         FinalValueOfVariableAfterPerformingOperations map =
                 new FinalValueOfVariableAfterPerformingOperationsMap();
-        assertEquals(excepted, map.finalValueAfterOperations(operations));
+        assertEquals(expected, map.finalValueAfterOperations(operations));
     }
 }

@@ -29,8 +29,8 @@ public class MajorityElementTest {
 
     @ParameterizedTest(name = "Map {index}")
     @MethodSource("dataProvider")
-    public void testMap(int[] input, int excepted) {
+    public void testMap(int[] input, int expected) {
         MajorityElement map = new MajorityElementMap();
-        assertEquals(excepted, map.majorityElement(input));
+        assertEquals(expected, map.majorityElement(input));
     }
 }

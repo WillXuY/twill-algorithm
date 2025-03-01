@@ -21,9 +21,9 @@ public class ChampagneTowerTest {
     @ParameterizedTest(name = "Array {index}")
     @MethodSource("dataProvider")
     public void testArray(int poured, int query_row, int query_glass,
-                          double excepted) {
+                          double expected) {
         ChampagneTower array = new ChampagneTowerArray();
-        assertEquals(excepted, array.champagneTower(
+        assertEquals(expected, array.champagneTower(
                 poured, query_row, query_glass));
     }
 }

@@ -54,12 +54,12 @@ public class SummaryRangesTest {
 
     @ParameterizedTest(name = "Cycle {index}")
     @MethodSource("dataProvider")
-    public void testCycle(int[] input, List<String> excepted)
+    public void testCycle(int[] input, List<String> expected)
             throws JsonProcessingException {
         SummaryRanges cycle = new SummaryRangesCycle();
         ObjectMapper objectMapper = new ObjectMapper();
-        String exceptedString = objectMapper.writeValueAsString(excepted);
-        assertEquals(exceptedString,
+        String expectedString = objectMapper.writeValueAsString(expected);
+        assertEquals(expectedString,
                 objectMapper.writeValueAsString(cycle.summaryRanges(input)));
     }
 }

@@ -20,8 +20,8 @@ public class CellsWithOddValuesInMatrixTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int m, int n, int[][] indices, int excepted) {
+    public void testLoop(int m, int n, int[][] indices, int expected) {
         CellsWithOddValuesInMatrix loop = new CellsWithOddValuesInMatrixLoop();
-        assertEquals(excepted, loop.oddCells(m, n, indices));
+        assertEquals(expected, loop.oddCells(m, n, indices));
     }
 }

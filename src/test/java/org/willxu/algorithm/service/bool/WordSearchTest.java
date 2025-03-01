@@ -59,16 +59,16 @@ public class WordSearchTest {
 
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(char[][] board, String word, boolean excepted) {
+    public void testRecursive(char[][] board, String word, boolean expected) {
         WordSearch recursive = new WordSearchRecursive();
-        assertEquals(excepted, recursive.exist(board, word));
+        assertEquals(expected, recursive.exist(board, word));
     }
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(char[][] board, String word, boolean excepted) {
+    public void testLoop(char[][] board, String word, boolean expected) {
         WordSearch loop = new WordSearchLoop();
-        assertEquals(excepted, loop.exist(board, word));
+        assertEquals(expected, loop.exist(board, word));
     }
 
     @Test

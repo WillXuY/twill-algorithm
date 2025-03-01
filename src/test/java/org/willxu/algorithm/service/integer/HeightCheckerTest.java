@@ -31,8 +31,8 @@ public class HeightCheckerTest {
 
     @ParameterizedTest(name = "Sort {index}")
     @MethodSource("dataProvider")
-    public void testSort(int[] heights, int excepted) {
+    public void testSort(int[] heights, int expected) {
         HeightChecker sort = new HeightCheckerSort();
-        assertEquals(excepted, sort.heightChecker(heights));
+        assertEquals(expected, sort.heightChecker(heights));
     }
 }

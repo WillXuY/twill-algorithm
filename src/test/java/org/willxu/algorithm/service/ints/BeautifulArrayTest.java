@@ -19,8 +19,8 @@ public class BeautifulArrayTest {
 
     @ParameterizedTest(name = "Merge {index}")
     @MethodSource("dataProvider")
-    public void testMerge(int n, int[] excepted) {
+    public void testMerge(int n, int[] expected) {
         BeautifulArray merge = new BeautifulArrayMerge();
-        assertArrayEquals(excepted, merge.beautifulArray(n));
+        assertArrayEquals(expected, merge.beautifulArray(n));
     }
 }

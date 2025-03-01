@@ -23,8 +23,8 @@ public class ConcatenationOfArrayTest {
 
     @ParameterizedTest(name = "Copy {index}")
     @MethodSource("dataProvider")
-    public void testCopy(int[] nums, int[] excepted) {
+    public void testCopy(int[] nums, int[] expected) {
         ConcatenationOfArray copy = new ConcatenationOfArrayCopy();
-        assertArrayEquals(excepted, copy.getConcatenation(nums));
+        assertArrayEquals(expected, copy.getConcatenation(nums));
     }
 }

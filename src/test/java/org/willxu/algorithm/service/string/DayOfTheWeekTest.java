@@ -23,9 +23,9 @@ public class DayOfTheWeekTest {
 
     @ParameterizedTest(name = "Calendar {index}")
     @MethodSource("dataProvider")
-    public void testCalendar(int day, int month, int year, String excepted) {
+    public void testCalendar(int day, int month, int year, String expected) {
         DayOfTheWeek calendar = new DayOfTheWeekCalendar();
-        assertEquals(excepted, calendar.dayOfTheWeek(day, month, year));
+        assertEquals(expected, calendar.dayOfTheWeek(day, month, year));
     }
 
     @Test

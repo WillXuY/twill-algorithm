@@ -21,8 +21,8 @@ public class NumberOfGoodPairsTest {
 
     @ParameterizedTest(name = "Map {index}")
     @MethodSource("dataProvider")
-    public void testMap(int[] nums, int excepted) {
+    public void testMap(int[] nums, int expected) {
         NumberOfGoodPairs map = new NumberOfGoodPairsMap();
-        assertEquals(excepted, map.numIdenticalPairs(nums));
+        assertEquals(expected, map.numIdenticalPairs(nums));
     }
 }

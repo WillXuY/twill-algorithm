@@ -30,8 +30,8 @@ public class Finding3DigitEvenNumbersTest {
 
     @ParameterizedTest(name = "Pick {index}")
     @MethodSource("dataProvider")
-    public void testPick(int[] digits, int[] excepted) {
+    public void testPick(int[] digits, int[] expected) {
         Finding3DigitEvenNumbers pick = new Finding3DigitEvenNumbersPick();
-        assertArrayEquals(excepted, pick.findEvenNumbers(digits));
+        assertArrayEquals(expected, pick.findEvenNumbers(digits));
     }
 }

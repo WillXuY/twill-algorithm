@@ -29,8 +29,8 @@ public class JewelsAndStonesTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String jewels, String stones, int excepted) {
+    public void testLoop(String jewels, String stones, int expected) {
         JewelsAndStones loop = new JewelsAndStonesLoop();
-        assertEquals(excepted, loop.numJewelsInStones(jewels, stones));
+        assertEquals(expected, loop.numJewelsInStones(jewels, stones));
     }
 }

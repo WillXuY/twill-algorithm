@@ -42,8 +42,8 @@ public class UniqueEmailAddressesTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String[] emails, int excepted) {
+    public void testLoop(String[] emails, int expected) {
         UniqueEmailAddresses loop = new UniqueEmailAddressesLoop();
-        assertEquals(excepted, loop.numUniqueEmails(emails));
+        assertEquals(expected, loop.numUniqueEmails(emails));
     }
 }

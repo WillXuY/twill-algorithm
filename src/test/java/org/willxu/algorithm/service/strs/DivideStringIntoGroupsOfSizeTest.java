@@ -26,9 +26,9 @@ public class DivideStringIntoGroupsOfSizeTest {
 
     @ParameterizedTest(name = "Builder {index}")
     @MethodSource("dataProvider")
-    public void testBuilder(String s, int k, char fill, String[] excepted) {
+    public void testBuilder(String s, int k, char fill, String[] expected) {
         DivideStringIntoGroupsOfSize builder =
                 new DivideStringIntoGroupsOfSizeBuilder();
-        assertArrayEquals(excepted, builder.divideString(s, k, fill));
+        assertArrayEquals(expected, builder.divideString(s, k, fill));
     }
 }

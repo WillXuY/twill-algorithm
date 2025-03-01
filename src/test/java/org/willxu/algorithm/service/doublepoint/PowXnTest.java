@@ -23,8 +23,8 @@ public class PowXnTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(double x, int n, double excepted) {
+    public void testLoop(double x, int n, double expected) {
         PowXn loop = new PowXnLoop();
-        assertEquals(excepted, loop.myPow(x, n));
+        assertEquals(expected, loop.myPow(x, n));
     }
 }

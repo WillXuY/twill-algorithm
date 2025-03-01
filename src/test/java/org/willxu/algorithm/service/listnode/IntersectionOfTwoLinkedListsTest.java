@@ -81,7 +81,7 @@ public class IntersectionOfTwoLinkedListsTest {
                 new IntersectionOfTwoLinkedListsSaveNodes();
         String output = OBJECT_MAPPER.writeValueAsString(
                 saveNodes.getIntersectionNode(params.get(0), params.get(1)));
-        ListNode excepted = params.size() > 2 ? params.get(2) : null;
-        assertEquals(OBJECT_MAPPER.writeValueAsString(excepted), output);
+        ListNode expected = params.size() > 2 ? params.get(2) : null;
+        assertEquals(OBJECT_MAPPER.writeValueAsString(expected), output);
     }
 }

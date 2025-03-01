@@ -29,8 +29,8 @@ public class ShortEncodingOfWordsTest {
 
     @ParameterizedTest(name = "Regex {index}")
     @MethodSource("dataProvider")
-    public void testRegex(String[] words, int excepted) {
+    public void testRegex(String[] words, int expected) {
         ShortEncodingOfWords regex = new ShortEncodingOfWordsRegex();
-        assertEquals(excepted, regex.minimumLengthEncoding(words));
+        assertEquals(expected, regex.minimumLengthEncoding(words));
     }
 }

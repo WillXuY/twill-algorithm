@@ -20,9 +20,9 @@ public class MaximumValueOfStringInAnArrayTest {
 
     @ParameterizedTest(name = "Parse {index}")
     @MethodSource("dataProvider")
-    public void testParse(String[] strs, int excepted) {
+    public void testParse(String[] strs, int expected) {
         MaximumValueOfStringInAnArray parse =
                 new MaximumValueOfStringInAnArrayParse();
-        assertEquals(excepted, parse.maximumValue(strs));
+        assertEquals(expected, parse.maximumValue(strs));
     }
 }

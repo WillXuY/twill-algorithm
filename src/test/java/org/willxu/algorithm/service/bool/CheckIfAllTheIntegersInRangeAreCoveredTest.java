@@ -20,9 +20,9 @@ public class CheckIfAllTheIntegersInRangeAreCoveredTest {
 
     @ParameterizedTest(name = "Set {index}")
     @MethodSource("dataProvider")
-    public void testSet(int[][] ranges, int left, int right, boolean excepted) {
+    public void testSet(int[][] ranges, int left, int right, boolean expected) {
         CheckIfAllTheIntegersInRangeAreCovered set =
                 new CheckIfAllTheIntegersInRangeAreCoveredSet();
-        assertEquals(excepted, set.isCovered(ranges, left, right));
+        assertEquals(expected, set.isCovered(ranges, left, right));
     }
 }

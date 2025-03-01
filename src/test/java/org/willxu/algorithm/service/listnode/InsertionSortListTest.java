@@ -42,8 +42,8 @@ public class InsertionSortListTest {
 
     @ParameterizedTest(name = "Map {index}")
     @MethodSource("dataProvider")
-    public void testMap(ListNode head, ListNode excepted) {
+    public void testMap(ListNode head, ListNode expected) {
         InsertionSortList map = new InsertionSortListMap();
-        assertEquals(excepted, map.insertionSortList(head));
+        assertEquals(expected, map.insertionSortList(head));
     }
 }

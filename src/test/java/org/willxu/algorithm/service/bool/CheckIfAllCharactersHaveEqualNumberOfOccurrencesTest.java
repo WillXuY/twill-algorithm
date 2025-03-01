@@ -20,9 +20,9 @@ public class CheckIfAllCharactersHaveEqualNumberOfOccurrencesTest {
 
     @ParameterizedTest(name = "Map {index}")
     @MethodSource("dataProvider")
-    public void testMap(String s, boolean excepted) {
+    public void testMap(String s, boolean expected) {
         CheckIfAllCharactersHaveEqualNumberOfOccurrences map =
                 new CheckIfAllCharactersHaveEqualNumberOfOccurrencesMap();
-        assertEquals(excepted, map.areOccurrencesEqual(s));
+        assertEquals(expected, map.areOccurrencesEqual(s));
     }
 }

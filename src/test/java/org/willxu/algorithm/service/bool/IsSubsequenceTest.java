@@ -21,8 +21,8 @@ public class IsSubsequenceTest {
 
     @ParameterizedTest(name = "Iterator {index}")
     @MethodSource("dataProvider")
-    public void testIterator(String s, String t, boolean excepted) {
+    public void testIterator(String s, String t, boolean expected) {
         IsSubsequence iterator = new IsSubsequenceIterator();
-        assertEquals(excepted, iterator.isSubsequence(s, t));
+        assertEquals(expected, iterator.isSubsequence(s, t));
     }
 }

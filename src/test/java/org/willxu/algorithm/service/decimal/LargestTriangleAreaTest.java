@@ -35,8 +35,8 @@ public class LargestTriangleAreaTest {
 
     @ParameterizedTest
     @MethodSource("dataProvider")
-    public void testCombination(int[][] points, double excepted) {
+    public void testCombination(int[][] points, double expected) {
         LargestTriangleArea combination = new LargestTriangleAreaCombination();
-        assertEquals(excepted, combination.largestTriangleArea(points));
+        assertEquals(expected, combination.largestTriangleArea(points));
     }
 }

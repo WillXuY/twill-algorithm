@@ -21,9 +21,9 @@ public class MakeTwoArraysEqualByReversingSubArraysTest {
 
     @ParameterizedTest(name = "Map {index}")
     @MethodSource("dataProvider")
-    public void testMap(int[] target, int[] arr, boolean excepted) {
+    public void testMap(int[] target, int[] arr, boolean expected) {
         MakeTwoArraysEqualByReversingSubArrays map =
                 new MakeTwoArraysEqualByReversingSubArraysMap();
-        assertEquals(excepted, map.canBeEqual(target, arr));
+        assertEquals(expected, map.canBeEqual(target, arr));
     }
 }

@@ -34,8 +34,8 @@ public class TriangleTest {
 
     @ParameterizedTest(name = "List {index}")
     @MethodSource("dataProvider")
-    public void testList(List<List<Integer>> triangle, int excepted) {
+    public void testList(List<List<Integer>> triangle, int expected) {
         Triangle list = new TriangleList();
-        assertEquals(excepted, list.minimumTotal(triangle));
+        assertEquals(expected, list.minimumTotal(triangle));
     }
 }

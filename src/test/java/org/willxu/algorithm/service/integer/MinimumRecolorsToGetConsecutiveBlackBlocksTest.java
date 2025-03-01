@@ -24,9 +24,9 @@ public class MinimumRecolorsToGetConsecutiveBlackBlocksTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String blocks, int k, int excepted) {
+    public void testLoop(String blocks, int k, int expected) {
         MinimumRecolorsToGetConsecutiveBlackBlocks loop =
                 new MinimumRecolorsToGetConsecutiveBlackBlocksLoop();
-        assertEquals(excepted, loop.minimumRecolors(blocks, k));
+        assertEquals(expected, loop.minimumRecolors(blocks, k));
     }
 }

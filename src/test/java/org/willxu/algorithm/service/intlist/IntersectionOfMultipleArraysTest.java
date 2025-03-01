@@ -36,9 +36,9 @@ public class IntersectionOfMultipleArraysTest {
 
     @ParameterizedTest(name = "Map {index}")
     @MethodSource("dataProvider")
-    public void testMap(int[][] nums, List<Integer> excepted) {
+    public void testMap(int[][] nums, List<Integer> expected) {
         IntersectionOfMultipleArrays map =
                 new IntersectionOfMultipleArraysMap();
-        assertTrue(excepted.equals(map.intersection(nums)));
+        assertTrue(expected.equals(map.intersection(nums)));
     }
 }

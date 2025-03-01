@@ -27,8 +27,8 @@ public class CoinChangeIiTest {
 
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(int amount, int[] coins, int excepted) {
+    public void testRecursive(int amount, int[] coins, int expected) {
         CoinChangeIi recursive = new CoinChangeIiRecursive();
-        assertEquals(excepted, recursive.change(amount, coins));
+        assertEquals(expected, recursive.change(amount, coins));
     }
 }

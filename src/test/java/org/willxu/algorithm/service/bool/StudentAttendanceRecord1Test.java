@@ -20,8 +20,8 @@ public class StudentAttendanceRecord1Test {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String input, boolean excepted) {
+    public void testLoop(String input, boolean expected) {
         StudentAttendanceRecord1 loop = new StudentAttendanceRecord1Loop();
-        assertEquals(excepted, loop.checkRecord(input));
+        assertEquals(expected, loop.checkRecord(input));
     }
 }

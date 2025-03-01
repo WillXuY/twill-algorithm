@@ -43,8 +43,8 @@ public class BinaryTreePruningTest {
 
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(TreeNode root, TreeNode excepted) {
+    public void testRecursive(TreeNode root, TreeNode expected) {
         BinaryTreePruning recursive = new BinaryTreePruningRecursive();
-        assertEquals(excepted, recursive.pruneTree(root));
+        assertEquals(expected, recursive.pruneTree(root));
     }
 }

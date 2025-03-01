@@ -21,8 +21,8 @@ public class MonotonicArrayTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] nums, boolean excepted) {
+    public void testLoop(int[] nums, boolean expected) {
         MonotonicArray loop = new MonotonicArrayLoop();
-        assertEquals(excepted, loop.isMonotonic(nums));
+        assertEquals(expected, loop.isMonotonic(nums));
     }
 }

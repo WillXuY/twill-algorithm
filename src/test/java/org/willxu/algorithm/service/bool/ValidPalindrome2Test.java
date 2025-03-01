@@ -35,8 +35,8 @@ public class ValidPalindrome2Test {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String input, boolean excepted) {
+    public void testLoop(String input, boolean expected) {
         ValidPalindrome2 loop = new ValidPalindrome2Loop();
-        assertEquals(excepted, loop.validPalindrome(input));
+        assertEquals(expected, loop.validPalindrome(input));
     }
 }

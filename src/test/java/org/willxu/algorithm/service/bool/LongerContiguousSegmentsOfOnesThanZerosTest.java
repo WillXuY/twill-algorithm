@@ -21,9 +21,9 @@ public class LongerContiguousSegmentsOfOnesThanZerosTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(String s, boolean excepted) {
+    public void testCount(String s, boolean expected) {
         LongerContiguousSegmentsOfOnesThanZeros count =
                 new LongerContiguousSegmentsOfOnesThanZerosCount();
-        assertEquals(excepted, count.checkZeroOnes(s));
+        assertEquals(expected, count.checkZeroOnes(s));
     }
 }

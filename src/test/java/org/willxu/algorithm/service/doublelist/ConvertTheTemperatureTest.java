@@ -20,8 +20,8 @@ public class ConvertTheTemperatureTest {
 
     @ParameterizedTest(name = "Calculate {index}")
     @MethodSource("dataProvider")
-    public void testCalculate(double celsius, double[] excepted) {
+    public void testCalculate(double celsius, double[] expected) {
         ConvertTheTemperature calculate = new ConvertTheTemperatureCalculate();
-        assertArrayEquals(excepted, calculate.convertTemperature(celsius));
+        assertArrayEquals(expected, calculate.convertTemperature(celsius));
     }
 }

@@ -21,9 +21,9 @@ public class MinimumChangesToMakeAlternatingBinaryStringTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(String s, int excepted) {
+    public void testCount(String s, int expected) {
         MinimumChangesToMakeAlternatingBinaryString count =
                 new MinimumChangesToMakeAlternatingBinaryStringCount();
-        assertEquals(excepted, count.minOperations(s));
+        assertEquals(expected, count.minOperations(s));
     }
 }

@@ -20,9 +20,9 @@ public class DecryptStringFromAlphabetToIntegerMappingTest {
 
     @ParameterizedTest(name = "Reverse {index}")
     @MethodSource("dataProvider")
-    public void testReverse(String s, String excepted) {
+    public void testReverse(String s, String expected) {
         DecryptStringFromAlphabetToIntegerMapping reverse
                 = new DecryptStringFromAlphabetToIntegerMappingReverse();
-        assertEquals(excepted, reverse.freqAlphabets(s));
+        assertEquals(expected, reverse.freqAlphabets(s));
     }
 }

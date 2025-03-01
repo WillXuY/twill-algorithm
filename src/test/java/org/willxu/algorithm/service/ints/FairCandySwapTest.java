@@ -33,8 +33,8 @@ public class FairCandySwapTest {
 
     @ParameterizedTest(name = "Order {index}")
     @MethodSource("dataProvider")
-    public void testOrder(int[] alice, int[] bob, int[] excepted) {
+    public void testOrder(int[] alice, int[] bob, int[] expected) {
         FairCandySwap order = new FairCandySwapOrder();
-        assertArrayEquals(excepted, order.fairCandySwap(alice, bob));
+        assertArrayEquals(expected, order.fairCandySwap(alice, bob));
     }
 }

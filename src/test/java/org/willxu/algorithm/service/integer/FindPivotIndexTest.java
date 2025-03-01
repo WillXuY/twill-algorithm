@@ -33,8 +33,8 @@ public class FindPivotIndexTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] input, int excepted) {
+    public void testLoop(int[] input, int expected) {
         FindPivotIndex loop = new FindPivotIndexLoop();
-        assertEquals(excepted, loop.pivotIndex(input));
+        assertEquals(expected, loop.pivotIndex(input));
     }
 }

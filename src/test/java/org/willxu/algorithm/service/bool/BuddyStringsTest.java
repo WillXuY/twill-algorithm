@@ -34,8 +34,8 @@ public class BuddyStringsTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(String s, String goal, boolean excepted) {
+    public void testCount(String s, String goal, boolean expected) {
         BuddyStrings count = new BuddyStringsCount();
-        assertEquals(excepted, count.buddyStrings(s, goal));
+        assertEquals(expected, count.buddyStrings(s, goal));
     }
 }

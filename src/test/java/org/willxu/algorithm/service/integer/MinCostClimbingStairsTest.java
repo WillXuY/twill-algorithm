@@ -31,8 +31,8 @@ public class MinCostClimbingStairsTest {
 
     @ParameterizedTest(name = "Step {index}")
     @MethodSource("dataProvider")
-    public void testStep(int[] cost, int excepted) {
+    public void testStep(int[] cost, int expected) {
         MinCostClimbingStairs step = new MinCostClimbingStairsGreedy();
-        assertEquals(excepted, step.minCostClimbingStairs(cost));
+        assertEquals(expected, step.minCostClimbingStairs(cost));
     }
 }

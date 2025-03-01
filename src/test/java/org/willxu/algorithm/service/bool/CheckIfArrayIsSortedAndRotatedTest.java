@@ -21,9 +21,9 @@ public class CheckIfArrayIsSortedAndRotatedTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] nums, boolean excepted) {
+    public void testLoop(int[] nums, boolean expected) {
         CheckIfArrayIsSortedAndRotated loop =
                 new CheckIfArrayIsSortedAndRotatedLoop();
-        assertEquals(excepted, loop.check(nums));
+        assertEquals(expected, loop.check(nums));
     }
 }

@@ -35,9 +35,9 @@ public class CountTheNumberOfConsistentStringsTest {
 
     @ParameterizedTest(name = "Set {index}")
     @MethodSource("dataProvider")
-    public void testSet(String allowed, String[] words, int excepted) {
+    public void testSet(String allowed, String[] words, int expected) {
         CountTheNumberOfConsistentStrings set =
                 new CountTheNumberOfConsistentStringsSet();
-        assertEquals(excepted, set.countConsistentStrings(allowed, words));
+        assertEquals(expected, set.countConsistentStrings(allowed, words));
     }
 }

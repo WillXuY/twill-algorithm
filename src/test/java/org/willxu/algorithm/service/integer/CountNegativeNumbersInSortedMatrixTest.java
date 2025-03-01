@@ -37,9 +37,9 @@ public class CountNegativeNumbersInSortedMatrixTest {
 
     @ParameterizedTest(name = "Stile {index}")
     @MethodSource("dataProvider")
-    public void testStile(int[][] grid, int excepted) {
+    public void testStile(int[][] grid, int expected) {
         CountNegativeNumbersInSortedMatrix stile
                 = new CountNegativeNumbersInSortedMatrixStile();
-        assertEquals(excepted, stile.countNegatives(grid));
+        assertEquals(expected, stile.countNegatives(grid));
     }
 }

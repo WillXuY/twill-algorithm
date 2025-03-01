@@ -24,9 +24,9 @@ public class ValidPerfectSquareTest {
 
     @ParameterizedTest(name = "Enumerate {index}")
     @MethodSource("dataProvider")
-    public void testEnumerate(int input, boolean excepted) {
+    public void testEnumerate(int input, boolean expected) {
         ValidPerfectSquare enumerate = new ValidPerfectSquareDifference();
-        assertEquals(excepted, enumerate.isPerfectSquare(input));
+        assertEquals(expected, enumerate.isPerfectSquare(input));
     }
 
     @Test

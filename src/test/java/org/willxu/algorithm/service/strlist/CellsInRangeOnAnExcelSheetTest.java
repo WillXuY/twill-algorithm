@@ -32,8 +32,8 @@ public class CellsInRangeOnAnExcelSheetTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String s, List<String> excepted) {
+    public void testLoop(String s, List<String> expected) {
         CellsInRangeOnAnExcelSheet loop = new CellsInRangeOnAnExcelSheetLoop();
-        assertArrayEquals(excepted.toArray(), loop.cellsInRange(s).toArray());
+        assertArrayEquals(expected.toArray(), loop.cellsInRange(s).toArray());
     }
 }

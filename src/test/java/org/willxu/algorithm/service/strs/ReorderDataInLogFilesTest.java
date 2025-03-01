@@ -86,8 +86,8 @@ public class ReorderDataInLogFilesTest {
 
     @ParameterizedTest(name = "Split {index}")
     @MethodSource("dataProvider")
-    public void testSplit(String[] logs, String[] excepted) {
+    public void testSplit(String[] logs, String[] expected) {
         ReorderDataInLogFiles split = new ReorderDataInLogFilesSplit();
-        assertArrayEquals(excepted, split.reorderLogFiles(logs));
+        assertArrayEquals(expected, split.reorderLogFiles(logs));
     }
 }

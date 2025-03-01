@@ -42,10 +42,10 @@ public class IncreasingOrderSearchTreeTest {
 
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(TreeNode root, TreeNode excepted)
+    public void testRecursive(TreeNode root, TreeNode expected)
             throws JsonProcessingException {
         ObjectMapper objectMapper = new ObjectMapper();
-        String except = objectMapper.writeValueAsString(excepted);
+        String except = objectMapper.writeValueAsString(expected);
         IncreasingOrderSearchTree recursive =
                 new IncreasingOrderSearchTreeRecursive();
         assertEquals(except,

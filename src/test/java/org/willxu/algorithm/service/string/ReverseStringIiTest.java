@@ -22,8 +22,8 @@ public class ReverseStringIiTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String input, int k, String excepted) {
+    public void testLoop(String input, int k, String expected) {
         ReverseStringIi loop = new ReverseStringIiLoop();
-        assertEquals(excepted, loop.reverseStr(input, k));
+        assertEquals(expected, loop.reverseStr(input, k));
     }
 }

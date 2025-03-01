@@ -22,9 +22,9 @@ public class RemoveOneElementToMakeTheArrayStrictlyIncreasingTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] nums, boolean excepted) {
+    public void testLoop(int[] nums, boolean expected) {
         RemoveOneElementToMakeTheArrayStrictlyIncreasing loop =
                 new RemoveOneElementToMakeTheArrayStrictlyIncreasingLoop();
-        assertEquals(excepted, loop.canBeIncreasing(nums));
+        assertEquals(expected, loop.canBeIncreasing(nums));
     }
 }

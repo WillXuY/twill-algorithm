@@ -38,8 +38,8 @@ public class SortListTest {
 
     @ParameterizedTest(name = "Map {index}")
     @MethodSource("dataProvider")
-    public void testMap(ListNode head, ListNode excepted) {
+    public void testMap(ListNode head, ListNode expected) {
         SortList map = new SortListMap();
-        assertEquals(excepted, map.sortList(head));
+        assertEquals(expected, map.sortList(head));
     }
 }

@@ -23,9 +23,9 @@ public class LatestTimeByReplacingHiddenDigitsTest {
 
     @ParameterizedTest(name = "Step {index}")
     @MethodSource("dataProvider")
-    public void testStep(String time, String excepted) {
+    public void testStep(String time, String expected) {
         LatestTimeByReplacingHiddenDigits step =
                 new LatestTimeByReplacingHiddenDigitsStep();
-        assertEquals(excepted, step.maximumTime(time));
+        assertEquals(expected, step.maximumTime(time));
     }
 }

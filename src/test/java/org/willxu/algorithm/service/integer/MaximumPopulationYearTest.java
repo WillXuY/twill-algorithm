@@ -23,8 +23,8 @@ public class MaximumPopulationYearTest {
 
     @ParameterizedTest(name = "Count {index}")
     @MethodSource("dataProvider")
-    public void testCount(int[][] logs, int excepted) {
+    public void testCount(int[][] logs, int expected) {
         MaximumPopulationYear count = new MaximumPopulationYearCount();
-        assertEquals(excepted, count.maximumPopulation(logs));
+        assertEquals(expected, count.maximumPopulation(logs));
     }
 }

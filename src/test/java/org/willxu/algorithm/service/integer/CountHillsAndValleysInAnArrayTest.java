@@ -20,9 +20,9 @@ public class CountHillsAndValleysInAnArrayTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] nums, int excepted) {
+    public void testLoop(int[] nums, int expected) {
         CountHillsAndValleysInAnArray loop =
                 new CountHillsAndValleysInAnArrayLoop();
-        assertEquals(excepted, loop.countHillValley(nums));
+        assertEquals(expected, loop.countHillValley(nums));
     }
 }

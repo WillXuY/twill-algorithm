@@ -38,8 +38,8 @@ public class NextGreaterElement1Test {
 
     @ParameterizedTest(name = "Set Index {index}")
     @MethodSource("dataProvider")
-    public void testSetIndex(int[] nums1, int[] nums2, int[] excepted) {
+    public void testSetIndex(int[] nums1, int[] nums2, int[] expected) {
         NextGreaterElement1 setIndex = new NextGreaterElement1SetIndex();
-        assertArrayEquals(excepted, setIndex.nextGreaterElement(nums1, nums2));
+        assertArrayEquals(expected, setIndex.nextGreaterElement(nums1, nums2));
     }
 }

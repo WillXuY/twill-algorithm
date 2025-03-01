@@ -24,9 +24,9 @@ public class MinimumAmountOfTimeToFillCupsTest {
 
     @ParameterizedTest(name = "Divide {index}")
     @MethodSource("dataProvider")
-    public void testDivide(int[] amount, int excepted) {
+    public void testDivide(int[] amount, int expected) {
         MinimumAmountOfTimeToFillCups divide =
                 new MinimumAmountOfTimeToFillCupsDivide();
-        assertEquals(excepted, divide.fillCups(amount));
+        assertEquals(expected, divide.fillCups(amount));
     }
 }

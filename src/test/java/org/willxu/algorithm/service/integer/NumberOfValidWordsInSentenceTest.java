@@ -22,9 +22,9 @@ public class NumberOfValidWordsInSentenceTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(String sentence, int excepted) {
+    public void testLoop(String sentence, int expected) {
         NumberOfValidWordsInSentence loop =
                 new NumberOfValidWordsInSentenceLoop();
-        assertEquals(excepted, loop.countValidWords(sentence));
+        assertEquals(expected, loop.countValidWords(sentence));
     }
 }

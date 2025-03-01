@@ -28,8 +28,8 @@ public class CheckIfMatrixIsxMatrixTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[][] grid, boolean excepted) {
+    public void testLoop(int[][] grid, boolean expected) {
         CheckIfMatrixIsxMatrix loop = new CheckIfMatrixIsxMatrixLoop();
-        assertEquals(excepted, loop.checkXMatrix(grid));
+        assertEquals(expected, loop.checkXMatrix(grid));
     }
 }

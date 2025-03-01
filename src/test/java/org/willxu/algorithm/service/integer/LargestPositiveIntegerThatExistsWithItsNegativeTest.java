@@ -21,9 +21,9 @@ public class LargestPositiveIntegerThatExistsWithItsNegativeTest {
 
     @ParameterizedTest(name = "Set {index}")
     @MethodSource("dataProvider")
-    public void testSet(int[] nums, int excepted) {
+    public void testSet(int[] nums, int expected) {
         LargestPositiveIntegerThatExistsWithItsNegative set =
                 new LargestPositiveIntegerThatExistsWithItsNegativeSet();
-        assertEquals(excepted, set.findMaxK(nums));
+        assertEquals(expected, set.findMaxK(nums));
     }
 }

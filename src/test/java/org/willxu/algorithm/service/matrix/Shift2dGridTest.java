@@ -84,9 +84,9 @@ public class Shift2dGridTest {
     @ParameterizedTest(name = "Remainder {index}")
     @MethodSource("dataProvider")
     public void testRemainder(
-            int[][] grid, int k, List<List<Integer>> excepted) {
+            int[][] grid, int k, List<List<Integer>> expected) {
         Shift2dGrid remainder = new Shift2dGridRemainder();
         assertEquals(
-                excepted.toString(), remainder.shiftGrid(grid, k).toString());
+                expected.toString(), remainder.shiftGrid(grid, k).toString());
     }
 }

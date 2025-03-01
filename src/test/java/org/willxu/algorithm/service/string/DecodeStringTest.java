@@ -20,8 +20,8 @@ public class DecodeStringTest {
 
     @ParameterizedTest(name = "Stack {index}")
     @MethodSource("dataProvider")
-    public void testStack(String s, String excepted) {
+    public void testStack(String s, String expected) {
         DecodeString stack = new DecodeStringStack();
-        assertEquals(excepted, stack.decodeString(s));
+        assertEquals(expected, stack.decodeString(s));
     }
 }

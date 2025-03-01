@@ -21,8 +21,8 @@ public class New21GameTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int n, int k, int maxPts, double excepted) {
+    public void testLoop(int n, int k, int maxPts, double expected) {
         New21Game loop = new New21GameLoop();
-        assertEquals(excepted, loop.new21Game(n, k, maxPts));
+        assertEquals(expected, loop.new21Game(n, k, maxPts));
     }
 }

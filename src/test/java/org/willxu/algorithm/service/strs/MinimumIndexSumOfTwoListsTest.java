@@ -62,8 +62,8 @@ public class MinimumIndexSumOfTwoListsTest {
 
     @ParameterizedTest(name = "Map {index}")
     @MethodSource("dataProvider")
-    public void testMap(String[] list1, String[] list2, String[] excepted) {
+    public void testMap(String[] list1, String[] list2, String[] expected) {
         MinimumIndexSumOfTwoLists map = new MinimumIndexSumOfTwoListsMap();
-        assertArrayEquals(excepted, map.findRestaurant(list1, list2));
+        assertArrayEquals(expected, map.findRestaurant(list1, list2));
     }
 }

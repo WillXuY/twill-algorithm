@@ -41,8 +41,8 @@ public class VowelSpellcheckerTest {
     @ParameterizedTest(name = "Map {index}")
     @MethodSource("dataProvider")
     public void testMap(String[] wordList, String[] queries,
-                        String[] excepted) {
+                        String[] expected) {
         VowelSpellchecker map = new VowelSpellcheckerMap();
-        assertArrayEquals(excepted, map.spellchecker(wordList, queries));
+        assertArrayEquals(expected, map.spellchecker(wordList, queries));
     }
 }

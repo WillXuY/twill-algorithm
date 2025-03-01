@@ -30,8 +30,8 @@ public class UniqueMorseCodeWordsTest {
 
     @ParameterizedTest
     @MethodSource("dataProvider")
-    public void testSet(String[] words, int excepted) {
+    public void testSet(String[] words, int expected) {
         UniqueMorseCodeWords set = new UniqueMorseCodeWordsSet();
-        assertEquals(excepted, set.uniqueMorseRepresentations(words));
+        assertEquals(expected, set.uniqueMorseRepresentations(words));
     }
 }

@@ -21,8 +21,8 @@ public class LargestOddNumberInStringTest {
 
     @ParameterizedTest(name = "Index {index}")
     @MethodSource("dataProvider")
-    public void testIndex(String num, String excepted) {
+    public void testIndex(String num, String expected) {
         LargestOddNumberInString index = new LargestOddNumberInStringIndex();
-        assertEquals(excepted, index.largestOddNumber(num));
+        assertEquals(expected, index.largestOddNumber(num));
     }
 }

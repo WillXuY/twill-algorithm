@@ -20,8 +20,8 @@ public class BagOfTokensTest {
 
     @ParameterizedTest(name = "Sort {index}")
     @MethodSource("dataProvider")
-    public void testSort(int[] tokens, int power, int excepted) {
+    public void testSort(int[] tokens, int power, int expected) {
         BagOfTokens sort = new BagOfTokensSort();
-        assertEquals(excepted, sort.bagOfTokensScore(tokens, power));
+        assertEquals(expected, sort.bagOfTokensScore(tokens, power));
     }
 }

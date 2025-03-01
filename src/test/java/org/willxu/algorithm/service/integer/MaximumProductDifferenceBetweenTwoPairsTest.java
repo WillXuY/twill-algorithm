@@ -20,9 +20,9 @@ public class MaximumProductDifferenceBetweenTwoPairsTest {
 
     @ParameterizedTest(name = "Extremum {index}")
     @MethodSource("dataProvider")
-    public void testExtremum(int[] nums, int excepted) {
+    public void testExtremum(int[] nums, int expected) {
         MaximumProductDifferenceBetweenTwoPairs extremum =
                 new MaximumProductDifferenceBetweenTwoPairsExtremum();
-        assertEquals(excepted, extremum.maxProductDifference(nums));
+        assertEquals(expected, extremum.maxProductDifference(nums));
     }
 }

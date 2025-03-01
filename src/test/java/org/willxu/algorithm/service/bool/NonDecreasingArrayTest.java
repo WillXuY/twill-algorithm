@@ -22,8 +22,8 @@ public class NonDecreasingArrayTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int[] nums, boolean excepted) {
+    public void testLoop(int[] nums, boolean expected) {
         NonDecreasingArray loop = new NonDecreasingArrayLoop();
-        assertEquals(excepted, loop.checkPossibility(nums));
+        assertEquals(expected, loop.checkPossibility(nums));
     }
 }

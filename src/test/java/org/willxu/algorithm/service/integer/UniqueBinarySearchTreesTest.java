@@ -20,9 +20,9 @@ public class UniqueBinarySearchTreesTest {
 
     @ParameterizedTest(name = "Recursive {index}")
     @MethodSource("dataProvider")
-    public void testRecursive(int n, int excepted) {
+    public void testRecursive(int n, int expected) {
         UniqueBinarySearchTrees recursive =
                 new UniqueBinarySearchTreesRecursive();
-        assertEquals(excepted, recursive.numTrees(n));
+        assertEquals(expected, recursive.numTrees(n));
     }
 }

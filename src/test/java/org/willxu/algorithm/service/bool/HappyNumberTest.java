@@ -29,8 +29,8 @@ public class HappyNumberTest {
 
     @ParameterizedTest(name = "Loop {index}")
     @MethodSource("dataProvider")
-    public void testLoop(int input, boolean excepted) {
+    public void testLoop(int input, boolean expected) {
         HappyNumber loop = new HappyNumberLoop();
-        assertEquals(excepted, loop.isHappy(input));
+        assertEquals(expected, loop.isHappy(input));
     }
 }

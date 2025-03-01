@@ -22,8 +22,8 @@ public class NumberOfSegmentsInaStringTest {
 
     @ParameterizedTest(name = "Space {index}")
     @MethodSource("dataProvider")
-    public void testSpace(String input, int excepted) {
+    public void testSpace(String input, int expected) {
         NumberOfSegmentsInaString space = new NumberOfSegmentsInaStringSpace();
-        Assertions.assertEquals(excepted, space.countSegments(input));
+        Assertions.assertEquals(expected, space.countSegments(input));
     }
 }

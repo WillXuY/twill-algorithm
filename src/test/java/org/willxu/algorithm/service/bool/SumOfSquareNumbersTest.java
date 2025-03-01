@@ -20,8 +20,8 @@ public class SumOfSquareNumbersTest {
 
     @ParameterizedTest(name = "Sqrt {index}")
     @MethodSource("dataProvider")
-    public void testSqrt(int c, boolean excepted) {
+    public void testSqrt(int c, boolean expected) {
         SumOfSquareNumbers sqrt = new SumOfSquareNumbersSqrt();
-        assertEquals(excepted, sqrt.judgeSquareSum(c));
+        assertEquals(expected, sqrt.judgeSquareSum(c));
     }
 }

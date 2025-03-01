@@ -33,9 +33,9 @@ public class CheckIfTwoStringArraysAreEquivalentTest {
 
     @ParameterizedTest(name = "Build {index}")
     @MethodSource("dataProvider")
-    public void testBuild(String[] word1, String[] word2, boolean excepted) {
+    public void testBuild(String[] word1, String[] word2, boolean expected) {
         CheckIfTwoStringArraysAreEquivalent build =
                 new CheckIfTwoStringArraysAreEquivalentBuild();
-        assertEquals(excepted, build.arrayStringsAreEqual(word1, word2));
+        assertEquals(expected, build.arrayStringsAreEqual(word1, word2));
     }
 }
