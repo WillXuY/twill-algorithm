@@ -1,6 +1,5 @@
 package org.willxu.algorithm.service.impl.integer;
 
-import org.gradle.internal.impldep.org.junit.Test;
 import org.willxu.algorithm.service.integer.MissingNumber;
 
 import java.util.ArrayList;

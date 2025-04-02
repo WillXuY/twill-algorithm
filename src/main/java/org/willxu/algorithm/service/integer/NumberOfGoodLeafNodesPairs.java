@@ -1,5 +1,7 @@
 package org.willxu.algorithm.service.integer;
 
+import org.willxu.algorithm.provide.TreeNode;
+
 public interface NumberOfGoodLeafNodesPairs {
 	/**
 	 * You are given the root of a binary tree and an integer distance.

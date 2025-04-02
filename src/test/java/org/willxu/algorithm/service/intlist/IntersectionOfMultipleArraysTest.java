@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import static org.gradle.internal.impldep.org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.params.provider.Arguments.arguments;
 
 public class IntersectionOfMultipleArraysTest {
@@ -39,6 +39,6 @@ public class IntersectionOfMultipleArraysTest {
     public void testMap(int[][] nums, List<Integer> expected) {
         IntersectionOfMultipleArrays map =
                 new IntersectionOfMultipleArraysMap();
-        assertTrue(expected.equals(map.intersection(nums)));
+        assertEquals(expected, map.intersection(nums));
     }
 }

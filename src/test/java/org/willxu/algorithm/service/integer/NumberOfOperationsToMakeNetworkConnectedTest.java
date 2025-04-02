@@ -1,6 +1,5 @@
 package org.willxu.algorithm.service.integer;
 
-import groovy.transform.PackageScope;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;

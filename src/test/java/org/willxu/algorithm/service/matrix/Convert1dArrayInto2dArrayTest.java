@@ -7,7 +7,7 @@ import org.willxu.algorithm.service.impl.matrix.Convert1dArrayInto2dArrayLoop;
 
 import java.util.stream.Stream;
 
-import static org.gradle.internal.impldep.org.junit.Assert.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.params.provider.Arguments.arguments;
 
 public class Convert1dArrayInto2dArrayTest {

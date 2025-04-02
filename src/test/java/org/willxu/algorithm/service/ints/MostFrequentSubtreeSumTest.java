@@ -9,7 +9,7 @@ import org.willxu.algorithm.service.impl.ints.MostFrequentSubtreeSumMap;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import static org.gradle.internal.impldep.org.junit.Assert.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 public class MostFrequentSubtreeSumTest {
     static Stream<Arguments> dataProvider() {
