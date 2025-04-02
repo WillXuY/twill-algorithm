@@ -15,5 +15,5 @@ public interface NumberOfGoodLeafNodesPairs {
 	 *             1 <= Node.val <= 100
 	 * @param distance 1 <= distance <= 10
 	 */
-int countPairs(TreeNode root, int distance);
+    int countPairs(TreeNode root, int distance);
 }
