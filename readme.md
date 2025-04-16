@@ -1,24 +1,13 @@
-# I - ⚖️ License
+# I - 📖 Profile
+## TWILL Weaves Infinite Logical Labyrinth.
 
-Copyright (C) 2021  Weiyang(Will) Xu
+斜纹布编织着无垠的逻辑迷宫。
 
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
+## Description
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
-# II - 📖 Profile
 It's the project for solving problems from [leetCode](https://leetcode.com/problemset/all/)
 
-# III - 🏗️ Project build
+# II - 🏗️ Project build
 change the build tool to gradle, output a jar;
 
 ## i - hello spring boot
@@ -28,15 +17,9 @@ change the build tool to gradle, output a jar;
 
 ## ii - change junit4 to junit5
 
-# IV - ⌛ Todo List
+# III - ⌛ Todo List
 
-| No   | title                                                           | solution                                                                                |
-|------|-----------------------------------------------------------------|-----------------------------------------------------------------------------------------|
-| 312  | [Burst Balloons](https://leetcode.com/problems/burst-balloons/) | [bruteForce](src/test/java/org/willxu/algorithm/service/integer/BurstBalloonsTest.java) |
-
-## TODO: try to add git emoji
-
-# V - 📝 Finished List (main methods are in the test folder)
+# IV - 📝 Finished List (main methods are in the test folder)
 
 | No    | title                                                                                                                                                                                                     | solution                                                                                                                           |
 |-------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
