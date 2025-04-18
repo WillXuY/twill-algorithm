@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.ints;
-
-import org.willxu.algorithm.service.ints.SortEvenAndOddIndicesIndependently;
+package leetcode.p2100_2199.p2164_sort_even_and_odd_indices_independently;
 
 import java.util.ArrayList;
 import java.util.List;

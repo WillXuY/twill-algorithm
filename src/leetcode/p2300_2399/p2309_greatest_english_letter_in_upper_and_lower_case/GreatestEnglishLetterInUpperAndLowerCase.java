@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p2300_2399.p2309_greatest_english_letter_in_upper_and_lower_case;
 
 public interface GreatestEnglishLetterInUpperAndLowerCase {
     /**

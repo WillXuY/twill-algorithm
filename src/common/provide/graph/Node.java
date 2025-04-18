@@ -1,4 +1,4 @@
-package org.willxu.algorithm.provide.graph;
+package common.provide.graph;
 
 import java.util.ArrayList;
 import java.util.List;

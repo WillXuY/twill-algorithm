@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.empty;
+package leetcode.p1000_1099.p1089_duplicate_zeros;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.empty.DuplicateZerosCopy;
 
 import java.util.stream.Stream;
 

@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.doublepoint;
+package leetcode.p1400_1499.p1491_average_salary_excluding_the_minimum_and_maximum_salary;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.doublepoint.AverageSalaryExcludingTheMinimumAndMaximumSalarySort;
 
 import java.util.stream.Stream;
 

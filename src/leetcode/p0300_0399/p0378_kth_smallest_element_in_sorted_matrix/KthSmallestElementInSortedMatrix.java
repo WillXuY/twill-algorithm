@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0300_0399.p0378_kth_smallest_element_in_sorted_matrix;
 
 public interface KthSmallestElementInSortedMatrix {
     /**

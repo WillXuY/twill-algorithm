@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1900_1999.p1995_count_special_quadruplets;
 
 public interface CountSpecialQuadruplets {
     /**

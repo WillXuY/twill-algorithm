@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p1200_1299.p1207_unique_number_of_occurrences;
 
 public interface UniqueNumberOfOccurrences {
     /**

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.AddTwoIntegers;
+package leetcode.p2200_2299.p2235_add_two_integers;
 
 public class AddTwoIntegersAdd implements AddTwoIntegers {
     @Override

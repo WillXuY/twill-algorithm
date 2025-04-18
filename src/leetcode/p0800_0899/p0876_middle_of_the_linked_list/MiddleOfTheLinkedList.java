@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.listnode;
+package leetcode.p0800_0899.p0876_middle_of_the_linked_list;
 
 import common.provide.ListNode;
 

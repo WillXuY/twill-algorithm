@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.CountEqualAndDivisiblePairsInAnArray ;
+package leetcode.p2100_2199.p2176_count_equal_and_divisible_pairs_in_an_array;
 
 import java.util.ArrayList;
 import java.util.HashMap;

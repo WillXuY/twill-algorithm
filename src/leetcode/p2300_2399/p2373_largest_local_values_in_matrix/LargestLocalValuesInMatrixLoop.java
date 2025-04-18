@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.matrix;
-
-import org.willxu.algorithm.service.matrix.LargestLocalValuesInMatrix;
+package leetcode.p2300_2399.p2373_largest_local_values_in_matrix;
 
 public class LargestLocalValuesInMatrixLoop
         implements LargestLocalValuesInMatrix {

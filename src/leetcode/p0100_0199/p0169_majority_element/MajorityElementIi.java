@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.intlist;
+package leetcode.p0100_0199.p0169_majority_element;
 
 import java.util.List;
 

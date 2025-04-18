@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0900_0999.p0929_unique_email_addresses;
 
 public interface UniqueEmailAddresses {
     /**

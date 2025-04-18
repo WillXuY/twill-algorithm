@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.ints;
-
-import org.willxu.algorithm.service.ints.Finding3DigitEvenNumbers;
+package leetcode.p2000_2099.p2094_finding3_digit_even_numbers;
 
 import java.util.TreeSet;
 

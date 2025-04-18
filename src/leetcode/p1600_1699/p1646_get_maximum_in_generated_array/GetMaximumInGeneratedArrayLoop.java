@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.GetMaximumInGeneratedArray;
+package leetcode.p1600_1699.p1646_get_maximum_in_generated_array;
 
 public class GetMaximumInGeneratedArrayLoop
         implements GetMaximumInGeneratedArray {

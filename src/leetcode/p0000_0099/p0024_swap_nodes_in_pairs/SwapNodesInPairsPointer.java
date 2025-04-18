@@ -1,7 +1,6 @@
-package org.willxu.algorithm.service.impl.listnode;
+package leetcode.p0000_0099.p0024_swap_nodes_in_pairs;
 
 import common.provide.ListNode;
-import org.willxu.algorithm.service.listnode.SwapNodesInPairs;
 
 public class SwapNodesInPairsPointer implements SwapNodesInPairs {
     @Override

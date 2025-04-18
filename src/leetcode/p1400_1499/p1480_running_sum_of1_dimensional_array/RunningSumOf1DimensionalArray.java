@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.ints;
+package leetcode.p1400_1499.p1480_running_sum_of1_dimensional_array;
 
 public interface RunningSumOf1DimensionalArray {
     /**

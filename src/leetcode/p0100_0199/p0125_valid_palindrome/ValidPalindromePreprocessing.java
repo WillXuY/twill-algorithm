@@ -7,9 +7,7 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.ValidPalindrome;
+package leetcode.p0100_0199.p0125_valid_palindrome;
 
 public class ValidPalindromePreprocessing implements ValidPalindrome {
     @Override

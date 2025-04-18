@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MinimumDistanceToTheTargetElement;
+package leetcode.p1800_1899.p1848_minimum_distance_to_the_target_element;
 
 public class MinimumDistanceToTheTargetElementLoop
         implements MinimumDistanceToTheTargetElement {

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MinimumPathSum;
+package leetcode.p0000_0099.p0064_minimum_path_sum;
 
 public class MinimumPathSumMatrix implements MinimumPathSum {
     @Override

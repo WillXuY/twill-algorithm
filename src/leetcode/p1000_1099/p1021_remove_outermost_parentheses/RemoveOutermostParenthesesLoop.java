@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.RemoveOutermostParentheses;
+package leetcode.p1000_1099.p1021_remove_outermost_parentheses;
 
 public class RemoveOutermostParenthesesLoop
         implements RemoveOutermostParentheses {

@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0900_0999.p0961_nrepeated_element_in_size2n_array;
 
 public interface NrepeatedElementInSize2nArray {
     /**

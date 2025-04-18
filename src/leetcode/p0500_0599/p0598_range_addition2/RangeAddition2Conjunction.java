@@ -7,9 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.RangeAddition2;
+package leetcode.p0500_0599.p0598_range_addition2;
 
 public class RangeAddition2Conjunction implements RangeAddition2 {
     @Override

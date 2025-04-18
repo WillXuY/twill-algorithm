@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.LargestPositiveIntegerThatExistsWithItsNegative;
+package leetcode.p2400_2499.p2441_largest_positive_integer_that_exists_with_its_negative;
 
 import java.util.HashSet;
 import java.util.Set;

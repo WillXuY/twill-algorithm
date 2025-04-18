@@ -7,10 +7,9 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.integer;
+package leetcode.p0100_0199.p0104_maximum_depth_of_binary_tree;
 
 import common.provide.TreeNode;
-import org.willxu.algorithm.service.integer.MaximumDepthOfBinaryTree;
 
 import java.util.ArrayList;
 import java.util.List;

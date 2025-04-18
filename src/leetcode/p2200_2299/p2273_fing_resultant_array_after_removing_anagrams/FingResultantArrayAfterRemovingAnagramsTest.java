@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.strlist;
+package leetcode.p2200_2299.p2273_fing_resultant_array_after_removing_anagrams;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;

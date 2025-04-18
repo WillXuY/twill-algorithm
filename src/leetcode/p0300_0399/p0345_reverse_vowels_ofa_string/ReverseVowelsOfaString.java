@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p0300_0399.p0345_reverse_vowels_ofa_string;
 
 public interface ReverseVowelsOfaString {
     /**

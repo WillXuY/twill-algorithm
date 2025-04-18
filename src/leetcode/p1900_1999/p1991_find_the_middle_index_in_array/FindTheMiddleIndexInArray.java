@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1900_1999.p1991_find_the_middle_index_in_array;
 
 public interface FindTheMiddleIndexInArray {
     /**

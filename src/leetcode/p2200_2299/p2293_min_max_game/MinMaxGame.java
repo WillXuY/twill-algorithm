@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2200_2299.p2293_min_max_game;
 
 public interface MinMaxGame {
     /**

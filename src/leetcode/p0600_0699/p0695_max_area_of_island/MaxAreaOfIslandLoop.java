@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MaxAreaOfIsland;
+package leetcode.p0600_0699.p0695_max_area_of_island;
 
 import java.util.ArrayList;
 import java.util.List;

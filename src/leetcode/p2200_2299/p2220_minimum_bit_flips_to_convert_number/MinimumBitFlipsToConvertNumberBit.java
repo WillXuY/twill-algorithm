@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MinimumBitFlipsToConvertNumber;
+package leetcode.p2200_2299.p2220_minimum_bit_flips_to_convert_number;
 
 public class MinimumBitFlipsToConvertNumberBit
         implements MinimumBitFlipsToConvertNumber {

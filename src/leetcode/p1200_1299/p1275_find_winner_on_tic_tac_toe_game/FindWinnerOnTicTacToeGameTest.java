@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p1200_1299.p1275_find_winner_on_tic_tac_toe_game;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.string.FindWinnerOnTicTacToeGameLoop;
 
 import java.util.stream.Stream;
 

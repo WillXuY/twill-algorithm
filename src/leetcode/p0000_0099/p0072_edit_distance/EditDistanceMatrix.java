@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.EditDistance;
+package leetcode.p0000_0099.p0072_edit_distance;
 
 public class EditDistanceMatrix implements EditDistance {
     @Override

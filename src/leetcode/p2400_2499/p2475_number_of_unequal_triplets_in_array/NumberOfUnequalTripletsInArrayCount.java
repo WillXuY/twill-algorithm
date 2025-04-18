@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.NumberOfUnequalTripletsInArray;
+package leetcode.p2400_2499.p2475_number_of_unequal_triplets_in_array;
 
 import java.util.ArrayList;
 import java.util.HashMap;

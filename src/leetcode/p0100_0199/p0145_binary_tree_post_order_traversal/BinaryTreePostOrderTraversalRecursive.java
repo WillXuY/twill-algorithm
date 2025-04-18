@@ -7,10 +7,9 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.intlist;
+package leetcode.p0100_0199.p0145_binary_tree_post_order_traversal;
 
 import common.provide.TreeNode;
-import org.willxu.algorithm.service.intlist.BinaryTreePostOrderTraversal;
 
 import java.util.ArrayList;
 import java.util.Collections;

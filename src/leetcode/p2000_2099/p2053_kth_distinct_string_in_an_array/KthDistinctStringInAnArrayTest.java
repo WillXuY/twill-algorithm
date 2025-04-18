@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p2000_2099.p2053_kth_distinct_string_in_an_array;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.string.KthDistinctStringInAnArrayList;
 
 import java.util.stream.Stream;
 

@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0500_0599.p0509_fibonacci_number;
 
 public interface FibonacciNumber {
     /**

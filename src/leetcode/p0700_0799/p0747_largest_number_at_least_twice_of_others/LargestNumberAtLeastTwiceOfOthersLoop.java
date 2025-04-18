@@ -7,9 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.LargestNumberAtLeastTwiceOfOthers;
+package leetcode.p0700_0799.p0747_largest_number_at_least_twice_of_others;
 
 public class LargestNumberAtLeastTwiceOfOthersLoop
         implements LargestNumberAtLeastTwiceOfOthers {

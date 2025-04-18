@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.ComplementOfBase10Integer;
+package leetcode.p1000_1099.p1009_complement_of_base10_integer;
 
 public class ComplementOfBase10IntegerBit implements ComplementOfBase10Integer {
     /**

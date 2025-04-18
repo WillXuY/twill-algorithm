@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.CheckIfOneStringSwapCanMakeStringsEqual;
+package leetcode.p1700_1799.p1790_check_if_one_string_swap_can_make_strings_equal;
 
 public class CheckIfOneStringSwapCanMakeStringsEqualLoop
         implements CheckIfOneStringSwapCanMakeStringsEqual {

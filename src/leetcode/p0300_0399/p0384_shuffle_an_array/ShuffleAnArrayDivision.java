@@ -1,4 +1,4 @@
-package org.willxu.algorithm.domain.impl.array;
+package leetcode.p0300_0399.p0384_shuffle_an_array;
 
 import leetcode.p0300_0399.p0384_shuffle_an_array.SheffleAnArray;
 

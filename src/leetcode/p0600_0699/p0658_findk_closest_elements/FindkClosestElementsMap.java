@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.intlist;
-
-import org.willxu.algorithm.service.intlist.FindkClosestElements;
+package leetcode.p0600_0699.p0658_findk_closest_elements;
 
 import java.util.ArrayList;
 import java.util.List;

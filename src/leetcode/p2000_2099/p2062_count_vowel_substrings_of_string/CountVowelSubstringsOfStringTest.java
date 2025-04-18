@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2000_2099.p2062_count_vowel_substrings_of_string;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.integer.CountVowelSubstringsOfStringCount;
 
 import java.util.stream.Stream;
 

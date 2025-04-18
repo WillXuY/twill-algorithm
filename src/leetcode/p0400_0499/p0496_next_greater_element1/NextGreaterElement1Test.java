@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.ints;
+package leetcode.p0400_0499.p0496_next_greater_element1;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.ints.NextGreaterElement1SetIndex;
 
 import java.util.stream.Stream;
 

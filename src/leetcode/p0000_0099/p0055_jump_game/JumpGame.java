@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p0000_0099.p0055_jump_game;
 
 public interface JumpGame {
     /**

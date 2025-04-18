@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.DecodeWays;
+package leetcode.p0000_0099.p0091_decode_ways;
 
 public class DecodeWaysArray implements DecodeWays {
     @Override

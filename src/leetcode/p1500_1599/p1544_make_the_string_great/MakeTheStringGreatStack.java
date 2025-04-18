@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.MakeTheStringGreat;
+package leetcode.p1500_1599.p1544_make_the_string_great;
 
 import java.util.Stack;
 

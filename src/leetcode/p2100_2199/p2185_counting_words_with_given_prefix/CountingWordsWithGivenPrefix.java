@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2100_2199.p2185_counting_words_with_given_prefix;
 
 public interface CountingWordsWithGivenPrefix {
     /**

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.ints;
-
-import org.willxu.algorithm.service.ints.CreateTargetArrayInTheGivenOrder;
+package leetcode.p1300_1399.p1389_create_target_array_in_the_given_order;
 
 public class CreateTargetArrayInTheGivenOrderCopy
         implements CreateTargetArrayInTheGivenOrder{

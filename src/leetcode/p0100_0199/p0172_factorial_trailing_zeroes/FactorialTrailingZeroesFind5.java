@@ -7,9 +7,7 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.FactorialTrailingZeroes;
+package leetcode.p0100_0199.p0172_factorial_trailing_zeroes;
 
 public class FactorialTrailingZeroesFind5 implements FactorialTrailingZeroes {
     /**

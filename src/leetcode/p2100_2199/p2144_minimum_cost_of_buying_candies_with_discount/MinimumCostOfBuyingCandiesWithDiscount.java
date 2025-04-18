@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2100_2199.p2144_minimum_cost_of_buying_candies_with_discount;
 
 public interface MinimumCostOfBuyingCandiesWithDiscount {
     /**

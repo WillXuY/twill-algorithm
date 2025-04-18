@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0400_0499.p0453_minimum_moves_to_equal_array_elements;
 
 public interface MinimumMovesToEqualArrayElements {
     /**

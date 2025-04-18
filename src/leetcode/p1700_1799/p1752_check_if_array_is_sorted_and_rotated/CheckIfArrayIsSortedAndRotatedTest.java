@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p1700_1799.p1752_check_if_array_is_sorted_and_rotated;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.bool.CheckIfArrayIsSortedAndRotatedLoop;
 
 import java.util.stream.Stream;
 

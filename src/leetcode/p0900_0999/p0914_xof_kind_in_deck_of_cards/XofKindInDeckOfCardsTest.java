@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p0900_0999.p0914_xof_kind_in_deck_of_cards;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;

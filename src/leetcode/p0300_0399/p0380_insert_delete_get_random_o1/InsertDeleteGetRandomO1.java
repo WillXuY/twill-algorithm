@@ -1,4 +1,4 @@
-package org.willxu.algorithm.domain.set;
+package leetcode.p0300_0399.p0380_insert_delete_get_random_o1;
 
 /**
  * Implement the RandomizedSet class:

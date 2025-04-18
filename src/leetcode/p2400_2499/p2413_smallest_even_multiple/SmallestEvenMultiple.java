@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2400_2499.p2413_smallest_even_multiple;
 
 public interface SmallestEvenMultiple {
     /**

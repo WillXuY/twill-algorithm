@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.strlist;
-
-import org.willxu.algorithm.service.strlist.BuildAnArrayWithStackOperations;
+package leetcode.p1400_1499.p1441_build_an_array_with_stack_operations;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1200_1299.p1252_cells_with_odd_values_in_matrix;
 
 public interface CellsWithOddValuesInMatrix {
     /**

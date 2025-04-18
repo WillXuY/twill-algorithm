@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.ReverseVowelsOfaString;
+package leetcode.p0300_0399.p0345_reverse_vowels_ofa_string;
 
 import java.util.Set;
 import java.util.stream.Collectors;

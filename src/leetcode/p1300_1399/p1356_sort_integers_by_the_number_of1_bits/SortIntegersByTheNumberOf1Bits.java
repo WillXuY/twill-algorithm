@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.ints;
+package leetcode.p1300_1399.p1356_sort_integers_by_the_number_of1_bits;
 
 public interface SortIntegersByTheNumberOf1Bits {
     /**

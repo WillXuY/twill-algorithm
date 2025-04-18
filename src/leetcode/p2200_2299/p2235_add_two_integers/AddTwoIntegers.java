@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2200_2299.p2235_add_two_integers;
 
 public interface AddTwoIntegers {
     /**

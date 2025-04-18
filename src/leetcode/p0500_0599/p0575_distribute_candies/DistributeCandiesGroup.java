@@ -7,9 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.DistributeCandies;
+package leetcode.p0500_0599.p0575_distribute_candies;
 
 import java.util.HashSet;
 import java.util.Set;

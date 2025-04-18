@@ -1,7 +1,6 @@
-package org.willxu.algorithm.service.impl.empty;
+package leetcode.p0000_0099.p0099_recover_binary_search_tree;
 
 import common.provide.TreeNode;
-import org.willxu.algorithm.service.empty.RecoverBinarySearchTree;
 
 public class RecoverBinarySearchTreeRecursive
         implements RecoverBinarySearchTree {

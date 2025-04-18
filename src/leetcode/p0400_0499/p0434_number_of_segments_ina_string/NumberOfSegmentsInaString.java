@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0400_0499.p0434_number_of_segments_ina_string;
 
 public interface NumberOfSegmentsInaString {
     /**

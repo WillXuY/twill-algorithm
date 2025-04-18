@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.listnode;
+package leetcode.p0000_0099.p0086_partition_list;
 
 import common.provide.ListNode;
 

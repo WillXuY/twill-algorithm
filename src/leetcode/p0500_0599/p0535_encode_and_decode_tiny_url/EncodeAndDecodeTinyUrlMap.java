@@ -1,6 +1,4 @@
-package org.willxu.algorithm.domain.impl.string;
-
-import org.willxu.algorithm.domain.string.EncodeAndDecodeTinyUrl;
+package leetcode.p0500_0599.p0535_encode_and_decode_tiny_url;
 
 import java.util.HashMap;
 import java.util.Map;

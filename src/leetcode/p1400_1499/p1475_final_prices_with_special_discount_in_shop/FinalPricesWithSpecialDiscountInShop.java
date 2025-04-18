@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.ints;
+package leetcode.p1400_1499.p1475_final_prices_with_special_discount_in_shop;
 
 public interface FinalPricesWithSpecialDiscountInShop {
     /**

@@ -7,9 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.RectangleOverlap;
+package leetcode.p0800_0899.p0836_rectangle_overlap;
 
 public class RectangleOverlapCenter implements RectangleOverlap {
     /**

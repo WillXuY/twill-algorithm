@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.CheckIfItIsStraightLine;
+package leetcode.p1200_1299.p1232_check_if_it_is_straight_line;
 
 public class CheckIfItIsStraightLineEquation
         implements CheckIfItIsStraightLine {

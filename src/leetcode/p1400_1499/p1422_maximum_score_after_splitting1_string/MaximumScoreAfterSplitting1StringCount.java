@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MaximumScoreAfterSplitting1String;
+package leetcode.p1400_1499.p1422_maximum_score_after_splitting1_string;
 
 public class MaximumScoreAfterSplitting1StringCount
         implements MaximumScoreAfterSplitting1String {

@@ -7,7 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.bool;
+package leetcode.p0700_0799.p0796_rotate_string;
 
 public interface RotateString {
     /**

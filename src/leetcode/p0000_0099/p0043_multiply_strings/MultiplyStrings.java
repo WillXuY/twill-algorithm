@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p0000_0099.p0043_multiply_strings;
 
 public interface MultiplyStrings {
     /**

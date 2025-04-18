@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0500_0599.p0521_longest_uncommon_subsequence1;
 
 public interface LongestUncommonSubsequence1 {
     /**

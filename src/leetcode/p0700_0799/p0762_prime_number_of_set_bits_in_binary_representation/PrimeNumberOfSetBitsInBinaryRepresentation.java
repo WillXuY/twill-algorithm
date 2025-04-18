@@ -7,7 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.integer;
+package leetcode.p0700_0799.p0762_prime_number_of_set_bits_in_binary_representation;
 
 public interface PrimeNumberOfSetBitsInBinaryRepresentation {
     /**

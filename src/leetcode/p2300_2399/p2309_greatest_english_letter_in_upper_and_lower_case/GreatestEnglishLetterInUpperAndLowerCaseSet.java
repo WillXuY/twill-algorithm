@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.GreatestEnglishLetterInUpperAndLowerCase;
+package leetcode.p2300_2399.p2309_greatest_english_letter_in_upper_and_lower_case;
 
 import java.util.HashSet;
 import java.util.Set;

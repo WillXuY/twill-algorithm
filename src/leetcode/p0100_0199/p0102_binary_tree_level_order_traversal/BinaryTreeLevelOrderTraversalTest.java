@@ -1,10 +1,9 @@
-package org.willxu.algorithm.service.intlist;
+package leetcode.p0100_0199.p0102_binary_tree_level_order_traversal;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 import common.provide.TreeNode;
-import org.willxu.algorithm.service.impl.intlist.BinaryTreeLevelOrderTraversalList;
 
 import java.util.Collections;
 import java.util.List;

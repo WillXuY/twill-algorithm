@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.CheckIfAllAsAppearsBeforeAllBs;
+package leetcode.p2100_2199.p2124_check_if_all_as_appears_before_all_bs;
 
 public class CheckIfAllAsAppearsBeforeAllBsLoop
         implements CheckIfAllAsAppearsBeforeAllBs {

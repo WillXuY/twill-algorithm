@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p0500_0599.p0557_reverse_words_ina_string3;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.string.ReverseWordsInaString3Index;
 
 import java.util.stream.Stream;
 

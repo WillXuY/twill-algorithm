@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.ShortestDistanceToTargetStringInCircularArray;
+package leetcode.p2500_2599.p2515_shortest_distance_to_target_string_in_circular_array;
 
 public class ShortestDistanceToTargetStringInCircularArrayLoop
         implements ShortestDistanceToTargetStringInCircularArray {

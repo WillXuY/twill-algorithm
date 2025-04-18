@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p1900_1999.p1909_remove_one_element_to_make_the_array_strictly_increasing;
 
 public interface RemoveOneElementToMakeTheArrayStrictlyIncreasing {
     /**

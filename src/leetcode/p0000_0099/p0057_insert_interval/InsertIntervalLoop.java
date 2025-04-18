@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.matrix;
-
-import org.willxu.algorithm.service.matrix.InsertInterval;
+package leetcode.p0000_0099.p0057_insert_interval;
 
 import java.util.ArrayList;
 import java.util.List;

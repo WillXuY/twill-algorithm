@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1900_1999.p1925_count_square_sum_triples;
 
 public interface CountSquareSumTriples {
     /**

@@ -1,9 +1,8 @@
-package org.willxu.algorithm.domain.integer;
+package leetcode.p0300_0399.p0374_guess_number_higher_or_lower;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.domain.impl.integer.GuessNumberHigherOrLowerGolden;
 
 import java.util.stream.Stream;
 

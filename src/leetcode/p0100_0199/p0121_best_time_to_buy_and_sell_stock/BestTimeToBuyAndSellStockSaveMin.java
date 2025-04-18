@@ -7,9 +7,7 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.BestTimeToBuyAndSellStock;
+package leetcode.p0100_0199.p0121_best_time_to_buy_and_sell_stock;
 
 public class BestTimeToBuyAndSellStockSaveMin
         implements BestTimeToBuyAndSellStock {

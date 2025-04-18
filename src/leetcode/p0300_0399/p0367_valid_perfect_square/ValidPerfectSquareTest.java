@@ -1,10 +1,9 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p0300_0399.p0367_valid_perfect_square;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.bool.ValidPerfectSquareDifference;
 
 import java.util.ArrayList;
 import java.util.List;

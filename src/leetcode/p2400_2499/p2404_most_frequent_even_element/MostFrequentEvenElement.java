@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2400_2499.p2404_most_frequent_even_element;
 
 public interface MostFrequentEvenElement {
     /**

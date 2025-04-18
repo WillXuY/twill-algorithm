@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.KthDistinctStringInAnArray;
+package leetcode.p2000_2099.p2053_kth_distinct_string_in_an_array;
 
 import java.util.ArrayList;
 import java.util.HashSet;

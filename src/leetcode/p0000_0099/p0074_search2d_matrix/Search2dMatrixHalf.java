@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.Search2dMatrix;
+package leetcode.p0000_0099.p0074_search2d_matrix;
 
 public class Search2dMatrixHalf implements Search2dMatrix {
     @Override

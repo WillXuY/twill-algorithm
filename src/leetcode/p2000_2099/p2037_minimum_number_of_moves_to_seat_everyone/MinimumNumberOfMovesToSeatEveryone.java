@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2000_2099.p2037_minimum_number_of_moves_to_seat_everyone;
 
 public interface MinimumNumberOfMovesToSeatEveryone {
     /**

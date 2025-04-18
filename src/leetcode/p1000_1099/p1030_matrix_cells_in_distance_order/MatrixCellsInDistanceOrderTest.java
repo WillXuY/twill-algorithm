@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.matrix;
+package leetcode.p1000_1099.p1030_matrix_cells_in_distance_order;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.matrix.MatrixCellsInDistanceOrderLoop;
 
 import java.util.stream.Stream;
 

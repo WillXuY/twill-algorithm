@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0400_0499.p0455_assign_cookies;
 
 public interface AssignCookies {
     /**

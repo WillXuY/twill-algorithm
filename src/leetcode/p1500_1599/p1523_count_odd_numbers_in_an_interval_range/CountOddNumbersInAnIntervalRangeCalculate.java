@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.CountOddNumbersInAnIntervalRange;
+package leetcode.p1500_1599.p1523_count_odd_numbers_in_an_interval_range;
 
 public class CountOddNumbersInAnIntervalRangeCalculate
         implements CountOddNumbersInAnIntervalRange {

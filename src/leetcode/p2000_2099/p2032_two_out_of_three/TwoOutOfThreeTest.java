@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.intlist;
+package leetcode.p2000_2099.p2032_two_out_of_three;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.intlist.TwoOutOfThreeCount;
 
 import java.util.Collections;
 import java.util.List;

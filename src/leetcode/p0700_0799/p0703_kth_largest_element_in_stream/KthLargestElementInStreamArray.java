@@ -7,9 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.domain.impl.other;
-
-import org.willxu.algorithm.domain.other.KthLargestElementInStream;
+package leetcode.p0700_0799.p0703_kth_largest_element_in_stream;
 
 public class KthLargestElementInStreamArray extends KthLargestElementInStream {
     private final int k;

@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.matrix;
+package leetcode.p0000_0099.p0056_merge_intervals;
 
 public interface MergeIntervals {
     /**

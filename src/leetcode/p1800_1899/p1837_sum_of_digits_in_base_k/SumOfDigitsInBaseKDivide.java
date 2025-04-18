@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.SumOfDigitsInBaseK;
+package leetcode.p1800_1899.p1837_sum_of_digits_in_base_k;
 
 public class SumOfDigitsInBaseKDivide implements SumOfDigitsInBaseK {
     @Override

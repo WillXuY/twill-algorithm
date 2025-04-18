@@ -7,9 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.matrix;
-
-import org.willxu.algorithm.service.matrix.PositionsOfLargeGroups;
+package leetcode.p0800_0899.p0830_positions_of_large_groups;
 
 import java.util.ArrayList;
 import java.util.List;

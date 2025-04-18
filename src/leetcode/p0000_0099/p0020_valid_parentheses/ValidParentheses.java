@@ -7,7 +7,7 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.bool;
+package leetcode.p0000_0099.p0020_valid_parentheses;
 
 public interface ValidParentheses {
     /**

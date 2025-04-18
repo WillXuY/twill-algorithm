@@ -7,9 +7,7 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.HappyNumber;
+package leetcode.p0200_0299.p0202_happy_number;
 
 import java.util.List;
 import java.util.stream.Collectors;

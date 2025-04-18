@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1800_1899.p1800_maximum_ascending_subarray_sum;
 
 public interface MaximumAscendingSubarraySum {
     /**

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.CheckIfBinaryStringHasAtMostOneSegmentOfOnes;
+package leetcode.p1700_1799.p1784_check_if_binary_string_has_at_most_one_segment_of_ones;
 
 public class CheckIfBinaryStringHasAtMostOneSegmentOfOnesLoop
         implements CheckIfBinaryStringHasAtMostOneSegmentOfOnes {

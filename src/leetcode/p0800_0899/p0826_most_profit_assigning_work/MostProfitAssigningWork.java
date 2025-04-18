@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0800_0899.p0826_most_profit_assigning_work;
 
 public interface MostProfitAssigningWork {
     /**

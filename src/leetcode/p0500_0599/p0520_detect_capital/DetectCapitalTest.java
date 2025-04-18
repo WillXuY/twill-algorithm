@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p0500_0599.p0520_detect_capital;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.bool.DetectCapitalLoop;
 
 import java.util.stream.Stream;
 

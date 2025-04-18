@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.Maximum69Number;
+package leetcode.p1300_1399.p1323_maximum69_number;
 
 public class Maximum69NumberDivide implements Maximum69Number {
     @Override

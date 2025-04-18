@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p2100_2199.p2119_number_after_double_reversal;
 
 public interface NumberAfterDoubleReversal {
     /**

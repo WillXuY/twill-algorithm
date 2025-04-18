@@ -1,7 +1,6 @@
-package org.willxu.algorithm.service.impl.treenode;
+package leetcode.p0800_0899.p0814_binary_tree_pruning;
 
 import common.provide.TreeNode;
-import org.willxu.algorithm.service.treenode.BinaryTreePruning;
 
 public class BinaryTreePruningRecursive implements BinaryTreePruning {
     @Override

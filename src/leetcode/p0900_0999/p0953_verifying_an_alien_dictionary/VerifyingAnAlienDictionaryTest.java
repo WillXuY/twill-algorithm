@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p0900_0999.p0953_verifying_an_alien_dictionary;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;

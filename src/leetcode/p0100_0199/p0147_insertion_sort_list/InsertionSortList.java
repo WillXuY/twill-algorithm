@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.listnode;
+package leetcode.p0100_0199.p0147_insertion_sort_list;
 
 import common.provide.ListNode;
 

@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1200_1299.p1281_subtract_the_product_and_sum_of_digits_of_an_integer;
 
 public interface SubtractTheProductAndSumOfDigitsOfAnInteger {
     /**

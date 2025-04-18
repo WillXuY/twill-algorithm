@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.ints;
+package leetcode.p1400_1499.p1470_shuffle_the_array;
 
 public interface ShuffleTheArray {
     /**

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.KthSmallestElementInSortedMatrix;
+package leetcode.p0300_0399.p0378_kth_smallest_element_in_sorted_matrix;
 
 import java.util.TreeMap;
 

@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p1800_1899.p1844_replace_all_digits_with_characters;
 
 public interface ReplaceAllDigitsWithCharacters {
     /**

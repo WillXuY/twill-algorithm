@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.DetermineIfStringHalvesAreAlike;
+package leetcode.p1700_1799.p1704_determine_if_string_halves_are_alike;
 
 public class DetermineIfStringHalvesAreAlikeCount
         implements DetermineIfStringHalvesAreAlike {

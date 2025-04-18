@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1700_1799.p1779_find_nearest_point_that_has_the_same_xory_coordinate;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.integer.FindNearestPointThatHasTheSameXoryCoordinateLoop;
 
 import java.util.stream.Stream;
 

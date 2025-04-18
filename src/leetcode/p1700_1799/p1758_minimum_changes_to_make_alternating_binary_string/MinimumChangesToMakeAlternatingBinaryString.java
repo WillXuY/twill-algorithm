@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1700_1799.p1758_minimum_changes_to_make_alternating_binary_string;
 
 public interface MinimumChangesToMakeAlternatingBinaryString {
     /**

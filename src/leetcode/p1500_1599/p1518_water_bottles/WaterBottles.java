@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1500_1599.p1518_water_bottles;
 
 public interface WaterBottles {
     /**

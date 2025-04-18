@@ -1,7 +1,6 @@
-package org.willxu.algorithm.service.impl.intlist;
+package leetcode.p0100_0199.p0199_binary_tree_right_side_view;
 
 import common.provide.TreeNode;
-import org.willxu.algorithm.service.intlist.BinaryTreeRightSideView;
 
 import java.util.ArrayList;
 import java.util.Collections;

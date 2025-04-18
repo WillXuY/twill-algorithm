@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.NumberOfOperationsToMakeNetworkConnected;
+package leetcode.p1300_1399.p1319_number_of_operations_to_make_network_connected;
 
 import java.util.ArrayList;
 import java.util.HashSet;

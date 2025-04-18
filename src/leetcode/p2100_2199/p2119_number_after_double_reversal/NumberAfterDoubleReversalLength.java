@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.NumberAfterDoubleReversal;
+package leetcode.p2100_2199.p2119_number_after_double_reversal;
 
 public class NumberAfterDoubleReversalLength
         implements NumberAfterDoubleReversal {

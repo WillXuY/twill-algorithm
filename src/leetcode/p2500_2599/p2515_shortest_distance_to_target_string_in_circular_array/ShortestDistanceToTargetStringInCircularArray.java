@@ -1,4 +1,4 @@
-package leetcode.p2500_2599.;
+package leetcode.p2500_2599.p2515_shortest_distance_to_target_string_in_circular_array;
 
 public interface ShortestDistanceToTargetStringInCircularArray {
     /**

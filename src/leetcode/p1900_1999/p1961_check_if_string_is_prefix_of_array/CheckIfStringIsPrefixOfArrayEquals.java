@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.CheckIfStringIsPrefixOfArray;
+package leetcode.p1900_1999.p1961_check_if_string_is_prefix_of_array;
 
 public class CheckIfStringIsPrefixOfArrayEquals
         implements CheckIfStringIsPrefixOfArray {

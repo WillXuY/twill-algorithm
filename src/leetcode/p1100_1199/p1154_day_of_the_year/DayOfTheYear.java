@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1100_1199.p1154_day_of_the_year;
 
 public interface DayOfTheYear {
     /**

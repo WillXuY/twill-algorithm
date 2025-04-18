@@ -1,10 +1,9 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p0400_0499.p0405_converta_number_to_hexadecimal;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.string.ConvertaNumberToHexadecimalRemainder;
 
 import java.util.stream.Stream;
 

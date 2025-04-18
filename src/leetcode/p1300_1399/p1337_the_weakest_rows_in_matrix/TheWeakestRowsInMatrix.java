@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.ints;
+package leetcode.p1300_1399.p1337_the_weakest_rows_in_matrix;
 
 public interface TheWeakestRowsInMatrix {
     /**

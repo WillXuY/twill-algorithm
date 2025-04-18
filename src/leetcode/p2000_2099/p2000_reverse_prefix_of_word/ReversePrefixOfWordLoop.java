@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.ReversePrefixOfWord;
+package leetcode.p2000_2099.p2000_reverse_prefix_of_word;
 
 public class ReversePrefixOfWordLoop implements ReversePrefixOfWord {
     @Override

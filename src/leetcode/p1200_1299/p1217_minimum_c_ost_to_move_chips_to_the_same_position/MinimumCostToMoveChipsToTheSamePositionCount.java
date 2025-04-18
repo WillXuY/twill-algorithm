@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MinimumCostToMoveChipsToTheSamePosition;
+package leetcode.p1200_1299.p1217_minimum_c_ost_to_move_chips_to_the_same_position;
 
 public class MinimumCostToMoveChipsToTheSamePositionCount
         implements MinimumCostToMoveChipsToTheSamePosition {

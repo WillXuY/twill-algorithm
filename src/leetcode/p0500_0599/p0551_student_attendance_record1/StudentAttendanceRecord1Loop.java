@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.StudentAttendanceRecord1;
+package leetcode.p0500_0599.p0551_student_attendance_record1;
 
 public class StudentAttendanceRecord1Loop implements StudentAttendanceRecord1 {
     @Override

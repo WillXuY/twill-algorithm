@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0600_0699.p0650_two_keys_keyboard;
 
 public interface TwoKeysKeyboard {
     /**

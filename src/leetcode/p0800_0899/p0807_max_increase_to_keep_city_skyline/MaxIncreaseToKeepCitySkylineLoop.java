@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MaxIncreaseToKeepCitySkyline;
+package leetcode.p0800_0899.p0807_max_increase_to_keep_city_skyline;
 
 public class MaxIncreaseToKeepCitySkylineLoop
         implements MaxIncreaseToKeepCitySkyline {

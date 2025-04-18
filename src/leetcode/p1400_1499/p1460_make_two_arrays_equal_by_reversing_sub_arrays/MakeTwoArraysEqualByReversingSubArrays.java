@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p1400_1499.p1460_make_two_arrays_equal_by_reversing_sub_arrays;
 
 public interface MakeTwoArraysEqualByReversingSubArrays {
     /**

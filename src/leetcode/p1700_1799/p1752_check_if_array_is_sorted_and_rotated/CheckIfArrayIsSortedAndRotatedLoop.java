@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.CheckIfArrayIsSortedAndRotated;
+package leetcode.p1700_1799.p1752_check_if_array_is_sorted_and_rotated;
 
 public class CheckIfArrayIsSortedAndRotatedLoop
         implements CheckIfArrayIsSortedAndRotated {

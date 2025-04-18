@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.doublelist;
+package leetcode.p2400_2499.p2469_convert_the_temperature;
 
 public interface ConvertTheTemperature {
     /**

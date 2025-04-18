@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2000_2099.p2006_count_number_of_pairs_with_absolute_difference;
 
 public interface CountNumberOfPairsWithAbsoluteDifference {
     /**

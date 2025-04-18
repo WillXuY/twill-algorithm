@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.ints;
-
-import org.willxu.algorithm.service.ints.SortArrayByParity;
+package leetcode.p0900_0999.p0905_sort_array_by_parity;
 
 public class SortArrayByParityLoop implements SortArrayByParity {
     /**

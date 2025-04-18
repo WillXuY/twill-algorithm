@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0400_0499.p0409_longest_palindrome;
 
 public interface LongestPalindrome {
     /**

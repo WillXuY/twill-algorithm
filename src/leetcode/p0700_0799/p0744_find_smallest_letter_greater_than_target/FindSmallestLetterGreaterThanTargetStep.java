@@ -7,9 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.character;
-
-import org.willxu.algorithm.service.character.FindSmallestLetterGreaterThanTarget;
+package leetcode.p0700_0799.p0744_find_smallest_letter_greater_than_target;
 
 public class FindSmallestLetterGreaterThanTargetStep
         implements FindSmallestLetterGreaterThanTarget {

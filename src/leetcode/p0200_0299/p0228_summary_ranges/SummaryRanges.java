@@ -7,7 +7,7 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.strlist;
+package leetcode.p0200_0299.p0228_summary_ranges;
 
 import java.util.List;
 

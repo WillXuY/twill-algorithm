@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.ints;
-
-import org.willxu.algorithm.service.ints.BuildArrayFromPermutation;
+package leetcode.p1900_1999.p1920_build_array_from_permutation;
 
 public class BuildArrayFromPermutationLoop
         implements BuildArrayFromPermutation {

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.ShuffleString;
+package leetcode.p1500_1599.p1528_shuffle_string;
 
 public class ShuffleStringIndex implements ShuffleString {
     @Override

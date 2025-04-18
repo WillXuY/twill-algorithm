@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p1000_1099.p1013_partition_array_into_three_parts_with_equal_sum;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.bool.PartitionArrayIntoThreePartsWithEqualSumSave;
 
 import java.util.stream.Stream;
 

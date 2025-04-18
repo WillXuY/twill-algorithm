@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.strs;
-
-import org.willxu.algorithm.service.strs.DivideStringIntoGroupsOfSize;
+package leetcode.p2100_2199.p2138_divide_string_into_groups_of_size;
 
 public class DivideStringIntoGroupsOfSizeBuilder
         implements DivideStringIntoGroupsOfSize {

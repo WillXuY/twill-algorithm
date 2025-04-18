@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1500_1599.p1523_count_odd_numbers_in_an_interval_range;
 
 public interface CountOddNumbersInAnIntervalRange {
     /**

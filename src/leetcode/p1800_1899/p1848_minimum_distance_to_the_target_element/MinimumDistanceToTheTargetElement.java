@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1800_1899.p1848_minimum_distance_to_the_target_element;
 
 public interface MinimumDistanceToTheTargetElement {
     /**

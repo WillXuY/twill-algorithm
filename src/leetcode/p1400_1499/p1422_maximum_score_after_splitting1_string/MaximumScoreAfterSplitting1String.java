@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1400_1499.p1422_maximum_score_after_splitting1_string;
 
 public interface MaximumScoreAfterSplitting1String {
     /**

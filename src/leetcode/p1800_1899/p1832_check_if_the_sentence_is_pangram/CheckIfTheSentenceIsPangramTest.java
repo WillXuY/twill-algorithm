@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p1800_1899.p1832_check_if_the_sentence_is_pangram;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.bool.CheckIfTheSentenceIsPangramArray;
 
 import java.util.stream.Stream;
 

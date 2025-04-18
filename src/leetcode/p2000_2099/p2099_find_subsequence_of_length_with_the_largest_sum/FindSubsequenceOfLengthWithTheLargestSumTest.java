@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.ints;
+package leetcode.p2000_2099.p2099_find_subsequence_of_length_with_the_largest_sum;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.ints.FindSubsequenceOfLengthWithTheLargestSumSort;
 
 import java.util.stream.Stream;
 

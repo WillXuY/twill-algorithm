@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1300_1399.p1342_number_of_steps_to_reduce_number_to_zero;
 
 public interface NumberOfStepsToReduceNumberToZero {
     /**

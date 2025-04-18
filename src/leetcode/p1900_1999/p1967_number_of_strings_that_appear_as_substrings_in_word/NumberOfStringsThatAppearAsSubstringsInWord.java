@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1900_1999.p1967_number_of_strings_that_appear_as_substrings_in_word;
 
 public interface NumberOfStringsThatAppearAsSubstringsInWord {
     /**

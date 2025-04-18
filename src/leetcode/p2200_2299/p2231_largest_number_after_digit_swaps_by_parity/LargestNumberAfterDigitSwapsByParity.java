@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2200_2299.p2231_largest_number_after_digit_swaps_by_parity;
 
 public interface LargestNumberAfterDigitSwapsByParity {
     /**

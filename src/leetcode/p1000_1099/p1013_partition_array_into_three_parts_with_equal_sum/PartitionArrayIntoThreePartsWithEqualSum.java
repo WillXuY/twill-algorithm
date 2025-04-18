@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p1000_1099.p1013_partition_array_into_three_parts_with_equal_sum;
 
 public interface PartitionArrayIntoThreePartsWithEqualSum {
     /**

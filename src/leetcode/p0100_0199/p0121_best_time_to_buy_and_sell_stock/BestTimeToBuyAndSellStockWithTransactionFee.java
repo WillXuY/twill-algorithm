@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0100_0199.p0121_best_time_to_buy_and_sell_stock;
 
 public interface BestTimeToBuyAndSellStockWithTransactionFee {
     /**

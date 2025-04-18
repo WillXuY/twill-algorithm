@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0700_0799.p0792_number_of_matching_subsequences;
 
 public interface NumberOfMatchingSubsequences {
     /**

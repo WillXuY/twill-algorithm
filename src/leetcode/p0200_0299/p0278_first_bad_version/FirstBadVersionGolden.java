@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.extend;
-
-import org.willxu.algorithm.service.extend.FirstBadVersion;
+package leetcode.p0200_0299.p0278_first_bad_version;
 
 public class FirstBadVersionGolden extends FirstBadVersion {
     @Override

@@ -7,7 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.decimal;
+package leetcode.p0800_0899.p0812_largest_triangle_area;
 
 public interface LargestTriangleArea {
     /**

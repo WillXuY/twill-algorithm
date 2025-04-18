@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.boolist;
+package leetcode.p1000_1099.p1018_binary_prefix_divisible_by5;
 
 import java.util.List;
 

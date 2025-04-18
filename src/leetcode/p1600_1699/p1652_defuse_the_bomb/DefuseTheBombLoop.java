@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.ints;
-
-import org.willxu.algorithm.service.ints.DefuseTheBomb;
+package leetcode.p1600_1699.p1652_defuse_the_bomb;
 
 public class DefuseTheBombLoop implements DefuseTheBomb {
     @Override

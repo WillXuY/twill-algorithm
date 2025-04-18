@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p1000_1099.p1047_remove_all_adjacent_duplicates_in_string;
 
 public interface RemoveAllAdjacentDuplicatesInString {
     /**

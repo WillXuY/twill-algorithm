@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.doublelist;
+package leetcode.p2400_2499.p2469_convert_the_temperature;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.doublelist.ConvertTheTemperatureCalculate;
 
 import java.util.stream.Stream;
 

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.SplitStringInBalancedStrings;
+package leetcode.p1200_1299.p1221_split_string_in_balanced_strings;
 
 import java.util.Stack;
 

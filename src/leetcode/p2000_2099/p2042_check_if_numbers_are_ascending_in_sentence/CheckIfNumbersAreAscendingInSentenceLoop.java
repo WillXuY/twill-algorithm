@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.CheckIfNumbersAreAscendingInSentence;
+package leetcode.p2000_2099.p2042_check_if_numbers_are_ascending_in_sentence;
 
 public class CheckIfNumbersAreAscendingInSentenceLoop
         implements CheckIfNumbersAreAscendingInSentence {

@@ -7,9 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.ints;
-
-import org.willxu.algorithm.service.ints.ShortestDistanceToCharacter;
+package leetcode.p0800_0899.p0821_shortest_distance_to_character;
 
 public class ShortestDistanceToCharacterLoop
         implements ShortestDistanceToCharacter {

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MinimumChangesToMakeAlternatingBinaryString;
+package leetcode.p1700_1799.p1758_minimum_changes_to_make_alternating_binary_string;
 
 public class MinimumChangesToMakeAlternatingBinaryStringCount
         implements MinimumChangesToMakeAlternatingBinaryString {

@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p0300_0399.p0367_valid_perfect_square;
 
 public interface ValidPerfectSquare {
     /**

@@ -1,10 +1,9 @@
-package org.willxu.algorithm.service.treenode;
+package leetcode.p0600_0699.p0669_trim_binary_search_tree;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 import common.provide.TreeNode;
-import org.willxu.algorithm.service.impl.treenode.TrimBinarySearchTreeRecursive;
 
 import java.util.stream.Collectors;
 import java.util.stream.Stream;

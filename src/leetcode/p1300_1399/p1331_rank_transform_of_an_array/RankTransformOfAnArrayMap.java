@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.ints;
-
-import org.willxu.algorithm.service.ints.RankTransformOfAnArray;
+package leetcode.p1300_1399.p1331_rank_transform_of_an_array;
 
 import java.util.Arrays;
 import java.util.HashMap;

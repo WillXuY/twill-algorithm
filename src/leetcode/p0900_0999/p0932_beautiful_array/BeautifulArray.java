@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.ints;
+package leetcode.p0900_0999.p0932_beautiful_array;
 
 public interface BeautifulArray {
     /**

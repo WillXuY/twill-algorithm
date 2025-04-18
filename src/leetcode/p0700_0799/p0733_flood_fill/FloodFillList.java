@@ -7,9 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.matrix;
-
-import org.willxu.algorithm.service.matrix.FloodFill;
+package leetcode.p0700_0799.p0733_flood_fill;
 
 import java.util.ArrayList;
 import java.util.List;

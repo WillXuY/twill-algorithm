@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.strs;
-
-import org.willxu.algorithm.service.strs.SortThePeople;
+package leetcode.p2400_2499.p2418_sort_the_people;
 
 import java.util.TreeMap;
 

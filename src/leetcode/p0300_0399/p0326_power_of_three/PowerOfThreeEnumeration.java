@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.PowerOfThree;
+package leetcode.p0300_0399.p0326_power_of_three;
 
 public class PowerOfThreeEnumeration implements PowerOfThree {
     @Override

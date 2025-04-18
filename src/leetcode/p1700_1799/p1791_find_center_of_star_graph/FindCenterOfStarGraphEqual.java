@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.FindCenterOfStarGraph;
+package leetcode.p1700_1799.p1791_find_center_of_star_graph;
 
 public class FindCenterOfStarGraphEqual implements FindCenterOfStarGraph {
     @Override

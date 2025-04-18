@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2000_2099.p2027_minimum_moves_to_convert_string;
 
 public interface MinimumMovesToConvertString {
     /**

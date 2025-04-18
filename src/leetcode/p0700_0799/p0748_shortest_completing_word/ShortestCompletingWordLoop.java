@@ -7,9 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.ShortestCompletingWord;
+package leetcode.p0700_0799.p0748_shortest_completing_word;
 
 import java.util.HashMap;
 

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.NimGame;
+package leetcode.p0200_0299.p0292_nim_game;
 
 public class NimGameDivide4 implements NimGame {
     @Override

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.empty;
-
-import org.willxu.algorithm.service.empty.NextPermutation;
+package leetcode.p0000_0099.p0031_next_permutation;
 
 import java.util.Arrays;
 

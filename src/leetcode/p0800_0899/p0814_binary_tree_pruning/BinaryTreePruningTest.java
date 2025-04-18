@@ -1,10 +1,9 @@
-package org.willxu.algorithm.service.treenode;
+package leetcode.p0800_0899.p0814_binary_tree_pruning;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 import common.provide.TreeNode;
-import org.willxu.algorithm.service.impl.treenode.BinaryTreePruningRecursive;
 
 import java.util.stream.Collectors;
 import java.util.stream.Stream;

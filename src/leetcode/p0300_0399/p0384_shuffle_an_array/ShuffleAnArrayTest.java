@@ -1,7 +1,6 @@
-package org.willxu.algorithm.domain.array;
+package leetcode.p0300_0399.p0384_shuffle_an_array;
 
 import org.junit.jupiter.api.Test;
-import org.willxu.algorithm.domain.impl.array.ShuffleAnArrayDivision;
 
 public class ShuffleAnArrayTest {
     @Test

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MinimumSumOfFourDigitNumberAfterSplittingDigits;
+package leetcode.p2100_2199.p2160_minimum_sum_of_four_digit_number_after_splitting_digits;
 
 import java.util.Arrays;
 

@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1300_1399.p1343_number_of_sub_arrays_of_size_and_average_greater_than_or_equal_to_threshold;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.integer.NumberOfSubArraysOfSizeAndAverageGreaterThanOrEqualToThresholdLoop;
 
 import java.util.stream.Stream;
 

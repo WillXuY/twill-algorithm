@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.strlist;
+package leetcode.p1400_1499.p1441_build_an_array_with_stack_operations;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.strlist.BuildAnArrayWithStackOperationsLoop;
 
 import java.util.List;
 import java.util.stream.Collectors;

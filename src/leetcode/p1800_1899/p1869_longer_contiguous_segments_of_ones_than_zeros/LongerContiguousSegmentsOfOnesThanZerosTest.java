@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p1800_1899.p1869_longer_contiguous_segments_of_ones_than_zeros;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.bool.LongerContiguousSegmentsOfOnesThanZerosCount;
 
 import java.util.stream.Stream;
 

@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1000_1099.p1005_maximize_sum_of_array_after_negations;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.integer.MaximizeSumOfArrayAfterNegationsOrder;
 
 import java.util.stream.Stream;
 

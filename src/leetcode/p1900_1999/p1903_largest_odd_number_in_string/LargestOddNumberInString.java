@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p1900_1999.p1903_largest_odd_number_in_string;
 
 public interface LargestOddNumberInString {
     /**

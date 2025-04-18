@@ -7,7 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.doublepoint;
+package leetcode.p0600_0699.p0643_maximum_average_subarray1;
 
 public interface MaximumAverageSubarray1 {
     /**

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.doublepoint;
-
-import org.willxu.algorithm.service.doublepoint.CalculateAmountPaidInTaxes;
+package leetcode.p2300_2399.p2303_calculate_amount_paid_in_taxes;
 
 public class CalculateAmountPaidInTaxesLoop
         implements CalculateAmountPaidInTaxes {

@@ -7,12 +7,11 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.matrix;
+package leetcode.p0800_0899.p0830_positions_of_large_groups;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.matrix.PositionsOfLargeGroupsLoop;
 
 import java.util.Collections;
 import java.util.List;

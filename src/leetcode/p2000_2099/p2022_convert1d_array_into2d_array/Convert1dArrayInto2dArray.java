@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.matrix;
+package leetcode.p2000_2099.p2022_convert1d_array_into2d_array;
 
 public interface Convert1dArrayInto2dArray {
     /**

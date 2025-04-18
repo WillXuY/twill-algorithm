@@ -7,9 +7,7 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MinimumSizeSubarraySum;
+package leetcode.p0200_0299.p0209_minimum_size_subarray_sum;
 
 public class MinimumSizeSubarraySumBetter implements MinimumSizeSubarraySum {
 

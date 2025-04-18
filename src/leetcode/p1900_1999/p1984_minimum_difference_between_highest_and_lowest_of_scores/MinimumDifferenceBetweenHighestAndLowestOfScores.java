@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1900_1999.p1984_minimum_difference_between_highest_and_lowest_of_scores;
 
 public interface MinimumDifferenceBetweenHighestAndLowestOfScores {
     /**

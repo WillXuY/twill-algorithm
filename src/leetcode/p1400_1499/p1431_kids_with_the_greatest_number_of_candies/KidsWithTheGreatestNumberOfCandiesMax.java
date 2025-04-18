@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.boolist;
-
-import org.willxu.algorithm.service.boolist.KidsWithTheGreatestNumberOfCandies;
+package leetcode.p1400_1499.p1431_kids_with_the_greatest_number_of_candies;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.BestPokerHand;
+package leetcode.p2300_2399.p2347_best_poker_hand;
 
 import java.util.HashMap;
 import java.util.Map;

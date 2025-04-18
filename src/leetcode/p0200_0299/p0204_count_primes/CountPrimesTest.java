@@ -7,13 +7,11 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.integer;
+package leetcode.p0200_0299.p0204_count_primes;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.integer.CountPrimesCycleCalculate;
-import org.willxu.algorithm.service.impl.integer.CountPrimesMarkRemove;
 
 import java.util.stream.Stream;
 

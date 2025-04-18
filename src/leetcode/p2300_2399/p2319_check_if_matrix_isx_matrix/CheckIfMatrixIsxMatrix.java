@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p2300_2399.p2319_check_if_matrix_isx_matrix;
 
 public interface CheckIfMatrixIsxMatrix {
     /**

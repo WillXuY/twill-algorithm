@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p0000_0099.p0098_validate_binary_search_tree;
 
 import common.provide.TreeNode;
 

@@ -7,7 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.string;
+package leetcode.p0600_0699.p0606_construct_string_from_binary_tree;
 
 import common.provide.TreeNode;
 

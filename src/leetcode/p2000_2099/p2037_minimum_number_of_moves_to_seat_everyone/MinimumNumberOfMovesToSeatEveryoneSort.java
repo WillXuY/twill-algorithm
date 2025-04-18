@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MinimumNumberOfMovesToSeatEveryone;
+package leetcode.p2000_2099.p2037_minimum_number_of_moves_to_seat_everyone;
 
 import java.util.Arrays;
 

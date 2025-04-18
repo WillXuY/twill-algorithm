@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1400_1499.p1413_minimum_value_to_get_positive_step_by_step_sum;
 
 public interface MinimumValueToGetPositiveStepByStepSum {
     /**

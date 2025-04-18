@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2500_2599.p2506_count_pairs_of_similar_strings;
 
 public interface CountPairsOfSimilarStrings {
     /**

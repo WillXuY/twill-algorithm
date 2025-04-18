@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.intlist;
+package leetcode.p1400_1499.p1403_minimum_subsequence_in_non_increasing_order;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.intlist.MinimumSubsequenceInNonIncreasingOrderCount;
 
 import java.util.List;
 import java.util.stream.Collectors;

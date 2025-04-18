@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p1700_1799.p1736_latest_time_by_replacing_hidden_digits;
 
 public interface LatestTimeByReplacingHiddenDigits {
     /**

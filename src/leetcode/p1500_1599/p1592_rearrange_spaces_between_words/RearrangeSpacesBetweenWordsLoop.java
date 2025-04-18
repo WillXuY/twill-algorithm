@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.RearrangeSpacesBetweenWords;
+package leetcode.p1500_1599.p1592_rearrange_spaces_between_words;
 
 import java.util.ArrayList;
 import java.util.List;

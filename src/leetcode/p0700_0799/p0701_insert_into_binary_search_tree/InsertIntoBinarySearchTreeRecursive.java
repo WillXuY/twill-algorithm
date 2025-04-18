@@ -1,7 +1,6 @@
-package org.willxu.algorithm.service.impl.treenode;
+package leetcode.p0700_0799.p0701_insert_into_binary_search_tree;
 
 import common.provide.TreeNode;
-import org.willxu.algorithm.service.treenode.InsertIntoBinarySearchTree;
 
 public class InsertIntoBinarySearchTreeRecursive
         implements InsertIntoBinarySearchTree {

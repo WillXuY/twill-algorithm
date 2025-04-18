@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1700_1799.p1710_maximum_units_on_truck;
 
 public interface MaximumUnitsOnTruck {
     /**

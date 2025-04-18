@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p2000_2099.p2068_check_whether_two_strings_are_almost_equivalent;
 
 public interface CheckWhetherTwoStringsAreAlmostEquivalent {
     /**

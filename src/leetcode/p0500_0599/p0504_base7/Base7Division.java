@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.Base7;
+package leetcode.p0500_0599.p0504_base7;
 
 public class Base7Division implements Base7 {
     @Override

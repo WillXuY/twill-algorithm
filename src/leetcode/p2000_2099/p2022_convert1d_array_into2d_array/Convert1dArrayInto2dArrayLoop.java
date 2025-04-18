@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.matrix;
-
-import org.willxu.algorithm.service.matrix.Convert1dArrayInto2dArray;
+package leetcode.p2000_2099.p2022_convert1d_array_into2d_array;
 
 public class Convert1dArrayInto2dArrayLoop implements
         Convert1dArrayInto2dArray {

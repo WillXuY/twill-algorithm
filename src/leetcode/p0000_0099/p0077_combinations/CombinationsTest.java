@@ -1,11 +1,10 @@
-package org.willxu.algorithm.service.intlist;
+package leetcode.p0000_0099.p0077_combinations;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.intlist.CombinationsRecursive;
 
 import java.util.List;
 import java.util.stream.Collectors;

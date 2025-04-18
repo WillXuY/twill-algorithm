@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p1700_1799.p1704_determine_if_string_halves_are_alike;
 
 public interface DetermineIfStringHalvesAreAlike {
     /**

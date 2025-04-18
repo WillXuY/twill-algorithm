@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.LargestNumberAfterDigitSwapsByParity;
+package leetcode.p2200_2299.p2231_largest_number_after_digit_swaps_by_parity;
 
 import java.util.ArrayList;
 import java.util.List;

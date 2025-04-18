@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0300_0399.p0374_guess_number_higher_or_lower;
 
 public interface GuessNumberHigherOrLowerIi {
     /**

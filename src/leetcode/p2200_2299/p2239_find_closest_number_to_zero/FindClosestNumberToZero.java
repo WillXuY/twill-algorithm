@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2200_2299.p2239_find_closest_number_to_zero;
 
 public interface FindClosestNumberToZero {
     /**

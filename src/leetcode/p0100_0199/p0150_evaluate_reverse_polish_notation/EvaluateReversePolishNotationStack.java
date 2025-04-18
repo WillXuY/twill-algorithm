@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.EvaluateReversePolishNotation;
+package leetcode.p0100_0199.p0150_evaluate_reverse_polish_notation;
 
 import java.util.Stack;
 

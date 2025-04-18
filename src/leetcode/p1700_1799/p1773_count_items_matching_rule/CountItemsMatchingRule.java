@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1700_1799.p1773_count_items_matching_rule;
 
 import java.util.List;
 

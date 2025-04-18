@@ -7,12 +7,11 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.bool;
+package leetcode.p0600_0699.p0657_robot_return_to_origin;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.bool.RobotReturnToOriginCount;
 
 import java.util.stream.Stream;
 

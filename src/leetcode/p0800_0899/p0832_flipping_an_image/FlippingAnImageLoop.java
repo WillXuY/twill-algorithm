@@ -7,9 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.matrix;
-
-import org.willxu.algorithm.service.matrix.FlippingAnImage;
+package leetcode.p0800_0899.p0832_flipping_an_image;
 
 public class FlippingAnImageLoop implements FlippingAnImage {
     @Override

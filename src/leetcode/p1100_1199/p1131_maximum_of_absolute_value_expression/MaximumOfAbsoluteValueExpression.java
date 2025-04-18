@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1100_1199.p1131_maximum_of_absolute_value_expression;
 
 public interface MaximumOfAbsoluteValueExpression {
     /**

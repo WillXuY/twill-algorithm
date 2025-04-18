@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2100_2199.p2114_maximum_number_of_words_found_in_sentences;
 
 public interface MaximumNumberOfWordsFoundInSentences {
     /**

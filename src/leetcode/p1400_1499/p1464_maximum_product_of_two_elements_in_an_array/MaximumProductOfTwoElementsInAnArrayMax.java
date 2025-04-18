@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MaximumProductOfTwoElementsInAnArray;
+package leetcode.p1400_1499.p1464_maximum_product_of_two_elements_in_an_array;
 
 public class MaximumProductOfTwoElementsInAnArrayMax
         implements MaximumProductOfTwoElementsInAnArray {

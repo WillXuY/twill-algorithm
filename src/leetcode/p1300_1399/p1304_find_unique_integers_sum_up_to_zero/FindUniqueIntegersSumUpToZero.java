@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.ints;
+package leetcode.p1300_1399.p1304_find_unique_integers_sum_up_to_zero;
 
 public interface FindUniqueIntegersSumUpToZero {
     /**

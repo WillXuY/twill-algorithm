@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p1700_1799.p1763_longest_nice_substring;
 
 public interface LongestNiceSubstring {
     /**

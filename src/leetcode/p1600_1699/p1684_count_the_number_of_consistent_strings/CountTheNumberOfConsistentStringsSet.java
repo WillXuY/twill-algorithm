@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.CountTheNumberOfConsistentStrings;
+package leetcode.p1600_1699.p1684_count_the_number_of_consistent_strings;
 
 import java.util.HashSet;
 import java.util.Set;

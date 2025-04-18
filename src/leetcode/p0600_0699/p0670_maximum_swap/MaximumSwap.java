@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0600_0699.p0670_maximum_swap;
 
 public interface MaximumSwap {
     /**

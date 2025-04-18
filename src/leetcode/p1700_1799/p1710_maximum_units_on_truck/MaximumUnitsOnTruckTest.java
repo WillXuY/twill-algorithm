@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1700_1799.p1710_maximum_units_on_truck;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.integer.MaximumUnitsOnTruckSort;
 
 import java.util.stream.Stream;
 

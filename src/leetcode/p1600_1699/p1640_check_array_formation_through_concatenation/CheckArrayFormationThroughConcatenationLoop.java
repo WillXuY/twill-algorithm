@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.CheckArrayFormationThroughConcatenation;
+package leetcode.p1600_1699.p1640_check_array_formation_through_concatenation;
 
 public class CheckArrayFormationThroughConcatenationLoop
         implements CheckArrayFormationThroughConcatenation {

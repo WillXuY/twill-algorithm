@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.character;
-
-import org.willxu.algorithm.service.character.FirstLetterToAppearTwice;
+package leetcode.p2300_2399.p2351_first_letter_to_appear_twice;
 
 import java.util.HashSet;
 import java.util.Set;

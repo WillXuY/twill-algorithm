@@ -1,7 +1,6 @@
-package org.willxu.algorithm.service.impl.listnode;
+package leetcode.p0000_0099.p0086_partition_list;
 
 import common.provide.ListNode;
-import org.willxu.algorithm.service.listnode.PartitionList;
 
 public class PartitionListSave implements PartitionList {
     @Override

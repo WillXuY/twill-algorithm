@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MaximumProductDifferenceBetweenTwoPairs;
+package leetcode.p1900_1999.p1913_maximum_product_difference_between_two_pairs;
 
 public class MaximumProductDifferenceBetweenTwoPairsExtremum
         implements MaximumProductDifferenceBetweenTwoPairs {

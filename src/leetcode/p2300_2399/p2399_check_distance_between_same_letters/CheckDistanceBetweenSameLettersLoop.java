@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.CheckDistanceBetweenSameLetters;
+package leetcode.p2300_2399.p2399_check_distance_between_same_letters;
 
 import java.util.Arrays;
 

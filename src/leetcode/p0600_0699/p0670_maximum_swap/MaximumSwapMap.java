@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MaximumSwap;
+package leetcode.p0600_0699.p0670_maximum_swap;
 
 import java.util.*;
 

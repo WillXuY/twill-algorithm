@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.intlist;
-
-import org.willxu.algorithm.service.intlist.MostVisitedSectorInCircularTrack;
+package leetcode.p1500_1599.p1560_most_visited_sector_in_circular_track;
 
 import java.util.ArrayList;
 import java.util.List;

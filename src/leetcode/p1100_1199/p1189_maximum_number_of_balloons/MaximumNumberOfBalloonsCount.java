@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MaximumNumberOfBalloons;
+package leetcode.p1100_1199.p1189_maximum_number_of_balloons;
 
 public class MaximumNumberOfBalloonsCount implements MaximumNumberOfBalloons {
     /**

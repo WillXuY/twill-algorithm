@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p2400_2499.p2446_determine_if_two_events_have_conflict;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.bool.DetermineIfTwoEventsHaveConflictCompare;
 
 import java.util.stream.Stream;
 

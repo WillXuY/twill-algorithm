@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1600_1699.p1624_largest_substring_between_two_equal_characters;
 
 public interface LargestSubstringBetweenTwoEqualCharacters {
     /**

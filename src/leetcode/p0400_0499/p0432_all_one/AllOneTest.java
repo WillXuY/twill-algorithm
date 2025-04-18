@@ -7,10 +7,9 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.domain.other;
+package leetcode.p0400_0499.p0432_all_one;
 
 import org.junit.jupiter.api.Test;
-import org.willxu.algorithm.domain.impl.other.AllOneArray;
 
 public class AllOneTest {
     @Test

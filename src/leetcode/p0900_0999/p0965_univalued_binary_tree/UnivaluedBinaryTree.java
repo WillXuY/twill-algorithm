@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p0900_0999.p0965_univalued_binary_tree;
 
 import common.provide.TreeNode;
 

@@ -1,10 +1,9 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1000_1099.p1022_sum_of_root_to_leaf_binary_numbers;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 import common.provide.TreeNode;
-import org.willxu.algorithm.service.impl.integer.SumOfRootToLeafBinaryNumbersRecursive;
 
 import java.util.stream.Collectors;
 import java.util.stream.Stream;

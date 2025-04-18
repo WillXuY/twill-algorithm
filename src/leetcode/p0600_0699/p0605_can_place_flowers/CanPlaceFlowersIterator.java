@@ -7,9 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.CanPlaceFlowers;
+package leetcode.p0600_0699.p0605_can_place_flowers;
 
 public class CanPlaceFlowersIterator implements CanPlaceFlowers {
     @Override

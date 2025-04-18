@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.GoalParserInterpretation;
+package leetcode.p1600_1699.p1678_goal_parser_interpretation;
 
 public class GoalParserInterpretationLoop implements GoalParserInterpretation {
     @Override

@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p2300_2399.p2395_find_subarrays_with_equal_sum;
 
 public interface FindSubarraysWithEqualSum {
     /**

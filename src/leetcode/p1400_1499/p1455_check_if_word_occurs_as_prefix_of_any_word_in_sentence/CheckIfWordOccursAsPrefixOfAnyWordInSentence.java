@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1400_1499.p1455_check_if_word_occurs_as_prefix_of_any_word_in_sentence;
 
 public interface CheckIfWordOccursAsPrefixOfAnyWordInSentence {
     /**

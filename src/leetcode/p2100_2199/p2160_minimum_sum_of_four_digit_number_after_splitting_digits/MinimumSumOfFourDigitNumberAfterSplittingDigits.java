@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2100_2199.p2160_minimum_sum_of_four_digit_number_after_splitting_digits;
 
 public interface MinimumSumOfFourDigitNumberAfterSplittingDigits {
     /**

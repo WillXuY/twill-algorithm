@@ -7,7 +7,7 @@
  * any later version, as specified in the readme.md file.
  */
 
-package leetcode.p0100_0199.p0155_min_stack;
+package leetcode.p0200_0299.p0225_my_queues_stack;
 
 public abstract class MyStack {
     /** Initialize your data structure here. */

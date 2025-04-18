@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.ThreeConsecutiveOdds;
+package leetcode.p1500_1599.p1550_three_consecutive_odds;
 
 public class ThreeConsecutiveOddsCount implements ThreeConsecutiveOdds {
     @Override

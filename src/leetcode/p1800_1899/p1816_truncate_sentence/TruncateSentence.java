@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p1800_1899.p1816_truncate_sentence;
 
 public interface TruncateSentence {
     /**

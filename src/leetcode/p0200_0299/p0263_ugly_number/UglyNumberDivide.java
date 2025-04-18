@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.UglyNumber;
+package leetcode.p0200_0299.p0263_ugly_number;
 
 public class UglyNumberDivide implements UglyNumber {
     @Override

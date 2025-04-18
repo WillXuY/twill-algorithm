@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.ints;
+package leetcode.p1700_1799.p1720_decode_xored_array;
 
 public interface DecodeXoredArray {
     /**

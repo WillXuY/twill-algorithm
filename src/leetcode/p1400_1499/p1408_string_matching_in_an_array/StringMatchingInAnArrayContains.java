@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.strlist;
-
-import org.willxu.algorithm.service.strlist.StringMatchingInAnArray;
+package leetcode.p1400_1499.p1408_string_matching_in_an_array;
 
 import java.util.ArrayList;
 import java.util.List;

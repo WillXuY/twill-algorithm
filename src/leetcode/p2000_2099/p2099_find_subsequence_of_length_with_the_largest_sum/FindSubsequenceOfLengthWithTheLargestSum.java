@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.ints;
+package leetcode.p2000_2099.p2099_find_subsequence_of_length_with_the_largest_sum;
 
 public interface FindSubsequenceOfLengthWithTheLargestSum {
     /**

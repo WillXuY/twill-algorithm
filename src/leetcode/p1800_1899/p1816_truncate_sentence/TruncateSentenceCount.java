@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.TruncateSentence;
+package leetcode.p1800_1899.p1816_truncate_sentence;
 
 public class TruncateSentenceCount implements TruncateSentence {
     @Override

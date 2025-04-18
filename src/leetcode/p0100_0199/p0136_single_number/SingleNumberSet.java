@@ -7,9 +7,7 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.SingleNumber;
+package leetcode.p0100_0199.p0136_single_number;
 
 import java.util.HashSet;
 

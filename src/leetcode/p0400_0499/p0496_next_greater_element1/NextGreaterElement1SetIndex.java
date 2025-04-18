@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.ints;
-
-import org.willxu.algorithm.service.ints.NextGreaterElement1;
+package leetcode.p0400_0499.p0496_next_greater_element1;
 
 import java.util.*;
 

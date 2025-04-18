@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.UniqueNumberOfOccurrences;
+package leetcode.p1200_1299.p1207_unique_number_of_occurrences;
 
 import java.util.HashMap;
 import java.util.HashSet;

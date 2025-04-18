@@ -7,14 +7,12 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.bool;
+package leetcode.p0200_0299.p0234_palindrome_linked_list;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 import common.provide.ListNode;
-import org.willxu.algorithm.service.impl.bool.PalindromeLinkedListArray;
-import org.willxu.algorithm.service.impl.bool.PalindromeLinkedListStackAndQueue;
 
 import java.util.stream.Stream;
 

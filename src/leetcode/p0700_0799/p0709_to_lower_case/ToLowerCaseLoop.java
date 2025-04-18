@@ -7,9 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.ToLowerCase;
+package leetcode.p0700_0799.p0709_to_lower_case;
 
 public class ToLowerCaseLoop implements ToLowerCase {
     @Override

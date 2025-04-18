@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p0200_0299.p0290_word_pattern;
 
 public interface WordPattern {
     /**

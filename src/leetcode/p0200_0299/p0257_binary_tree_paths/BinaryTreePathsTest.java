@@ -7,7 +7,7 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.strlist;
+package leetcode.p0200_0299.p0257_binary_tree_paths;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -15,7 +15,6 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 import common.provide.TreeNode;
-import org.willxu.algorithm.service.impl.strlist.BinaryTreePathsRecursive;
 
 import java.util.List;
 import java.util.stream.Collectors;

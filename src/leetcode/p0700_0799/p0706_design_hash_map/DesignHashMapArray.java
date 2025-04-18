@@ -7,9 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.domain.impl.map;
-
-import org.willxu.algorithm.domain.map.DesignHashMap;
+package leetcode.p0700_0799.p0706_design_hash_map;
 
 public class DesignHashMapArray implements DesignHashMap {
     private int[][] map;

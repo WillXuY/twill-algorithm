@@ -1,4 +1,4 @@
-package org.willxu.algorithm.provide.random;
+package common.provide.random;
 
 import java.util.ArrayList;
 import java.util.List;

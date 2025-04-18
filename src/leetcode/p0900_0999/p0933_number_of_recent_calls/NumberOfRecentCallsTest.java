@@ -1,7 +1,6 @@
-package org.willxu.algorithm.domain.other;
+package leetcode.p0900_0999.p0933_number_of_recent_calls;
 
 import org.junit.jupiter.api.Test;
-import org.willxu.algorithm.domain.impl.other.NumberOfRecentCallsTree;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

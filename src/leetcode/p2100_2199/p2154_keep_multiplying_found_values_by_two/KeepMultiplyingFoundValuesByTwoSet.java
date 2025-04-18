@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.KeepMultiplyingFoundValuesByTwo;
+package leetcode.p2100_2199.p2154_keep_multiplying_found_values_by_two;
 
 import java.util.HashSet;
 import java.util.Set;

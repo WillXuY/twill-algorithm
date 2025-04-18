@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.InterleavingString;
+package leetcode.p0000_0099.p0097_interleaving_string;
 
 import java.util.HashSet;
 import java.util.Set;

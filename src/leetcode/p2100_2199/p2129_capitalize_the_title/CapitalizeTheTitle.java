@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p2100_2199.p2129_capitalize_the_title;
 
 public interface CapitalizeTheTitle {
     /**

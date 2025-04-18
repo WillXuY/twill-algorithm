@@ -7,9 +7,7 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.PowerOfTwo;
+package leetcode.p0200_0299.p0231_power_of_two;
 
 public class PowerOfTwoString implements PowerOfTwo {
     @Override

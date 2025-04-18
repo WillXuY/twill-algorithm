@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2000_2099.p2078_two_furthest_houses_with_different_colors;
 
 public interface TwoFurthestHousesWithDifferentColors {
     /**

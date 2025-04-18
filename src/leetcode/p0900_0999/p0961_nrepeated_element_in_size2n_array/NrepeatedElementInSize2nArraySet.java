@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.NrepeatedElementInSize2nArray;
+package leetcode.p0900_0999.p0961_nrepeated_element_in_size2n_array;
 
 import java.util.HashSet;
 import java.util.Set;

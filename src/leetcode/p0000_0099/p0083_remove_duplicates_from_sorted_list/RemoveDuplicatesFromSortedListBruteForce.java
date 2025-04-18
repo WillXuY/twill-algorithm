@@ -7,10 +7,9 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.listnode;
+package leetcode.p0000_0099.p0083_remove_duplicates_from_sorted_list;
 
 import common.provide.ListNode;
-import org.willxu.algorithm.service.listnode.RemoveDuplicatesFromSortedList;
 
 public class RemoveDuplicatesFromSortedListBruteForce
         implements RemoveDuplicatesFromSortedList {

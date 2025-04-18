@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.intlist;
-
-import org.willxu.algorithm.service.intlist.FindAllNumbersDisappearedInAnArray;
+package leetcode.p0400_0499.p0448_find_all_numbers_disappeared_in_an_array;
 
 import java.util.ArrayList;
 import java.util.List;

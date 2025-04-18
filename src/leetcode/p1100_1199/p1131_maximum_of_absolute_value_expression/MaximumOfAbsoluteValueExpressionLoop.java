@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MaximumOfAbsoluteValueExpression;
+package leetcode.p1100_1199.p1131_maximum_of_absolute_value_expression;
 
 public class MaximumOfAbsoluteValueExpressionLoop
         implements MaximumOfAbsoluteValueExpression {

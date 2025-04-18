@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MostProfitAssigningWork;
+package leetcode.p0800_0899.p0826_most_profit_assigning_work;
 
 public class MostProfitAssigningWorkArray implements MostProfitAssigningWork {
     @Override

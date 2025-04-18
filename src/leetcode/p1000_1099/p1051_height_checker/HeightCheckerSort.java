@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.HeightChecker;
+package leetcode.p1000_1099.p1051_height_checker;
 
 import java.util.Arrays;
 

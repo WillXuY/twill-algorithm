@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.matrix;
-
-import org.willxu.algorithm.service.matrix.MatrixCellsInDistanceOrder;
+package leetcode.p1000_1099.p1030_matrix_cells_in_distance_order;
 
 public class MatrixCellsInDistanceOrderLoop
         implements MatrixCellsInDistanceOrder {

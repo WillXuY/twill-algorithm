@@ -1,7 +1,6 @@
-package org.willxu.algorithm.service.impl.treenode;
+package leetcode.p0600_0699.p0654_maximum_binary_tree;
 
 import common.provide.TreeNode;
-import org.willxu.algorithm.service.treenode.MaximumBinaryTree;
 
 import java.util.Arrays;
 

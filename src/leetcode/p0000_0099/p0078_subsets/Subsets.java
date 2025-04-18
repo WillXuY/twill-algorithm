@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.intlist;
+package leetcode.p0000_0099.p0078_subsets;
 
 import java.util.List;
 

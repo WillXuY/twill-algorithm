@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.IncreasingDecreasingString;
+package leetcode.p1300_1399.p1370_increasing_decreasing_string;
 
 import java.util.Iterator;
 import java.util.Map;

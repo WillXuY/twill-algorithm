@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2200_2299.p2269_find_the_beauty_of_number;
 
 public interface FindTheBeautyOfNumber {
     /**

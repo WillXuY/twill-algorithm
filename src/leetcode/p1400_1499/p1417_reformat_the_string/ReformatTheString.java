@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p1400_1499.p1417_reformat_the_string;
 
 public interface ReformatTheString {
     /**

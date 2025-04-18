@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.SortingTheSentence;
+package leetcode.p1800_1899.p1859_sorting_the_sentence;
 
 public class SortingTheSentenceArray implements SortingTheSentence {
     @Override

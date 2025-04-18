@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.JumpGame;
+package leetcode.p0000_0099.p0055_jump_game;
 
 public class JumpGameLoop implements JumpGame {
     @Override

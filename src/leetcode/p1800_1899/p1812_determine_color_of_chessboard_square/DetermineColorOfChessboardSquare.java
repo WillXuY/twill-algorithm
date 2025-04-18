@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p1800_1899.p1812_determine_color_of_chessboard_square;
 
 public interface DetermineColorOfChessboardSquare {
     /**

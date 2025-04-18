@@ -7,7 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.integer;
+package leetcode.p0500_0599.p0559_maximum_depth_of_nary_tree;
 
 import common.provide.Node;
 

@@ -1,4 +1,4 @@
-package org.willxu.algorithm.domain.other;
+package leetcode.p0700_0799.p0707_design_linked_list;
 
 /**
  * Design your implementation of the linked list. You can choose to use

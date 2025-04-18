@@ -7,9 +7,7 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.ValidAnagram;
+package leetcode.p0200_0299.p0242_valid_anagram;
 
 public class ValidAnagramRemove implements ValidAnagram {
     @Override

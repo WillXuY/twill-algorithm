@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.ValidMountainArray;
+package leetcode.p0900_0999.p0941_valid_mountain_array;
 
 public class ValidMountainArrayLoop implements ValidMountainArray {
     /**

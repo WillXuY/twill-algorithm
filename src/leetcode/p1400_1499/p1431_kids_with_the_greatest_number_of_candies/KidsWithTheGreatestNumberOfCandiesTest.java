@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.boolist;
+package leetcode.p1400_1499.p1431_kids_with_the_greatest_number_of_candies;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.boolist.KidsWithTheGreatestNumberOfCandiesMax;
 
 import java.util.List;
 import java.util.stream.Collectors;

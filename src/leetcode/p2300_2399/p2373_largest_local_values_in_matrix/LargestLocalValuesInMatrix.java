@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.matrix;
+package leetcode.p2300_2399.p2373_largest_local_values_in_matrix;
 
 public interface LargestLocalValuesInMatrix {
     /**

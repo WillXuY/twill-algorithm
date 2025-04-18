@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.LargestPerimeterTriangle;
+package leetcode.p0900_0999.p0976_largest_perimeter_triangle;
 
 import java.util.Comparator;
 import java.util.TreeMap;

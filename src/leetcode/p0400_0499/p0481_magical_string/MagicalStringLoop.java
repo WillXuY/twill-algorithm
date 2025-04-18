@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MagicalString;
+package leetcode.p0400_0499.p0481_magical_string;
 
 public class MagicalStringLoop implements MagicalString {
     @Override

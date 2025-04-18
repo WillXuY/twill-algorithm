@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.RepeatedSubstringPattern;
+package leetcode.p0400_0499.p0459_repeated_substring_pattern;
 
 import java.util.ArrayList;
 import java.util.Iterator;

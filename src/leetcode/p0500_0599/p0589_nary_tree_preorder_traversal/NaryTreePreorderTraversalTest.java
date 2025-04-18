@@ -7,7 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.intlist;
+package leetcode.p0500_0599.p0589_nary_tree_preorder_traversal;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -15,7 +15,6 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 import common.provide.Node;
-import org.willxu.algorithm.service.impl.intlist.NaryTreePreorderTraversalRecursive;
 
 import java.util.List;
 import java.util.stream.Collectors;

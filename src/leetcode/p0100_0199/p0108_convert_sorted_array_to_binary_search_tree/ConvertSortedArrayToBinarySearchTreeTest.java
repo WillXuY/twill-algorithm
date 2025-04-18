@@ -7,7 +7,7 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.treenode;
+package leetcode.p0100_0199.p0108_convert_sorted_array_to_binary_search_tree;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

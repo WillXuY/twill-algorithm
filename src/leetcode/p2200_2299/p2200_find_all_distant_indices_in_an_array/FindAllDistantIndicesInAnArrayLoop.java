@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.intlist;
-
-import org.willxu.algorithm.service.intlist.FindAllDistantIndicesInAnArray;
+package leetcode.p2200_2299.p2200_find_all_distant_indices_in_an_array;
 
 import java.util.ArrayList;
 import java.util.List;

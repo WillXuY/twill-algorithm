@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p1100_1199.p1108_defanging_an_ip_address;
 
 public interface DefangingAnIpAddress {
     /**

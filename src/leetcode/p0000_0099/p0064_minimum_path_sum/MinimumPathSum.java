@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0000_0099.p0064_minimum_path_sum;
 
 public interface MinimumPathSum {
     /**

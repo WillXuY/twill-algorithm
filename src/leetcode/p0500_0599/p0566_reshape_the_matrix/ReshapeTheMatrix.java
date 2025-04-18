@@ -7,7 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.matrix;
+package leetcode.p0500_0599.p0566_reshape_the_matrix;
 
 public interface ReshapeTheMatrix {
     /**

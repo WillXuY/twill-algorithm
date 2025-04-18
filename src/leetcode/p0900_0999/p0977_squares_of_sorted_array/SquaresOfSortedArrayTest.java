@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.ints;
+package leetcode.p0900_0999.p0977_squares_of_sorted_array;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.ints.SquaresOfSortedArrayInsert;
 
 import java.util.stream.Stream;
 

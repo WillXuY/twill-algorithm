@@ -7,10 +7,9 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.treenode;
+package leetcode.p0200_0299.p0235_lowest_common_ancestor_of_bst;
 
 import common.provide.TreeNode;
-import org.willxu.algorithm.service.treenode.LowestCommonAncestorOfBst;
 
 public class LowestCommonAncestorOfBstRecursive
         implements LowestCommonAncestorOfBst {

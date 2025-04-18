@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.NumberOfCommonFactors;
+package leetcode.p2400_2499.p2427_number_of_common_factors;
 
 public class NumberOfCommonFactorsLoop implements NumberOfCommonFactors {
     @Override

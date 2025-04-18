@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2200_2299.p2269_find_the_beauty_of_number;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.integer.FindTheBeautyOfNumberLoop;
 
 import java.util.stream.Stream;
 

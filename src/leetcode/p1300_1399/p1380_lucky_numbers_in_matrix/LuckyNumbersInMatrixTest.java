@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.intlist;
+package leetcode.p1300_1399.p1380_lucky_numbers_in_matrix;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.intlist.LuckyNumbersInMatrixLoop;
 
 import java.util.List;
 import java.util.stream.Collectors;

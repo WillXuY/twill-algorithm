@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.DeleteGreatestValueInEachRow;
+package leetcode.p2500_2599.p2500_delete_greatest_value_in_each_row;
 
 import java.util.Arrays;
 

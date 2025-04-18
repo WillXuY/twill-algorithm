@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.DetermineIfTwoEventsHaveConflict;
+package leetcode.p2400_2499.p2446_determine_if_two_events_have_conflict;
 
 public class DetermineIfTwoEventsHaveConflictCompare
         implements DetermineIfTwoEventsHaveConflict {

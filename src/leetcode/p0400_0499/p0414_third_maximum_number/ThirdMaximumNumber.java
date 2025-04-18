@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0400_0499.p0414_third_maximum_number;
 
 public interface ThirdMaximumNumber {
     /**

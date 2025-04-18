@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.SumOfUniqueElements;
+package leetcode.p1700_1799.p1748_sum_of_unique_elements;
 
 import java.util.HashMap;
 import java.util.Map;

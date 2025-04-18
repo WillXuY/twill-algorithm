@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2000_2099.p2047_number_of_valid_words_in_sentence;
 
 public interface NumberOfValidWordsInSentence {
     /**

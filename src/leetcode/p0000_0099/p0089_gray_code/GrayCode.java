@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.intlist;
+package leetcode.p0000_0099.p0089_gray_code;
 
 import java.util.List;
 

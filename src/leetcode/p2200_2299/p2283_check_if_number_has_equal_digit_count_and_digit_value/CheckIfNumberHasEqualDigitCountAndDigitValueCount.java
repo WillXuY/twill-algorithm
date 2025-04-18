@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.CheckIfNumberHasEqualDigitCountAndDigitValue;
+package leetcode.p2200_2299.p2283_check_if_number_has_equal_digit_count_and_digit_value;
 
 public class CheckIfNumberHasEqualDigitCountAndDigitValueCount
         implements CheckIfNumberHasEqualDigitCountAndDigitValue {

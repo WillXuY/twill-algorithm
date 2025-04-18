@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p0500_0599.p0504_base7;
 
 public interface Base7 {
     /**

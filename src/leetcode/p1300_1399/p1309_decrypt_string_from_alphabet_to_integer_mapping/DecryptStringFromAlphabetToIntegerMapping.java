@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p1300_1399.p1309_decrypt_string_from_alphabet_to_integer_mapping;
 
 public interface DecryptStringFromAlphabetToIntegerMapping {
     /**

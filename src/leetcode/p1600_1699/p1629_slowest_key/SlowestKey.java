@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.character;
+package leetcode.p1600_1699.p1629_slowest_key;
 
 public interface SlowestKey {
     /**

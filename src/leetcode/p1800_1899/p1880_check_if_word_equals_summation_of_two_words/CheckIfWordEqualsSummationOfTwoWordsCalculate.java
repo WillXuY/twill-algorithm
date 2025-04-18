@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.CheckIfWordEqualsSummationOfTwoWords;
+package leetcode.p1800_1899.p1880_check_if_word_equals_summation_of_two_words;
 
 public class CheckIfWordEqualsSummationOfTwoWordsCalculate
         implements CheckIfWordEqualsSummationOfTwoWords {

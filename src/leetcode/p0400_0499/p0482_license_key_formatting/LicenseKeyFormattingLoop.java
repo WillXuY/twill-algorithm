@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.LicenseKeyFormatting;
+package leetcode.p0400_0499.p0482_license_key_formatting;
 
 public class LicenseKeyFormattingLoop implements LicenseKeyFormatting {
     @Override

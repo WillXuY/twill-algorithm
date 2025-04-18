@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p0500_0599.p0507_perfect_number;
 
 public interface PerfectNumber {
     /**

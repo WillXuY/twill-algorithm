@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2400_2499.p2455_average_value_of_even_numbers_that_are_divisible_by_three;
 
 public interface AverageValueOfEvenNumbersThatAreDivisibleByThree {
     /**

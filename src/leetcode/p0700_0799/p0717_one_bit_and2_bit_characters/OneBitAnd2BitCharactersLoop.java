@@ -7,9 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.OneBitAnd2BitCharacters;
+package leetcode.p0700_0799.p0717_one_bit_and2_bit_characters;
 
 public class OneBitAnd2BitCharactersLoop implements OneBitAnd2BitCharacters {
     @Override

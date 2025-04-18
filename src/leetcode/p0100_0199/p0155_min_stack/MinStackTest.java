@@ -7,10 +7,10 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.domain.stack;
+package leetcode.p0100_0199.p0155_min_stack;
 
 import org.junit.jupiter.api.Test;
-import org.willxu.algorithm.domain.impl.stack.MinStack;
+
 import leetcode.p0100_0199.p0155_min_stack.AbstractMinStack;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

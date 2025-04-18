@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.LongestWordInDictionaryThroughDeleting;
+package leetcode.p0500_0599.p0524_longest_word_in_dictionary_through_deleting;
 
 import java.util.List;
 import java.util.TreeSet;

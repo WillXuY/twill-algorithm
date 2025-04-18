@@ -1,7 +1,6 @@
-package org.willxu.algorithm.service.impl.bool;
+package leetcode.p2300_2399.p2331_evaluate_boolean_binary_tree;
 
 import common.provide.TreeNode;
-import org.willxu.algorithm.service.bool.EvaluateBooleanBinaryTree;
 
 public class EvaluateBooleanBinaryTreeRecursice
         implements EvaluateBooleanBinaryTree {

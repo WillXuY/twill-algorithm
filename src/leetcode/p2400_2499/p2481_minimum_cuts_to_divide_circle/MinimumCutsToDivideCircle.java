@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2400_2499.p2481_minimum_cuts_to_divide_circle;
 
 public interface MinimumCutsToDivideCircle {
     /**

@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.strlist;
+package leetcode.p0600_0699.p0609_find_duplicate_file_in_system;
 
 import java.util.List;
 

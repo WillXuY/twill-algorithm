@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MaximumRepeatingSubstring;
+package leetcode.p1600_1699.p1668_maximum_repeating_substring;
 
 public class MaximumRepeatingSubstringLoop implements MaximumRepeatingSubstring {
     @Override

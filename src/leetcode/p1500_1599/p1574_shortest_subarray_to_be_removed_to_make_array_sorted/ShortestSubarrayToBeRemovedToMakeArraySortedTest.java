@@ -1,11 +1,10 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1500_1599.p1574_shortest_subarray_to_be_removed_to_make_array_sorted;
 
 import java.util.stream.Stream;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.integer.ShortestSubarrayToBeRemovedToMakeArraySortedTwoPointers;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.params.provider.Arguments.arguments;

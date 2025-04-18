@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.FindThePivotInteger;
+package leetcode.p2400_2499.p2485_find_the_pivot_integer;
 
 public class FindThePivotIntegerCount implements FindThePivotInteger {
     @Override

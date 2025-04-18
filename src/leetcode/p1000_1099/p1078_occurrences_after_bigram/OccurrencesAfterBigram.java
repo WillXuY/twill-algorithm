@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.strs;
+package leetcode.p1000_1099.p1078_occurrences_after_bigram;
 
 public interface OccurrencesAfterBigram {
     /**

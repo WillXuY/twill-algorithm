@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.doublepoint;
+package leetcode.p1400_1499.p1491_average_salary_excluding_the_minimum_and_maximum_salary;
 
 public interface AverageSalaryExcludingTheMinimumAndMaximumSalary {
     /**

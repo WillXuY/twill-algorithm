@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1100_1199.p1189_maximum_number_of_balloons;
 
 public interface MaximumNumberOfBalloons {
     /**

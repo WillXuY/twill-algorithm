@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p2400_2499.p2451_odd_string_difference;
 
 public interface OddStringDifference {
     /**

@@ -7,9 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.UniqueMorseCodeWords;
+package leetcode.p0800_0899.p0804_unique_morse_code_words;
 
 import java.util.HashSet;
 import java.util.Set;

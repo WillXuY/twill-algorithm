@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.RansomNote;
+package leetcode.p0300_0399.p0383_ransom_note;
 
 import java.util.HashMap;
 

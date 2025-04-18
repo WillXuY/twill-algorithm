@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.ints;
-
-import org.willxu.algorithm.service.ints.DiStringMatch;
+package leetcode.p0900_0999.p0942_di_string_match;
 
 public class DiStringMatchLoop implements DiStringMatch {
     /**

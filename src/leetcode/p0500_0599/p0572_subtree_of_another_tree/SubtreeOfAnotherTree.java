@@ -7,7 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.bool;
+package leetcode.p0500_0599.p0572_subtree_of_another_tree;
 
 import common.provide.TreeNode;
 

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.StringToIntegerAtoi;
+package leetcode.p0000_0099.p0008_string_to_integer_atoi;
 
 public class StringToIntegerAtoiLoop implements StringToIntegerAtoi {
     @Override

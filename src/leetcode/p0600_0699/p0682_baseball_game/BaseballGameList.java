@@ -7,9 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.BaseballGame;
+package leetcode.p0600_0699.p0682_baseball_game;
 
 import java.util.ArrayList;
 import java.util.List;

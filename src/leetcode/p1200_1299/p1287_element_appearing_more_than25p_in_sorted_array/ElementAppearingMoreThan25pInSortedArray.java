@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1200_1299.p1287_element_appearing_more_than25p_in_sorted_array;
 
 public interface ElementAppearingMoreThan25pInSortedArray {
     /**

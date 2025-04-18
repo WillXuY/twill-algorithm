@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.TeemoAttacking;
+package leetcode.p0400_0499.p0495_teemo_attacking;
 
 public class TeemoAttackingLoop implements TeemoAttacking {
     @Override

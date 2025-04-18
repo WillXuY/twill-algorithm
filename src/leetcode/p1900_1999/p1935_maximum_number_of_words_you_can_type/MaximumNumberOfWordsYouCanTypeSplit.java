@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MaximumNumberOfWordsYouCanType;
+package leetcode.p1900_1999.p1935_maximum_number_of_words_you_can_type;
 
 public class MaximumNumberOfWordsYouCanTypeSplit
         implements MaximumNumberOfWordsYouCanType {

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.DetermineWhetherMatrixCanBeObtainedByRotation;
+package leetcode.p1800_1899.p1886_determine_whether_matrix_can_be_obtained_by_rotation;
 
 public class DetermineWhetherMatrixCanBeObtainedByRotationFour
         implements DetermineWhetherMatrixCanBeObtainedByRotation {

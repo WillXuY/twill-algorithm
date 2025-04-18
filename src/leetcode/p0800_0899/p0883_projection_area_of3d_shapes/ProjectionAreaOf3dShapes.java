@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0800_0899.p0883_projection_area_of3d_shapes;
 
 public interface ProjectionAreaOf3dShapes {
     /**

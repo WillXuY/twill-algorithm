@@ -1,7 +1,7 @@
-package org.willxu.algorithm.domain.integer;
+package leetcode.p0300_0399.p0382_linked_list_random_node;
 
 import org.junit.jupiter.api.Test;
-import org.willxu.algorithm.domain.impl.integer.LinkedListRandomNodeList;
+
 import common.provide.ListNode;
 
 import java.util.Set;

@@ -1,6 +1,5 @@
-package org.willxu.algorithm.domain.impl.integer;
+package leetcode.p0300_0399.p0382_linked_list_random_node;
 
-import org.willxu.algorithm.domain.integer.LinkedListRandomNode;
 import common.provide.ListNode;
 
 import java.util.ArrayList;

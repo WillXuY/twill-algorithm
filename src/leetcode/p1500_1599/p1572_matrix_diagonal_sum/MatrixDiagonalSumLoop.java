@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MatrixDiagonalSum;
+package leetcode.p1500_1599.p1572_matrix_diagonal_sum;
 
 public class MatrixDiagonalSumLoop implements MatrixDiagonalSum {
     @Override

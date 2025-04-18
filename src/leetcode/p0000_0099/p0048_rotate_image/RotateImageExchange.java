@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.empty;
-
-import org.willxu.algorithm.service.empty.RotateImage;
+package leetcode.p0000_0099.p0048_rotate_image;
 
 public class RotateImageExchange implements RotateImage {
     @Override

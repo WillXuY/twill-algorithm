@@ -7,14 +7,13 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.listnode;
+package leetcode.p0200_0299.p0203_remove_linked_list_elements;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 import common.provide.ListNode;
-import org.willxu.algorithm.service.impl.listnode.RemoveLinkedListElementsPointer;
 
 import java.util.stream.Stream;
 

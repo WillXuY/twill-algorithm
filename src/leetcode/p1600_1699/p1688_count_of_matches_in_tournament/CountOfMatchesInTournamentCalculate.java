@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.CountOfMatchesInTournament;
+package leetcode.p1600_1699.p1688_count_of_matches_in_tournament;
 
 public class CountOfMatchesInTournamentCalculate
         implements CountOfMatchesInTournament {

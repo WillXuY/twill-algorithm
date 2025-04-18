@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1300_1399.p1351_count_negative_numbers_in_sorted_matrix;
 
 public interface CountNegativeNumbersInSortedMatrix {
     /**

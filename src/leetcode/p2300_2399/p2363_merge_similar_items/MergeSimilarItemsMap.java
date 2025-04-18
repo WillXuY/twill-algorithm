@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.matrix;
-
-import org.willxu.algorithm.service.matrix.MergeSimilarItems;
+package leetcode.p2300_2399.p2363_merge_similar_items;
 
 import java.util.ArrayList;
 import java.util.List;

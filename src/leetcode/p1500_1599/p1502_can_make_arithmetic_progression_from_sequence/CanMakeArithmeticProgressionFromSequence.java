@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p1500_1599.p1502_can_make_arithmetic_progression_from_sequence;
 
 public interface CanMakeArithmeticProgressionFromSequence {
     /**

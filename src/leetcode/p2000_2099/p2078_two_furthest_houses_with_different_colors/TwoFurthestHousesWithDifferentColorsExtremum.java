@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.TwoFurthestHousesWithDifferentColors;
+package leetcode.p2000_2099.p2078_two_furthest_houses_with_different_colors;
 
 import java.util.HashMap;
 import java.util.Map;

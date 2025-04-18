@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.strlist;
-
-import org.willxu.algorithm.service.strlist.FindCommonCharacters;
+package leetcode.p1000_1099.p1002_find_common_characters;
 
 import java.util.ArrayList;
 import java.util.Iterator;

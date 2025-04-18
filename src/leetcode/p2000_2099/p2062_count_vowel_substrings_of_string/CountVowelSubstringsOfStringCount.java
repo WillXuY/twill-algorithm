@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.CountVowelSubstringsOfString;
+package leetcode.p2000_2099.p2062_count_vowel_substrings_of_string;
 
 import java.util.HashMap;
 import java.util.Map;

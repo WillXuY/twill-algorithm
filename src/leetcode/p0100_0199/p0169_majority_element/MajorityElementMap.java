@@ -7,9 +7,7 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MajorityElement;
+package leetcode.p0100_0199.p0169_majority_element;
 
 import java.util.Map;
 import java.util.Optional;

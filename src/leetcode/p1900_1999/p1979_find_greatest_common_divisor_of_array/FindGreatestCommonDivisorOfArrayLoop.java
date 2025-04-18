@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.FindGreatestCommonDivisorOfArray;
+package leetcode.p1900_1999.p1979_find_greatest_common_divisor_of_array;
 
 public class FindGreatestCommonDivisorOfArrayLoop
         implements FindGreatestCommonDivisorOfArray {

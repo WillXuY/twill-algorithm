@@ -1,7 +1,6 @@
-package org.willxu.algorithm.service.impl.treenode;
+package leetcode.p1300_1399.p1379_find_corresponding_node_of_binary_tree_in_clone_of_that_tree;
 
 import common.provide.TreeNode;
-import org.willxu.algorithm.service.treenode.FindCorrespondingNodeOfBinaryTreeInCloneOfThatTree;
 
 public class FindCorrespondingNodeOfBinaryTreeInCloneOfThatTreeRecursive
         implements FindCorrespondingNodeOfBinaryTreeInCloneOfThatTree {

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.PerfectNumber;
+package leetcode.p0500_0599.p0507_perfect_number;
 
 public class PerfectNumberDivision implements PerfectNumber {
     @Override

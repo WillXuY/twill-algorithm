@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.CanMakeArithmeticProgressionFromSequence;
+package leetcode.p1500_1599.p1502_can_make_arithmetic_progression_from_sequence;
 
 import java.util.Arrays;
 

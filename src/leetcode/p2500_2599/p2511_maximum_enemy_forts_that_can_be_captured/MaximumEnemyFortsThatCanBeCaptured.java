@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2500_2599.p2511_maximum_enemy_forts_that_can_be_captured;
 
 public interface MaximumEnemyFortsThatCanBeCaptured {
     /**

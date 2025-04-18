@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2000_2099.p2073_time_needed_to_buy_tickets;
 
 public interface TimeNeededToBuyTickets {
     /**

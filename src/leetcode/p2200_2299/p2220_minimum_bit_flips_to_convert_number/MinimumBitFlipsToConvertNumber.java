@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2200_2299.p2220_minimum_bit_flips_to_convert_number;
 
 public interface MinimumBitFlipsToConvertNumber {
     /**

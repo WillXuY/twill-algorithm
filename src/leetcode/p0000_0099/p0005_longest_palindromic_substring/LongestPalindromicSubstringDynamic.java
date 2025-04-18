@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.LongestPalindromicSubstring;
+package leetcode.p0000_0099.p0005_longest_palindromic_substring;
 
 import java.util.ArrayList;
 import java.util.HashMap;

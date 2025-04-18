@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0200_0299.p0258_add_digits;
 
 public interface AddDigits {
     /**

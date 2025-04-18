@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.ints;
+package leetcode.p1900_1999.p1929_concatenation_of_array;
 
 public interface ConcatenationOfArray {
     /**

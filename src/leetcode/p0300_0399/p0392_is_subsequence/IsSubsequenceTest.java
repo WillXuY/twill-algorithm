@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p0300_0399.p0392_is_subsequence;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.bool.IsSubsequenceIterator;
 
 import java.util.stream.Stream;
 

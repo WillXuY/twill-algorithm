@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0400_0499.p0463_island_perimeter;
 
 public interface IslandPerimeter {
     /**

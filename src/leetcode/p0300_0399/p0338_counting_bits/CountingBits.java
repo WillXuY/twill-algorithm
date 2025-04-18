@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.ints;
+package leetcode.p0300_0399.p0338_counting_bits;
 
 public interface CountingBits {
     /**

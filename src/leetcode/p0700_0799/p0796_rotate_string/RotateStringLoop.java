@@ -7,9 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.RotateString;
+package leetcode.p0700_0799.p0796_rotate_string;
 
 public class RotateStringLoop implements RotateString {
     @Override

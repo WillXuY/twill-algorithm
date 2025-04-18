@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.CountCommonWordsWithOneOccurrence;
+package leetcode.p2000_2099.p2085_count_common_words_with_one_occurrence;
 
 import java.util.HashSet;
 import java.util.Set;

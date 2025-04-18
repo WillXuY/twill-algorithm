@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.DecryptStringFromAlphabetToIntegerMapping;
+package leetcode.p1300_1399.p1309_decrypt_string_from_alphabet_to_integer_mapping;
 
 public class DecryptStringFromAlphabetToIntegerMappingReverse
         implements DecryptStringFromAlphabetToIntegerMapping {

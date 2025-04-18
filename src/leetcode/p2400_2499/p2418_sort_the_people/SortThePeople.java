@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.strs;
+package leetcode.p2400_2499.p2418_sort_the_people;
 
 public interface SortThePeople {
     /**

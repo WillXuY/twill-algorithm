@@ -7,13 +7,12 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.integer;
+package leetcode.p0100_0199.p0104_maximum_depth_of_binary_tree;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 import common.provide.TreeNode;
-import org.willxu.algorithm.service.impl.integer.MaximumDepthOfBinaryTreeLevel;
 
 import java.util.Collections;
 import java.util.stream.Collectors;

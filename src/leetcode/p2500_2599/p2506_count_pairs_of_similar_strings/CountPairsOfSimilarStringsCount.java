@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.CountPairsOfSimilarStrings;
+package leetcode.p2500_2599.p2506_count_pairs_of_similar_strings;
 
 import java.util.HashMap;
 import java.util.Map;

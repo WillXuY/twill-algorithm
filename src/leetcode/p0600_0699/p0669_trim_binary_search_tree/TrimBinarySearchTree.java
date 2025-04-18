@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.treenode;
+package leetcode.p0600_0699.p0669_trim_binary_search_tree;
 
 import common.provide.TreeNode;
 

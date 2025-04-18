@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2000_2099.p2016_maximum_difference_between_increasing_elements;
 
 public interface MaximumDifferenceBetweenIncreasingElements {
     /**

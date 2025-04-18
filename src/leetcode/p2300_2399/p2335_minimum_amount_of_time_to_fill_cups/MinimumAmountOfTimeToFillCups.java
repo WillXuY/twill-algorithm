@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2300_2399.p2335_minimum_amount_of_time_to_fill_cups;
 
 public interface MinimumAmountOfTimeToFillCups {
     /**

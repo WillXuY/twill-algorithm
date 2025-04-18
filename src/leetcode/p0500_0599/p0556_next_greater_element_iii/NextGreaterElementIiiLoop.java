@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.NextGreaterElementIii;
+package leetcode.p0500_0599.p0556_next_greater_element_iii;
 
 import java.util.ArrayList;
 import java.util.Arrays;

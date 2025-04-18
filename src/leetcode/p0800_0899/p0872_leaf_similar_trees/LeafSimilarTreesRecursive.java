@@ -1,7 +1,6 @@
-package org.willxu.algorithm.service.impl.bool;
+package leetcode.p0800_0899.p0872_leaf_similar_trees;
 
 import common.provide.TreeNode;
-import org.willxu.algorithm.service.bool.LeafSimilarTrees;
 
 import java.util.ArrayList;
 import java.util.List;

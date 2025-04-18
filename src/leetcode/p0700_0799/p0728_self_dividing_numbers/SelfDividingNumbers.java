@@ -7,7 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.intlist;
+package leetcode.p0700_0799.p0728_self_dividing_numbers;
 
 import java.util.List;
 

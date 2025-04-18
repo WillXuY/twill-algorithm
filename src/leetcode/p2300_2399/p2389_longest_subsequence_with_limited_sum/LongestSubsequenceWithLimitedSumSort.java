@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.ints;
-
-import org.willxu.algorithm.service.ints.LongestSubsequenceWithLimitedSum;
+package leetcode.p2300_2399.p2389_longest_subsequence_with_limited_sum;
 
 import java.util.Arrays;
 

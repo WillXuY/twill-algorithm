@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.LongestPalindrome;
+package leetcode.p0400_0499.p0409_longest_palindrome;
 
 import java.util.HashSet;
 import java.util.Set;

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.CrawlerLogFolder;
+package leetcode.p1500_1599.p1598_crawler_log_folder;
 
 public class CrawlerLogFolderLoop implements CrawlerLogFolder {
     @Override

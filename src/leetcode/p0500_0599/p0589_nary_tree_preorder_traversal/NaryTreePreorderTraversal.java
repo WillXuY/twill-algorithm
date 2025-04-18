@@ -7,7 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.intlist;
+package leetcode.p0500_0599.p0589_nary_tree_preorder_traversal;
 
 import common.provide.Node;
 

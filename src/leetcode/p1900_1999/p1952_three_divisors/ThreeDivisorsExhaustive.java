@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.ThreeDivisors;
+package leetcode.p1900_1999.p1952_three_divisors;
 
 public class ThreeDivisorsExhaustive implements ThreeDivisors {
     @Override

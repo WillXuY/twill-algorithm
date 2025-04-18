@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1500_1599.p1534_count_good_triplets;
 
 public interface CountGoodTriplets {
     /**

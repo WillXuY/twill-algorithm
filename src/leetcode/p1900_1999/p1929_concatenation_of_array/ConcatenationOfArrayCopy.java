@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.ints;
-
-import org.willxu.algorithm.service.ints.ConcatenationOfArray;
+package leetcode.p1900_1999.p1929_concatenation_of_array;
 
 public class ConcatenationOfArrayCopy implements ConcatenationOfArray {
     @Override

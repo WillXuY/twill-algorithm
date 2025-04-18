@@ -1,7 +1,6 @@
-package org.willxu.algorithm.service.impl.integer;
+package leetcode.p0500_0599.p0513_find_bottom_left_tree_value;
 
 import common.provide.TreeNode;
-import org.willxu.algorithm.service.integer.FindBottomLeftTreeValue;
 
 import java.util.ArrayList;
 import java.util.List;

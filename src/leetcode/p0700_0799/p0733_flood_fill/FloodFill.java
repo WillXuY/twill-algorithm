@@ -7,7 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.matrix;
+package leetcode.p0700_0799.p0733_flood_fill;
 
 public interface FloodFill {
     /**

@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.empty;
+package leetcode.p1000_1099.p1089_duplicate_zeros;
 
 public interface DuplicateZeros {
     /**

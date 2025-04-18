@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p1400_1499.p1496_path_crossing;
 
 public interface PathCrossing {
     /**

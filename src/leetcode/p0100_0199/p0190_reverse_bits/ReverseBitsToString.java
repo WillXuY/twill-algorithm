@@ -9,8 +9,6 @@
 
 package leetcode.p0100_0199.p0190_reverse_bits;
 
-import org.willxu.algorithm.service.integer.ReverseBits;
-
 public class ReverseBitsToString implements ReverseBits {
     @Override
     public int reverseBits(int n) {

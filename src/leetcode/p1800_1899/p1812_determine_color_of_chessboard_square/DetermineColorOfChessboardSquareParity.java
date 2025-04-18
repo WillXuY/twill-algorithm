@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.DetermineColorOfChessboardSquare;
+package leetcode.p1800_1899.p1812_determine_color_of_chessboard_square;
 
 public class DetermineColorOfChessboardSquareParity
         implements DetermineColorOfChessboardSquare {

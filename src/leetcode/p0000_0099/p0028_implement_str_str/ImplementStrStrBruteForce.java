@@ -7,9 +7,7 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.ImplementStrStr;
+package leetcode.p0000_0099.p0028_implement_str_str;
 
 public class ImplementStrStrBruteForce implements ImplementStrStr {
     @Override

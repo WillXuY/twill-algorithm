@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.ints;
-
-import org.willxu.algorithm.service.ints.FairCandySwap;
+package leetcode.p0800_0899.p0888_fair_candy_swap;
 
 import java.util.Iterator;
 import java.util.TreeSet;

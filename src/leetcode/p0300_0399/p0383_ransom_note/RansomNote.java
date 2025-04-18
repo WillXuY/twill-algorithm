@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p0300_0399.p0383_ransom_note;
 
 public interface RansomNote {
     /**

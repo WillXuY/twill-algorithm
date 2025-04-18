@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.SimplifyPath;
+package leetcode.p0000_0099.p0071_simplify_path;
 
 public class SimplifyPathLoop implements SimplifyPath {
     @Override

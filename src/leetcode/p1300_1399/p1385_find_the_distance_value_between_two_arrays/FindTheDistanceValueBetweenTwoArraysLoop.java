@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.FindTheDistanceValueBetweenTwoArrays;
+package leetcode.p1300_1399.p1385_find_the_distance_value_between_two_arrays;
 
 public class FindTheDistanceValueBetweenTwoArraysLoop
         implements FindTheDistanceValueBetweenTwoArrays {

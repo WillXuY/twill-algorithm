@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p1800_1899.p1893_check_if_all_the_integers_in_range_are_covered;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.bool.CheckIfAllTheIntegersInRangeAreCoveredSet;
 
 import java.util.stream.Stream;
 

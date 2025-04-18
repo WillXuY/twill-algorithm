@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p1500_1599.p1576_replace_all_question_marks_to_avoid_consecutive_repeating_characters;
 
 public interface ReplaceAllQuestionMarksToAvoidConsecutiveRepeatingCharacters {
     /**

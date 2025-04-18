@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2400_2499.p2437_number_of_valid_clock_times;
 
 public interface NumberOfValidClockTimes {
     /**

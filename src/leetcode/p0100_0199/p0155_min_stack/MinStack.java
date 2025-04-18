@@ -7,7 +7,7 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.domain.impl.stack;
+package leetcode.p0100_0199.p0155_min_stack;
 
 import leetcode.p0100_0199.p0155_min_stack.AbstractMinStack;
 import common.provide.ListNode;

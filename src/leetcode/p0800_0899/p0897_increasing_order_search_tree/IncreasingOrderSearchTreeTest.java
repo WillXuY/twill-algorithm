@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.treenode;
+package leetcode.p0800_0899.p0897_increasing_order_search_tree;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -6,7 +6,6 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 import common.provide.TreeNode;
-import org.willxu.algorithm.service.impl.treenode.IncreasingOrderSearchTreeRecursive;
 
 import java.util.stream.Collectors;
 import java.util.stream.Stream;

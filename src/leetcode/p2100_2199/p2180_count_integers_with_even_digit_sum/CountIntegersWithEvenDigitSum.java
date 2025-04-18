@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2100_2199.p2180_count_integers_with_even_digit_sum;
 
 public interface CountIntegersWithEvenDigitSum {
     /**

@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p0700_0799.p0799_champagne_tower;
 
 public interface ChampagneTower {
     /**

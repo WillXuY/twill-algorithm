@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.ints;
-
-import org.willxu.algorithm.service.ints.BeautifulArray;
+package leetcode.p0900_0999.p0932_beautiful_array;
 
 import java.util.ArrayList;
 import java.util.List;

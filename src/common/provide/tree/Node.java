@@ -1,4 +1,4 @@
-package org.willxu.algorithm.provide.tree;
+package common.provide.tree;
 
 public class Node {
     public int val;

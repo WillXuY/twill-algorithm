@@ -1,4 +1,4 @@
-package org.willxu.algorithm.domain.other;
+package leetcode.p0400_0499.p0412_fizz_buzz;
 
 import java.util.function.IntConsumer;
 

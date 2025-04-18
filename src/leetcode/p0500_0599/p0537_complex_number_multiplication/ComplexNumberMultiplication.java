@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p0500_0599.p0537_complex_number_multiplication;
 
 public interface ComplexNumberMultiplication {
     /**

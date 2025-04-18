@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MinimumMovesToConvertString;
+package leetcode.p2000_2099.p2027_minimum_moves_to_convert_string;
 
 public class MinimumMovesToConvertStringSkip
         implements MinimumMovesToConvertString {

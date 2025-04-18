@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2100_2199.p2103_rings_and_rods;
 
 public interface RingsAndRods {
     /**

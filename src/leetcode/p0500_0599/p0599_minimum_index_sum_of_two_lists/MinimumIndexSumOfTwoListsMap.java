@@ -7,9 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.strs;
-
-import org.willxu.algorithm.service.strs.MinimumIndexSumOfTwoLists;
+package leetcode.p0500_0599.p0599_minimum_index_sum_of_two_lists;
 
 import java.util.ArrayList;
 import java.util.HashMap;

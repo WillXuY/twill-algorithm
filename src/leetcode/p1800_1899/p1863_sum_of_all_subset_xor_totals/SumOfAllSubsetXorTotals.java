@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1800_1899.p1863_sum_of_all_subset_xor_totals;
 
 public interface SumOfAllSubsetXorTotals {
     /**

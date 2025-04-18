@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.ConsecutiveCharacters;
+package leetcode.p1400_1499.p1446_consecutive_characters;
 
 public class ConsecutiveCharactersLoop implements ConsecutiveCharacters {
     @Override

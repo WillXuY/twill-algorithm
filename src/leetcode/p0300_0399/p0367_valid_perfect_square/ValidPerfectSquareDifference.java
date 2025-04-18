@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.ValidPerfectSquare;
+package leetcode.p0300_0399.p0367_valid_perfect_square;
 
 public class ValidPerfectSquareDifference implements ValidPerfectSquare {
     /**

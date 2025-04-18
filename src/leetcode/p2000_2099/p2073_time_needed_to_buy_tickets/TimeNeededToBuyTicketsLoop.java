@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.TimeNeededToBuyTickets;
+package leetcode.p2000_2099.p2073_time_needed_to_buy_tickets;
 
 public class TimeNeededToBuyTicketsLoop implements TimeNeededToBuyTickets {
     @Override

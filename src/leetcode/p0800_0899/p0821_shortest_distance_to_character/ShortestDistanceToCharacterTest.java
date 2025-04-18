@@ -7,12 +7,11 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.ints;
+package leetcode.p0800_0899.p0821_shortest_distance_to_character;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.ints.ShortestDistanceToCharacterLoop;
 
 import java.util.stream.Stream;
 

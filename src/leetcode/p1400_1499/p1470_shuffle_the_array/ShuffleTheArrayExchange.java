@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.ints;
-
-import org.willxu.algorithm.service.ints.ShuffleTheArray;
+package leetcode.p1400_1499.p1470_shuffle_the_array;
 
 public class ShuffleTheArrayExchange implements ShuffleTheArray {
     @Override

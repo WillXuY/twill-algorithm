@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MinimumCostOfBuyingCandiesWithDiscount;
+package leetcode.p2100_2199.p2144_minimum_cost_of_buying_candies_with_discount;
 
 import java.util.Arrays;
 

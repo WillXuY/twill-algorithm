@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1700_1799.p1742_maximum_number_of_balls_in_box;
 
 public interface MaximumNumberOfBallsInBox {
     /**

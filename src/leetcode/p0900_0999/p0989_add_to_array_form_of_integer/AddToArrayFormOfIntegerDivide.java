@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.intlist;
-
-import org.willxu.algorithm.service.intlist.AddToArrayFormOfInteger;
+package leetcode.p0900_0999.p0989_add_to_array_form_of_integer;
 
 import java.util.LinkedList;
 import java.util.List;

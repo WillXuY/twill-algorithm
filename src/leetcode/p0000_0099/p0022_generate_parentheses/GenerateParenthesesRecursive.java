@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.strlist;
-
-import org.willxu.algorithm.service.strlist.GenerateParentheses;
+package leetcode.p0000_0099.p0022_generate_parentheses;
 
 import java.util.*;
 

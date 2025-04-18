@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.ints;
+package leetcode.p2300_2399.p2341_maximum_number_of_pairs_in_array;
 
 public interface MaximumNumberOfPairsInArray {
     /**

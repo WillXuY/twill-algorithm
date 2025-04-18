@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.ContainerWithMostWater;
+package leetcode.p0000_0099.p0011_container_with_most_water;
 
 public class ContainerWithMostWaterLoop implements ContainerWithMostWater {
     @Override

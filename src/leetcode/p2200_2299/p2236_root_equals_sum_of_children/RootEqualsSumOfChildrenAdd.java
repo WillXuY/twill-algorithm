@@ -1,7 +1,6 @@
-package org.willxu.algorithm.service.impl.bool;
+package leetcode.p2200_2299.p2236_root_equals_sum_of_children;
 
 import common.provide.TreeNode;
-import org.willxu.algorithm.service.bool.RootEqualsSumOfChildren;
 
 public class RootEqualsSumOfChildrenAdd implements RootEqualsSumOfChildren {
     @Override

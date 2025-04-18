@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.ints;
+package leetcode.p1300_1399.p1304_find_unique_integers_sum_up_to_zero;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.ints.FindUniqueIntegersSumUpToZeroSymmetry;
 
 import java.util.stream.Stream;
 

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.matrix;
-
-import org.willxu.algorithm.service.matrix.FourSum;
+package leetcode.p0000_0099.p0018_four_sum;
 
 import java.util.ArrayList;
 import java.util.Arrays;

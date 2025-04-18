@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.CheckIfNandItsDoubleExist;
+package leetcode.p1300_1399.p1346_check_if_nand_its_double_exist;
 
 import java.util.HashSet;
 import java.util.Set;

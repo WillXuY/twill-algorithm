@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.CountNumberOfPairsWithAbsoluteDifference;
+package leetcode.p2000_2099.p2006_count_number_of_pairs_with_absolute_difference;
 
 import java.util.ArrayList;
 import java.util.List;

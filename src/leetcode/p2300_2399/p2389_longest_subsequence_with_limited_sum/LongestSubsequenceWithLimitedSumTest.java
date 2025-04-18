@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.ints;
+package leetcode.p2300_2399.p2389_longest_subsequence_with_limited_sum;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.ints.LongestSubsequenceWithLimitedSumSort;
 
 import java.util.stream.Stream;
 

@@ -1,10 +1,9 @@
-package org.willxu.algorithm.service.treenode;
+package leetcode.p0600_0699.p0652_find_duplicate_subtrees;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 import common.provide.TreeNode;
-import org.willxu.algorithm.service.impl.treenode.FindDuplicateSubtreesRecursive;
 
 import java.util.List;
 import java.util.stream.Collectors;

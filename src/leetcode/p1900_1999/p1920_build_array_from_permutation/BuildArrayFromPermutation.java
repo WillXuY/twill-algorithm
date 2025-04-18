@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.ints;
+package leetcode.p1900_1999.p1920_build_array_from_permutation;
 
 public interface BuildArrayFromPermutation {
     /**

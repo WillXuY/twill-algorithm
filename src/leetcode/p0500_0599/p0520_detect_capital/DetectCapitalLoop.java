@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.DetectCapital;
+package leetcode.p0500_0599.p0520_detect_capital;
 
 public class DetectCapitalLoop implements DetectCapital {
     @Override

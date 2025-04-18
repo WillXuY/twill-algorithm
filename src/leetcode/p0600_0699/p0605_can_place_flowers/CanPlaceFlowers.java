@@ -7,7 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.bool;
+package leetcode.p0600_0699.p0605_can_place_flowers;
 
 public interface CanPlaceFlowers {
     /**

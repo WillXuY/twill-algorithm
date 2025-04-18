@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2400_2499.p2475_number_of_unequal_triplets_in_array;
 
 public interface NumberOfUnequalTripletsInArray {
     /**

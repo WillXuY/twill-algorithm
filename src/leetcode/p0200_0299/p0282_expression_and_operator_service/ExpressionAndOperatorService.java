@@ -7,7 +7,7 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.strlist;
+package leetcode.p0200_0299.p0282_expression_and_operator_service;
 
 import java.util.List;
 

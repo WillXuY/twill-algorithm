@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p2100_2199.p2124_check_if_all_as_appears_before_all_bs;
 
 public interface CheckIfAllAsAppearsBeforeAllBs {
     /**

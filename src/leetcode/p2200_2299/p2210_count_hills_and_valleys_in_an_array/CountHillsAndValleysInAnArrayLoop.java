@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.CountHillsAndValleysInAnArray;
+package leetcode.p2200_2299.p2210_count_hills_and_valleys_in_an_array;
 
 public class CountHillsAndValleysInAnArrayLoop
         implements CountHillsAndValleysInAnArray {

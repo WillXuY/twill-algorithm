@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.matrix;
-
-import org.willxu.algorithm.service.matrix.MergeIntervals;
+package leetcode.p0000_0099.p0056_merge_intervals;
 
 import java.util.TreeMap;
 

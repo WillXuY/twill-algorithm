@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.boolist;
-
-import org.willxu.algorithm.service.boolist.BinaryPrefixDivisibleBy5;
+package leetcode.p1000_1099.p1018_binary_prefix_divisible_by5;
 
 import java.math.BigInteger;
 import java.util.ArrayList;

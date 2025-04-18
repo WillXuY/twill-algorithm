@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p1500_1599.p1566_detect_pattern_of_length_repeated_kor_more_times;
 
 public interface DetectPatternOfLengthRepeatedKorMoreTimes {
     /**

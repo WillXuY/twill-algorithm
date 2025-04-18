@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.ints;
+package leetcode.p0500_0599.p0508_most_frequent_subtree_sum;
 
 import common.provide.TreeNode;
 

@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p1900_1999.p1952_three_divisors;
 
 public interface ThreeDivisors {
     /**

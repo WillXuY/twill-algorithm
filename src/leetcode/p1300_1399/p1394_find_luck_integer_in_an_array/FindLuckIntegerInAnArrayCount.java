@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.FindLuckIntegerInAnArray;
+package leetcode.p1300_1399.p1394_find_luck_integer_in_an_array;
 
 import java.util.NavigableSet;
 import java.util.TreeMap;

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.CheckIfMatrixIsxMatrix;
+package leetcode.p2300_2399.p2319_check_if_matrix_isx_matrix;
 
 public class CheckIfMatrixIsxMatrixLoop implements CheckIfMatrixIsxMatrix {
     @Override

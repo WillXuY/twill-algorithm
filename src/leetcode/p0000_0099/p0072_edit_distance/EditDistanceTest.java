@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0000_0099.p0072_edit_distance;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.integer.EditDistanceMatrix;
 
 import java.util.stream.Stream;
 

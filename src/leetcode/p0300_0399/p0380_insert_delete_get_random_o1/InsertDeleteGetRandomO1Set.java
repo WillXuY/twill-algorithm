@@ -1,6 +1,4 @@
-package org.willxu.algorithm.domain.impl.set;
-
-import org.willxu.algorithm.domain.set.InsertDeleteGetRandomO1;
+package leetcode.p0300_0399.p0380_insert_delete_get_random_o1;
 
 import java.util.*;
 

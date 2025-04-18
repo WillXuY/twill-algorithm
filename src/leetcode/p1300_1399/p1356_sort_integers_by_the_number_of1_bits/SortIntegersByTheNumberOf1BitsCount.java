@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.ints;
-
-import org.willxu.algorithm.service.ints.SortIntegersByTheNumberOf1Bits;
+package leetcode.p1300_1399.p1356_sort_integers_by_the_number_of1_bits;
 
 public class SortIntegersByTheNumberOf1BitsCount
         implements SortIntegersByTheNumberOf1Bits {

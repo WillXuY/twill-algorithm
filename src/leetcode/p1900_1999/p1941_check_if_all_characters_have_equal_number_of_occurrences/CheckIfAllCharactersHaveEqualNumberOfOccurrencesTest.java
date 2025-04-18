@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p1900_1999.p1941_check_if_all_characters_have_equal_number_of_occurrences;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.bool.CheckIfAllCharactersHaveEqualNumberOfOccurrencesMap;
 
 import java.util.stream.Stream;
 

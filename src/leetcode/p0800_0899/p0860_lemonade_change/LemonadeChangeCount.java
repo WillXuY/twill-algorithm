@@ -7,9 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.LemonadeChange;
+package leetcode.p0800_0899.p0860_lemonade_change;
 
 public class LemonadeChangeCount implements LemonadeChange {
     /**

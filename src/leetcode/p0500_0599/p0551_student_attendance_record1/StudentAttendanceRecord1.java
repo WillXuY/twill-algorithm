@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p0500_0599.p0551_student_attendance_record1;
 
 public interface StudentAttendanceRecord1 {
     /**

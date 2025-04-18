@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0700_0799.p0769_max_chunks_to_make_sorted;
 
 public interface MaxChunksToMakeSorted {
     /**

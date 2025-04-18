@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2300_2399.p2367_number_of_arithmetic_triplets;
 
 public interface NumberOfArithmeticTriplets {
     /**

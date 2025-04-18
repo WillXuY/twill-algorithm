@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p0500_0599.p0557_reverse_words_ina_string3;
 
 public interface ReverseWordsInaString3 {
     /**

@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p2200_2299.p2264_largest3_same_digit_number_in_string;
 
 public interface Largest3SameDigitNumberInString {
     /**

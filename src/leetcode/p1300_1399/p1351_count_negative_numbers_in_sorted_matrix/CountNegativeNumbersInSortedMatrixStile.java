@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.CountNegativeNumbersInSortedMatrix;
+package leetcode.p1300_1399.p1351_count_negative_numbers_in_sorted_matrix;
 
 public class CountNegativeNumbersInSortedMatrixStile
         implements CountNegativeNumbersInSortedMatrix {

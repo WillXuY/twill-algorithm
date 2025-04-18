@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.FindWordsThatCanBeFormedByCharacters;
+package leetcode.p1100_1199.p1160_find_words_that_can_be_formed_by_characters;
 
 import java.util.HashMap;
 import java.util.Map;

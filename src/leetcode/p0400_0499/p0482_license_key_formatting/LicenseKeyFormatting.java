@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p0400_0499.p0482_license_key_formatting;
 
 public interface LicenseKeyFormatting {
     /**

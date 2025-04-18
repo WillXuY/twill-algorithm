@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MaxChunksToMakeSorted;
+package leetcode.p0700_0799.p0769_max_chunks_to_make_sorted;
 
 public class MaxChunksToMakeSortedLoop implements MaxChunksToMakeSorted {
     @Override

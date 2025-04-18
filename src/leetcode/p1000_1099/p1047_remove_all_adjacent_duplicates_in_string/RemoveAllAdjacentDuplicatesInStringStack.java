@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.RemoveAllAdjacentDuplicatesInString;
+package leetcode.p1000_1099.p1047_remove_all_adjacent_duplicates_in_string;
 
 import java.util.Stack;
 

@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.empty;
+package leetcode.p0000_0099.p0099_recover_binary_search_tree;
 
 import common.provide.TreeNode;
 

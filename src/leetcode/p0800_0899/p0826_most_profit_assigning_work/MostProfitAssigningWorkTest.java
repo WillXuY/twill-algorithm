@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0800_0899.p0826_most_profit_assigning_work;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.integer.MostProfitAssigningWorkArray;
 
 import java.util.stream.Stream;
 

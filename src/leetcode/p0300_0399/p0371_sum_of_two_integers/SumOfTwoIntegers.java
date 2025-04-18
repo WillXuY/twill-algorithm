@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0300_0399.p0371_sum_of_two_integers;
 
 public interface SumOfTwoIntegers {
     /**

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.FibonacciNumber;
+package leetcode.p0500_0599.p0509_fibonacci_number;
 
 public class FibonacciNumberLoop implements FibonacciNumber {
     @Override

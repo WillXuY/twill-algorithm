@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.strs;
+package leetcode.p2400_2499.p2418_sort_the_people;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.strs.SortThePeopleTree;
 
 import java.util.stream.Stream;
 

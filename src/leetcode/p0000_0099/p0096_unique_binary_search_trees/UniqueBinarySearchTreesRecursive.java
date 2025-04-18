@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.UniqueBinarySearchTrees;
+package leetcode.p0000_0099.p0096_unique_binary_search_trees;
 
 public class UniqueBinarySearchTreesRecursive
         implements UniqueBinarySearchTrees {

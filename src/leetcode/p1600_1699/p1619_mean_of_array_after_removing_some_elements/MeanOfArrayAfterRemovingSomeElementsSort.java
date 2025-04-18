@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.decimal;
-
-import org.willxu.algorithm.service.decimal.MeanOfArrayAfterRemovingSomeElements;
+package leetcode.p1600_1699.p1619_mean_of_array_after_removing_some_elements;
 
 import java.util.Arrays;
 

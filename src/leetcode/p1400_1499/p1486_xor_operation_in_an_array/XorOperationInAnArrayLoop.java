@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.XorOperationInAnArray;
+package leetcode.p1400_1499.p1486_xor_operation_in_an_array;
 
 public class XorOperationInAnArrayLoop implements XorOperationInAnArray {
     @Override

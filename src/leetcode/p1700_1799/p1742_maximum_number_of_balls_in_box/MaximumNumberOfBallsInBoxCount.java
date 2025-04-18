@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MaximumNumberOfBallsInBox;
+package leetcode.p1700_1799.p1742_maximum_number_of_balls_in_box;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.ValidSudoku;
+package leetcode.p0000_0099.p0036_valid_sudoku;
 
 import java.util.HashMap;
 import java.util.HashSet;

@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p0400_0499.p0459_repeated_substring_pattern;
 
 public interface RepeatedSubstringPattern {
     /**

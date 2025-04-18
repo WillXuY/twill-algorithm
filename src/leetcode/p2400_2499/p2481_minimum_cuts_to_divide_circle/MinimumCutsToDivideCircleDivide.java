@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MinimumCutsToDivideCircle;
+package leetcode.p2400_2499.p2481_minimum_cuts_to_divide_circle;
 
 public class MinimumCutsToDivideCircleDivide
         implements MinimumCutsToDivideCircle {

@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p0000_0099.p0005_longest_palindromic_substring;
 
 public interface LongestPalindromicSubstring {
     /**

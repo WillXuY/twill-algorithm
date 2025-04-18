@@ -7,7 +7,7 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.integer;
+package leetcode.p0000_0099.p0026_remove_duplicates_from_sorted_array;
 
 public interface RemoveDuplicatesFromSortedArray {
     /**

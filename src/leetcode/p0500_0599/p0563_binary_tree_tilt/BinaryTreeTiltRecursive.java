@@ -7,10 +7,9 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.integer;
+package leetcode.p0500_0599.p0563_binary_tree_tilt;
 
 import common.provide.TreeNode;
-import org.willxu.algorithm.service.integer.BinaryTreeTilt;
 
 public class BinaryTreeTiltRecursive implements BinaryTreeTilt {
     @Override

@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0000_0099.p0015_three_sum;
 
 public interface ThreeSumWithMultiplicity {
     /**

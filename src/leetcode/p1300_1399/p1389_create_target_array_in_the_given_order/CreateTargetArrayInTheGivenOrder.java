@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.ints;
+package leetcode.p1300_1399.p1389_create_target_array_in_the_given_order;
 
 public interface CreateTargetArrayInTheGivenOrder {
     /**

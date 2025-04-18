@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.ints;
+package leetcode.p1300_1399.p1317_convert_integer_to_the_sum_of_two_no_zero_integers;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.ints.ConvertIntegerToTheSumOfTwoNoZeroIntegersDivide2;
 
 import java.util.stream.Stream;
 

@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.ints;
+package leetcode.p0900_0999.p0942_di_string_match;
 
 public interface DiStringMatch {
     /**

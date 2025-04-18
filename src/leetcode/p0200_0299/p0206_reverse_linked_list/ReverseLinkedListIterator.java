@@ -7,10 +7,9 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.listnode;
+package leetcode.p0200_0299.p0206_reverse_linked_list;
 
 import common.provide.ListNode;
-import org.willxu.algorithm.service.listnode.ReverseLinkedList;
 
 public class ReverseLinkedListIterator implements ReverseLinkedList {
     @Override

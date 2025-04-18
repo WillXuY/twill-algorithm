@@ -7,7 +7,7 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.listnode;
+package leetcode.p0200_0299.p0203_remove_linked_list_elements;
 
 import common.provide.ListNode;
 

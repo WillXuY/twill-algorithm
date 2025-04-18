@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.ArithmeticSlices;
+package leetcode.p0400_0499.p0413_arithmetic_slices;
 
 public class ArithmeticSlicesLoop implements ArithmeticSlices {
     @Override

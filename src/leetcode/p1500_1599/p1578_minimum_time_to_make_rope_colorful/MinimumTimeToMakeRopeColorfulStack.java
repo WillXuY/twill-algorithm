@@ -1,8 +1,6 @@
-package org.willxu.algorithm.service.impl.integer;
+package leetcode.p1500_1599.p1578_minimum_time_to_make_rope_colorful;
 
 import java.util.Stack;
-
-import org.willxu.algorithm.service.integer.MinimumTimeToMakeRopeColorful;
 
 public class MinimumTimeToMakeRopeColorfulStack implements MinimumTimeToMakeRopeColorful {
 

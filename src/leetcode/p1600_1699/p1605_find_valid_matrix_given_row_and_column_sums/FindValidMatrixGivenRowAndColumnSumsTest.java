@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.ints;
+package leetcode.p1600_1699.p1605_find_valid_matrix_given_row_and_column_sums;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -9,7 +9,6 @@ import java.util.stream.Stream;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.ints.FindValidMatrixGivenRowAndColumnSumsCompare;
 
 public class FindValidMatrixGivenRowAndColumnSumsTest {
 	static Stream<Arguments> dataProvider() {

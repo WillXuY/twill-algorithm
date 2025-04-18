@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p2400_2499.p2446_determine_if_two_events_have_conflict;
 
 public interface DetermineIfTwoEventsHaveConflict {
     /**

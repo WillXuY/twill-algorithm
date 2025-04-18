@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1600_1699.p1608_special_array_withx_elements_greater_than_or_equalx;
 
 public interface SpecialArrayWithxElementsGreaterThanOrEqualX {
     /**

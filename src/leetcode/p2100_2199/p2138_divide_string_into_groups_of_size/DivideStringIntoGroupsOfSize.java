@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.strs;
+package leetcode.p2100_2199.p2138_divide_string_into_groups_of_size;
 
 public interface DivideStringIntoGroupsOfSize {
     /**

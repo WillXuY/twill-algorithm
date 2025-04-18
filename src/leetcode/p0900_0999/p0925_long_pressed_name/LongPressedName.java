@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p0900_0999.p0925_long_pressed_name;
 
 public interface LongPressedName {
     /**

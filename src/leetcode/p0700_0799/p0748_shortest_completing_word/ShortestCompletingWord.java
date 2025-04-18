@@ -7,7 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.string;
+package leetcode.p0700_0799.p0748_shortest_completing_word;
 
 public interface ShortestCompletingWord {
     /**

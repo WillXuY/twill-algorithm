@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.ints;
-
-import org.willxu.algorithm.service.ints.SortArrayByIncreasingFrequency;
+package leetcode.p1600_1699.p1636_sort_array_by_increasing_frequency;
 
 import java.util.*;
 

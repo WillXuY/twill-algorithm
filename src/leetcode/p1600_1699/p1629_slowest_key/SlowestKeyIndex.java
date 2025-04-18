@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.character;
-
-import org.willxu.algorithm.service.character.SlowestKey;
+package leetcode.p1600_1699.p1629_slowest_key;
 
 import java.util.ArrayList;
 import java.util.List;

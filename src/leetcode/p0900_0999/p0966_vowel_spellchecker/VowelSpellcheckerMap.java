@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.strs;
-
-import org.willxu.algorithm.service.strs.VowelSpellchecker;
+package leetcode.p0900_0999.p0966_vowel_spellchecker;
 
 import java.util.*;
 

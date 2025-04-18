@@ -1,7 +1,6 @@
-package org.willxu.algorithm.service.impl.intlist;
+package leetcode.p0100_0199.p0102_binary_tree_level_order_traversal;
 
 import common.provide.TreeNode;
-import org.willxu.algorithm.service.intlist.BinaryTreeLevelOrderTraversal;
 
 import java.util.ArrayList;
 import java.util.Collections;

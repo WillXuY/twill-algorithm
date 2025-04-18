@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.RemoveLetterToEqualizeFrequency;
+package leetcode.p2400_2499.p2423_remove_letter_to_equalize_frequency;
 
 import java.util.HashMap;
 import java.util.Map;

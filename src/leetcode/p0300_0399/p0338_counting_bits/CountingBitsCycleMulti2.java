@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.ints;
-
-import org.willxu.algorithm.service.ints.CountingBits;
+package leetcode.p0300_0399.p0338_counting_bits;
 
 public class CountingBitsCycleMulti2 implements CountingBits {
     @Override

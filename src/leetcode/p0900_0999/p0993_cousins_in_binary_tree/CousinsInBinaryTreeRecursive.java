@@ -1,7 +1,6 @@
-package org.willxu.algorithm.service.impl.bool;
+package leetcode.p0900_0999.p0993_cousins_in_binary_tree;
 
 import common.provide.TreeNode;
-import org.willxu.algorithm.service.bool.CousinsInBinaryTree;
 
 public class CousinsInBinaryTreeRecursive implements CousinsInBinaryTree {
     @Override

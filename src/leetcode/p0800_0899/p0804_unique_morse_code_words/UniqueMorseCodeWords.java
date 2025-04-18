@@ -7,7 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.integer;
+package leetcode.p0800_0899.p0804_unique_morse_code_words;
 
 public interface UniqueMorseCodeWords {
     /**

@@ -1,7 +1,6 @@
-package org.willxu.algorithm.domain.string;
+package leetcode.p0500_0599.p0535_encode_and_decode_tiny_url;
 
 import org.junit.jupiter.api.Test;
-import org.willxu.algorithm.domain.impl.string.EncodeAndDecodeTinyUrlMap;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

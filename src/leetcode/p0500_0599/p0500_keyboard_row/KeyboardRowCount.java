@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.strlist;
-
-import org.willxu.algorithm.service.strlist.KeyboardRow;
+package leetcode.p0500_0599.p0500_keyboard_row;
 
 import java.util.ArrayList;
 import java.util.List;

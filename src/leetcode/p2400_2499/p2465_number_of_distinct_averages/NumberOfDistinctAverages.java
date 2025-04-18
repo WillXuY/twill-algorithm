@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2400_2499.p2465_number_of_distinct_averages;
 
 public interface NumberOfDistinctAverages {
     /**

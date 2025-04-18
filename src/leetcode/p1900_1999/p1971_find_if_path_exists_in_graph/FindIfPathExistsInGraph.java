@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p1900_1999.p1971_find_if_path_exists_in_graph;
 
 public interface FindIfPathExistsInGraph {
     /**

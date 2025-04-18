@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.CanConvertStringInMoves;
+package leetcode.p1500_1599.p1540_can_convert_string_in_moves;
 
 public class CanConvertStringInMovesCount implements CanConvertStringInMoves {
 	@Override

@@ -7,12 +7,11 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.integer;
+package leetcode.p0700_0799.p0747_largest_number_at_least_twice_of_others;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.integer.LargestNumberAtLeastTwiceOfOthersLoop;
 
 import java.util.stream.Stream;
 

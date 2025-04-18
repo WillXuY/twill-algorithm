@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MostFrequentNumberFollowingKeyInAnArray;
+package leetcode.p2100_2199.p2190_most_frequent_number_following_key_in_an_array;
 
 import java.util.HashMap;
 import java.util.Map;

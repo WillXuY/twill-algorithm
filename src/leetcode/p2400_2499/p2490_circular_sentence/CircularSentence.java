@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p2400_2499.p2490_circular_sentence;
 
 public interface CircularSentence {
     /**

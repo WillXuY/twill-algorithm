@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.KthMissingPositiveNumber;
+package leetcode.p1500_1599.p1539_kth_missing_positive_number;
 
 public class KthMissingPositiveNumberLoop implements KthMissingPositiveNumber {
     @Override

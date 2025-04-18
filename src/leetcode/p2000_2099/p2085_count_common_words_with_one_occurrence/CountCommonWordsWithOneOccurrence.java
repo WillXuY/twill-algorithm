@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2000_2099.p2085_count_common_words_with_one_occurrence;
 
 public interface CountCommonWordsWithOneOccurrence {
     /**

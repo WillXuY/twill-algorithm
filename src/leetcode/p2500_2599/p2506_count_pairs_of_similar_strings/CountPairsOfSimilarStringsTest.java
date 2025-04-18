@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2500_2599.p2506_count_pairs_of_similar_strings;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.integer.CountPairsOfSimilarStringsCount;
 
 import java.util.stream.Stream;
 

@@ -7,7 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.ints;
+package leetcode.p0800_0899.p0806_number_of_lines_to_write_string;
 
 public interface NumberOfLinesToWriteString {
     /**

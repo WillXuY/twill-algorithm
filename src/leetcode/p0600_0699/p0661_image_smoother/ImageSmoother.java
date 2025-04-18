@@ -7,7 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.matrix;
+package leetcode.p0600_0699.p0661_image_smoother;
 
 public interface ImageSmoother {
     /**

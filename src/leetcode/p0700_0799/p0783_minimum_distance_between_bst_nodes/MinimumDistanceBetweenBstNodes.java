@@ -7,7 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.integer;
+package leetcode.p0700_0799.p0783_minimum_distance_between_bst_nodes;
 
 import common.provide.TreeNode;
 

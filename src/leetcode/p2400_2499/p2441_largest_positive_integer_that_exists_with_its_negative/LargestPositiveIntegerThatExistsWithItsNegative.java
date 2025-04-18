@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2400_2499.p2441_largest_positive_integer_that_exists_with_its_negative;
 
 public interface LargestPositiveIntegerThatExistsWithItsNegative {
     /**

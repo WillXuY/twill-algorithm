@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.doublepoint;
-
-import org.willxu.algorithm.service.doublepoint.New21Game;
+package leetcode.p0800_0899.p0837_new21_game;
 
 public class New21GameLoop implements New21Game {
     @Override

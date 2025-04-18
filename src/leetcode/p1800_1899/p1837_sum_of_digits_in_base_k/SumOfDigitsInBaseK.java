@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1800_1899.p1837_sum_of_digits_in_base_k;
 
 public interface SumOfDigitsInBaseK {
     /**

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.FindTheMiddleIndexInArray;
+package leetcode.p1900_1999.p1991_find_the_middle_index_in_array;
 
 public class FindTheMiddleIndexInArraySum implements FindTheMiddleIndexInArray {
     @Override

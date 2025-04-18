@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1200_1299.p1217_minimum_c_ost_to_move_chips_to_the_same_position;
 
 public interface MinimumCostToMoveChipsToTheSamePosition {
     /**

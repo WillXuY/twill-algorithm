@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p1100_1199.p1185_day_of_the_week;
 
 public interface DayOfTheWeek {
     /**

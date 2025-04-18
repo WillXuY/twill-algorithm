@@ -7,9 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.BinaryNumberWithAlternatingBits;
+package leetcode.p0600_0699.p0693_binary_number_with_alternating_bits;
 
 public class BinaryNumberWithAlternatingBitsDivide
         implements BinaryNumberWithAlternatingBits {

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MaximumDifferenceBetweenIncreasingElements;
+package leetcode.p2000_2099.p2016_maximum_difference_between_increasing_elements;
 
 public class MaximumDifferenceBetweenIncreasingElementsLoop
         implements MaximumDifferenceBetweenIncreasingElements {

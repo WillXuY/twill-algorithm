@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p2200_2299.p2243_calculate_digit_sum_of_string;
 
 public interface CalculateDigitSumOfString {
     /**

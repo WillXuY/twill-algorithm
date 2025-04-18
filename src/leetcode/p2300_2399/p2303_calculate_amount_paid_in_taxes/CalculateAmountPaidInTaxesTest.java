@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.doublepoint;
+package leetcode.p2300_2399.p2303_calculate_amount_paid_in_taxes;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.doublepoint.CalculateAmountPaidInTaxesLoop;
 
 import java.util.stream.Stream;
 

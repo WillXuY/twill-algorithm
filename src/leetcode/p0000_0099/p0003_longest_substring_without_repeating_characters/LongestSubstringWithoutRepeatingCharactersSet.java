@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.LongestSubstringWithoutRepeatingCharacters;
+package leetcode.p0000_0099.p0003_longest_substring_without_repeating_characters;
 
 import java.util.HashSet;
 import java.util.Set;

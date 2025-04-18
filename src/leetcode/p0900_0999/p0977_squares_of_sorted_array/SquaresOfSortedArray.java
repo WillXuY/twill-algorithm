@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.ints;
+package leetcode.p0900_0999.p0977_squares_of_sorted_array;
 
 public interface SquaresOfSortedArray {
     /**

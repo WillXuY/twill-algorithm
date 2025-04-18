@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.DeleteColumnsToMakeSorted;
+package leetcode.p0900_0999.p0944_delete_columns_to_make_sorted;
 
 public class DeleteColumnsToMakeSortedLoop
         implements DeleteColumnsToMakeSorted {

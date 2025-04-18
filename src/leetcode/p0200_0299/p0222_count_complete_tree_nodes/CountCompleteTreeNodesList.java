@@ -1,7 +1,6 @@
-package org.willxu.algorithm.service.impl.integer;
+package leetcode.p0200_0299.p0222_count_complete_tree_nodes;
 
 import common.provide.TreeNode;
-import org.willxu.algorithm.service.integer.CountCompleteTreeNodes;
 
 import java.util.ArrayList;
 import java.util.List;

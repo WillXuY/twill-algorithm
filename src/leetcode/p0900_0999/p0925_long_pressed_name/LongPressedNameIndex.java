@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.LongPressedName;
+package leetcode.p0900_0999.p0925_long_pressed_name;
 
 public class LongPressedNameIndex implements LongPressedName {
     /**

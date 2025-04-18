@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.intlist;
-
-import org.willxu.algorithm.service.intlist.FindTargetIndicesAfterSortingArray;
+package leetcode.p2000_2099.p2089_find_target_indices_after_sorting_array;
 
 import java.util.ArrayList;
 import java.util.Arrays;

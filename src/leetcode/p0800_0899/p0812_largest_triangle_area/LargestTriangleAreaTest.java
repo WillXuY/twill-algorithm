@@ -7,12 +7,11 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.decimal;
+package leetcode.p0800_0899.p0812_largest_triangle_area;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.decimal.LargestTriangleAreaCombination;
 
 import java.util.stream.Stream;
 

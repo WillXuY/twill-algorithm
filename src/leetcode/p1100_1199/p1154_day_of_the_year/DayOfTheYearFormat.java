@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.DayOfTheYear;
+package leetcode.p1100_1199.p1154_day_of_the_year;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

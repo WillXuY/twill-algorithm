@@ -1,7 +1,6 @@
-package org.willxu.algorithm.domain.other;
+package leetcode.p0700_0799.p0707_design_linked_list;
 
 import org.junit.jupiter.api.Test;
-import org.willxu.algorithm.domain.impl.other.DesignLinkedListNode;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MaxConsecutiveOnes;
+package leetcode.p0400_0499.p0485_max_consecutive_ones;
 
 public class MaxConsecutiveOnesLoop implements MaxConsecutiveOnes {
     @Override

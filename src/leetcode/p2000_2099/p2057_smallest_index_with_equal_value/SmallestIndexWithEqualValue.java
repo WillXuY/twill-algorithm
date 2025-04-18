@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2000_2099.p2057_smallest_index_with_equal_value;
 
 public interface SmallestIndexWithEqualValue {
     /**

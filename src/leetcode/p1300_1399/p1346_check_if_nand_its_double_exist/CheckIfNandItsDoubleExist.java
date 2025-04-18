@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p1300_1399.p1346_check_if_nand_its_double_exist;
 
 public interface CheckIfNandItsDoubleExist {
     /**

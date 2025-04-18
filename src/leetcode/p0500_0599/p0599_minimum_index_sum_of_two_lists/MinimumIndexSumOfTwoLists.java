@@ -7,7 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.strs;
+package leetcode.p0500_0599.p0599_minimum_index_sum_of_two_lists;
 
 public interface MinimumIndexSumOfTwoLists {
     /**

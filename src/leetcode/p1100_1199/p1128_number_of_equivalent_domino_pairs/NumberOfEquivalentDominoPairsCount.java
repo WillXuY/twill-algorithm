@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.NumberOfEquivalentDominoPairs;
+package leetcode.p1100_1199.p1128_number_of_equivalent_domino_pairs;
 
 import java.util.HashMap;
 import java.util.Map;

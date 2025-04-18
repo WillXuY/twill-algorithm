@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p1500_1599.p1540_can_convert_string_in_moves;
 
 public interface CanConvertStringInMoves {
 	/**

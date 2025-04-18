@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1600_1699.p1668_maximum_repeating_substring;
 
 public interface MaximumRepeatingSubstring {
     /**

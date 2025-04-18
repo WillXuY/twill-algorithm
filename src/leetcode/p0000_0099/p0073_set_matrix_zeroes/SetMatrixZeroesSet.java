@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.empty;
-
-import org.willxu.algorithm.service.empty.SetMatrixZeroes;
+package leetcode.p0000_0099.p0073_set_matrix_zeroes;
 
 import java.util.Arrays;
 import java.util.HashSet;

@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2400_2499.p2427_number_of_common_factors;
 
 public interface NumberOfCommonFactors {
     /**

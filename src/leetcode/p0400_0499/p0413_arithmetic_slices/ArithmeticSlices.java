@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0400_0499.p0413_arithmetic_slices;
 
 public interface ArithmeticSlices {
     /**

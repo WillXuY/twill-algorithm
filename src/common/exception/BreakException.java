@@ -7,7 +7,7 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.exception;
+package common.exception;
 
 public class BreakException extends Exception {
 }

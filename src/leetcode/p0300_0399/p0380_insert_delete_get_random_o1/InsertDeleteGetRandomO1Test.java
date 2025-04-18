@@ -1,7 +1,6 @@
-package org.willxu.algorithm.domain.set;
+package leetcode.p0300_0399.p0380_insert_delete_get_random_o1;
 
 import org.junit.jupiter.api.Test;
-import org.willxu.algorithm.domain.impl.set.InsertDeleteGetRandomO1Set;
 
 import static org.junit.jupiter.api.Assertions.*;
 

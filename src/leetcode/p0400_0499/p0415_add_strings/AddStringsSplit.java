@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.AddStrings;
+package leetcode.p0400_0499.p0415_add_strings;
 
 public class AddStringsSplit implements AddStrings {
     /**

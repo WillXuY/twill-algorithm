@@ -1,7 +1,6 @@
-package org.willxu.algorithm.service.impl.bool;
+package leetcode.p0900_0999.p0965_univalued_binary_tree;
 
 import common.provide.TreeNode;
-import org.willxu.algorithm.service.bool.UnivaluedBinaryTree;
 
 public class UnivaluedBinaryTreeRecursive implements UnivaluedBinaryTree {
     /**

@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p0900_0999.p0941_valid_mountain_array;
 
 public interface ValidMountainArray {
     /**

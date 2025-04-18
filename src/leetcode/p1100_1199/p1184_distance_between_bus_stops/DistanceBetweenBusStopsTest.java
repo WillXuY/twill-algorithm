@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1100_1199.p1184_distance_between_bus_stops;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.integer.DistanceBetweenBusStopsExhaustive;
 
 import java.util.stream.Stream;
 

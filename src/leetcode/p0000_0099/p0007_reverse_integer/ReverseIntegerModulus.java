@@ -7,9 +7,7 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.ReverseInteger;
+package leetcode.p0000_0099.p0007_reverse_integer;
 
 public class ReverseIntegerModulus implements ReverseInteger {
     @Override

@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0900_0999.p0915_partition_array_into_disjoint_intervals;
 
 public interface PartitionArrayIntoDisjointIntervals {
     /**

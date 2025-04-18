@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
+package leetcode.p0000_0099.p0038_count_and_say_loop;
 
 import leetcode.p0000_0099.p0038_count_and_say_loop.CountAndSay;
 

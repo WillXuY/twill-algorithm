@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p1600_1699.p1662_check_if_two_string_arrays_are_equivalent;
 
 public interface CheckIfTwoStringArraysAreEquivalent {
     /**

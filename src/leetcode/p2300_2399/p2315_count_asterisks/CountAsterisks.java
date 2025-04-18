@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2300_2399.p2315_count_asterisks;
 
 public interface CountAsterisks {
     /**

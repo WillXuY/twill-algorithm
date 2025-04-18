@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MinimumMovesToEqualArrayElements;
+package leetcode.p0400_0499.p0453_minimum_moves_to_equal_array_elements;
 
 public class MinimumMovesToEqualArrayElementsMath
         implements MinimumMovesToEqualArrayElements {

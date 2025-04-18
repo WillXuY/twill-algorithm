@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2100_2199.p2144_minimum_cost_of_buying_candies_with_discount;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.integer.MinimumCostOfBuyingCandiesWithDiscountSort;
 
 import java.util.stream.Stream;
 

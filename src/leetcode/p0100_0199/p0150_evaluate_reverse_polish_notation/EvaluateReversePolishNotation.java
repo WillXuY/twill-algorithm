@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0100_0199.p0150_evaluate_reverse_polish_notation;
 
 public interface EvaluateReversePolishNotation {
     /**

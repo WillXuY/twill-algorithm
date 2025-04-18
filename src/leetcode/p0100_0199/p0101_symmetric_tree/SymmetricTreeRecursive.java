@@ -7,11 +7,10 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.bool;
+package leetcode.p0100_0199.p0101_symmetric_tree;
 
-import org.willxu.algorithm.exception.BreakException;
+import common.exception.BreakException;
 import common.provide.TreeNode;
-import org.willxu.algorithm.service.bool.SymmetricTree;
 
 public class SymmetricTreeRecursive implements SymmetricTree {
     @Override

@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p0000_0099.p0071_simplify_path;
 
 public interface SimplifyPath {
     /**

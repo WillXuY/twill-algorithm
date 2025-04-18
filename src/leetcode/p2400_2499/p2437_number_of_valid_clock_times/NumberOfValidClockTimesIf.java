@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.NumberOfValidClockTimes;
+package leetcode.p2400_2499.p2437_number_of_valid_clock_times;
 
 public class NumberOfValidClockTimesIf implements NumberOfValidClockTimes {
     @Override

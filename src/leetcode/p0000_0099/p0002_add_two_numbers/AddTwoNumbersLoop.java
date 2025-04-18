@@ -1,7 +1,6 @@
-package org.willxu.algorithm.service.impl.listnode;
+package leetcode.p0000_0099.p0002_add_two_numbers;
 
 import common.provide.ListNode;
-import org.willxu.algorithm.service.listnode.AddTwoNumbers;
 
 public class AddTwoNumbersLoop implements AddTwoNumbers {
     @Override

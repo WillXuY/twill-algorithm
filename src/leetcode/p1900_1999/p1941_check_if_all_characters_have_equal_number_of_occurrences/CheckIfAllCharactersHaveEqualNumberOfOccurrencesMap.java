@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.CheckIfAllCharactersHaveEqualNumberOfOccurrences;
+package leetcode.p1900_1999.p1941_check_if_all_characters_have_equal_number_of_occurrences;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p1600_1699.p1640_check_array_formation_through_concatenation;
 
 public interface CheckArrayFormationThroughConcatenation {
     /**

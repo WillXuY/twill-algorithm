@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.HowManyNumbersAreSmallerThanTheCurrentNumber;
+package leetcode.p1300_1399.p1365_how_many_numbers_are_smaller_than_the_current_number;
 
 import java.util.HashMap;
 import java.util.Map;

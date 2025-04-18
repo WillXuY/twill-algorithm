@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.SmallestRange1;
+package leetcode.p0900_0999.p0908_smallest_range1;
 
 public class SmallestRange1Find implements SmallestRange1 {
     @Override

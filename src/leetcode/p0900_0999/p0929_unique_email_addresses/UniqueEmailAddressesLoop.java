@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.UniqueEmailAddresses;
+package leetcode.p0900_0999.p0929_unique_email_addresses;
 
 import java.util.HashSet;
 import java.util.Set;

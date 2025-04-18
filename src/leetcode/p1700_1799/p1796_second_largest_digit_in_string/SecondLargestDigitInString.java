@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1700_1799.p1796_second_largest_digit_in_string;
 
 public interface SecondLargestDigitInString {
     /**

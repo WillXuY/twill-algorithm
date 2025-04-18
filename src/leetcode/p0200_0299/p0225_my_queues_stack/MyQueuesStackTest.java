@@ -7,10 +7,9 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.domain.stack;
+package leetcode.p0200_0299.p0225_my_queues_stack;
 
 import org.junit.jupiter.api.Test;
-import leetcode.p0100_0199.p0155_min_stack.MyStackUsingQueues;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;

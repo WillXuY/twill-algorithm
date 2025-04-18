@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.doublepoint;
-
-import org.willxu.algorithm.service.doublepoint.AverageSalaryExcludingTheMinimumAndMaximumSalary;
+package leetcode.p1400_1499.p1491_average_salary_excluding_the_minimum_and_maximum_salary;
 
 import java.util.Arrays;
 

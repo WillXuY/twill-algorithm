@@ -7,9 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.matrix;
-
-import org.willxu.algorithm.service.matrix.ImageSmoother;
+package leetcode.p0600_0699.p0661_image_smoother;
 
 public class ImageSmootherIterator implements ImageSmoother {
     @Override

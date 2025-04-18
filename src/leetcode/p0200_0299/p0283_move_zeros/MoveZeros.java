@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.empty;
+package leetcode.p0200_0299.p0283_move_zeros;
 
 public interface MoveZeros {
     /**

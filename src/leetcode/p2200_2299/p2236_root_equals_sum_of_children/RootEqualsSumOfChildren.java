@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p2200_2299.p2236_root_equals_sum_of_children;
 
 import common.provide.TreeNode;
 

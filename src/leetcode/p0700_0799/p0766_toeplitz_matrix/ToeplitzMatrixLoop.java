@@ -7,9 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.ToeplitzMatrix;
+package leetcode.p0700_0799.p0766_toeplitz_matrix;
 
 public class ToeplitzMatrixLoop implements ToeplitzMatrix {
     @Override

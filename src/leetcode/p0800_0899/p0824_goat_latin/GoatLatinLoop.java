@@ -7,9 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.GoatLatin;
+package leetcode.p0800_0899.p0824_goat_latin;
 
 public class GoatLatinLoop implements GoatLatin {
     @Override

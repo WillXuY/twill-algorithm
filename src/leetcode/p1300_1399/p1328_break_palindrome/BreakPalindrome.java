@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p1300_1399.p1328_break_palindrome;
 
 public interface BreakPalindrome {
     /**

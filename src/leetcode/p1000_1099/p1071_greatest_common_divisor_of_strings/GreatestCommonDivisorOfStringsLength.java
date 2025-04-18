@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.GreatestCommonDivisorOfStrings;
+package leetcode.p1000_1099.p1071_greatest_common_divisor_of_strings;
 
 public class GreatestCommonDivisorOfStringsLength
         implements GreatestCommonDivisorOfStrings {

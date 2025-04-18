@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.OddStringDifference;
+package leetcode.p2400_2499.p2451_odd_string_difference;
 
 import java.util.Arrays;
 

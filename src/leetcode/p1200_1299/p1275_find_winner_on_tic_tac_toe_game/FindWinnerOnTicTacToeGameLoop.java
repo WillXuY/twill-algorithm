@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.FindWinnerOnTicTacToeGame;
+package leetcode.p1200_1299.p1275_find_winner_on_tic_tac_toe_game;
 
 public class FindWinnerOnTicTacToeGameLoop
         implements FindWinnerOnTicTacToeGame {

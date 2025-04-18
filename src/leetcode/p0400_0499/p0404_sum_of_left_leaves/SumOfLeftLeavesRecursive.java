@@ -1,7 +1,6 @@
-package org.willxu.algorithm.service.impl.integer;
+package leetcode.p0400_0499.p0404_sum_of_left_leaves;
 
 import common.provide.TreeNode;
-import org.willxu.algorithm.service.integer.SumOfLeftLeaves;
 
 public class SumOfLeftLeavesRecursive implements SumOfLeftLeaves {
     @Override

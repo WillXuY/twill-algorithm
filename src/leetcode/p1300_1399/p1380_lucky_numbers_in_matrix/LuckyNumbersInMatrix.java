@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.intlist;
+package leetcode.p1300_1399.p1380_lucky_numbers_in_matrix;
 
 import java.util.List;
 

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.DecodeTheMessage;
+package leetcode.p2300_2399.p2325_decode_the_message;
 
 import java.util.HashMap;
 import java.util.Map;

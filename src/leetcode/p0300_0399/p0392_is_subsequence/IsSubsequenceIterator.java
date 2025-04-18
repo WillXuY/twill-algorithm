@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.IsSubsequence;
+package leetcode.p0300_0399.p0392_is_subsequence;
 
 public class IsSubsequenceIterator implements IsSubsequence {
     @Override

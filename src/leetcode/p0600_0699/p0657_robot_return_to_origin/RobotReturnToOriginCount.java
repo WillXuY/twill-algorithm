@@ -7,9 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.RobotReturnToOrigin;
+package leetcode.p0600_0699.p0657_robot_return_to_origin;
 
 public class RobotReturnToOriginCount implements RobotReturnToOrigin {
     @Override

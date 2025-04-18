@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1300_1399.p1323_maximum69_number;
 
 public interface Maximum69Number {
     /**

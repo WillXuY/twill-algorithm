@@ -7,10 +7,9 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.bool;
+package leetcode.p0200_0299.p0234_palindrome_linked_list;
 
 import common.provide.ListNode;
-import org.willxu.algorithm.service.bool.PalindromeLinkedList;
 
 import java.util.ArrayList;
 import java.util.List;

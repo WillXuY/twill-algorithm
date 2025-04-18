@@ -1,7 +1,6 @@
-package org.willxu.algorithm.service.impl.integer;
+package leetcode.p0100_0199.p0129_sum_root_to_leaf_numbers;
 
 import common.provide.TreeNode;
-import org.willxu.algorithm.service.integer.SumRootToLeafNumbers;
 
 import java.util.ArrayList;
 import java.util.List;

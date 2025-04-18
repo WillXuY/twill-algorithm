@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1700_1799.p1779_find_nearest_point_that_has_the_same_xory_coordinate;
 
 public interface FindNearestPointThatHasTheSameXoryCoordinate {
     /**

@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1400_1499.p1486_xor_operation_in_an_array;
 
 public interface XorOperationInAnArray {
     /**

@@ -7,7 +7,7 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.listnode;
+package leetcode.p0100_0199.p0160_intersection_of_two_linked_lists;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -15,7 +15,6 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 import common.provide.ListNode;
-import org.willxu.algorithm.service.impl.listnode.IntersectionOfTwoLinkedListsSaveNodes;
 
 import java.util.List;
 import java.util.stream.Stream;

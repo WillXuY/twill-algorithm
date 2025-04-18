@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.CountPrefixesOfGivenString;
+package leetcode.p2200_2299.p2255_count_prefixes_of_given_string;
 
 public class CountPrefixesOfGivenStringRegex
         implements CountPrefixesOfGivenString {

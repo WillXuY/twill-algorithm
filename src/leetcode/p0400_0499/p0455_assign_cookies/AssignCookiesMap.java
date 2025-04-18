@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.AssignCookies;
+package leetcode.p0400_0499.p0455_assign_cookies;
 
 import java.util.TreeMap;
 

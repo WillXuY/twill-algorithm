@@ -83,7 +83,6 @@ public class TreeNode {
         return root;
     }
 
-
     /**
      * lever traversal, simplify the null node.
      *

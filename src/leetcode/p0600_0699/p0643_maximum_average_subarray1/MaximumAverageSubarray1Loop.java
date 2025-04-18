@@ -7,9 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.doublepoint;
-
-import org.willxu.algorithm.service.doublepoint.MaximumAverageSubarray1;
+package leetcode.p0600_0699.p0643_maximum_average_subarray1;
 
 public class MaximumAverageSubarray1Loop
         implements MaximumAverageSubarray1 {

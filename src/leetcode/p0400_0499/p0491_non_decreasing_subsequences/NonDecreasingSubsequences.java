@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.intlist;
+package leetcode.p0400_0499.p0491_non_decreasing_subsequences;
 
 import java.util.List;
 

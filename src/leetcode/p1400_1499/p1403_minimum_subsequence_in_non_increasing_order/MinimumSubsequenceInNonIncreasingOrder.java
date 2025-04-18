@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.intlist;
+package leetcode.p1400_1499.p1403_minimum_subsequence_in_non_increasing_order;
 
 import java.util.List;
 

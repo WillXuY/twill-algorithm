@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p2000_2099.p2042_check_if_numbers_are_ascending_in_sentence;
 
 public interface CheckIfNumbersAreAscendingInSentence {
     /**

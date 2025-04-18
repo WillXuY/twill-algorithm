@@ -7,7 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.bool;
+package leetcode.p0600_0699.p0693_binary_number_with_alternating_bits;
 
 public interface BinaryNumberWithAlternatingBits {
     /**

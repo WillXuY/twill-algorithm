@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.ints;
+package leetcode.p0900_0999.p0932_beautiful_array;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.ints.BeautifulArrayMerge;
 
 import java.util.stream.Stream;
 

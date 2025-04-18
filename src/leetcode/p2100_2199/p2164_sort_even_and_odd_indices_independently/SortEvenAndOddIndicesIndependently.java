@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.ints;
+package leetcode.p2100_2199.p2164_sort_even_and_odd_indices_independently;
 
 public interface SortEvenAndOddIndicesIndependently {
     /**

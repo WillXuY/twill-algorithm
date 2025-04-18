@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0600_0699.p0695_max_area_of_island;
 
 public interface MaxAreaOfIsland {
     /**

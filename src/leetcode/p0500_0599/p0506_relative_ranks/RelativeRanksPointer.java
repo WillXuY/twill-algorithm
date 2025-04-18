@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.strs;
-
-import org.willxu.algorithm.service.strs.RelativeRanks;
+package leetcode.p0500_0599.p0506_relative_ranks;
 
 public class RelativeRanksPointer implements RelativeRanks {
     @Override

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.strlist;
-
-import org.willxu.algorithm.service.strlist.LetterCasePermutation;
+package leetcode.p0700_0799.p0784_letter_case_permutation;
 
 import java.util.ArrayList;
 import java.util.List;

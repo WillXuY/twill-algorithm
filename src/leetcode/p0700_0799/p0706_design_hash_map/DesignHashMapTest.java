@@ -7,10 +7,9 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.domain.map;
+package leetcode.p0700_0799.p0706_design_hash_map;
 
 import org.junit.jupiter.api.Test;
-import org.willxu.algorithm.domain.impl.map.DesignHashMapArray;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

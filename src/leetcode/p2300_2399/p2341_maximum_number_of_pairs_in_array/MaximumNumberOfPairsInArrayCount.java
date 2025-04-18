@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.ints;
-
-import org.willxu.algorithm.service.ints.MaximumNumberOfPairsInArray;
+package leetcode.p2300_2399.p2341_maximum_number_of_pairs_in_array;
 
 import java.util.HashSet;
 import java.util.Set;

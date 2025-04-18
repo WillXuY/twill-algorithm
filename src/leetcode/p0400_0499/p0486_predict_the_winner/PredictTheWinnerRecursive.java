@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.PredictTheWinner;
+package leetcode.p0400_0499.p0486_predict_the_winner;
 
 import java.util.Arrays;
 

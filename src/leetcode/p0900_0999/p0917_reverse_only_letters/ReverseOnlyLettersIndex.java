@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.ReverseOnlyLetters;
+package leetcode.p0900_0999.p0917_reverse_only_letters;
 
 public class ReverseOnlyLettersIndex implements ReverseOnlyLetters {
     @Override

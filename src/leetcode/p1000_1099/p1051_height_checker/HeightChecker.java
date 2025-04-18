@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1000_1099.p1051_height_checker;
 
 public interface HeightChecker {
     /**

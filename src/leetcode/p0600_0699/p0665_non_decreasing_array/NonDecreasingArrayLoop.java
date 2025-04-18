@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.NonDecreasingArray;
+package leetcode.p0600_0699.p0665_non_decreasing_array;
 
 public class NonDecreasingArrayLoop implements NonDecreasingArray {
     @Override

@@ -1,7 +1,6 @@
-package org.willxu.algorithm.service.impl.treenode;
+package leetcode.p0900_0999.p0938_range_sum_of_bst;
 
 import common.provide.TreeNode;
-import org.willxu.algorithm.service.treenode.RangeSumOfBst;
 
 public class RangeSumOfBstRecursive implements RangeSumOfBst {
     /**

@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1200_1299.p1290_convert_binary_number_in_linked_list_to_integer;
 
 import common.provide.ListNode;
 

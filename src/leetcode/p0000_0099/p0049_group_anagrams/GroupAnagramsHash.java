@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.strlist;
-
-import org.willxu.algorithm.service.strlist.GroupAnagrams;
+package leetcode.p0000_0099.p0049_group_anagrams;
 
 import java.util.*;
 

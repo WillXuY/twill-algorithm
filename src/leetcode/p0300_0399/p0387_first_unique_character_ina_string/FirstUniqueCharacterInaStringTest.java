@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0300_0399.p0387_first_unique_character_ina_string;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.integer.FirstUniqueCharacterInaStringRemove;
 
 import java.util.stream.Stream;
 

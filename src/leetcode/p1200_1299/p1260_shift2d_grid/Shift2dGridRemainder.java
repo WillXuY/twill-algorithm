@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.matrix;
-
-import org.willxu.algorithm.service.matrix.Shift2dGrid;
+package leetcode.p1200_1299.p1260_shift2d_grid;
 
 import java.util.ArrayList;
 import java.util.List;

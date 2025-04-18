@@ -1,7 +1,6 @@
-package org.willxu.algorithm.service.impl.treenode;
+package leetcode.p0600_0699.p0669_trim_binary_search_tree;
 
 import common.provide.TreeNode;
-import org.willxu.algorithm.service.treenode.TrimBinarySearchTree;
 
 public class TrimBinarySearchTreeRecursive implements TrimBinarySearchTree {
     @Override

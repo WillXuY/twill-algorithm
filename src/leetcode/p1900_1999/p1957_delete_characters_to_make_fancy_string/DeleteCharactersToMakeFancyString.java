@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p1900_1999.p1957_delete_characters_to_make_fancy_string;
 
 public interface DeleteCharactersToMakeFancyString {
     /**

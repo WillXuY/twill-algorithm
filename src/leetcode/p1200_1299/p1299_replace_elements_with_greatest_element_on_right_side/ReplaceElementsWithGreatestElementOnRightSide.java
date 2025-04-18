@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.ints;
+package leetcode.p1200_1299.p1299_replace_elements_with_greatest_element_on_right_side;
 
 public interface ReplaceElementsWithGreatestElementOnRightSide {
     /**

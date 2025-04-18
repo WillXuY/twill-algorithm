@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.SearchInRotatedSortedArray;
+package leetcode.p0000_0099.p0033_search_in_rotated_sorted_array;
 
 public class SearchInRotatedSortedArrayLoop
         implements SearchInRotatedSortedArray {

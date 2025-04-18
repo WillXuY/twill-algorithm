@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.CompareVersionNumbers;
+package leetcode.p0100_0199.p0165_compare_version_numbers;
 
 public class CompareVersionNumbersSplit implements CompareVersionNumbers {
     @Override

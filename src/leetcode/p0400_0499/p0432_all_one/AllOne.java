@@ -7,7 +7,7 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.domain.other;
+package leetcode.p0400_0499.p0432_all_one;
 
 /**
  * Design a data structure to store the string' count with the ability

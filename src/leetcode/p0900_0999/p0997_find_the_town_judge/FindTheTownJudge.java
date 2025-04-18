@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0900_0999.p0997_find_the_town_judge;
 
 public interface FindTheTownJudge {
     /**

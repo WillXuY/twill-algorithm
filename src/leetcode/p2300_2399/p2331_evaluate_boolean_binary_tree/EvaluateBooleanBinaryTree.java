@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p2300_2399.p2331_evaluate_boolean_binary_tree;
 
 import common.provide.TreeNode;
 

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.Largest3SameDigitNumberInString;
+package leetcode.p2200_2299.p2264_largest3_same_digit_number_in_string;
 
 import java.util.Collections;
 

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.PathCrossing;
+package leetcode.p1400_1499.p1496_path_crossing;
 
 import java.util.HashSet;
 import java.util.Set;

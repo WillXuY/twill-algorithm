@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1700_1799.p1732_find_the_highest_altitude;
 
 public interface FindTheHighestAltitude {
     /**

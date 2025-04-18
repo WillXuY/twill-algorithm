@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.FindNumbersWithEvenNumberOfDigits;
+package leetcode.p1200_1299.p1295_find_numbers_with_even_number_of_digits;
 
 public class FindNumbersWithEvenNumberOfDigitsDivision
         implements FindNumbersWithEvenNumberOfDigits {

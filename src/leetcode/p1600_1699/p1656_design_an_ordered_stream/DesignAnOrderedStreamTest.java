@@ -1,4 +1,4 @@
-package org.willxu.algorithm.domain.other;
+package leetcode.p1600_1699.p1656_design_an_ordered_stream;
 
 import org.junit.jupiter.api.Test;
 import leetcode.p1600_1699.p1656_design_an_ordered_stream.ListOrderedStream;

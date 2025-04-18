@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.treenode;
+package leetcode.p0800_0899.p0897_increasing_order_search_tree;
 
 import common.provide.TreeNode;
 

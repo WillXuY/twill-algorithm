@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.PowerOfFour;
+package leetcode.p0300_0399.p0342_power_of_four;
 
 public class PowerOfFourEnumerate implements PowerOfFour {
     @Override

@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1400_1499.p1446_consecutive_characters;
 
 public interface ConsecutiveCharacters {
     /**

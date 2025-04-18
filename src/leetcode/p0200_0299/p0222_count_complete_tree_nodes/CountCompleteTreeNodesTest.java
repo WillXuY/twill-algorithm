@@ -1,10 +1,9 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0200_0299.p0222_count_complete_tree_nodes;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 import common.provide.TreeNode;
-import org.willxu.algorithm.service.impl.integer.CountCompleteTreeNodesList;
 
 import java.util.Collections;
 import java.util.stream.Collectors;

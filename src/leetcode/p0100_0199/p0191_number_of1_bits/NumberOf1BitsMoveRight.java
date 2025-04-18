@@ -7,9 +7,7 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.NumberOf1Bits;
+package leetcode.p0100_0199.p0191_number_of1_bits;
 
 public class NumberOf1BitsMoveRight implements NumberOf1Bits {
     @Override

@@ -7,7 +7,7 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.integer;
+package leetcode.p0100_0199.p0171_excel_sheet_column_number;
 
 public interface ExcelSheetColumnNumber {
     /**

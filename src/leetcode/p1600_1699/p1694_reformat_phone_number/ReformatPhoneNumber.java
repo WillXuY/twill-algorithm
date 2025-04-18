@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p1600_1699.p1694_reformat_phone_number;
 
 public interface ReformatPhoneNumber {
     /**

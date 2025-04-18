@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1600_1699.p1641_count_sorted_vowel_strings;
 
 public interface CountSortedVowelStrings {
 

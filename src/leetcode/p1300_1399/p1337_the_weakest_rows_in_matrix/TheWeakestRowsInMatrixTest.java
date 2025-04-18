@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.ints;
+package leetcode.p1300_1399.p1337_the_weakest_rows_in_matrix;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.ints.TheWeakestRowsInMatrixSort;
 
 import java.util.stream.Stream;
 

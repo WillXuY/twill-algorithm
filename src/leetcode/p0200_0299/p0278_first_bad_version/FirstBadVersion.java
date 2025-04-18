@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.extend;
+package leetcode.p0200_0299.p0278_first_bad_version;
 
 public abstract class FirstBadVersion {
     private int bad;

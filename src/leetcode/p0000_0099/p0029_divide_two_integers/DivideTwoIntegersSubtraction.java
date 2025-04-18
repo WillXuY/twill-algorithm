@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.DivideTwoIntegers;
+package leetcode.p0000_0099.p0029_divide_two_integers;
 
 public class DivideTwoIntegersSubtraction implements DivideTwoIntegers {
     @Override

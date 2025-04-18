@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.MonotonicArray;
+package leetcode.p0800_0899.p0896_monotonic_array;
 
 public class MonotonicArrayLoop implements MonotonicArray {
 

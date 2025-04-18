@@ -7,7 +7,7 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.domain.impl.queue;
+package leetcode.p0200_0299.p0232_stacks_queue;
 
 import leetcode.p0200_0299.p0232_stacks_queue.Queue;
 

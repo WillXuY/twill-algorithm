@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p0400_0499.p0486_predict_the_winner;
 
 public interface PredictTheWinner {
     /**

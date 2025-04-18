@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.AvailableCapturesForRook;
+package leetcode.p0900_0999.p0999_available_captures_for_rook;
 
 public class AvailableCapturesForRookLoop implements AvailableCapturesForRook {
     /**

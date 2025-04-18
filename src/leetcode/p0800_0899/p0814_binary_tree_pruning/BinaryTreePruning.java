@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.treenode;
+package leetcode.p0800_0899.p0814_binary_tree_pruning;
 
 import common.provide.TreeNode;
 

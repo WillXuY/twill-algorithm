@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.strs;
-
-import org.willxu.algorithm.service.strs.UncommonWordsFromTwoSentences;
+package leetcode.p0800_0899.p0884_uncommon_words_from_two_sentences;
 
 import java.util.HashSet;
 import java.util.Set;

@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p2100_2199.p2108_find_first_palindromic_string_in_the_array;
 
 public interface FindFirstPalindromicStringInTheArray {
     /**

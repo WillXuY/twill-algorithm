@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.NumberOfMatchingSubsequences;
+package leetcode.p0700_0799.p0792_number_of_matching_subsequences;
 
 public class NumberOfMatchingSubsequencesRegex
         implements NumberOfMatchingSubsequences {

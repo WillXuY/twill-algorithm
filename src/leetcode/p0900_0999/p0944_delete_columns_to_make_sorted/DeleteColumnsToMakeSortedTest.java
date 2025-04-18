@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0900_0999.p0944_delete_columns_to_make_sorted;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.integer.DeleteColumnsToMakeSortedLoop;
 
 import java.util.stream.Stream;
 

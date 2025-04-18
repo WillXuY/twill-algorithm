@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.character;
+package leetcode.p1600_1699.p1629_slowest_key;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.character.SlowestKeyIndex;
 
 import java.util.stream.Stream;
 

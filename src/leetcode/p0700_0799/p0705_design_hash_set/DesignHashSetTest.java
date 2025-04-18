@@ -7,10 +7,9 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.domain.set;
+package leetcode.p0700_0799.p0705_design_hash_set;
 
 import org.junit.jupiter.api.Test;
-import org.willxu.algorithm.domain.impl.set.DesignHashSetArray;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;

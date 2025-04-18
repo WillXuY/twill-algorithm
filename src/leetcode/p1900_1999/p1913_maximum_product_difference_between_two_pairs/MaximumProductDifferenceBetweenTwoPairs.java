@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1900_1999.p1913_maximum_product_difference_between_two_pairs;
 
 public interface MaximumProductDifferenceBetweenTwoPairs {
     /**

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.NumberOfRectanglesThatCanFormTheLargestSquare;
+package leetcode.p1700_1799.p1725_number_of_rectangles_that_can_form_the_largest_square;
 
 public class NumberOfRectanglesThatCanFormTheLargestSquareLoop
         implements NumberOfRectanglesThatCanFormTheLargestSquare {

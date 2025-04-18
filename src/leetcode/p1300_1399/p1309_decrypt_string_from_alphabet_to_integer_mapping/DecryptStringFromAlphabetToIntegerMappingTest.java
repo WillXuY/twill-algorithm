@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p1300_1399.p1309_decrypt_string_from_alphabet_to_integer_mapping;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.string.DecryptStringFromAlphabetToIntegerMappingReverse;
 
 import java.util.stream.Stream;
 

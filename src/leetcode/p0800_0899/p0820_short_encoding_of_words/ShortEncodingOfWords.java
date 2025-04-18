@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0800_0899.p0820_short_encoding_of_words;
 
 public interface ShortEncodingOfWords {
     /**

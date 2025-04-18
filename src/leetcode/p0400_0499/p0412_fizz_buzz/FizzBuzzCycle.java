@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.strlist;
-
-import org.willxu.algorithm.service.strlist.FizzBuzz;
+package leetcode.p0400_0499.p0412_fizz_buzz;
 
 import java.util.ArrayList;
 import java.util.List;

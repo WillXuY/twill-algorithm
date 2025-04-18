@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.strlist;
-
-import org.willxu.algorithm.service.strlist.LetterCombinationsOfPhoneNumber;
+package leetcode.p0000_0099.p0017_letter_combinations_of_phone_number;
 
 import java.util.ArrayList;
 import java.util.Collections;

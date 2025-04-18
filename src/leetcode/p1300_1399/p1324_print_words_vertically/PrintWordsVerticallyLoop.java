@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.strlist;
-
-import org.willxu.algorithm.service.strlist.PrintWordsVertically;
+package leetcode.p1300_1399.p1324_print_words_vertically;
 
 import java.util.ArrayList;
 import java.util.List;

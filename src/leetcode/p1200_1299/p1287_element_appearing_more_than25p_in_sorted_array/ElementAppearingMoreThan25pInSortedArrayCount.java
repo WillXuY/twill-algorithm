@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.ElementAppearingMoreThan25pInSortedArray;
+package leetcode.p1200_1299.p1287_element_appearing_more_than25p_in_sorted_array;
 
 public class ElementAppearingMoreThan25pInSortedArrayCount
         implements ElementAppearingMoreThan25pInSortedArray {

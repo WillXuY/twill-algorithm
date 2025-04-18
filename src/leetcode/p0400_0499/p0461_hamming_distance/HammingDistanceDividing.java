@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.HammingDistance;
+package leetcode.p0400_0499.p0461_hamming_distance;
 
 public class HammingDistanceDividing implements HammingDistance {
     @Override

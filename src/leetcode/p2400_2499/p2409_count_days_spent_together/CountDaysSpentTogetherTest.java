@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2400_2499.p2409_count_days_spent_together;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.integer.CountDaysSpentTogetherAdd;
 
 import java.util.stream.Stream;
 

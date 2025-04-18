@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1100_1199.p1184_distance_between_bus_stops;
 
 public interface DistanceBetweenBusStops {
     /**

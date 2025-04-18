@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.PartitionArrayIntoDisjointIntervals;
+package leetcode.p0900_0999.p0915_partition_array_into_disjoint_intervals;
 
 public class PartitionArrayIntoDisjointIntervalsLoop
         implements PartitionArrayIntoDisjointIntervals {

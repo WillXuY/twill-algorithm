@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.extend;
+package leetcode.p0200_0299.p0278_first_bad_version;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.extend.FirstBadVersionGolden;
 
 import java.util.stream.Stream;
 

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.doublelist;
-
-import org.willxu.algorithm.service.doublelist.ConvertTheTemperature;
+package leetcode.p2400_2499.p2469_convert_the_temperature;
 
 public class ConvertTheTemperatureCalculate implements ConvertTheTemperature {
     @Override

@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0000_0099.p0003_longest_substring_without_repeating_characters;
 
 public interface LongestSubstringWithoutRepeatingCharacters {
     /**

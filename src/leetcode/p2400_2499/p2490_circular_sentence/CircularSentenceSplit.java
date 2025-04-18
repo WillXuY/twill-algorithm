@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.CircularSentence;
+package leetcode.p2400_2499.p2490_circular_sentence;
 
 public class CircularSentenceSplit implements CircularSentence {
     @Override

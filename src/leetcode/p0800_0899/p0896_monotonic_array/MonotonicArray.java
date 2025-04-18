@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p0800_0899.p0896_monotonic_array;
 
 public interface MonotonicArray {
     /**

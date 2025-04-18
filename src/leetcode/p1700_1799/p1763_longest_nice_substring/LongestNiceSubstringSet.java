@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.LongestNiceSubstring;
+package leetcode.p1700_1799.p1763_longest_nice_substring;
 
 import java.util.ArrayList;
 import java.util.HashSet;

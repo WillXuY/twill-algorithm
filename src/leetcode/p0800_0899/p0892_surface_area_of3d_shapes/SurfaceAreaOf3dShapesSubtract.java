@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.SurfaceAreaOf3dShapes;
+package leetcode.p0800_0899.p0892_surface_area_of3d_shapes;
 
 public class SurfaceAreaOf3dShapesSubtract implements SurfaceAreaOf3dShapes {
     /**

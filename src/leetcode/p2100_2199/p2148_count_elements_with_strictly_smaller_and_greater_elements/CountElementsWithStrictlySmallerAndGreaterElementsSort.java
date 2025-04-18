@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.CountElementsWithStrictlySmallerAndGreaterElements;
+package leetcode.p2100_2199.p2148_count_elements_with_strictly_smaller_and_greater_elements;
 
 import java.util.Arrays;
 

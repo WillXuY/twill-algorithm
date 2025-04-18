@@ -1,6 +1,6 @@
 package leetcode.p0100_0199.p0116_population_next_right_pointers_in_each_node;
 
-import org.willxu.algorithm.provide.tree.Node;
+import common.provide.tree.Node;
 
 public interface PopulatingNextRightPointersInEachNode {
     /**

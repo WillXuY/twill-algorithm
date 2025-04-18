@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.ints;
+package leetcode.p2100_2199.p2164_sort_even_and_odd_indices_independently;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.ints.SortEvenAndOddIndicesIndependentlyInsert;
 
 import java.util.stream.Stream;
 

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.LastStoneWeight;
+package leetcode.p1000_1099.p1046_last_stone_weight;
 
 import java.util.Arrays;
 

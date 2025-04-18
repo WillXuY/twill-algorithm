@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.NumberOfArithmeticTriplets;
+package leetcode.p2300_2399.p2367_number_of_arithmetic_triplets;
 
 import java.util.HashSet;
 import java.util.Set;

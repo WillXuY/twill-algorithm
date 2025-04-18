@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.ints;
+package leetcode.p2000_2099.p2094_finding3_digit_even_numbers;
 
 public interface Finding3DigitEvenNumbers {
     /**

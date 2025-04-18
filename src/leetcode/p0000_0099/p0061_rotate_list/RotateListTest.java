@@ -1,10 +1,9 @@
-package org.willxu.algorithm.service.listnode;
+package leetcode.p0000_0099.p0061_rotate_list;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 import common.provide.ListNode;
-import org.willxu.algorithm.service.impl.listnode.RotateListPointer;
 
 import java.util.stream.Stream;
 

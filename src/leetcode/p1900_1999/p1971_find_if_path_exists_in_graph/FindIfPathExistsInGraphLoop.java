@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.FindIfPathExistsInGraph;
+package leetcode.p1900_1999.p1971_find_if_path_exists_in_graph;
 
 import java.util.*;
 

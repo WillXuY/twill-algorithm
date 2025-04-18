@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.strs;
+package leetcode.p0800_0899.p0884_uncommon_words_from_two_sentences;
 
 public interface UncommonWordsFromTwoSentences {
     /**

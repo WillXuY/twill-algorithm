@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.character;
-
-import org.willxu.algorithm.service.character.FindTheDifference;
+package leetcode.p0300_0399.p0389_find_the_difference;
 
 import java.util.HashMap;
 

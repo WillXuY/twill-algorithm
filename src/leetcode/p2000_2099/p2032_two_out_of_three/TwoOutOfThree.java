@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.intlist;
+package leetcode.p2000_2099.p2032_two_out_of_three;
 
 import java.util.List;
 

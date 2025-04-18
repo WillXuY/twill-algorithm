@@ -7,7 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.ints;
+package leetcode.p0600_0699.p0645_set_mismatch;
 
 public interface SetMismatch {
     /**

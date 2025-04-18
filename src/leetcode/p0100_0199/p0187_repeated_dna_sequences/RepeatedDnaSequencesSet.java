@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.strlist;
-
-import org.willxu.algorithm.service.strlist.RepeatedDnaSequences;
+package leetcode.p0100_0199.p0187_repeated_dna_sequences;
 
 import java.util.Collections;
 import java.util.HashSet;

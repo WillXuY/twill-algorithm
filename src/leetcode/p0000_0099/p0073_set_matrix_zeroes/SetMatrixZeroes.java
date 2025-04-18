@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.empty;
+package leetcode.p0000_0099.p0073_set_matrix_zeroes;
 
 public interface SetMatrixZeroes {
     /**

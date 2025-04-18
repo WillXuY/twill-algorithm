@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.SumOfDigitsOfStringAfterConvert;
+package leetcode.p1900_1999.p1945_sum_of_digits_of_string_after_convert;
 
 public class SumOfDigitsOfStringAfterConvertLoop
         implements SumOfDigitsOfStringAfterConvert {

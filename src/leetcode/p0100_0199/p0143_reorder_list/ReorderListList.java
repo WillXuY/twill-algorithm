@@ -1,7 +1,6 @@
-package org.willxu.algorithm.service.impl.empty;
+package leetcode.p0100_0199.p0143_reorder_list;
 
 import common.provide.ListNode;
-import org.willxu.algorithm.service.empty.ReorderList;
 
 import java.util.ArrayList;
 import java.util.List;

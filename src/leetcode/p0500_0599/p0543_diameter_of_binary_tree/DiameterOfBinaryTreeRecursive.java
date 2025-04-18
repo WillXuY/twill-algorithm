@@ -1,7 +1,6 @@
-package org.willxu.algorithm.service.impl.integer;
+package leetcode.p0500_0599.p0543_diameter_of_binary_tree;
 
 import common.provide.TreeNode;
-import org.willxu.algorithm.service.integer.DiameterOfBinaryTree;
 
 public class DiameterOfBinaryTreeRecursive implements DiameterOfBinaryTree {
     @Override

@@ -7,9 +7,7 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.ValidParentheses;
+package leetcode.p0000_0099.p0020_valid_parentheses;
 
 import java.util.Stack;
 

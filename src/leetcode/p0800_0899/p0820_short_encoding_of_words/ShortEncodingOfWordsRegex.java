@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.ShortEncodingOfWords;
+package leetcode.p0800_0899.p0820_short_encoding_of_words;
 
 import java.util.HashSet;
 import java.util.Set;

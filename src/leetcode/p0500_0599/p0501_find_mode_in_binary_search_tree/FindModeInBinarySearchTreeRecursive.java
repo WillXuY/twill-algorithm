@@ -1,7 +1,6 @@
-package org.willxu.algorithm.service.impl.ints;
+package leetcode.p0500_0599.p0501_find_mode_in_binary_search_tree;
 
 import common.provide.TreeNode;
-import org.willxu.algorithm.service.ints.FindModeInBinarySearchTree;
 
 import java.util.Set;
 import java.util.TreeMap;

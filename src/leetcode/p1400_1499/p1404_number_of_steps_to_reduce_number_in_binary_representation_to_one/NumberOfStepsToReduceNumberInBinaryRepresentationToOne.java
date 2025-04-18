@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1400_1499.p1404_number_of_steps_to_reduce_number_in_binary_representation_to_one;
 
 public interface NumberOfStepsToReduceNumberInBinaryRepresentationToOne {
     /**

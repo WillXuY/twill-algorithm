@@ -7,7 +7,7 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.treenode;
+package leetcode.p0200_0299.p0235_lowest_common_ancestor_of_bst;
 
 import common.provide.TreeNode;
 

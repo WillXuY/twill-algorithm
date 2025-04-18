@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.strlist;
+package leetcode.p1400_1499.p1408_string_matching_in_an_array;
 
 import java.util.List;
 

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MaximumValueOfStringInAnArray;
+package leetcode.p2400_2499.p2496_maximum_value_of_string_in_an_array;
 
 public class MaximumValueOfStringInAnArrayParse
         implements MaximumValueOfStringInAnArray {

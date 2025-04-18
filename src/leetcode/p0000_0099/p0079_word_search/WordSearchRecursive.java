@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.WordSearch;
+package leetcode.p0000_0099.p0079_word_search;
 
 public class WordSearchRecursive implements WordSearch {
     boolean[][] visited;

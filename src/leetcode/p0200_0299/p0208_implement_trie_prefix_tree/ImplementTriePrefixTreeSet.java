@@ -32,7 +32,6 @@ public class ImplementTriePrefixTreeSet implements ImplementTriePrefixTree {
         }
         String prefix = getSamePrefixString(word, key);
 
-
     }
 
     private String getSamePrefixString(String word1, String word2) {

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MakeArrayZeroBySubtractingEqualAmounts;
+package leetcode.p2300_2399.p2357_make_array_zero_by_subtracting_equal_amounts;
 
 import java.util.HashSet;
 import java.util.Set;

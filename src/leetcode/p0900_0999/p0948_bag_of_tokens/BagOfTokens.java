@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0900_0999.p0948_bag_of_tokens;
 
 public interface BagOfTokens {
     /**

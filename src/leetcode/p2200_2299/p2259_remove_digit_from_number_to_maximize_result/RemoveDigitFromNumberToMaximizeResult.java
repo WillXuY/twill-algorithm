@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p2200_2299.p2259_remove_digit_from_number_to_maximize_result;
 
 public interface RemoveDigitFromNumberToMaximizeResult {
     /**

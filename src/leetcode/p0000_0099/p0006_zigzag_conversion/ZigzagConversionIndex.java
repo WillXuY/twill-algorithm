@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.ZigzagConversion;
+package leetcode.p0000_0099.p0006_zigzag_conversion;
 
 public class ZigzagConversionIndex implements ZigzagConversion {
     @Override

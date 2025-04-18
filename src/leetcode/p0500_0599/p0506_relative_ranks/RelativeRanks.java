@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.strs;
+package leetcode.p0500_0599.p0506_relative_ranks;
 
 public interface RelativeRanks {
     /**

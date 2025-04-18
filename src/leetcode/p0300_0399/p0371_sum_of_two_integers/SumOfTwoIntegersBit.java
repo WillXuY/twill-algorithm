@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.SumOfTwoIntegers;
+package leetcode.p0300_0399.p0371_sum_of_two_integers;
 
 public class SumOfTwoIntegersBit implements SumOfTwoIntegers {
     @Override

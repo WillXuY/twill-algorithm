@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1100_1199.p1128_number_of_equivalent_domino_pairs;
 
 public interface NumberOfEquivalentDominoPairs {
     /**

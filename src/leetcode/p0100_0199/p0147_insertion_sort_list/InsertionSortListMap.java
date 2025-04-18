@@ -1,7 +1,6 @@
-package org.willxu.algorithm.service.impl.listnode;
+package leetcode.p0100_0199.p0147_insertion_sort_list;
 
 import common.provide.ListNode;
-import org.willxu.algorithm.service.listnode.InsertionSortList;
 
 import java.util.Map;
 import java.util.TreeMap;

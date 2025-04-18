@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.SpecialPositionsInBinaryMatrix;
+package leetcode.p1500_1599.p1582_special_positions_in_binary_matrix;
 
 public class SpecialPositionsInBinaryMatrixLoop
         implements SpecialPositionsInBinaryMatrix {

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.ints;
-
-import org.willxu.algorithm.service.ints.RunningSumOf1DimensionalArray;
+package leetcode.p1400_1499.p1480_running_sum_of1_dimensional_array;
 
 public class RunningSumOf1DimensionalArrayLoop
         implements RunningSumOf1DimensionalArray {

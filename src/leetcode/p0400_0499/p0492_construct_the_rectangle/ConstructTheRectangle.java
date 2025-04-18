@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.ints;
+package leetcode.p0400_0499.p0492_construct_the_rectangle;
 
 public interface ConstructTheRectangle {
     /**

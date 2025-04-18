@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1700_1799.p1716_calculate_money_in_leetcode_bank;
 
 public interface CalculateMoneyInLeetcodeBank {
     /**

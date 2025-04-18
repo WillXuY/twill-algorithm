@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p1000_1099.p1071_greatest_common_divisor_of_strings;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.string.GreatestCommonDivisorOfStringsLength;
 
 import java.util.stream.Stream;
 

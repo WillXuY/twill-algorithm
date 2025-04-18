@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.ints;
-
-import org.willxu.algorithm.service.ints.RelativeSortArray;
+package leetcode.p1100_1199.p1122_relative_sort_array;
 
 public class RelativeSortArrayInsert implements RelativeSortArray {
     /**

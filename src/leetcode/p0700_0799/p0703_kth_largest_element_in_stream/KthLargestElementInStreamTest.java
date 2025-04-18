@@ -7,10 +7,9 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.domain.other;
+package leetcode.p0700_0799.p0703_kth_largest_element_in_stream;
 
 import org.junit.jupiter.api.Test;
-import org.willxu.algorithm.domain.impl.other.KthLargestElementInStreamArray;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

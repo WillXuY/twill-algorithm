@@ -7,9 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.ints;
-
-import org.willxu.algorithm.service.ints.SetMismatch;
+package leetcode.p0600_0699.p0645_set_mismatch;
 
 public class SetMismatchLoop implements SetMismatch {
     @Override

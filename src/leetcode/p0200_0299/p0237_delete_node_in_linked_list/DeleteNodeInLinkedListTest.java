@@ -7,7 +7,7 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.empty;
+package leetcode.p0200_0299.p0237_delete_node_in_linked_list;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -15,7 +15,6 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 import common.provide.ListNode;
-import org.willxu.algorithm.service.impl.empty.DeleteNodeInLinkedListPoint;
 
 import java.util.stream.Stream;
 

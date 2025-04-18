@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0900_0999.p0999_available_captures_for_rook;
 
 public interface AvailableCapturesForRook {
     /**

@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p0600_0699.p0633_sum_of_square_numbers;
 
 public interface SumOfSquareNumbers {
     /**

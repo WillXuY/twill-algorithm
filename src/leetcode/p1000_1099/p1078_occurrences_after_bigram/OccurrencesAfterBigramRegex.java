@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.strs;
-
-import org.willxu.algorithm.service.strs.OccurrencesAfterBigram;
+package leetcode.p1000_1099.p1078_occurrences_after_bigram;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -7,9 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.domain.impl.set;
-
-import org.willxu.algorithm.domain.set.DesignHashSet;
+package leetcode.p0700_0799.p0705_design_hash_set;
 
 public class DesignHashSetArray implements DesignHashSet {
     private int[] arr;

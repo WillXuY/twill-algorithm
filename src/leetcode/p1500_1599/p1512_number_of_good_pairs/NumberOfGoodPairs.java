@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1500_1599.p1512_number_of_good_pairs;
 
 public interface NumberOfGoodPairs {
     /**

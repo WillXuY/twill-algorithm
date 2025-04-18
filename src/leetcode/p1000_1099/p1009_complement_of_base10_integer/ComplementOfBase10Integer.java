@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1000_1099.p1009_complement_of_base10_integer;
 
 public interface ComplementOfBase10Integer {
     /**

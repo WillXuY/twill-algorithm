@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.ReverseWordsInString;
+package leetcode.p0100_0199.p0151_reverse_words_in_string;
 
 public class ReverseWordsInStringSplit implements ReverseWordsInString {
     @Override

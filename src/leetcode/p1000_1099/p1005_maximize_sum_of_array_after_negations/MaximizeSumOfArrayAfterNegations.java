@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1000_1099.p1005_maximize_sum_of_array_after_negations;
 
 public interface MaximizeSumOfArrayAfterNegations {
     /**

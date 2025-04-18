@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0300_0399.p0387_first_unique_character_ina_string;
 
 public interface FirstUniqueCharacterInaString {
     /**

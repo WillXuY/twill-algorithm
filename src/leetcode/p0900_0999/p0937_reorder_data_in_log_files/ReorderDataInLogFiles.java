@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.strs;
+package leetcode.p0900_0999.p0937_reorder_data_in_log_files;
 
 public interface ReorderDataInLogFiles {
     /**

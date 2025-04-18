@@ -1,4 +1,4 @@
-package common.provide;
+package leetcode.p0300_0399.p0303_range_sum_query_immutable;
 
 /**
  * Given an integer array nums, handle multiple queries of the following

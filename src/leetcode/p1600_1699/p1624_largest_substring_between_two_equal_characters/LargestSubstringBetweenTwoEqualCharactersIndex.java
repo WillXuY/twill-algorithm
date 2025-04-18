@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.LargestSubstringBetweenTwoEqualCharacters;
+package leetcode.p1600_1699.p1624_largest_substring_between_two_equal_characters;
 
 import java.util.HashMap;
 import java.util.Map;

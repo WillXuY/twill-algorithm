@@ -1,4 +1,4 @@
-package org.willxu.algorithm.domain.impl.other;
+package leetcode.p0900_0999.p0933_number_of_recent_calls;
 
 import leetcode.p0900_0999.p0933_number_of_recent_calls.AbstractNumberOfRecentCalls;
 

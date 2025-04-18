@@ -1,10 +1,8 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p1000_1099.p1047_remove_all_adjacent_duplicates_in_string;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.string.RemoveAllAdjacentDuplicatesInStringRegex;
-import org.willxu.algorithm.service.impl.string.RemoveAllAdjacentDuplicatesInStringStack;
 
 import java.util.stream.Stream;
 

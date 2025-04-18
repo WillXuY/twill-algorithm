@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1900_1999.p1945_sum_of_digits_of_string_after_convert;
 
 public interface SumOfDigitsOfStringAfterConvert {
     /**

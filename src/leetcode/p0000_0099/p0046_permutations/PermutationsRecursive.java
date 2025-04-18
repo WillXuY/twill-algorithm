@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.intlist;
-
-import org.willxu.algorithm.service.intlist.Permutations;
+package leetcode.p0000_0099.p0046_permutations;
 
 import java.util.ArrayList;
 import java.util.Arrays;

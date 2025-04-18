@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.matrix;
-
-import org.willxu.algorithm.service.matrix.MinimumAbsoluteDifference;
+package leetcode.p1200_1299.p1200_minimum_absolute_difference;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1800_1899.p1805_number_of_different_integers_in_string;
 
 public interface NumberOfDifferentIntegersInString {
     /**

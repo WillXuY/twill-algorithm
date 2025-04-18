@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p0900_0999.p0993_cousins_in_binary_tree;
 
 import common.provide.TreeNode;
 

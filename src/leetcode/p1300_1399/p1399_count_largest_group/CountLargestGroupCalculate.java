@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.CountLargestGroup;
+package leetcode.p1300_1399.p1399_count_largest_group;
 
 import java.util.Collections;
 import java.util.HashMap;

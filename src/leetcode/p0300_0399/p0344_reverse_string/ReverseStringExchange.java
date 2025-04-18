@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.empty;
-
-import org.willxu.algorithm.service.empty.ReverseString;
+package leetcode.p0300_0399.p0344_reverse_string;
 
 public class ReverseStringExchange implements ReverseString {
     @Override

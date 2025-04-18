@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.strlist;
+package leetcode.p0700_0799.p0721_accounts_merge;
 
 import java.util.List;
 

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.DefangingAnIpAddress;
+package leetcode.p1100_1199.p1108_defanging_an_ip_address;
 
 public class DefangingAnIpAddressRegex implements DefangingAnIpAddress {
     @Override

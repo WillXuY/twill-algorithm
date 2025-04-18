@@ -1,7 +1,6 @@
-package org.willxu.algorithm.service.impl.empty;
+package leetcode.p0100_0199.p0114_flatten_binary_tree_to_linked_list;
 
 import common.provide.TreeNode;
-import org.willxu.algorithm.service.empty.FlattenBinaryTreeToLinkedList;
 
 import java.util.Stack;
 

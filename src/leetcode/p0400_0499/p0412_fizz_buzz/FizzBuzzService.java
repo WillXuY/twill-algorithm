@@ -7,7 +7,7 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.strlist;
+package leetcode.p0400_0499.p0412_fizz_buzz;
 
 import java.util.List;
 

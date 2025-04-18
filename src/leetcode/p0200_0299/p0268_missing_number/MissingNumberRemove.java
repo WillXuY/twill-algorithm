@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MissingNumber;
+package leetcode.p0200_0299.p0268_missing_number;
 
 import java.util.TreeSet;
 

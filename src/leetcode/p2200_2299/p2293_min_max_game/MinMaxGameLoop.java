@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MinMaxGame;
+package leetcode.p2200_2299.p2293_min_max_game;
 
 public class MinMaxGameLoop implements MinMaxGame {
     @Override

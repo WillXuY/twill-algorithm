@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.treenode;
+package leetcode.p0600_0699.p0652_find_duplicate_subtrees;
 
 import common.provide.TreeNode;
 

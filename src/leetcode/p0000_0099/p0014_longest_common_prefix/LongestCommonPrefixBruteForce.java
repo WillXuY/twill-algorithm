@@ -7,9 +7,7 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.LongestCommonPrefix;
+package leetcode.p0000_0099.p0014_longest_common_prefix;
 
 import java.util.Arrays;
 

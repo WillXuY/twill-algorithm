@@ -7,13 +7,11 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.integer;
+package leetcode.p0100_0199.p0121_best_time_to_buy_and_sell_stock;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.integer.BestTimeToBuyAndSellStockCycle;
-import org.willxu.algorithm.service.impl.integer.BestTimeToBuyAndSellStockSaveMin;
 
 import java.util.stream.Stream;
 

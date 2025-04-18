@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.strlist;
+package leetcode.p2100_2199.p2194_cells_in_range_on_an_excel_sheet;
 
 import java.util.List;
 

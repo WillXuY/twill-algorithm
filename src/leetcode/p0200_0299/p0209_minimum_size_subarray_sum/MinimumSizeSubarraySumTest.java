@@ -7,13 +7,11 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.integer;
+package leetcode.p0200_0299.p0209_minimum_size_subarray_sum;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.integer.MinimumSizeSubarraySumBetter;
-import org.willxu.algorithm.service.impl.integer.MinimumSizeSubarraySumBruteForce;
 
 import java.util.stream.Stream;
 

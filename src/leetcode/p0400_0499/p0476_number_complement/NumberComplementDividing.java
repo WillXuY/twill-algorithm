@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.NumberComplement;
+package leetcode.p0400_0499.p0476_number_complement;
 
 public class NumberComplementDividing implements NumberComplement {
     @Override

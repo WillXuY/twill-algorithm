@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2100_2199.p2190_most_frequent_number_following_key_in_an_array;
 
 public interface MostFrequentNumberFollowingKeyInAnArray {
     /**

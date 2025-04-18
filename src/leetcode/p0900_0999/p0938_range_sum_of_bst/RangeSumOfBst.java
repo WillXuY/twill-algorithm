@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.treenode;
+package leetcode.p0900_0999.p0938_range_sum_of_bst;
 
 import common.provide.TreeNode;
 

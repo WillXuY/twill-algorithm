@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.character;
+package leetcode.p2300_2399.p2351_first_letter_to_appear_twice;
 
 public interface FirstLetterToAppearTwice {
     /**

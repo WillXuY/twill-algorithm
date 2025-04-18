@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.matrix;
+package leetcode.p1000_1099.p1030_matrix_cells_in_distance_order;
 
 public interface MatrixCellsInDistanceOrder {
     /**

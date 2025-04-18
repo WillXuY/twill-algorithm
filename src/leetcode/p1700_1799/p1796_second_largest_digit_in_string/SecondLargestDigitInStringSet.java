@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.SecondLargestDigitInString;
+package leetcode.p1700_1799.p1796_second_largest_digit_in_string;
 
 import java.util.Set;
 import java.util.stream.Collectors;

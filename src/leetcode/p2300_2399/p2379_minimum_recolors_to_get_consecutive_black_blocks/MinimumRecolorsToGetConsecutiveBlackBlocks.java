@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2300_2399.p2379_minimum_recolors_to_get_consecutive_black_blocks;
 
 public interface MinimumRecolorsToGetConsecutiveBlackBlocks {
     /**

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MaximumAscendingSubarraySum;
+package leetcode.p1800_1899.p1800_maximum_ascending_subarray_sum;
 
 public class MaximumAscendingSubarraySumCount
         implements MaximumAscendingSubarraySum {

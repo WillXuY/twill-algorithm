@@ -7,9 +7,7 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.ContainsDuplicate;
+package leetcode.p0200_0299.p0217_contains_duplicate;
 
 public class ContainsDuplicateBubble implements ContainsDuplicate {
     @Override

@@ -1,11 +1,10 @@
-package org.willxu.algorithm.service.character;
+package leetcode.p1500_1599.p1545_find_kth_bit_in_nth_binary_string;
 
 import java.util.stream.Stream;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.character.FindKthBitInNthBinaryStringRecursive;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.params.provider.Arguments.arguments;

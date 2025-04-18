@@ -7,7 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.bool;
+package leetcode.p0800_0899.p0844_backspace_string_compare;
 
 public interface BackspaceStringCompare {
     /**

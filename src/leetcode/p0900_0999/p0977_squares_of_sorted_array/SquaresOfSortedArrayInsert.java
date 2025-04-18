@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.ints;
-
-import org.willxu.algorithm.service.ints.SquaresOfSortedArray;
+package leetcode.p0900_0999.p0977_squares_of_sorted_array;
 
 public class SquaresOfSortedArrayInsert implements SquaresOfSortedArray {
     /**

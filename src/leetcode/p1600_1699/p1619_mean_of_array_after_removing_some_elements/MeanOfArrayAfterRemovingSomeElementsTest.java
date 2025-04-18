@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.decimal;
+package leetcode.p1600_1699.p1619_mean_of_array_after_removing_some_elements;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.decimal.MeanOfArrayAfterRemovingSomeElementsSort;
 
 import java.util.stream.Stream;
 

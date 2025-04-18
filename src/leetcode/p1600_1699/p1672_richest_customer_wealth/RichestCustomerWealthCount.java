@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.RichestCustomerWealth;
+package leetcode.p1600_1699.p1672_richest_customer_wealth;
 
 public class RichestCustomerWealthCount implements RichestCustomerWealth {
     @Override

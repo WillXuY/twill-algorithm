@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.empty;
-
-import org.willxu.algorithm.service.empty.DuplicateZeros;
+package leetcode.p1000_1099.p1089_duplicate_zeros;
 
 public class DuplicateZerosCopy implements DuplicateZeros {
     @Override

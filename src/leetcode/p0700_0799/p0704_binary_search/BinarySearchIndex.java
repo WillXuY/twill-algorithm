@@ -7,9 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.BinarySearch;
+package leetcode.p0700_0799.p0704_binary_search;
 
 public class BinarySearchIndex implements BinarySearch {
     @Override

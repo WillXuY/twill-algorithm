@@ -1,10 +1,9 @@
-package org.willxu.algorithm.service.empty;
+package leetcode.p0000_0099.p0099_recover_binary_search_tree;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 import common.provide.TreeNode;
-import org.willxu.algorithm.service.impl.empty.RecoverBinarySearchTreeRecursive;
 
 import java.util.stream.Collectors;
 import java.util.stream.Stream;

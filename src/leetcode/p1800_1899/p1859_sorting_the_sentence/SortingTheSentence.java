@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p1800_1899.p1859_sorting_the_sentence;
 
 public interface SortingTheSentence {
     /**

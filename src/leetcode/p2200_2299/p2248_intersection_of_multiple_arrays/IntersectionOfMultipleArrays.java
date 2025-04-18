@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.intlist;
+package leetcode.p2200_2299.p2248_intersection_of_multiple_arrays;
 
 import java.util.List;
 

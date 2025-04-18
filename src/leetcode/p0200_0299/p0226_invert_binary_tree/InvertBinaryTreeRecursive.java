@@ -7,10 +7,9 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.treenode;
+package leetcode.p0200_0299.p0226_invert_binary_tree;
 
 import common.provide.TreeNode;
-import org.willxu.algorithm.service.treenode.InvertBinaryTree;
 
 public class InvertBinaryTreeRecursive implements InvertBinaryTree {
     @Override

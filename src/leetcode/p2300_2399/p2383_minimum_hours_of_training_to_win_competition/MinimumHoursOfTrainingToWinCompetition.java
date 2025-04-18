@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2300_2399.p2383_minimum_hours_of_training_to_win_competition;
 
 public interface MinimumHoursOfTrainingToWinCompetition {
     /**

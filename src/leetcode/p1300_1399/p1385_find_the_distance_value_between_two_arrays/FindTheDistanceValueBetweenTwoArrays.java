@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1300_1399.p1385_find_the_distance_value_between_two_arrays;
 
 public interface FindTheDistanceValueBetweenTwoArrays {
     /**

@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p2400_2499.p2423_remove_letter_to_equalize_frequency;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.bool.RemoveLetterToEqualizeFrequencyCount;
 
 import java.util.stream.Stream;
 

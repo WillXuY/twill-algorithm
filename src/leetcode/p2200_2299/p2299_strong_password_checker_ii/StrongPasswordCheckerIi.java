@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p2200_2299.p2299_strong_password_checker_ii;
 
 public interface StrongPasswordCheckerIi {
     /**

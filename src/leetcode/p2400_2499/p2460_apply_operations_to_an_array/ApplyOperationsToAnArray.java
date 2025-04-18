@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.ints;
+package leetcode.p2400_2499.p2460_apply_operations_to_an_array;
 
 public interface ApplyOperationsToAnArray {
     /**

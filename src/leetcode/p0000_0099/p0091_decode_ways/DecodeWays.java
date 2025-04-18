@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0000_0099.p0091_decode_ways;
 
 public interface DecodeWays {
     /**

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.CountGoodTriplets;
+package leetcode.p1500_1599.p1534_count_good_triplets;
 
 public class CountGoodTripletsCombination implements CountGoodTriplets {
     @Override

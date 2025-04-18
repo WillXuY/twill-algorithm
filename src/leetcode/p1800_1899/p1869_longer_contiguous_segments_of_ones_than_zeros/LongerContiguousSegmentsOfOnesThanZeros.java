@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p1800_1899.p1869_longer_contiguous_segments_of_ones_than_zeros;
 
 public interface LongerContiguousSegmentsOfOnesThanZeros {
     /**

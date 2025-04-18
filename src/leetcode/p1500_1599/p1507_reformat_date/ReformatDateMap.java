@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.ReformatDate;
+package leetcode.p1500_1599.p1507_reformat_date;
 
 import java.util.HashMap;
 import java.util.Map;

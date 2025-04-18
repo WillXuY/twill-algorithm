@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.SignOfTheProductOfAnArray;
+package leetcode.p1800_1899.p1822_sign_of_the_product_of_an_array;
 
 public class SignOfTheProductOfAnArrayLoop
         implements SignOfTheProductOfAnArray {

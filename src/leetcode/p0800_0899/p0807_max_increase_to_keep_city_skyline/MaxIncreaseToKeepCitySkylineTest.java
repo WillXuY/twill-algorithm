@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0800_0899.p0807_max_increase_to_keep_city_skyline;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.integer.MaxIncreaseToKeepCitySkylineLoop;
 
 import java.util.stream.Stream;
 

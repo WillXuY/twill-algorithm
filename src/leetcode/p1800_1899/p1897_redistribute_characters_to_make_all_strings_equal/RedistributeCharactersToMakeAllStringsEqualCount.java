@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.RedistributeCharactersToMakeAllStringsEqual;
+package leetcode.p1800_1899.p1897_redistribute_characters_to_make_all_strings_equal;
 
 import java.util.HashMap;
 import java.util.Map;

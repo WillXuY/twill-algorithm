@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.ints;
+package leetcode.p0800_0899.p0888_fair_candy_swap;
 
 public interface FairCandySwap {
     /**

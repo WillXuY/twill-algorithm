@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p2000_2099.p2000_reverse_prefix_of_word;
 
 public interface ReversePrefixOfWord {
     /**

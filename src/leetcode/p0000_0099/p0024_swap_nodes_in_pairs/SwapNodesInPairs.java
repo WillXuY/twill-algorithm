@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.listnode;
+package leetcode.p0000_0099.p0024_swap_nodes_in_pairs;
 
 import common.provide.ListNode;
 

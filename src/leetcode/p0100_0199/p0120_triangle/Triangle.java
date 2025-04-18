@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0100_0199.p0120_triangle;
 
 import java.util.List;
 

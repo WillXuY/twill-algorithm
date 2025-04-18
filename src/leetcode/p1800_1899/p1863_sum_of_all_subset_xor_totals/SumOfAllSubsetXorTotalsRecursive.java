@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.SumOfAllSubsetXorTotals;
+package leetcode.p1800_1899.p1863_sum_of_all_subset_xor_totals;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.ints;
+package leetcode.p1600_1699.p1652_defuse_the_bomb;
 
 public interface DefuseTheBomb {
     /**

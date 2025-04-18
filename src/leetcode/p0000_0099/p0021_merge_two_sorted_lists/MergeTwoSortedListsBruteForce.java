@@ -7,10 +7,9 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.listnode;
+package leetcode.p0000_0099.p0021_merge_two_sorted_lists;
 
 import common.provide.ListNode;
-import org.willxu.algorithm.service.listnode.MergeTwoSortedLists;
 
 public class MergeTwoSortedListsBruteForce implements MergeTwoSortedLists {
     @Override

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.CheckIfEveryRowAndColumnContainsAllNumbers;
+package leetcode.p2100_2199.p2133_check_if_every_row_and_column_contains_all_numbers;
 
 public class CheckIfEveryRowAndColumnContainsAllNumbersLoop
         implements CheckIfEveryRowAndColumnContainsAllNumbers {

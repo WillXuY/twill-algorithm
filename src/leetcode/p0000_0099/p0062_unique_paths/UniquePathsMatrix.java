@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.UniquePaths;
+package leetcode.p0000_0099.p0062_unique_paths;
 
 public class UniquePathsMatrix implements UniquePaths {
     @Override

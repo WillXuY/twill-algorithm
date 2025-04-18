@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.CountOperationsToObtainZero;
+package leetcode.p2100_2199.p2169_count_operations_to_obtain_zero;
 
 public class CountOperationsToObtainZeroLoop
         implements CountOperationsToObtainZero {

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.character;
-
-import org.willxu.algorithm.service.character.FindKthBitInNthBinaryString;
+package leetcode.p1500_1599.p1545_find_kth_bit_in_nth_binary_string;
 
 public class FindKthBitInNthBinaryStringRecursive implements FindKthBitInNthBinaryString {
 

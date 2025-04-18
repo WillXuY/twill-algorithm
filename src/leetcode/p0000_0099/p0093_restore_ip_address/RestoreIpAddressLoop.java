@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.strlist;
-
-import org.willxu.algorithm.service.strlist.RestoreIpAddress;
+package leetcode.p0000_0099.p0093_restore_ip_address;
 
 import java.util.ArrayList;
 import java.util.List;

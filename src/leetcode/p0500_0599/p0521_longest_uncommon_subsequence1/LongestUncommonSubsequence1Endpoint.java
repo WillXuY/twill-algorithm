@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.LongestUncommonSubsequence1;
+package leetcode.p0500_0599.p0521_longest_uncommon_subsequence1;
 
 public class LongestUncommonSubsequence1Endpoint
         implements LongestUncommonSubsequence1 {

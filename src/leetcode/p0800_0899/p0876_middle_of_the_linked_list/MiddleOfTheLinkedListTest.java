@@ -1,10 +1,9 @@
-package org.willxu.algorithm.service.listnode;
+package leetcode.p0800_0899.p0876_middle_of_the_linked_list;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 import common.provide.ListNode;
-import org.willxu.algorithm.service.impl.listnode.MiddleOfTheLinkedListRecursive;
 
 import java.util.stream.Stream;
 

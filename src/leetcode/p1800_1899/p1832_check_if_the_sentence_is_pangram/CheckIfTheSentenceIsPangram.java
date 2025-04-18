@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p1800_1899.p1832_check_if_the_sentence_is_pangram;
 
 public interface CheckIfTheSentenceIsPangram {
     /**

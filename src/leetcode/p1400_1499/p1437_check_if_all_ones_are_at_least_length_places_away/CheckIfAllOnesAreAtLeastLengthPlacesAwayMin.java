@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.CheckIfAllOnesAreAtLeastLengthPlacesAway;
+package leetcode.p1400_1499.p1437_check_if_all_ones_are_at_least_length_places_away;
 
 public class CheckIfAllOnesAreAtLeastLengthPlacesAwayMin
         implements CheckIfAllOnesAreAtLeastLengthPlacesAway {

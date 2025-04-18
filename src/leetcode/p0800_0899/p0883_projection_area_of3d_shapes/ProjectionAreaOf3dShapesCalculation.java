@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.ProjectionAreaOf3dShapes;
+package leetcode.p0800_0899.p0883_projection_area_of3d_shapes;
 
 public class ProjectionAreaOf3dShapesCalculation
         implements ProjectionAreaOf3dShapes {

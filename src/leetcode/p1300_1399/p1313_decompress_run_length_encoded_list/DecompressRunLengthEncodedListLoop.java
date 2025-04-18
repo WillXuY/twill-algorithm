@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.ints;
-
-import org.willxu.algorithm.service.ints.DecompressRunLengthEncodedList;
+package leetcode.p1300_1399.p1313_decompress_run_length_encoded_list;
 
 import java.util.ArrayList;
 import java.util.List;

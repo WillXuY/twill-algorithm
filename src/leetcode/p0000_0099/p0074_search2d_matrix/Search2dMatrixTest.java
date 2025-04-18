@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p0000_0099.p0074_search2d_matrix;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.bool.Search2dMatrixHalf;
 
 import java.util.stream.Stream;
 

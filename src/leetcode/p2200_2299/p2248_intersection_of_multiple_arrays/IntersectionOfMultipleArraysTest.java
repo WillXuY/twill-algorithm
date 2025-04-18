@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.intlist;
+package leetcode.p2200_2299.p2248_intersection_of_multiple_arrays;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.intlist.IntersectionOfMultipleArraysMap;
 
 import java.util.Collections;
 import java.util.List;

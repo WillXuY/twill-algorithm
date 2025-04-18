@@ -1,7 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.extend.FirstBadVersion;
-import org.willxu.algorithm.service.integer.AddDigits;
+package leetcode.p0200_0299.p0258_add_digits;
 
 public class AddDigitsLoop implements AddDigits {
     @Override

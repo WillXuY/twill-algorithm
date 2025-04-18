@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.ThousandSeparator;
+package leetcode.p1500_1599.p1556_thousand_separator;
 
 public class ThousandSeparatorCharacter implements ThousandSeparator {
     @Override

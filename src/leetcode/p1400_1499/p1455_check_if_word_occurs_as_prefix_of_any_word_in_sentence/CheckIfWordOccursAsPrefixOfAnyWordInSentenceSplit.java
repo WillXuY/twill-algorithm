@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.CheckIfWordOccursAsPrefixOfAnyWordInSentence;
+package leetcode.p1400_1499.p1455_check_if_word_occurs_as_prefix_of_any_word_in_sentence;
 
 public class CheckIfWordOccursAsPrefixOfAnyWordInSentenceSplit
         implements CheckIfWordOccursAsPrefixOfAnyWordInSentence {

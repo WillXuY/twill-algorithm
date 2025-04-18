@@ -7,9 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.DegreeOfAnArray;
+package leetcode.p0600_0699.p0697_degree_of_an_array;
 
 import java.util.HashMap;
 import java.util.Map;

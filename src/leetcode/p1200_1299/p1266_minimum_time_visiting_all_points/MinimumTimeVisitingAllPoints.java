@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1200_1299.p1266_minimum_time_visiting_all_points;
 
 public interface MinimumTimeVisitingAllPoints {
     /**

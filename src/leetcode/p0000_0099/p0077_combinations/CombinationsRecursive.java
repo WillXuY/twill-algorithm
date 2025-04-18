@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.intlist;
-
-import org.willxu.algorithm.service.intlist.Combinations;
+package leetcode.p0000_0099.p0077_combinations;
 
 import java.util.ArrayList;
 import java.util.List;

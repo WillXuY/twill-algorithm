@@ -1,7 +1,6 @@
-package org.willxu.algorithm.domain.array;
+package leetcode.p0300_0399.p0303_range_sum_query_immutable;
 
 import org.junit.jupiter.api.Test;
-import common.provide.NumArrayCycle;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

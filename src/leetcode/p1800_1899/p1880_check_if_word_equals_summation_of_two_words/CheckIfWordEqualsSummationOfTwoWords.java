@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p1800_1899.p1880_check_if_word_equals_summation_of_two_words;
 
 public interface CheckIfWordEqualsSummationOfTwoWords {
     /**

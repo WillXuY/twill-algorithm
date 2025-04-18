@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.ints;
-
-import org.willxu.algorithm.service.ints.ConvertIntegerToTheSumOfTwoNoZeroIntegers;
+package leetcode.p1300_1399.p1317_convert_integer_to_the_sum_of_two_no_zero_integers;
 
 public class ConvertIntegerToTheSumOfTwoNoZeroIntegersDivide2
         implements ConvertIntegerToTheSumOfTwoNoZeroIntegers {

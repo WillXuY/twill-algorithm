@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.FindTheBeautyOfNumber;
+package leetcode.p2200_2299.p2269_find_the_beauty_of_number;
 
 public class FindTheBeautyOfNumberLoop implements FindTheBeautyOfNumber {
     @Override

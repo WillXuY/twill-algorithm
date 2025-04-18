@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.ReformatTheString;
+package leetcode.p1400_1499.p1417_reformat_the_string;
 
 public class ReformatTheStringInsert implements ReformatTheString {
     @Override

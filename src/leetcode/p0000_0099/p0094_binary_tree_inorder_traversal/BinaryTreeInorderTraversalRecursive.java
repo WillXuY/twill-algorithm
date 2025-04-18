@@ -7,10 +7,9 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.intlist;
+package leetcode.p0000_0099.p0094_binary_tree_inorder_traversal;
 
 import common.provide.TreeNode;
-import org.willxu.algorithm.service.intlist.BinaryTreeInorderTraversal;
 
 import java.util.ArrayList;
 import java.util.Collections;

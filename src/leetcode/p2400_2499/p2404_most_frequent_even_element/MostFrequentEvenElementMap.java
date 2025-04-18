@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MostFrequentEvenElement;
+package leetcode.p2400_2499.p2404_most_frequent_even_element;
 
 import java.util.HashMap;
 import java.util.Map;

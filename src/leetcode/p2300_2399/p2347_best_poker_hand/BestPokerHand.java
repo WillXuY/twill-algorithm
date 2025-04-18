@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p2300_2399.p2347_best_poker_hand;
 
 public interface BestPokerHand {
     String FLUSH = "Flush";

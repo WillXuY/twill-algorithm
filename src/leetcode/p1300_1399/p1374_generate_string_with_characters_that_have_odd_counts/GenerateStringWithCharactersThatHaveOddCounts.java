@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p1300_1399.p1374_generate_string_with_characters_that_have_odd_counts;
 
 public interface GenerateStringWithCharactersThatHaveOddCounts {
     /**

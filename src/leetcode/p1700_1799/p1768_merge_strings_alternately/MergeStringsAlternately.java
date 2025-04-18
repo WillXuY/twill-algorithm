@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p1700_1799.p1768_merge_strings_alternately;
 
 public interface MergeStringsAlternately {
     /**

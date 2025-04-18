@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.strlist;
-
-import org.willxu.algorithm.service.strlist.BinaryWatch;
+package leetcode.p0400_0499.p0401_binary_watch;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.SumOfSquareNumbers;
+package leetcode.p0600_0699.p0633_sum_of_square_numbers;
 
 public class SumOfSquareNumbersSqrt implements SumOfSquareNumbers {
     @Override

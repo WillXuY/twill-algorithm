@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MinimumRecolorsToGetConsecutiveBlackBlocks;
+package leetcode.p2300_2399.p2379_minimum_recolors_to_get_consecutive_black_blocks;
 
 import java.util.ArrayList;
 import java.util.List;

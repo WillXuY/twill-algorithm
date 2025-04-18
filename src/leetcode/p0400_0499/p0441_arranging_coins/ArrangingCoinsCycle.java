@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.ArrangingCoins;
+package leetcode.p0400_0499.p0441_arranging_coins;
 
 public class ArrangingCoinsCycle implements ArrangingCoins {
     @Override

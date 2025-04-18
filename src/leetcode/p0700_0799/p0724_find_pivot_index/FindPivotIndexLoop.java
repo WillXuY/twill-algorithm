@@ -7,9 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.FindPivotIndex;
+package leetcode.p0700_0799.p0724_find_pivot_index;
 
 public class FindPivotIndexLoop implements FindPivotIndex {
     @Override

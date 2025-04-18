@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2000_2099.p2011_final_value_of_variable_after_performing_operations;
 
 public interface FinalValueOfVariableAfterPerformingOperations {
     /**

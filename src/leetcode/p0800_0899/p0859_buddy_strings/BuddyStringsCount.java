@@ -7,9 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.BuddyStrings;
+package leetcode.p0800_0899.p0859_buddy_strings;
 
 import java.util.HashSet;
 import java.util.Set;

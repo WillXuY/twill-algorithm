@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2400_2499.p2485_find_the_pivot_integer;
 
 public interface FindThePivotInteger {
     /**

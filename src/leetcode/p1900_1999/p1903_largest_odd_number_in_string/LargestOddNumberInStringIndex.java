@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.LargestOddNumberInString;
+package leetcode.p1900_1999.p1903_largest_odd_number_in_string;
 
 public class LargestOddNumberInStringIndex implements LargestOddNumberInString {
     @Override

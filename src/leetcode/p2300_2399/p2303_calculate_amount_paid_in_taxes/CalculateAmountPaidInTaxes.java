@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.doublepoint;
+package leetcode.p2300_2399.p2303_calculate_amount_paid_in_taxes;
 
 public interface CalculateAmountPaidInTaxes {
     /**

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MaximumNestingDepthOfTheParentheses;
+package leetcode.p1600_1699.p1614_maximum_nesting_depth_of_the_parentheses;
 
 public class MaximumNestingDepthOfTheParenthesesCount
         implements MaximumNestingDepthOfTheParentheses {

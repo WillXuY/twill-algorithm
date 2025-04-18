@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.SmallestIndexWithEqualValue;
+package leetcode.p2000_2099.p2057_smallest_index_with_equal_value;
 
 public class SmallestIndexWithEqualValueLoop
         implements SmallestIndexWithEqualValue {

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.domain.impl.other;
-
-import org.willxu.algorithm.domain.other.DesignLinkedList;
+package leetcode.p0700_0799.p0707_design_linked_list;
 
 public class DesignLinkedListNode implements DesignLinkedList {
     private static class Node {

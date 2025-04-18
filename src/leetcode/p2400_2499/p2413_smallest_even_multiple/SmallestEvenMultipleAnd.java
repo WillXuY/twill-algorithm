@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.SmallestEvenMultiple;
+package leetcode.p2400_2499.p2413_smallest_even_multiple;
 
 public class SmallestEvenMultipleAnd implements SmallestEvenMultiple {
     @Override

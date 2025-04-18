@@ -1,7 +1,6 @@
-package org.willxu.algorithm.domain.thread;
+package leetcode.p1100_1199.p1114_print_in_order;
 
 import org.junit.jupiter.api.Test;
-import org.willxu.algorithm.domain.impl.thread.PrintInOrderCountDownLatch;
 
 public class PrintInOrderTest {
     /**

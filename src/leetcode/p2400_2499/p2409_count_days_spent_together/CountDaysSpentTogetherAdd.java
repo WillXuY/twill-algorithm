@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.CountDaysSpentTogether;
+package leetcode.p2400_2499.p2409_count_days_spent_together;
 
 public class CountDaysSpentTogetherAdd implements CountDaysSpentTogether {
     @Override

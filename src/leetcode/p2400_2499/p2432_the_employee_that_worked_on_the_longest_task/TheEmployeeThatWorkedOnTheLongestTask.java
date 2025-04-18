@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2400_2499.p2432_the_employee_that_worked_on_the_longest_task;
 
 public interface TheEmployeeThatWorkedOnTheLongestTask {
     /**

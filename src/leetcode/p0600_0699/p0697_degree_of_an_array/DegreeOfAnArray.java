@@ -7,7 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.integer;
+package leetcode.p0600_0699.p0697_degree_of_an_array;
 
 public interface DegreeOfAnArray {
     /**

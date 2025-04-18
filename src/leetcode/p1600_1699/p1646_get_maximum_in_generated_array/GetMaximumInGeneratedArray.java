@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1600_1699.p1646_get_maximum_in_generated_array;
 
 public interface GetMaximumInGeneratedArray {
     /**

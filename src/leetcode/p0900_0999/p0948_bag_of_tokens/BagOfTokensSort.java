@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.BagOfTokens;
+package leetcode.p0900_0999.p0948_bag_of_tokens;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2400_2499.p2496_maximum_value_of_string_in_an_array;
 
 public interface MaximumValueOfStringInAnArray {
     /**

@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.ints;
+package leetcode.p1100_1199.p1122_relative_sort_array;
 
 public interface RelativeSortArray {
     /**

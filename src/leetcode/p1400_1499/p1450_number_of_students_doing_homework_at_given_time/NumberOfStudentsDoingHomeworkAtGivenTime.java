@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1400_1499.p1450_number_of_students_doing_homework_at_given_time;
 
 public interface NumberOfStudentsDoingHomeworkAtGivenTime {
     /**

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.ComplexNumberMultiplication;
+package leetcode.p0500_0599.p0537_complex_number_multiplication;
 
 public class ComplexNumberMultiplicationSplit
         implements ComplexNumberMultiplication {

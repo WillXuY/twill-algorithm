@@ -7,7 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.treenode;
+package leetcode.p0700_0799.p0700_search_in_binary_search_tree;
 
 import common.provide.TreeNode;
 

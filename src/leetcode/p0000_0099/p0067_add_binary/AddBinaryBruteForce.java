@@ -7,9 +7,7 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.AddBinary;
+package leetcode.p0000_0099.p0067_add_binary;
 
 public class AddBinaryBruteForce implements AddBinary {
     @Override

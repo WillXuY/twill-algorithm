@@ -7,9 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MaximumProductOfThreeNumbers;
+package leetcode.p0600_0699.p0628_maximum_product_of_three_numbers;
 
 public class MaximumProductOfThreeNumbersClassify
         implements MaximumProductOfThreeNumbers {

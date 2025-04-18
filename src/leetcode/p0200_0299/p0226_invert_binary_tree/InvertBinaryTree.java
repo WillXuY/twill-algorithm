@@ -7,7 +7,7 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.treenode;
+package leetcode.p0200_0299.p0226_invert_binary_tree;
 
 import common.provide.TreeNode;
 

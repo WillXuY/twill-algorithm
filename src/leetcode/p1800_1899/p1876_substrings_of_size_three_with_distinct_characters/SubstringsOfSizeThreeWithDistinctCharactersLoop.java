@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.SubstringsOfSizeThreeWithDistinctCharacters;
+package leetcode.p1800_1899.p1876_substrings_of_size_three_with_distinct_characters;
 
 public class SubstringsOfSizeThreeWithDistinctCharactersLoop
         implements SubstringsOfSizeThreeWithDistinctCharacters {

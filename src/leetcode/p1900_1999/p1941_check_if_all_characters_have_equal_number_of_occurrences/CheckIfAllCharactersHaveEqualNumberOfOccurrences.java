@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p1900_1999.p1941_check_if_all_characters_have_equal_number_of_occurrences;
 
 public interface CheckIfAllCharactersHaveEqualNumberOfOccurrences {
     /**

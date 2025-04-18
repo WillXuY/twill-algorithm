@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p0200_0299.p0263_ugly_number;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.bool.UglyNumberDivide;
 
 import java.util.stream.Stream;
 

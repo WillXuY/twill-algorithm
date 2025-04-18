@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.empty;
-
-import org.willxu.algorithm.service.empty.SortColors;
+package leetcode.p0000_0099.p0075_sort_colors;
 
 public class SortColorsExchange implements SortColors {
     @Override

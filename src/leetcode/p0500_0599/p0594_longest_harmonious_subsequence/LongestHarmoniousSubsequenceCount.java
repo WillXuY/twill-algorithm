@@ -7,9 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.LongestHarmoniousSubsequence;
+package leetcode.p0500_0599.p0594_longest_harmonious_subsequence;
 
 import java.util.TreeMap;
 

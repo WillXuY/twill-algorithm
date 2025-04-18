@@ -7,7 +7,7 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.empty;
+package leetcode.p0200_0299.p0237_delete_node_in_linked_list;
 
 import common.provide.ListNode;
 

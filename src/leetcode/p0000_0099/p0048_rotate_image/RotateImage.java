@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.empty;
+package leetcode.p0000_0099.p0048_rotate_image;
 
 public interface RotateImage {
     /**

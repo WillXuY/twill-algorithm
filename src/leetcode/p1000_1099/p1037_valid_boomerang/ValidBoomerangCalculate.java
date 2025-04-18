@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.ValidBoomerang;
+package leetcode.p1000_1099.p1037_valid_boomerang;
 
 public class ValidBoomerangCalculate implements ValidBoomerang {
     /**

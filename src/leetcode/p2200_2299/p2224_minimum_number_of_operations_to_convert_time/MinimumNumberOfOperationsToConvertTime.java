@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2200_2299.p2224_minimum_number_of_operations_to_convert_time;
 
 public interface MinimumNumberOfOperationsToConvertTime {
     /**

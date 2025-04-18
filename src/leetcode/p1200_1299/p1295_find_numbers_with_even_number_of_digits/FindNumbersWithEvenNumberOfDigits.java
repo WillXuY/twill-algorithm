@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1200_1299.p1295_find_numbers_with_even_number_of_digits;
 
 public interface FindNumbersWithEvenNumberOfDigits {
     /**

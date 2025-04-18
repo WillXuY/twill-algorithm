@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.CheckIfTheSentenceIsPangram;
+package leetcode.p1800_1899.p1832_check_if_the_sentence_is_pangram;
 
 public class CheckIfTheSentenceIsPangramArray
         implements CheckIfTheSentenceIsPangram {

@@ -1,7 +1,6 @@
-package org.willxu.algorithm.service.impl.intlist;
+package leetcode.p0500_0599.p0515_find_largest_value_in_each_tree_row;
 
 import common.provide.TreeNode;
-import org.willxu.algorithm.service.intlist.FindLargestValueInEachTreeRow;
 
 import java.util.ArrayList;
 import java.util.List;

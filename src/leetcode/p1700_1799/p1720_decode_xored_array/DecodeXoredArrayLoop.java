@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.ints;
-
-import org.willxu.algorithm.service.ints.DecodeXoredArray;
+package leetcode.p1700_1799.p1720_decode_xored_array;
 
 public class DecodeXoredArrayLoop implements DecodeXoredArray {
     @Override

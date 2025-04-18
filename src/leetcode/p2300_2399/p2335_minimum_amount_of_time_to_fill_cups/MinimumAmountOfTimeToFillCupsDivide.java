@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MinimumAmountOfTimeToFillCups;
+package leetcode.p2300_2399.p2335_minimum_amount_of_time_to_fill_cups;
 
 public class MinimumAmountOfTimeToFillCupsDivide
         implements MinimumAmountOfTimeToFillCups {

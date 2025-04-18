@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.DistanceBetweenBusStops;
+package leetcode.p1100_1199.p1184_distance_between_bus_stops;
 
 public class DistanceBetweenBusStopsExhaustive
         implements DistanceBetweenBusStops {

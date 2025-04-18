@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MinimumDifferenceBetweenHighestAndLowestOfScores;
+package leetcode.p1900_1999.p1984_minimum_difference_between_highest_and_lowest_of_scores;
 
 import java.util.Arrays;
 

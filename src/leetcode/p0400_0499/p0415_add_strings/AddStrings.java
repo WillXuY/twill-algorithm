@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p0400_0499.p0415_add_strings;
 
 public interface AddStrings {
     /**

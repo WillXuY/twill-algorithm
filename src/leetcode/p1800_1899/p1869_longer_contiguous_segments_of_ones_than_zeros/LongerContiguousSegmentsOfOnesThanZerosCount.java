@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.LongerContiguousSegmentsOfOnesThanZeros;
+package leetcode.p1800_1899.p1869_longer_contiguous_segments_of_ones_than_zeros;
 
 public class LongerContiguousSegmentsOfOnesThanZerosCount
         implements LongerContiguousSegmentsOfOnesThanZeros {

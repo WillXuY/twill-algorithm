@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.empty;
+package leetcode.p0300_0399.p0344_reverse_string;
 
 public interface ReverseString {
     /**

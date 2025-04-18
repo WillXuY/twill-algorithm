@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.NumberOfDistinctAverages;
+package leetcode.p2400_2499.p2465_number_of_distinct_averages;
 
 import java.util.Arrays;
 import java.util.HashSet;

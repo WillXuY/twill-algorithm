@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.ReplaceAllDigitsWithCharacters;
+package leetcode.p1800_1899.p1844_replace_all_digits_with_characters;
 
 public class ReplaceAllDigitsWithCharactersLoop
         implements ReplaceAllDigitsWithCharacters {

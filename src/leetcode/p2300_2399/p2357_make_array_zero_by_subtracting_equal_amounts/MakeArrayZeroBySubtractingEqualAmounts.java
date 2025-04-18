@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2300_2399.p2357_make_array_zero_by_subtracting_equal_amounts;
 
 public interface MakeArrayZeroBySubtractingEqualAmounts {
     /**

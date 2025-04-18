@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MaximumPopulationYear;
+package leetcode.p1800_1899.p1854_maximum_population_year;
 
 public class MaximumPopulationYearCount implements MaximumPopulationYear {
     @Override

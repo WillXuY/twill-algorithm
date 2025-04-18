@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.RearrangeCharactersToMakeTargetString;
+package leetcode.p2200_2299.p2287_rearrange_characters_to_make_target_string;
 
 public class RearrangeCharactersToMakeTargetStringCount
         implements RearrangeCharactersToMakeTargetString {

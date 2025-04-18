@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MaximumUnitsOnTruck;
+package leetcode.p1700_1799.p1710_maximum_units_on_truck;
 
 import java.util.Comparator;
 import java.util.TreeMap;

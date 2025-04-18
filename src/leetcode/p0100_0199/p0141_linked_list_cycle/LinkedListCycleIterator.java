@@ -7,10 +7,9 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.bool;
+package leetcode.p0100_0199.p0141_linked_list_cycle;
 
 import common.provide.ListNode;
-import org.willxu.algorithm.service.bool.LinkedListCycle;
 
 import java.util.HashSet;
 

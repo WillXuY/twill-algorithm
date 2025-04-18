@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.DayOfTheWeek;
+package leetcode.p1100_1199.p1185_day_of_the_week;
 
 import java.util.Calendar;
 

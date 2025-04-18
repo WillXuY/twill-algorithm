@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1100_1199.p1175_prime_arrangements;
 
 public interface PrimeArrangements {
     /**

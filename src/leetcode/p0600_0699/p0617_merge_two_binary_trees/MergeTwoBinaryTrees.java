@@ -7,7 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.treenode;
+package leetcode.p0600_0699.p0617_merge_two_binary_trees;
 
 import common.provide.TreeNode;
 

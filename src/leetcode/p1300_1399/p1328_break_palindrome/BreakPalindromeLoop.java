@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.BreakPalindrome;
+package leetcode.p1300_1399.p1328_break_palindrome;
 
 public class BreakPalindromeLoop implements BreakPalindrome {
     @Override

@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p1500_1599.p1592_rearrange_spaces_between_words;
 
 public interface RearrangeSpacesBetweenWords {
     /**

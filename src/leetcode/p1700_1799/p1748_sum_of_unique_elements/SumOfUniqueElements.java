@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1700_1799.p1748_sum_of_unique_elements;
 
 public interface SumOfUniqueElements {
     /**

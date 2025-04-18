@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2400_2499.p2409_count_days_spent_together;
 
 public interface CountDaysSpentTogether {
     /**

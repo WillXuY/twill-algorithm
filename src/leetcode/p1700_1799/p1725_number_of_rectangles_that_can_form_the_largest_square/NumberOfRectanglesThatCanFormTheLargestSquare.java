@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1700_1799.p1725_number_of_rectangles_that_can_form_the_largest_square;
 
 public interface NumberOfRectanglesThatCanFormTheLargestSquare {
     /**

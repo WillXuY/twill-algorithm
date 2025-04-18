@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.PrimeArrangements;
+package leetcode.p1100_1199.p1175_prime_arrangements;
 
 import java.math.BigInteger;
 

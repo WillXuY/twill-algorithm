@@ -7,7 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.integer;
+package leetcode.p0700_0799.p0704_binary_search;
 
 public interface BinarySearch {
     /**

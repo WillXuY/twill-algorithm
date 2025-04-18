@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p2400_2499.p2423_remove_letter_to_equalize_frequency;
 
 public interface RemoveLetterToEqualizeFrequency {
     /**

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.ReplaceAllQuestionMarksToAvoidConsecutiveRepeatingCharacters;
+package leetcode.p1500_1599.p1576_replace_all_question_marks_to_avoid_consecutive_repeating_characters;
 
 public class ReplaceAllQuestionMarksToAvoidConsecutiveRepeatingCharactersLoop
         implements ReplaceAllQuestionMarksToAvoidConsecutiveRepeatingCharacters {

@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p2200_2299.p2283_check_if_number_has_equal_digit_count_and_digit_value;
 
 public interface CheckIfNumberHasEqualDigitCountAndDigitValue {
     /**

@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p2200_2299.p2299_strong_password_checker_ii;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.bool.StrongPasswordCheckerIiLoop;
 
 import java.util.stream.Stream;
 

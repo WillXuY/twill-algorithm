@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.AverageValueOfEvenNumbersThatAreDivisibleByThree;
+package leetcode.p2400_2499.p2455_average_value_of_even_numbers_that_are_divisible_by_three;
 
 public class AverageValueOfEvenNumbersThatAreDivisibleByThreeCount
         implements AverageValueOfEvenNumbersThatAreDivisibleByThree {

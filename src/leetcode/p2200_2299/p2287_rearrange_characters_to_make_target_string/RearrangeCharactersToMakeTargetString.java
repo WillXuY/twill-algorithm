@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2200_2299.p2287_rearrange_characters_to_make_target_string;
 
 public interface RearrangeCharactersToMakeTargetString {
     /**

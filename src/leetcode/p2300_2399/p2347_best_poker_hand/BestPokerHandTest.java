@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p2300_2399.p2347_best_poker_hand;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.string.BestPokerHandCount;
 
 import java.util.stream.Stream;
 

@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0800_0899.p0807_max_increase_to_keep_city_skyline;
 
 public interface MaxIncreaseToKeepCitySkyline {
     /**

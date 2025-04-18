@@ -7,7 +7,7 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.ints;
+package leetcode.p0000_0099.p0066_plus_one;
 
 public interface PlusOne {
     /**

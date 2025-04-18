@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1900_1999.p1979_find_greatest_common_divisor_of_array;
 
 public interface FindGreatestCommonDivisorOfArray {
     /**

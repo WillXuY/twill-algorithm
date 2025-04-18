@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.NumberOfStudentsUnableToEatLunch;
+package leetcode.p1700_1799.p1700_number_of_students_unable_to_eat_lunch;
 
 public class NumberOfStudentsUnableToEatLunchCount
         implements NumberOfStudentsUnableToEatLunch {

@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.ints;
+package leetcode.p2300_2399.p2389_longest_subsequence_with_limited_sum;
 
 public interface LongestSubsequenceWithLimitedSum {
     /**

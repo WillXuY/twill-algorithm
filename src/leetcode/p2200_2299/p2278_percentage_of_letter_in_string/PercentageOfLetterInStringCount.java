@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.PercentageOfLetterInString;
+package leetcode.p2200_2299.p2278_percentage_of_letter_in_string;
 
 public class PercentageOfLetterInStringCount
         implements PercentageOfLetterInString {

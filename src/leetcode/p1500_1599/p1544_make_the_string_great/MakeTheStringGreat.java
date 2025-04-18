@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p1500_1599.p1544_make_the_string_great;
 
 public interface MakeTheStringGreat {
     /**

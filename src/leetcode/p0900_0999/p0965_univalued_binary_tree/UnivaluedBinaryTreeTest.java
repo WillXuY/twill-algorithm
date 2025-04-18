@@ -1,10 +1,9 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p0900_0999.p0965_univalued_binary_tree;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 import common.provide.TreeNode;
-import org.willxu.algorithm.service.impl.bool.UnivaluedBinaryTreeRecursive;
 
 import java.util.stream.Collectors;
 import java.util.stream.Stream;

@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0500_0599.p0556_next_greater_element_iii;
 
 public interface NextGreaterElementIii {
     /**

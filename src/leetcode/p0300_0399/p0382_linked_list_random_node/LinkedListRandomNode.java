@@ -1,4 +1,4 @@
-package org.willxu.algorithm.domain.integer;
+package leetcode.p0300_0399.p0382_linked_list_random_node;
 
 /**
  * Given a singly linked list, return a random node's value from the

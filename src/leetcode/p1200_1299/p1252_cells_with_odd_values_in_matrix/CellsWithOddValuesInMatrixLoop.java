@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.CellsWithOddValuesInMatrix;
+package leetcode.p1200_1299.p1252_cells_with_odd_values_in_matrix;
 
 public class CellsWithOddValuesInMatrixLoop
         implements CellsWithOddValuesInMatrix {

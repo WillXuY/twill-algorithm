@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.CalculateDigitSumOfString;
+package leetcode.p2200_2299.p2243_calculate_digit_sum_of_string;
 
 public class CalculateDigitSumOfStringLoop
         implements CalculateDigitSumOfString {

@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.matrix;
+package leetcode.p2000_2099.p2022_convert1d_array_into2d_array;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.matrix.Convert1dArrayInto2dArrayLoop;
 
 import java.util.stream.Stream;
 

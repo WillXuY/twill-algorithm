@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.ints;
-
-import org.willxu.algorithm.service.ints.FinalPricesWithSpecialDiscountInShop;
+package leetcode.p1400_1499.p1475_final_prices_with_special_discount_in_shop;
 
 public class FinalPricesWithSpecialDiscountInShopLoop
         implements FinalPricesWithSpecialDiscountInShop {

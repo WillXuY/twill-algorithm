@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.doublepoint;
+package leetcode.p0800_0899.p0837_new21_game;
 
 public interface New21Game {
     /**

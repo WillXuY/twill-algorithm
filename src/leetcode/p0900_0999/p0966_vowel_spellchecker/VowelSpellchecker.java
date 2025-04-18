@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.strs;
+package leetcode.p0900_0999.p0966_vowel_spellchecker;
 
 public interface VowelSpellchecker {
     /**

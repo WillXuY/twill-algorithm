@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.ints;
+package leetcode.p1300_1399.p1313_decompress_run_length_encoded_list;
 
 public interface DecompressRunLengthEncodedList {
     /**

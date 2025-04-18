@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p1700_1799.p1784_check_if_binary_string_has_at_most_one_segment_of_ones;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.bool.CheckIfBinaryStringHasAtMostOneSegmentOfOnesLoop;
 
 import java.util.stream.Stream;
 

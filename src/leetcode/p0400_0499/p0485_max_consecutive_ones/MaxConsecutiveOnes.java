@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0400_0499.p0485_max_consecutive_ones;
 
 public interface MaxConsecutiveOnes {
     /**

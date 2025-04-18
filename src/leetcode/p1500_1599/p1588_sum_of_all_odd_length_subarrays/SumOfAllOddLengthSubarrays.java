@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1500_1599.p1588_sum_of_all_odd_length_subarrays;
 
 public interface SumOfAllOddLengthSubarrays {
     /**

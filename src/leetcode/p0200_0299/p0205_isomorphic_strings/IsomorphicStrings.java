@@ -7,7 +7,7 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.bool;
+package leetcode.p0200_0299.p0205_isomorphic_strings;
 
 public interface IsomorphicStrings {
     /**

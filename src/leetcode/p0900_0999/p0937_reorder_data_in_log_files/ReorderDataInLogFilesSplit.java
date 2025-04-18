@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.strs;
-
-import org.willxu.algorithm.service.strs.ReorderDataInLogFiles;
+package leetcode.p0900_0999.p0937_reorder_data_in_log_files;
 
 import java.util.ArrayList;
 import java.util.List;

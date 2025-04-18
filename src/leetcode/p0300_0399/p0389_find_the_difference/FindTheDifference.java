@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.character;
+package leetcode.p0300_0399.p0389_find_the_difference;
 
 public interface FindTheDifference {
     /**

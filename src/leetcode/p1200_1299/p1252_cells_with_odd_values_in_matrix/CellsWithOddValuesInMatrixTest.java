@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1200_1299.p1252_cells_with_odd_values_in_matrix;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.integer.CellsWithOddValuesInMatrixLoop;
 
 import java.util.stream.Stream;
 

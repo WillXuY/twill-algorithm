@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p1000_1099.p1021_remove_outermost_parentheses;
 
 public interface RemoveOutermostParentheses {
     /**

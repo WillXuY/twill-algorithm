@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p1400_1499.p1437_check_if_all_ones_are_at_least_length_places_away;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.bool.CheckIfAllOnesAreAtLeastLengthPlacesAwayMin;
 
 import java.util.stream.Stream;
 

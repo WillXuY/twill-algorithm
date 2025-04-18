@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.MinimumNumberOfOperationsToConvertTime;
+package leetcode.p2200_2299.p2224_minimum_number_of_operations_to_convert_time;
 
 public class MinimumNumberOfOperationsToConvertTimeLoop
         implements MinimumNumberOfOperationsToConvertTime {

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.NumberOfDifferentIntegersInString;
+package leetcode.p1800_1899.p1805_number_of_different_integers_in_string;
 
 import java.util.HashSet;
 import java.util.Set;

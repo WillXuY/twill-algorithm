@@ -1,4 +1,4 @@
-package org.willxu.algorithm.domain.tree;
+package leetcode.p0700_0799.p0704_binary_search;
 
 /**
  * Implement the BSTIterator class that represents an iterator over the

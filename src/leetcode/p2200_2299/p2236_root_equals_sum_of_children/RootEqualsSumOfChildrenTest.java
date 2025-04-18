@@ -1,10 +1,9 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p2200_2299.p2236_root_equals_sum_of_children;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 import common.provide.TreeNode;
-import org.willxu.algorithm.service.impl.bool.RootEqualsSumOfChildrenAdd;
 
 import java.util.stream.Collectors;
 import java.util.stream.Stream;

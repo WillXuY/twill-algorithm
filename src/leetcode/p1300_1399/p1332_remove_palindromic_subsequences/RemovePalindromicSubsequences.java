@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1300_1399.p1332_remove_palindromic_subsequences;
 
 public interface RemovePalindromicSubsequences {
     /**

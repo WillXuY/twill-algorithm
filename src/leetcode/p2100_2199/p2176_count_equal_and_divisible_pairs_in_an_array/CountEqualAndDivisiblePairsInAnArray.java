@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p2100_2199.p2176_count_equal_and_divisible_pairs_in_an_array;
 
 public interface CountEqualAndDivisiblePairsInAnArray {
     /**

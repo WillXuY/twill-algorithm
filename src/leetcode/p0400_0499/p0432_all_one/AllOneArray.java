@@ -7,9 +7,7 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.domain.impl.other;
-
-import org.willxu.algorithm.domain.other.AllOne;
+package leetcode.p0400_0499.p0432_all_one;
 
 public class AllOneArray implements AllOne {
     private String[] keys;

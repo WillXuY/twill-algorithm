@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.doublepoint;
+package leetcode.p1300_1399.p1344_angle_between_hands_of_clock;
 
 public interface AngleBetweenHandsOfClock {
     /**

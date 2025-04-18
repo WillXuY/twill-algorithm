@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.CheckIfAllTheIntegersInRangeAreCovered;
+package leetcode.p1800_1899.p1893_check_if_all_the_integers_in_range_are_covered;
 
 import java.util.HashSet;
 import java.util.Set;

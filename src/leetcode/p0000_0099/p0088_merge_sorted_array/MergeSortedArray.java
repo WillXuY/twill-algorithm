@@ -7,7 +7,7 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.empty;
+package leetcode.p0000_0099.p0088_merge_sorted_array;
 
 public interface MergeSortedArray {
     /**

@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1200_1299.p1295_find_numbers_with_even_number_of_digits;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.integer.FindNumbersWithEvenNumberOfDigitsDivision;
 
 import java.util.stream.Stream;
 

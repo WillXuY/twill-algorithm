@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.ints;
+package leetcode.p1600_1699.p1636_sort_array_by_increasing_frequency;
 
 public interface SortArrayByIncreasingFrequency {
     /**

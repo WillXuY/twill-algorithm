@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.strlist;
+package leetcode.p1300_1399.p1324_print_words_vertically;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.strlist.PrintWordsVerticallyLoop;
 
 import java.util.List;
 import java.util.stream.Collectors;

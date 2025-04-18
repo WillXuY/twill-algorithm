@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1500_1599.p1590_make_sum_divisible_by_ptest;
 
 import java.util.stream.Stream;
 

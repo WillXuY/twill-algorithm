@@ -1,7 +1,6 @@
-package org.willxu.algorithm.service.impl.listnode;
+package leetcode.p0800_0899.p0876_middle_of_the_linked_list;
 
 import common.provide.ListNode;
-import org.willxu.algorithm.service.listnode.MiddleOfTheLinkedList;
 
 import java.util.ArrayList;
 import java.util.List;

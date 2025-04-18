@@ -7,7 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.integer;
+package leetcode.p0800_0899.p0868_binary_gap;
 
 public interface BinaryGap {
     /**

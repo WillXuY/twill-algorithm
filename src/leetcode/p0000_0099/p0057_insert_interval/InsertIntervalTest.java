@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.matrix;
+package leetcode.p0000_0099.p0057_insert_interval;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.matrix.InsertIntervalLoop;
 
 import java.util.stream.Stream;
 

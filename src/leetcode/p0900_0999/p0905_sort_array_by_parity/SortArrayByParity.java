@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.ints;
+package leetcode.p0900_0999.p0905_sort_array_by_parity;
 
 public interface SortArrayByParity {
     /**

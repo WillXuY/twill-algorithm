@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1300_1399.p1360_number_of_days_between_two_dates;
 
 public interface NumberOfDaysBetweenTwoDates {
     /**

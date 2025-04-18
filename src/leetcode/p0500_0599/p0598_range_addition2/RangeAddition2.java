@@ -7,7 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.integer;
+package leetcode.p0500_0599.p0598_range_addition2;
 
 public interface RangeAddition2 {
     /**

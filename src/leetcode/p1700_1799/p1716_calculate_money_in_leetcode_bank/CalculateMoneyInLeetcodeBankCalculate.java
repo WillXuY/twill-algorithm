@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.CalculateMoneyInLeetcodeBank;
+package leetcode.p1700_1799.p1716_calculate_money_in_leetcode_bank;
 
 public class CalculateMoneyInLeetcodeBankCalculate
         implements CalculateMoneyInLeetcodeBank {

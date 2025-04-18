@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p2000_2099.p2053_kth_distinct_string_in_an_array;
 
 public interface KthDistinctStringInAnArray {
     /**

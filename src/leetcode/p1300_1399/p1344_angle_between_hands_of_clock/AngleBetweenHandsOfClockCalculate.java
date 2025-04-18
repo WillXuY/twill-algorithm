@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.doublepoint;
-
-import org.willxu.algorithm.service.doublepoint.AngleBetweenHandsOfClock;
+package leetcode.p1300_1399.p1344_angle_between_hands_of_clock;
 
 public class AngleBetweenHandsOfClockCalculate
         implements AngleBetweenHandsOfClock {

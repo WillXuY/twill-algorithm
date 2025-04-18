@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.TwoKeysKeyboard;
+package leetcode.p0600_0699.p0650_two_keys_keyboard;
 
 public class TwoKeysKeyboardDivide implements TwoKeysKeyboard {
     @Override

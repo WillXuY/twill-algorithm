@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.MergeStringsAlternately;
+package leetcode.p1700_1799.p1768_merge_strings_alternately;
 
 public class MergeStringsAlternatelyLoop implements MergeStringsAlternately {
     @Override

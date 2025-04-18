@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.strlist;
+package leetcode.p0500_0599.p0500_keyboard_row;
 
 public interface KeyboardRow {
     /**

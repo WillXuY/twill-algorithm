@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p1500_1599.p1550_three_consecutive_odds;
 
 public interface ThreeConsecutiveOdds {
     /**

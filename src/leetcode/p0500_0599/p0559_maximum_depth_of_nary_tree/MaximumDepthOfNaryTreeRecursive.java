@@ -7,10 +7,9 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.integer;
+package leetcode.p0500_0599.p0559_maximum_depth_of_nary_tree;
 
 import common.provide.Node;
-import org.willxu.algorithm.service.integer.MaximumDepthOfNaryTree;
 
 public class MaximumDepthOfNaryTreeRecursive implements MaximumDepthOfNaryTree {
     @Override

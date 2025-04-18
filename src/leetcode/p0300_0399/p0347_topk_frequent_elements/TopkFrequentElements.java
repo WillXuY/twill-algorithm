@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.ints;
+package leetcode.p0300_0399.p0347_topk_frequent_elements;
 
 public interface TopkFrequentElements {
     /**

@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0900_0999.p0908_smallest_range1;
 
 public interface SmallestRange1 {
     /**

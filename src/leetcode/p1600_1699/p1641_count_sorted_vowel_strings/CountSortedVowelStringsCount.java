@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.CountSortedVowelStrings;
+package leetcode.p1600_1699.p1641_count_sorted_vowel_strings;
 
 public class CountSortedVowelStringsCount implements CountSortedVowelStrings {
 

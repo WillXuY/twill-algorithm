@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1600_1699.p1684_count_the_number_of_consistent_strings;
 
 public interface CountTheNumberOfConsistentStrings {
     /**

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.CountAsterisks;
+package leetcode.p2300_2399.p2315_count_asterisks;
 
 public class CountAsterisksLoop implements CountAsterisks {
     @Override

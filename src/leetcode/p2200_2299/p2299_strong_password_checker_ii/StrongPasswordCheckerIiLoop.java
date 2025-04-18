@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.StrongPasswordCheckerIi;
+package leetcode.p2200_2299.p2299_strong_password_checker_ii;
 
 import java.util.Set;
 import java.util.stream.Collectors;

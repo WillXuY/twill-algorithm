@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p1400_1499.p1436_destination_city;
 
 import java.util.List;
 

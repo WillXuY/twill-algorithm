@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p1000_1099.p1037_valid_boomerang;
 
 public interface ValidBoomerang {
     /**

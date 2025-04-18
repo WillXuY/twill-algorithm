@@ -7,9 +7,7 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.ExcelSheetColumnNumber;
+package leetcode.p0100_0199.p0171_excel_sheet_column_number;
 
 public class ExcelSheetColumnNumberAdd implements ExcelSheetColumnNumber {
     @Override

@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p1300_1399.p1370_increasing_decreasing_string;
 
 public interface IncreasingDecreasingString {
     /**

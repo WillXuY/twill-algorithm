@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.string;
+package leetcode.p1300_1399.p1328_break_palindrome;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.string.BreakPalindromeLoop;
 
 import java.util.stream.Stream;
 

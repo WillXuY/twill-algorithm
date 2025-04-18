@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.WaterBottles;
+package leetcode.p1500_1599.p1518_water_bottles;
 
 public class WaterBottlesLoop implements WaterBottles {
     @Override

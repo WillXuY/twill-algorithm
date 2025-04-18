@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1200_1299.p1217_minimum_c_ost_to_move_chips_to_the_same_position;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.integer.MinimumCostToMoveChipsToTheSamePositionCount;
 
 import java.util.stream.Stream;
 

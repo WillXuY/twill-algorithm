@@ -7,7 +7,7 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.integer;
+package leetcode.p0100_0199.p0111_minimum_depth_of_binary_tree;
 
 import common.provide.TreeNode;
 import leetcode.p0100_0199.p0111_minimum_depth_of_binary_tree.MinimumDepthOrBinaryTree;

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.IntegerToRoman;
+package leetcode.p0000_0099.p0012_integer_to_roman;
 
 public class IntegerToRomanFlow implements IntegerToRoman {
     @Override

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.bool;
-
-import org.willxu.algorithm.service.bool.WordPattern;
+package leetcode.p0200_0299.p0290_word_pattern;
 
 import java.util.*;
 

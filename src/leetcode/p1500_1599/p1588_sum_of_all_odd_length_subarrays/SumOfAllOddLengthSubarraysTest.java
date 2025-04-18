@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1500_1599.p1588_sum_of_all_odd_length_subarrays;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.integer.SumOfAllOddLengthSubarraysCalculate;
 
 import java.util.stream.Stream;
 

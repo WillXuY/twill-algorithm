@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1200_1299.p1221_split_string_in_balanced_strings;
 
 public interface SplitStringInBalancedStrings {
     /**

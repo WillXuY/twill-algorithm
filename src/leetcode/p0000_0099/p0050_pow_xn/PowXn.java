@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.doublepoint;
+package leetcode.p0000_0099.p0050_pow_xn;
 
 public interface PowXn {
     /**

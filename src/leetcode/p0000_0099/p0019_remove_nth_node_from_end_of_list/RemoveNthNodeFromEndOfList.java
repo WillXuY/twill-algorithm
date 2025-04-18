@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.listnode;
+package leetcode.p0000_0099.p0019_remove_nth_node_from_end_of_list;
 
 import common.provide.ListNode;
 

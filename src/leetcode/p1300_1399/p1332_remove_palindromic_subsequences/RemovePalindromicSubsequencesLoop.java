@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.RemovePalindromicSubsequences;
+package leetcode.p1300_1399.p1332_remove_palindromic_subsequences;
 
 public class RemovePalindromicSubsequencesLoop
         implements RemovePalindromicSubsequences {

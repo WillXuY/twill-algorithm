@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.CountIntegersWithEvenDigitSum;
+package leetcode.p2100_2199.p2180_count_integers_with_even_digit_sum;
 
 public class CountIntegersWithEvenDigitSumCount implements CountIntegersWithEvenDigitSum {
     @Override

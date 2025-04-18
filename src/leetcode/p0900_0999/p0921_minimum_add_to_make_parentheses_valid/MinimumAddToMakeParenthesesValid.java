@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0900_0999.p0921_minimum_add_to_make_parentheses_valid;
 
 public interface MinimumAddToMakeParenthesesValid {
     /**

@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.ints;
+package leetcode.p1300_1399.p1317_convert_integer_to_the_sum_of_two_no_zero_integers;
 
 public interface ConvertIntegerToTheSumOfTwoNoZeroIntegers {
     /**

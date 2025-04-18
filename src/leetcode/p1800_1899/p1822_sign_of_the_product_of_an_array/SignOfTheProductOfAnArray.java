@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1800_1899.p1822_sign_of_the_product_of_an_array;
 
 public interface SignOfTheProductOfAnArray {
     /**

@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1900_1999.p1974_minimum_time_to_type_word_using_special_typewriter;
 
 public interface MinimumTimeToTypeWordUsingSpecialTypewriter {
     /**

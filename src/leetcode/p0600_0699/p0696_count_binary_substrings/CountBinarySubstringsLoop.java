@@ -7,9 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.CountBinarySubstrings;
+package leetcode.p0600_0699.p0696_count_binary_substrings;
 
 public class CountBinarySubstringsLoop implements CountBinarySubstrings {
     @Override

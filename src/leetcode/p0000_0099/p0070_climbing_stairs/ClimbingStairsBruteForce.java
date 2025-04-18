@@ -7,9 +7,7 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.ClimbingStairs;
+package leetcode.p0000_0099.p0070_climbing_stairs;
 
 import java.math.BigInteger;
 

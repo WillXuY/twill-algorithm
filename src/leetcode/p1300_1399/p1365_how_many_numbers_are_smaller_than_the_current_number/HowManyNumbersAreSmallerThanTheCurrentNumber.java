@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1300_1399.p1365_how_many_numbers_are_smaller_than_the_current_number;
 
 public interface HowManyNumbersAreSmallerThanTheCurrentNumber {
     /**

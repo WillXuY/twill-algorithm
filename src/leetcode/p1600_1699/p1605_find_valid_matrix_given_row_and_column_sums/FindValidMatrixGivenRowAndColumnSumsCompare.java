@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.ints;
-
-import org.willxu.algorithm.service.ints.FindValidMatrixGivenRowAndColumnSums;
+package leetcode.p1600_1699.p1605_find_valid_matrix_given_row_and_column_sums;
 
 public class FindValidMatrixGivenRowAndColumnSumsCompare implements FindValidMatrixGivenRowAndColumnSums {
 

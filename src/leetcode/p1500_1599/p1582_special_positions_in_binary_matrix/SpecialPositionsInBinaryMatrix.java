@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1500_1599.p1582_special_positions_in_binary_matrix;
 
 public interface SpecialPositionsInBinaryMatrix {
     /**

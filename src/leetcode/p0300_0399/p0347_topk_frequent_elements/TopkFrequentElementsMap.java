@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.ints;
-
-import org.willxu.algorithm.service.ints.TopkFrequentElements;
+package leetcode.p0300_0399.p0347_topk_frequent_elements;
 
 import java.util.*;
 

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.LatestTimeByReplacingHiddenDigits;
+package leetcode.p1700_1799.p1736_latest_time_by_replacing_hidden_digits;
 
 public class LatestTimeByReplacingHiddenDigitsStep
         implements LatestTimeByReplacingHiddenDigits {

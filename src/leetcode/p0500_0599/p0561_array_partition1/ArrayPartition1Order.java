@@ -7,9 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.ArrayPartition1;
+package leetcode.p0500_0599.p0561_array_partition1;
 
 public class ArrayPartition1Order implements ArrayPartition1 {
     @Override

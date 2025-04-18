@@ -7,10 +7,9 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.impl.listnode;
+package leetcode.p0200_0299.p0203_remove_linked_list_elements;
 
 import common.provide.ListNode;
-import org.willxu.algorithm.service.listnode.RemoveLinkedListElements;
 
 public class RemoveLinkedListElementsPointer
         implements RemoveLinkedListElements {

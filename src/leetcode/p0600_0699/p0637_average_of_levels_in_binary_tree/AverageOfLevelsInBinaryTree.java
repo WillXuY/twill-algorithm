@@ -7,7 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.doublelist;
+package leetcode.p0600_0699.p0637_average_of_levels_in_binary_tree;
 
 import common.provide.TreeNode;
 

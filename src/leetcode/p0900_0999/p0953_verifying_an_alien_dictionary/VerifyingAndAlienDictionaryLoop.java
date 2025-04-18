@@ -1,7 +1,5 @@
 package leetcode.p0900_0999.p0953_verifying_an_alien_dictionary;
 
-import org.willxu.algorithm.service.bool.VerifyingAnAlienDictionary;
-
 public class VerifyingAndAlienDictionaryLoop
         implements VerifyingAnAlienDictionary {
     /**

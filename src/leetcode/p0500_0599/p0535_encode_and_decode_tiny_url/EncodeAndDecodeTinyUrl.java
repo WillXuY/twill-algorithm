@@ -1,4 +1,4 @@
-package org.willxu.algorithm.domain.string;
+package leetcode.p0500_0599.p0535_encode_and_decode_tiny_url;
 
 /**
  * TinyURL is a URL shortening service where you enter a URL such as

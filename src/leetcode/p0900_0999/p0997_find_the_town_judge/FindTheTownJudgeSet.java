@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.integer;
-
-import org.willxu.algorithm.service.integer.FindTheTownJudge;
+package leetcode.p0900_0999.p0997_find_the_town_judge;
 
 import java.util.HashMap;
 import java.util.HashSet;

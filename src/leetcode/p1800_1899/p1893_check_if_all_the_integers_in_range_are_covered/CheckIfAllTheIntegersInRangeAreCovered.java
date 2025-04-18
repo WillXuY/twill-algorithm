@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p1800_1899.p1893_check_if_all_the_integers_in_range_are_covered;
 
 public interface CheckIfAllTheIntegersInRangeAreCovered {
     /**

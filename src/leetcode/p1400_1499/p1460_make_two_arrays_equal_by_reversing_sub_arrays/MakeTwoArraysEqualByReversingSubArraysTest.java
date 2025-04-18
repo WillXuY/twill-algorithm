@@ -1,9 +1,8 @@
-package org.willxu.algorithm.service.bool;
+package leetcode.p1400_1499.p1460_make_two_arrays_equal_by_reversing_sub_arrays;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.bool.MakeTwoArraysEqualByReversingSubArraysMap;
 
 import java.util.stream.Stream;
 

@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.string;
-
-import org.willxu.algorithm.service.string.ReformatPhoneNumber;
+package leetcode.p1600_1699.p1694_reformat_phone_number;
 
 public class ReformatPhoneNumberRemainder implements ReformatPhoneNumber {
     @Override

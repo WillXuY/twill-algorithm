@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p0500_0599.p0543_diameter_of_binary_tree;
 
 import common.provide.TreeNode;
 

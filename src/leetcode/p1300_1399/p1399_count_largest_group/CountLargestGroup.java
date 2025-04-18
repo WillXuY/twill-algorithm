@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1300_1399.p1399_count_largest_group;
 
 public interface CountLargestGroup {
     /**

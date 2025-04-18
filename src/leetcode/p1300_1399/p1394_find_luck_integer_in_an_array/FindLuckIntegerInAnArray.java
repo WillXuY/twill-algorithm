@@ -1,4 +1,4 @@
-package org.willxu.algorithm.service.integer;
+package leetcode.p1300_1399.p1394_find_luck_integer_in_an_array;
 
 public interface FindLuckIntegerInAnArray {
     /**

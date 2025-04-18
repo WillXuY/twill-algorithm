@@ -7,7 +7,7 @@
  * later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.domain.map;
+package leetcode.p0700_0799.p0706_design_hash_map;
 
 /**
  * Design a HashMap without using any built-in hash table libraries.

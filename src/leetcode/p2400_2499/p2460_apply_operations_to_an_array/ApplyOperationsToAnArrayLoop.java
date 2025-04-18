@@ -1,6 +1,4 @@
-package org.willxu.algorithm.service.impl.ints;
-
-import org.willxu.algorithm.service.ints.ApplyOperationsToAnArray;
+package leetcode.p2400_2499.p2460_apply_operations_to_an_array;
 
 public class ApplyOperationsToAnArrayLoop implements ApplyOperationsToAnArray {
     @Override

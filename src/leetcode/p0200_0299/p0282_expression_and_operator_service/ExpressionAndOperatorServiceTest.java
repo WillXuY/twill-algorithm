@@ -7,12 +7,11 @@
  * any later version, as specified in the readme.md file.
  */
 
-package org.willxu.algorithm.service.strlist;
+package leetcode.p0200_0299.p0282_expression_and_operator_service;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.willxu.algorithm.service.impl.strlist.ExpressionAndOperatorServiceImpl;
 
 import java.util.Arrays;
 import java.util.Collections;
