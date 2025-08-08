@@ -32,6 +32,19 @@ class RomanToInteger(ABC):
         """
         pass
 
-class RomanToIntegerBruteForce(RomanToInteger):
+class RomanToIntegerSimple(RomanToInteger):
     def roman_to_integer(self, s: str) -> int:
-        pass
+        roman_map: dict[str, int] = {
+            'I': 1, 'V': 5, 'X': 10, 'L': 50,
+            'C': 100, 'D': 500, 'M': 1000
+        }
+        total: int = 0
+        prev: int = 0
+        for char in reversed(s):
+            value = roman_map[char]
+            if value < prev:
+                total -= value
+            else:
+                total += value
+            prev = value
+        return total
