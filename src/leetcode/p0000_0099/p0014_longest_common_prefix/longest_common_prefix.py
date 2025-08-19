@@ -20,6 +20,13 @@ class LongestCommonPrefix(ABC):
 
 class LongestCommonPrefix1(LongestCommonPrefix):
     def longest_common_prefix(self, strs:List[str]) -> str:
-        pass
-        return ""
+        if not strs:  # 空数组
+            return ""
+
+        for i in range(len(strs[0])):  # 遍历第一个字符串的字符
+            ch = strs[0][i]
+            for s in strs[1:]:
+                if i == len(s) or s[i] != ch:  # 越界或字符不相等
+                    return strs[0][:i]
+        return strs[0]
 
