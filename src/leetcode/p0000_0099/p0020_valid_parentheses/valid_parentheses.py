@@ -18,7 +18,17 @@ class ValidParentheses(ABC):
         pass
 
 
-class ValidPatenthesesStack(ValidPatentheses):
+class ValidPatenthesesStack(ValidParentheses):
     def is_valid(self, s: str) -> bool:
-        pass
+        stack: list[str] = []
+
+        mapping = {')':'(', ']':'[', '}':'{'}
+        for c in s:
+            if c in mapping:
+                p = stack.pop() if stack else '#'
+                if mapping[c] != p:
+                    return False
+            else:
+                stack.append(c)
+
         return False
