@@ -18,3 +18,12 @@ Consider the number of elements in nums which are not equal to val be k, to get 
         - 0 <= val <= 100
         """
         pass
+
+class RemoveElementsPointers(RemoveElement):
+    def remove_element(self, nums: List[int], val: int) -> int:
+        i = 0
+        for j in range(len(nums)):
+            if nums[j] != val:
+                nums[i] = nums[j]
+                i += 1
+        return i
