@@ -13,9 +13,12 @@ Consider the number of elements in nums which are not equal to val be k, to get 
     @abstractmethod
     def remove_element(self, nums: List[int], val: int) -> int:
         """
-        - 0 <= nums.length <= 100
-        - 0 <= nums[i] <= 50
-        - 0 <= val <= 100
+        Args:
+            nums:
+                - 0 <= nums.length <= 100
+                - 0 <= nums[i] <= 50
+            val:
+                - 0 <= val <= 100
         """
         pass
 
