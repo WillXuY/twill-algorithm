@@ -13,9 +13,11 @@ class RemoveDuplicatesFromSortedArray(ABC):
     @abstractmethod
     def remove_duplicates(self, nums: List[int]) -> int:
         """
-        - 1 <= nums.length <= 3 * 10^4
-        - -100 <= nums[i] <= 100
-        - nums is sorted in non-decreasing order.
+        Args:
+            nums:
+                - 1 <= nums.length <= 3 * 10^4
+                - -100 <= nums[i] <= 100
+                - nums is sorted in non-decreasing order.
         """
         pass
 
