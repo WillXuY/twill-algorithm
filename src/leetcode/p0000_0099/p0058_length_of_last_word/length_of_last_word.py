@@ -16,3 +16,7 @@ class LengthOfLastWord(ABC):
                 There will be at least one word in s.
         """
         pass
+
+class LengthOfLastWordSplit(LengthOfLastWord):
+    def lengthOfLastWord(self, s: str) -> int:
+        return len(s.strip().split()[-1])
