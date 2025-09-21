@@ -8,7 +8,7 @@ class PlusOne(ABC):
     Increment the large integer by one and return the resulting array of digits.
     """
     @abstractmethod
-    def plus_one(self, digis: List[int]) -> List[int]:
+    def plus_one(self, digits: List[int]) -> List[int]:
         """
         Args:
             digits:
@@ -17,3 +17,13 @@ class PlusOne(ABC):
                 - digits does not contain any leading 0's.
         """
         pass
+
+class PlusOneAdd(PlusOne):
+    def plus_one(self, digits: List[int]) -> List[int]:
+        n = len(digits)
+        for i in range(n - 1, -1, -1):
+            if digits[i] < 9:
+                digits[i] += 1
+                return digits
+            digits[i] = 0
+        return [1] + digits
