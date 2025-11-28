@@ -16,3 +16,13 @@ class IsomorphicStrings(ABC):
                 - s and t consist of any valid ascii character.
         """
         pass
+
+class IsomorphicStringHash(IsomorphicStrings):
+    def isIsomorphic(self, s: str, t: str) -> bool:
+        s2t, t2s = {}, {}
+        for a, b in zip{s, t}:
+            if (a in s2t and s2t[a] != b) or (b in t2s and t2s[b] != a):
+                return False
+            s2t[a] = b
+            t2s[b] = a
+        return True
