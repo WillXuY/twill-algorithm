@@ -41,3 +41,23 @@ class ImplementStackUsingQueues(ABC):
         Returns true if the stack is empty, false otherwise.
         """
         pass
+
+class ImplementStackUsingQueuesTwo(ImplementStackUsingQueues):
+    def __init__(self):
+        self.queueMain = deque()
+        self.queueLast = deque()
+
+    def push(self, x: int) -> None:
+        self.queueLast.append(x)
+        while self.queueMain:
+            self.queueLast.append(self.queueMain.popleft())
+        self.queueMain, self.queueLast = self.queueLast, self.queueMain
+
+    def pop(self) -> int:
+        return self.queueMain.popleft()
+
+    def top(self) -> int:
+        return self.queueMain[0]
+
+    def empty(self) -> bool:
+        return len(self.queueMain) == 0
