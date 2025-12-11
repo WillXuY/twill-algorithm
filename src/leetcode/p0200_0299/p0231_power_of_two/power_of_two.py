@@ -13,3 +13,9 @@ class PowerOfTwo(ABC):
                 -2^31 <= n <= 2^31 - 1
         """
         pass
+
+class PowerOfTwoBit(PowerOfTwo):
+    def isPowerOfTwo(self, n: int) -> bool:
+        if n <= 0:
+            return False
+        return (n & (n - 1)) == 0
